@@ -18,10 +18,13 @@ Filtrar por puntuación:
 ## 📖 Mis lecturas
 
 <!--start:bookshelf-action-->
-### ⌛ Currently reading (2)
+### ⌛ Currently reading (1)
 
-[![Book cover of Yumi y el pintor de pesadillas (Novela Secreta 3)](https://images.weserv.nl/?url=http%3A%2F%2Fbooks.google.com%2Fbooks%2Fcontent%3Fid%3DDDHFEAAAQBAJ%26printsec%3Dfrontcover%26img%3D1%26zoom%3D1%26edge%3Dcurl%26source%3Dgbs_api&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/2 "Yumi y el pintor de pesadillas (Novela Secreta 3) by Brandon Sanderson")
 [![Book cover of El Ritmo de la Guerra (El Archivo de las Tormentas 4)](https://images.weserv.nl/?url=http%3A%2F%2Fbooks.google.com%2Fbooks%2Fcontent%3Fid%3DNFfuDwAAQBAJ%26printsec%3Dfrontcover%26img%3D1%26zoom%3D1%26edge%3Dcurl%26source%3Dgbs_api&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/1 "El Ritmo de la Guerra (El Archivo de las Tormentas 4) by Brandon Sanderson")
+
+### ⏭️ Want to Read (1)
+
+[![Book cover of Yumi y el pintor de pesadillas (Novela Secreta 3)](https://images.weserv.nl/?url=http%3A%2F%2Fbooks.google.com%2Fbooks%2Fcontent%3Fid%3DDDHFEAAAQBAJ%26printsec%3Dfrontcover%26img%3D1%26zoom%3D1%26edge%3Dcurl%26source%3Dgbs_api&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/3 "Yumi y el pintor de pesadillas (Novela Secreta 3) by Brandon Sanderson completed in undefined on Invalid Date")
 
 <!--end:bookshelf-action-->
 
