@@ -1,34 +1,5 @@
 [
   {
-    "title": "Juramentada (El Archivo de las Tormentas 3)",
-    "authors": [
-      "Brandon Sanderson"
-    ],
-    "publisher": "NOVA",
-    "publishedDate": "2018-04-05",
-    "description": "Juramentada es la aclamada continuación de El camino de los reyes y de Palabras radiantes , y tercera parte de la decalogía «El Archivo de las Tormentas», obra maestra de la fantasía épica que ha coronado la lista de best sellers de The New York Times y ha postulado a Sanderson como el autor de género que más lectores está ganando en todo el mundo. La humanidad se enfrenta a una nueva Desolación con el regreso de los Portadores del Vacío, un enemigo tan grande en número como en sed de venganza. La victoria fugaz de los ejércitos alezi de Dalinar Kholin ha tenido consecuencias: el enemigo parshendi ha convocado la violenta tormenta eterna, que arrasa el mundo y hace que los hasta ahora pacíficos parshmenios descubran con horror que llevan un milenio esclavizados por los humanos. Al mismo tiempo, en una desesperada huida para alertar a su familia de la amenaza, Kaladin se pregunta si la repentina ira de los parshmenios está justificada. Entretanto, en la torre de la ciudad de Urithiru, a salvo de la tormenta, Shallan Davar investiga las maravillas de la antigua fortaleza de los Caballeros Radiantes y desentierra oscuros secretos que acechan en las profundidades. Dalinar descubre entonces que su sagrada misión de unificar su tierra natal de Alezkar era corta de miras. A menos que todas las naciones sean capaces de unirse y dejar de lado el pasado sangriento de Dalinar, ni siquiera la restauración de los Caballeros Radiantes conseguirá impedir el fin de la civilización. La crítica ha dicho... «Brandon Sanderson es una leyenda.» Alexelcapo, @EvilAFM «Es raro que un autor de ficción comprenda tan bien cómo funciona el liderazgo y cómo el amor echa raíces en el corazón humano. Sanderson es sorprendentemente sabio.» Orson Scott Card La crítica ha dicho sobre El camino de los Reyes... «Me encantó este libro... ¿Qué más puedo decir?» Patrick Rothfuss",
-    "image": "http://books.google.com/books/content?id=ucRODwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-    "language": "es",
-    "averageRating": 5,
-    "ratingsCount": 1,
-    "categories": [
-      "Fiction"
-    ],
-    "pageCount": 1400,
-    "isbn10": "8417347151",
-    "isbn13": "9788417347154",
-    "googleBooks": {
-      "id": "ucRODwAAQBAJ",
-      "preview": "http://books.google.com/books?id=ucRODwAAQBAJ&printsec=frontcover&dq=intitle:Juramentada&hl=&cd=1&source=gbs_api",
-      "info": "https://play.google.com/store/books/details?id=ucRODwAAQBAJ&source=gbs_api",
-      "canonical": "https://play.google.com/store/books/details?id=ucRODwAAQBAJ"
-    },
-    "issueNumber": 4,
-    "progressPercent": 0,
-    "state": "reading",
-    "startedAt": "2023-09-29T19:33:00.000Z"
-  },
-  {
     "title": "Yumi y el pintor de pesadillas (Novela Secreta 3)",
     "authors": [
       "Brandon Sanderson"
@@ -83,5 +54,34 @@
     "progressPercent": 0,
     "state": "reading",
     "startedAt": "2023-09-29T19:12:12.000Z"
+  },
+  {
+    "title": "Juramentada (El Archivo de las Tormentas 3)",
+    "authors": [
+      "Brandon Sanderson"
+    ],
+    "publisher": "NOVA",
+    "publishedDate": "2018-04-05",
+    "description": "Juramentada es la aclamada continuación de El camino de los reyes y de Palabras radiantes , y tercera parte de la decalogía «El Archivo de las Tormentas», obra maestra de la fantasía épica que ha coronado la lista de best sellers de The New York Times y ha postulado a Sanderson como el autor de género que más lectores está ganando en todo el mundo. La humanidad se enfrenta a una nueva Desolación con el regreso de los Portadores del Vacío, un enemigo tan grande en número como en sed de venganza. La victoria fugaz de los ejércitos alezi de Dalinar Kholin ha tenido consecuencias: el enemigo parshendi ha convocado la violenta tormenta eterna, que arrasa el mundo y hace que los hasta ahora pacíficos parshmenios descubran con horror que llevan un milenio esclavizados por los humanos. Al mismo tiempo, en una desesperada huida para alertar a su familia de la amenaza, Kaladin se pregunta si la repentina ira de los parshmenios está justificada. Entretanto, en la torre de la ciudad de Urithiru, a salvo de la tormenta, Shallan Davar investiga las maravillas de la antigua fortaleza de los Caballeros Radiantes y desentierra oscuros secretos que acechan en las profundidades. Dalinar descubre entonces que su sagrada misión de unificar su tierra natal de Alezkar era corta de miras. A menos que todas las naciones sean capaces de unirse y dejar de lado el pasado sangriento de Dalinar, ni siquiera la restauración de los Caballeros Radiantes conseguirá impedir el fin de la civilización. La crítica ha dicho... «Brandon Sanderson es una leyenda.» Alexelcapo, @EvilAFM «Es raro que un autor de ficción comprenda tan bien cómo funciona el liderazgo y cómo el amor echa raíces en el corazón humano. Sanderson es sorprendentemente sabio.» Orson Scott Card La crítica ha dicho sobre El camino de los Reyes... «Me encantó este libro... ¿Qué más puedo decir?» Patrick Rothfuss",
+    "image": "http://books.google.com/books/content?id=ucRODwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "language": "es",
+    "averageRating": 5,
+    "ratingsCount": 1,
+    "categories": [
+      "Fiction"
+    ],
+    "pageCount": 1400,
+    "isbn10": "8417347151",
+    "isbn13": "9788417347154",
+    "googleBooks": {
+      "id": "ucRODwAAQBAJ",
+      "preview": "http://books.google.com/books?id=ucRODwAAQBAJ&printsec=frontcover&dq=intitle:Juramentada&hl=&cd=1&source=gbs_api",
+      "info": "https://play.google.com/store/books/details?id=ucRODwAAQBAJ&source=gbs_api",
+      "canonical": "https://play.google.com/store/books/details?id=ucRODwAAQBAJ"
+    },
+    "issueNumber": 4,
+    "progressPercent": 0,
+    "state": "reading",
+    "startedAt": "2023-08-09T00:00:00.000Z"
   }
 ]
