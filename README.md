@@ -5,11 +5,11 @@ Este repositorio se utiliza para realizar un seguimiento de los libros que estoy
 **API:** https://soker90.github.io/libros/api.json
 
 Filtrar por puntuación:
-[★☆☆☆☆](https://github.com/soker90/books/issues?q=is:issue+label:%22rating:+1/5%22+) ·
-[★★☆☆☆](https://github.com/soker90/books/issues?q=is:issue+label:%22rating:+2/5%22+) ·
-[★★★☆☆](https://github.com/soker90/books/issues?q=is:issue+label:%22rating:+3/5%22+) ·
-[★★★★☆](https://github.com/soker90/books/issues?q=is:issue+label:%22rating:+4/5%22+) ·
-[★★★★★](https://github.com/soker90/books/issues?q=is:issue+label:%22rating:+5/5%22+)
+[★☆☆☆☆](https://github.com/soker90/libros/issues?q=is:issue+label:%22rating:+1/5%22+) ·
+[★★☆☆☆](https://github.com/soker90/libros/issues?q=is:issue+label:%22rating:+2/5%22+) ·
+[★★★☆☆](https://github.com/soker90/libros/issues?q=is:issue+label:%22rating:+3/5%22+) ·
+[★★★★☆](https://github.com/soker90/libros/issues?q=is:issue+label:%22rating:+4/5%22+) ·
+[★★★★★](https://github.com/soker90/libros/issues?q=is:issue+label:%22rating:+5/5%22+)
 
 ## 📖 Mis lecturas
 
