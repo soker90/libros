@@ -14,12 +14,9 @@ Filtrar por puntuación:
 ## 📖 Mis lecturas
 
 <!--start:bookshelf-action-->
-### ⌛ Currently reading (1)
+### ✅ Completed (2)
 
-[![Book cover of El Ritmo de la Guerra (El Archivo de las Tormentas 4)](https://images.weserv.nl/?url=http%3A%2F%2Fbooks.google.com%2Fbooks%2Fcontent%3Fid%3DNFfuDwAAQBAJ%26printsec%3Dfrontcover%26img%3D1%26zoom%3D1%26edge%3Dcurl%26source%3Dgbs_api&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/1 "El Ritmo de la Guerra (El Archivo de las Tormentas 4) by Brandon Sanderson")
-
-### ✅ Completed (1)
-
+[![Book cover of El Ritmo de la Guerra (El Archivo de las Tormentas 4)](https://images.weserv.nl/?url=http%3A%2F%2Fbooks.google.com%2Fbooks%2Fcontent%3Fid%3DNFfuDwAAQBAJ%26printsec%3Dfrontcover%26img%3D1%26zoom%3D1%26edge%3Dcurl%26source%3Dgbs_api&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/1 "El Ritmo de la Guerra (El Archivo de las Tormentas 4) by Brandon Sanderson completed in 1 month on November 2023")
 [![Book cover of Juramentada (El Archivo de las Tormentas 3)](https://images.weserv.nl/?url=http%3A%2F%2Fbooks.google.com%2Fbooks%2Fcontent%3Fid%3DucRODwAAQBAJ%26printsec%3Dfrontcover%26img%3D1%26zoom%3D1%26edge%3Dcurl%26source%3Dgbs_api&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/4 "Juramentada (El Archivo de las Tormentas 3) by Brandon Sanderson completed in 2 weeks on August 2023")
 
 ### ⏭️ Want to Read (1)
