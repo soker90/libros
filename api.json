@@ -23,8 +23,11 @@
     },
     "issueNumber": 3,
     "progressPercent": 0,
-    "state": "want-to-read",
-    "startedAt": "2023-09-29T19:31:40.000Z"
+    "state": "completed",
+    "startedAt": "2023-09-29T19:31:40.000Z",
+    "completedAt": "2023-11-30T16:19:20.000Z",
+    "timeToComplete": 5345260000,
+    "timeToCompleteFormatted": "2 months"
   },
   {
     "title": "El Ritmo de la Guerra (El Archivo de las Tormentas 4)",
