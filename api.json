@@ -23,29 +23,6 @@
     "startedAt": "2024-02-01T19:01:01.000Z"
   },
   {
-    "title": "Isabella of Spain",
-    "authors": [
-      "William Thomas Walsh"
-    ],
-    "publishedDate": "1933",
-    "image": "http://books.google.com/books/content?id=PQfSAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-    "language": "en",
-    "categories": [
-      "Spain"
-    ],
-    "pageCount": 656,
-    "googleBooks": {
-      "id": "PQfSAAAAMAAJ",
-      "preview": "http://books.google.com/books?id=PQfSAAAAMAAJ&q=intitle:Isabel+de+Espa%C3%B1a+by+William+Thomas+Walsh&dq=intitle:Isabel+de+Espa%C3%B1a+by+William+Thomas+Walsh&hl=&cd=1&source=gbs_api",
-      "info": "http://books.google.com/books?id=PQfSAAAAMAAJ&dq=intitle:Isabel+de+Espa%C3%B1a+by+William+Thomas+Walsh&hl=&source=gbs_api",
-      "canonical": "https://books.google.com/books/about/Isabella_of_Spain.html?hl=&id=PQfSAAAAMAAJ"
-    },
-    "issueNumber": 15,
-    "progressPercent": 0,
-    "state": "reading",
-    "startedAt": "2024-02-01T18:52:45.000Z"
-  },
-  {
     "title": "Murtagh",
     "authors": [
       "Christopher Paolini"
@@ -96,7 +73,7 @@
     },
     "issueNumber": 13,
     "progressPercent": 0,
-    "state": "reading",
+    "state": "want-to-read",
     "startedAt": "2024-02-01T18:49:31.000Z"
   },
   {
