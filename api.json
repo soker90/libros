@@ -1,35 +1,32 @@
 [
   {
-    "title": "Harry Potter y la piedra filosofal",
+    "title": "John Murtagh's Patient Education",
     "authors": [
-      "J.K. Rowling"
+      "John Murtagh"
     ],
-    "publisher": "Pottermore Publishing",
-    "publishedDate": "2015-12-08",
-    "description": "Con las manos temblorosas, Harry le dio la vuelta al sobre y vio un sello de lacre púrpura con un escudo de armas: un león, un águila, un tejón y una serpiente, que rodeaban una gran letra H. Harry Potter nunca había oído nada sobre Hogwarts cuando las cartas comienzan a caer en el felpudo del número cuatro de Privet Drive. Escritas en tinta verde en un pergamino amarillento con un sello morado, sus horribles tíos las han confiscado velozmente. En su undécimo cumpleaños, un hombre gigante de ojos negros llamado Rubeus Hagrid aparece con una noticia extraordinaria: Harry Potter es un mago y tiene una plaza en el Colegio Hogwarts de Magia y Hechicería. ¡Una aventura increíble está a punto de empezar! Tema musical compuesto por James Hannigan.",
-    "image": "http://books.google.com/books/content?id=2zgRDXFWkm8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-    "language": "es",
+    "publisher": "McGraw-Hill Medical Publishing",
+    "publishedDate": "2013-03",
+    "description": "John Murtagh's Patient Education is the essential aid for doctors in practice, general practice nurses, medical students, pharmacists and consumers needing accurate information in an age of internet selfishness. First published in 1992 and now in its sixth edition, it is the proven international standard for patient education material. Written in simple, non-technical language, information on each condition is presented in a concise and friendly single-page format so it can be easily photocopied and distributed to patients to help them understand and manage their medical condition. This edition includes 40 new information sheets, bringing the total number of subjects covered in the book close to 350, and existing sheets and illustrations have been updated with the latest information. Topics covered include, Depression in teenagers, Diabetes type 1 and type 2, Breastfeeding, Postnatal depression, Meningococcal meningitis, Prostrate problems, Osteoarthritis, Hypertension and Anxiety,",
+    "image": "http://books.google.com/books/content?id=IRaiMwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "language": "en",
     "averageRating": 4,
-    "ratingsCount": 124,
+    "ratingsCount": 1,
     "categories": [
-      "Juvenile Fiction"
+      "Family medicine"
     ],
-    "pageCount": 320,
-    "isbn10": "1781101310",
-    "isbn13": "9781781101315",
+    "pageCount": 352,
+    "isbn10": "1743070101",
+    "isbn13": "9781743070109",
     "googleBooks": {
-      "id": "2zgRDXFWkm8C",
-      "preview": "http://books.google.com/books?id=2zgRDXFWkm8C&printsec=frontcover&dq=intitle:harry+Potter+y+la+piedra+filosofal&hl=&cd=1&source=gbs_api",
-      "info": "https://play.google.com/store/books/details?id=2zgRDXFWkm8C&source=gbs_api",
-      "canonical": "https://play.google.com/store/books/details?id=2zgRDXFWkm8C"
+      "id": "IRaiMwEACAAJ",
+      "preview": "http://books.google.com/books?id=IRaiMwEACAAJ&dq=intitle:Murtagh&hl=&cd=5&source=gbs_api",
+      "info": "http://books.google.com/books?id=IRaiMwEACAAJ&dq=intitle:Murtagh&hl=&source=gbs_api",
+      "canonical": "https://books.google.com/books/about/John_Murtagh_s_Patient_Education.html?hl=&id=IRaiMwEACAAJ"
     },
-    "issueNumber": 8,
+    "issueNumber": 10,
     "progressPercent": 0,
-    "state": "completed",
-    "startedAt": "2024-01-20T20:27:09.000Z",
-    "completedAt": "2024-01-20T22:29:40.000Z",
-    "timeToComplete": 7351000,
-    "timeToCompleteFormatted": "2 hours"
+    "state": "reading",
+    "startedAt": "2024-02-01T18:44:58.000Z"
   },
   {
     "title": "¿Qué hace un bosón como tú en un Big Bang como este?",
