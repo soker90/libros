@@ -17,9 +17,7 @@ Filtrar por puntuación:
 ### ⌛ Currently reading (4)
 
 [![Book cover of Isabella of Spain](https://images.weserv.nl/?url=http%3A%2F%2Fbooks.google.com%2Fbooks%2Fcontent%3Fid%3DM_mwngEACAAJ%26printsec%3Dfrontcover%26img%3D1%26zoom%3D1%26source%3Dgbs_api&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/16 "Isabella of Spain by William Thomas Walsh")
-[![Book cover of Isabella of Spain](https://images.weserv.nl/?url=http%3A%2F%2Fbooks.google.com%2Fbooks%2Fcontent%3Fid%3DPQfSAAAAMAAJ%26printsec%3Dfrontcover%26img%3D1%26zoom%3D1%26source%3Dgbs_api&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/15 "Isabella of Spain by William Thomas Walsh")
 [![Book cover of Murtagh](https://images.weserv.nl/?url=http%3A%2F%2Fbooks.google.com%2Fbooks%2Fcontent%3Fid%3DV6WvEAAAQBAJ%26printsec%3Dfrontcover%26img%3D1%26zoom%3D1%26edge%3Dcurl%26source%3Dgbs_api&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/14 "Murtagh by Christopher Paolini")
-[![Book cover of El Hombre Iluminado (Novela Secreta 4)](https://images.weserv.nl/?url=http%3A%2F%2Fbooks.google.com%2Fbooks%2Fcontent%3Fid%3Dxn3aEAAAQBAJ%26printsec%3Dfrontcover%26img%3D1%26zoom%3D1%26edge%3Dcurl%26source%3Dgbs_api&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/13 "El Hombre Iluminado (Novela Secreta 4) by Brandon Sanderson")
 
 ### ✅ Completed (3)
 
@@ -30,6 +28,7 @@ Filtrar por puntuación:
 ### ⏭️ Want to Read (1)
 
 [![Book cover of ¿Qué hace un bosón como tú en un Big Bang como este?](https://images.weserv.nl/?url=http%3A%2F%2Fbooks.google.com%2Fbooks%2Fcontent%3Fid%3DLKaIEAAAQBAJ%26printsec%3Dfrontcover%26img%3D1%26zoom%3D1%26edge%3Dcurl%26source%3Dgbs_api&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/7 "¿Qué hace un bosón como tú en un Big Bang como este? by Javier Santaolalla completed in undefined on Invalid Date")
+[![Book cover of El Hombre Iluminado (Novela Secreta 4)](https://images.weserv.nl/?url=http%3A%2F%2Fbooks.google.com%2Fbooks%2Fcontent%3Fid%3Dxn3aEAAAQBAJ%26printsec%3Dfrontcover%26img%3D1%26zoom%3D1%26edge%3Dcurl%26source%3Dgbs_api&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/13 "El Hombre Iluminado (Novela Secreta 4) by Brandon Sanderson")
 
 <!--end:bookshelf-action-->
 
