@@ -4,6 +4,29 @@
     "authors": [
       "William Thomas Walsh"
     ],
+    "publisher": "Literary Licensing, LLC",
+    "publishedDate": "2011-10-01",
+    "image": "http://books.google.com/books/content?id=M_mwngEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "language": "en",
+    "pageCount": 568,
+    "isbn10": "1258217309",
+    "isbn13": "9781258217303",
+    "googleBooks": {
+      "id": "M_mwngEACAAJ",
+      "preview": "http://books.google.com/books?id=M_mwngEACAAJ&dq=intitle:Isabel+de+Espa%C3%B1a+by+William+Thomas&hl=&cd=1&source=gbs_api",
+      "info": "http://books.google.com/books?id=M_mwngEACAAJ&dq=intitle:Isabel+de+Espa%C3%B1a+by+William+Thomas&hl=&source=gbs_api",
+      "canonical": "https://books.google.com/books/about/Isabella_of_Spain.html?hl=&id=M_mwngEACAAJ"
+    },
+    "issueNumber": 16,
+    "progressPercent": 0,
+    "state": "reading",
+    "startedAt": "2024-02-01T19:01:01.000Z"
+  },
+  {
+    "title": "Isabella of Spain",
+    "authors": [
+      "William Thomas Walsh"
+    ],
     "publishedDate": "1933",
     "image": "http://books.google.com/books/content?id=PQfSAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     "language": "en",
