@@ -16,7 +16,7 @@ Filtrar por puntuación:
 <!--start:bookshelf-action-->
 ### ⌛ Currently reading (1)
 
-[![Book cover of John Murtagh's Patient Education](https://images.weserv.nl/?url=http%3A%2F%2Fbooks.google.com%2Fbooks%2Fcontent%3Fid%3DIRaiMwEACAAJ%26printsec%3Dfrontcover%26img%3D1%26zoom%3D1%26source%3Dgbs_api&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/10 "John Murtagh's Patient Education by John Murtagh")
+[![Book cover of Brisingr](https://images.weserv.nl/?url=http%3A%2F%2Fbooks.google.com%2Fbooks%2Fcontent%3Fid%3D9m6hsGQ0US8C%26printsec%3Dfrontcover%26img%3D1%26zoom%3D1%26source%3Dgbs_api&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/11 "Brisingr by Christopher Paolini")
 
 ### ✅ Completed (3)
 
