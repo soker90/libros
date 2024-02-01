@@ -1,5 +1,32 @@
 [
   {
+    "title": "Murtagh",
+    "authors": [
+      "Christopher Paolini"
+    ],
+    "publisher": "Knopf Books for Young Readers",
+    "publishedDate": "2023-11-07",
+    "description": "Master storyteller and internationally bestselling author Christopher Paolini returns to the World of Eragon in this stunning epic fantasy set a year after the events of the Inheritance Cycle. Join Dragon Rider—and fan favorite—Murtagh and his dragon as they confront a perilous new enemy! “Christopher Paolini is a true rarity.” —The Washington Post The world is no longer safe for the Dragon Rider Murtagh and his dragon, Thorn. An evil king has been toppled, and they are left to face the consequences of the reluctant role they played in his reign of terror. Now they are hated and alone, exiled to the outskirts of society. Throughout the land, hushed voices whisper of brittle ground and a faint scent of brimstone in the air—and Murtagh senses that something wicked lurks in the shadows of Alagaësia. So begins an epic journey into lands both familiar and untraveled, where Murtagh and Thorn must use every weapon in their arsenal, from brains to brawn, to find and outwit a mysterious witch. A witch who is much more than she seems. In this gripping novel starring one of the most popular characters from Christopher Paolini’s blockbuster Inheritance Cycle, a Dragon Rider must discover what he stands for in a world that has abandoned him. Murtagh is the perfect book to enter the World of Eragon for the first time . . . or to joyfully return. Praise for Christopher Paolini: “A spellbinding fantasy writer.” —The Boston Globe “A breathtaking and unheard-of success.” —USA Today “Make[s] literary magic.” —People",
+    "image": "http://books.google.com/books/content?id=V6WvEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "language": "en",
+    "categories": [
+      "Young Adult Fiction"
+    ],
+    "pageCount": 663,
+    "isbn10": "0593650883",
+    "isbn13": "9780593650882",
+    "googleBooks": {
+      "id": "V6WvEAAAQBAJ",
+      "preview": "http://books.google.com/books?id=V6WvEAAAQBAJ&printsec=frontcover&dq=intitle:Murtagh+by++Christopher+Paolini&hl=&cd=1&source=gbs_api",
+      "info": "https://play.google.com/store/books/details?id=V6WvEAAAQBAJ&source=gbs_api",
+      "canonical": "https://play.google.com/store/books/details?id=V6WvEAAAQBAJ"
+    },
+    "issueNumber": 14,
+    "progressPercent": 0,
+    "state": "reading",
+    "startedAt": "2024-02-01T18:51:37.000Z"
+  },
+  {
     "title": "El Hombre Iluminado (Novela Secreta 4)",
     "authors": [
       "Brandon Sanderson"
@@ -25,35 +52,6 @@
     "progressPercent": 0,
     "state": "reading",
     "startedAt": "2024-02-01T18:49:31.000Z"
-  },
-  {
-    "title": "Brisingr",
-    "authors": [
-      "Christopher Paolini"
-    ],
-    "publisher": "Random House",
-    "publishedDate": "2008-09-20",
-    "description": "Master storyteller and internationally bestselling author Christopher Paolini returns to the World of Eragon with Murtagh. Murtagh, a stunning epic fantasy set a year after the events of the Inheritance Cycle, will publish in 2023. The third book in The Inheritance Cycle More awaits Eragon and Saphira following the colossal battle against the Empire's warriors. He's bound by promises he may not be able to keep, including his oath to his cousin Roran to rescue his beloved Katrina. When unrest claims the rebels and danger strikes, Eragon must make choices that take him across the Empire and beyond. Choices that may lead to unimagined sacrifice. Conflict, action, adventure and one devastating death await readers as Eragon battles on behalf of the Varden while Galbatorix ruthlessly attempts to crush and twist him to his own purposes. Can he become a leader who can unite the rebel forces and defeat the King?",
-    "image": "http://books.google.com/books/content?id=9m6hsGQ0US8C&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-    "language": "en",
-    "averageRating": 4,
-    "ratingsCount": 9,
-    "categories": [
-      "Juvenile Fiction"
-    ],
-    "pageCount": 790,
-    "isbn10": "140704477X",
-    "isbn13": "9781407044774",
-    "googleBooks": {
-      "id": "9m6hsGQ0US8C",
-      "preview": "http://books.google.com/books?id=9m6hsGQ0US8C&dq=intitle:Murtagh+by+christopher+paolini&hl=&cd=2&source=gbs_api",
-      "info": "http://books.google.com/books?id=9m6hsGQ0US8C&dq=intitle:Murtagh+by+christopher+paolini&hl=&source=gbs_api",
-      "canonical": "https://books.google.com/books/about/Brisingr.html?hl=&id=9m6hsGQ0US8C"
-    },
-    "issueNumber": 11,
-    "progressPercent": 0,
-    "state": "reading",
-    "startedAt": "2024-02-01T18:46:48.000Z"
   },
   {
     "title": "¿Qué hace un bosón como tú en un Big Bang como este?",

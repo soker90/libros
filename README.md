@@ -16,8 +16,8 @@ Filtrar por puntuación:
 <!--start:bookshelf-action-->
 ### ⌛ Currently reading (2)
 
+[![Book cover of Murtagh](https://images.weserv.nl/?url=http%3A%2F%2Fbooks.google.com%2Fbooks%2Fcontent%3Fid%3DV6WvEAAAQBAJ%26printsec%3Dfrontcover%26img%3D1%26zoom%3D1%26edge%3Dcurl%26source%3Dgbs_api&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/14 "Murtagh by Christopher Paolini")
 [![Book cover of El Hombre Iluminado (Novela Secreta 4)](https://images.weserv.nl/?url=http%3A%2F%2Fbooks.google.com%2Fbooks%2Fcontent%3Fid%3Dxn3aEAAAQBAJ%26printsec%3Dfrontcover%26img%3D1%26zoom%3D1%26edge%3Dcurl%26source%3Dgbs_api&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/13 "El Hombre Iluminado (Novela Secreta 4) by Brandon Sanderson")
-[![Book cover of Brisingr](https://images.weserv.nl/?url=http%3A%2F%2Fbooks.google.com%2Fbooks%2Fcontent%3Fid%3D9m6hsGQ0US8C%26printsec%3Dfrontcover%26img%3D1%26zoom%3D1%26source%3Dgbs_api&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/11 "Brisingr by Christopher Paolini")
 
 ### ✅ Completed (3)
 
