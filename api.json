@@ -46,8 +46,11 @@
     },
     "issueNumber": 14,
     "progressPercent": 0,
-    "state": "reading",
-    "startedAt": "2024-02-01T18:51:37.000Z"
+    "state": "completed",
+    "startedAt": "2024-02-01T18:51:37.000Z",
+    "completedAt": "2024-02-12T00:06:58.000Z",
+    "timeToComplete": 882921000,
+    "timeToCompleteFormatted": "1 week"
   },
   {
     "title": "El Hombre Iluminado (Novela Secreta 4)",
