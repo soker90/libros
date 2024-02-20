@@ -76,8 +76,11 @@
     },
     "issueNumber": 13,
     "progressPercent": 0,
-    "state": "reading",
-    "startedAt": "2024-02-01T18:49:31.000Z"
+    "state": "completed",
+    "startedAt": "2024-02-01T18:49:31.000Z",
+    "completedAt": "2024-02-20T08:40:49.000Z",
+    "timeToComplete": 1605078000,
+    "timeToCompleteFormatted": "2 weeks"
   },
   {
     "title": "¿Qué hace un bosón como tú en un Big Bang como este?",
