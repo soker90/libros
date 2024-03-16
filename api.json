@@ -21,8 +21,11 @@
     },
     "issueNumber": 18,
     "progressPercent": 0,
-    "state": "reading",
-    "startedAt": "2024-03-14T23:28:20.000Z"
+    "state": "completed",
+    "startedAt": "2024-03-14T23:28:20.000Z",
+    "completedAt": "2024-03-16T00:23:58.000Z",
+    "timeToComplete": 89738000,
+    "timeToCompleteFormatted": "1 day"
   },
   {
     "title": "Organízate con eficacia",
