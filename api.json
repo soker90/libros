@@ -1,5 +1,34 @@
 [
   {
+    "title": "1984",
+    "authors": [
+      "George Orwell"
+    ],
+    "publisher": "Arcturus Publishing",
+    "publishedDate": "2014-01-04",
+    "description": "George Orwell's dystopian masterpiece, Nineteen Eighty-Four is perhaps the most pervasively influential book of the twentieth century, making famous Big Brother, newspeak and Room 101. 'Who controls the past controls the future: who controls the present controls the past'",
+    "image": "http://books.google.com/books/content?id=uyr8BAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "language": "en",
+    "averageRating": 4,
+    "ratingsCount": 7,
+    "categories": [
+      "Fiction"
+    ],
+    "pageCount": 361,
+    "isbn10": "1784043737",
+    "isbn13": "9781784043735",
+    "googleBooks": {
+      "id": "uyr8BAAAQBAJ",
+      "preview": "http://books.google.com/books?id=uyr8BAAAQBAJ&printsec=frontcover&dq=intitle:1984&hl=&cd=1&source=gbs_api",
+      "info": "http://books.google.com/books?id=uyr8BAAAQBAJ&dq=intitle:1984&hl=&source=gbs_api",
+      "canonical": "https://books.google.com/books/about/1984.html?hl=&id=uyr8BAAAQBAJ"
+    },
+    "issueNumber": 25,
+    "progressPercent": 0,
+    "state": "reading",
+    "startedAt": "2024-08-21T17:00:12.000Z"
+  },
+  {
     "title": "Cronica de una muerte anunciada - Tapa dura",
     "authors": [
       "Gabriel Garca̕ Mr̀quez"
@@ -57,27 +86,34 @@
     "startedAt": "2024-02-25T21:17:41.000Z"
   },
   {
-    "title": "Isabella of Spain",
+    "title": "El Hombre Iluminado (Novela Secreta 4)",
     "authors": [
-      "William Thomas Walsh"
+      "Brandon Sanderson"
     ],
-    "publisher": "Literary Licensing, LLC",
-    "publishedDate": "2011-10-01",
-    "image": "http://books.google.com/books/content?id=M_mwngEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-    "language": "en",
-    "pageCount": 568,
-    "isbn10": "1258217309",
-    "isbn13": "9781258217303",
+    "publisher": "NOVA",
+    "publishedDate": "2023-10-19",
+    "description": "Brandon Sanderson, el gran autor de fantasía del siglo XXI, nos lleva a un futuro de su universo del Cosmere en el que un perpetuo vagabundo planetario deberá decidir si seguir huyendo o quedarse y ayudar en un mundo atribulado. El Hombre Iluminado es una de las cuatro increíbles novelas con las que Sanderson ha protagonizado la mayor campaña de micromecenazgo de la historia de Kickstarter. Hace años tenía compañeros de armas y una causa en la que creer, pero ahora el hombre que se hace llamar Nómada solo conoce la vida a la fuga. Obligado a saltar de un mundo a otro en el Cosmere cada vez que la implacable Brigada Nocturna le gana demasiado terreno, Nómada acaba en un nuevo planeta y de inmediato se ve implicado en la trifulca entre un tirano y los rebeldes que solo pretenden evitar que los conviertan en esclavos sin mente. Y todo bajo la amenaza constante de un amanecer cuyo calor derrite la misma piedra. Incapaz de comprender su idioma, ¿sabrá navegar el conflicto y obtener el suficiente poder para saltar fuera del planeta antes de que su mente o su cuerpo paguen el precio definitivo?",
+    "image": "http://books.google.com/books/content?id=xn3aEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "language": "es",
+    "categories": [
+      "Fiction"
+    ],
+    "pageCount": 496,
+    "isbn10": "8419260134",
+    "isbn13": "9788419260130",
     "googleBooks": {
-      "id": "M_mwngEACAAJ",
-      "preview": "http://books.google.com/books?id=M_mwngEACAAJ&dq=intitle:Isabel+de+Espa%C3%B1a+by+William+Thomas&hl=&cd=1&source=gbs_api",
-      "info": "http://books.google.com/books?id=M_mwngEACAAJ&dq=intitle:Isabel+de+Espa%C3%B1a+by+William+Thomas&hl=&source=gbs_api",
-      "canonical": "https://books.google.com/books/about/Isabella_of_Spain.html?hl=&id=M_mwngEACAAJ"
+      "id": "xn3aEAAAQBAJ",
+      "preview": "http://books.google.com/books?id=xn3aEAAAQBAJ&printsec=frontcover&dq=intitle:El+Hombre+Iluminado+(Novela+Secreta+4)&hl=&cd=1&source=gbs_api",
+      "info": "https://play.google.com/store/books/details?id=xn3aEAAAQBAJ&source=gbs_api",
+      "canonical": "https://play.google.com/store/books/details?id=xn3aEAAAQBAJ"
     },
-    "issueNumber": 16,
+    "issueNumber": 13,
     "progressPercent": 0,
-    "state": "reading",
-    "startedAt": "2024-02-01T19:01:01.000Z"
+    "state": "completed",
+    "startedAt": "2024-02-01T18:49:31.000Z",
+    "completedAt": "2024-02-20T08:40:49.000Z",
+    "timeToComplete": 1605078000,
+    "timeToCompleteFormatted": "2 weeks"
   },
   {
     "title": "Murtagh",
@@ -110,34 +146,27 @@
     "timeToCompleteFormatted": "1 week"
   },
   {
-    "title": "El Hombre Iluminado (Novela Secreta 4)",
+    "title": "Isabella of Spain",
     "authors": [
-      "Brandon Sanderson"
+      "William Thomas Walsh"
     ],
-    "publisher": "NOVA",
-    "publishedDate": "2023-10-19",
-    "description": "Brandon Sanderson, el gran autor de fantasía del siglo XXI, nos lleva a un futuro de su universo del Cosmere en el que un perpetuo vagabundo planetario deberá decidir si seguir huyendo o quedarse y ayudar en un mundo atribulado. El Hombre Iluminado es una de las cuatro increíbles novelas con las que Sanderson ha protagonizado la mayor campaña de micromecenazgo de la historia de Kickstarter. Hace años tenía compañeros de armas y una causa en la que creer, pero ahora el hombre que se hace llamar Nómada solo conoce la vida a la fuga. Obligado a saltar de un mundo a otro en el Cosmere cada vez que la implacable Brigada Nocturna le gana demasiado terreno, Nómada acaba en un nuevo planeta y de inmediato se ve implicado en la trifulca entre un tirano y los rebeldes que solo pretenden evitar que los conviertan en esclavos sin mente. Y todo bajo la amenaza constante de un amanecer cuyo calor derrite la misma piedra. Incapaz de comprender su idioma, ¿sabrá navegar el conflicto y obtener el suficiente poder para saltar fuera del planeta antes de que su mente o su cuerpo paguen el precio definitivo?",
-    "image": "http://books.google.com/books/content?id=xn3aEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-    "language": "es",
-    "categories": [
-      "Fiction"
-    ],
-    "pageCount": 496,
-    "isbn10": "8419260134",
-    "isbn13": "9788419260130",
+    "publisher": "Literary Licensing, LLC",
+    "publishedDate": "2011-10-01",
+    "image": "http://books.google.com/books/content?id=M_mwngEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "language": "en",
+    "pageCount": 568,
+    "isbn10": "1258217309",
+    "isbn13": "9781258217303",
     "googleBooks": {
-      "id": "xn3aEAAAQBAJ",
-      "preview": "http://books.google.com/books?id=xn3aEAAAQBAJ&printsec=frontcover&dq=intitle:El+Hombre+Iluminado+(Novela+Secreta+4)&hl=&cd=1&source=gbs_api",
-      "info": "https://play.google.com/store/books/details?id=xn3aEAAAQBAJ&source=gbs_api",
-      "canonical": "https://play.google.com/store/books/details?id=xn3aEAAAQBAJ"
+      "id": "M_mwngEACAAJ",
+      "preview": "http://books.google.com/books?id=M_mwngEACAAJ&dq=intitle:Isabel+de+Espa%C3%B1a+by+William+Thomas&hl=&cd=1&source=gbs_api",
+      "info": "http://books.google.com/books?id=M_mwngEACAAJ&dq=intitle:Isabel+de+Espa%C3%B1a+by+William+Thomas&hl=&source=gbs_api",
+      "canonical": "https://books.google.com/books/about/Isabella_of_Spain.html?hl=&id=M_mwngEACAAJ"
     },
-    "issueNumber": 13,
+    "issueNumber": 16,
     "progressPercent": 0,
-    "state": "completed",
-    "startedAt": "2024-02-01T18:49:31.000Z",
-    "completedAt": "2024-02-20T08:40:49.000Z",
-    "timeToComplete": 1605078000,
-    "timeToCompleteFormatted": "2 weeks"
+    "state": "reading",
+    "startedAt": "2024-02-01T19:01:01.000Z"
   },
   {
     "title": "¿Qué hace un bosón como tú en un Big Bang como este?",
