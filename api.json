@@ -18,31 +18,11 @@
     },
     "issueNumber": 28,
     "progressPercent": 0,
-    "state": "reading",
-    "startedAt": "2024-08-21T17:17:46.000Z"
-  },
-  {
-    "title": "Some Tragic Aspects of Crónica de Una Muerte Anunciada",
-    "authors": [
-      "Elizabeth Ruth Sellars"
-    ],
-    "publishedDate": "1984",
-    "image": "https://tse2.mm.bing.net/th?q=Some%20Tragic%20Aspects%20of%20Cr%C3%B3nica%20de%20Una%20Muerte%20Anunciada%20by%20Elizabeth%20Ruth%20Sellars&w=256&c=7&rs=1&p=0&dpr=3&pid=1.7&mkt=en-IN&adlt=moderate",
-    "language": "en",
-    "pageCount": 60,
-    "googleBooks": {
-      "id": "_kHcNwAACAAJ",
-      "preview": "http://books.google.com/books?id=_kHcNwAACAAJ&dq=intitle:Cronicas+de+una+muerte+anunciada&hl=&cd=1&source=gbs_api",
-      "info": "http://books.google.com/books?id=_kHcNwAACAAJ&dq=intitle:Cronicas+de+una+muerte+anunciada&hl=&source=gbs_api",
-      "canonical": "https://books.google.com/books/about/Some_Tragic_Aspects_of_Cr%C3%B3nica_de_Una_M.html?hl=&id=_kHcNwAACAAJ"
-    },
-    "issueNumber": 27,
-    "progressPercent": 0,
     "state": "completed",
-    "startedAt": "2024-08-21T17:16:28.000Z",
-    "completedAt": "2024-08-21T17:17:31.000Z",
-    "timeToComplete": 63000,
-    "timeToCompleteFormatted": "1 minute"
+    "startedAt": "2024-08-21T17:17:46.000Z",
+    "completedAt": "2024-08-21T17:18:41.000Z",
+    "timeToComplete": 55000,
+    "timeToCompleteFormatted": "55 seconds"
   },
   {
     "title": "El hombre que era Jueves",
