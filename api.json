@@ -1,5 +1,29 @@
 [
   {
+    "title": "El hombre que era Jueves",
+    "authors": [
+      "G. K. Chesterton"
+    ],
+    "publishedDate": "1998",
+    "image": "https://tse2.mm.bing.net/th?q=El%20hombre%20que%20era%20Jueves%20by%20G.%20K.%20Chesterton&w=256&c=7&rs=1&p=0&dpr=3&pid=1.7&mkt=en-IN&adlt=moderate",
+    "language": "es",
+    "averageRating": 3,
+    "ratingsCount": 1,
+    "pageCount": 199,
+    "isbn10": "8420602566",
+    "isbn13": "9788420602561",
+    "googleBooks": {
+      "id": "7eBEPwAACAAJ",
+      "preview": "http://books.google.com/books?id=7eBEPwAACAAJ&dq=intitle:El+Hombre+Que+Era+Jueves:+Una+Pesadilla&hl=&cd=9&source=gbs_api",
+      "info": "http://books.google.com/books?id=7eBEPwAACAAJ&dq=intitle:El+Hombre+Que+Era+Jueves:+Una+Pesadilla&hl=&source=gbs_api",
+      "canonical": "https://books.google.com/books/about/El_hombre_que_era_Jueves.html?hl=&id=7eBEPwAACAAJ"
+    },
+    "issueNumber": 26,
+    "progressPercent": 0,
+    "state": "reading",
+    "startedAt": "2024-08-21T17:15:08.000Z"
+  },
+  {
     "title": "1984",
     "authors": [
       "George Orwell"
