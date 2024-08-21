@@ -16,8 +16,11 @@
     },
     "issueNumber": 27,
     "progressPercent": 0,
-    "state": "reading",
-    "startedAt": "2024-08-21T17:16:28.000Z"
+    "state": "completed",
+    "startedAt": "2024-08-21T17:16:28.000Z",
+    "completedAt": "2024-08-21T17:17:31.000Z",
+    "timeToComplete": 63000,
+    "timeToCompleteFormatted": "1 minute"
   },
   {
     "title": "El hombre que era Jueves",
