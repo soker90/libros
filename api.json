@@ -1,5 +1,32 @@
 [
   {
+    "title": "¿Hay filosofía en tu nevera?",
+    "authors": [
+      "Enric F. Gel"
+    ],
+    "publisher": "MONTENA",
+    "publishedDate": "2023-09-14",
+    "description": "La filosofía como nunca te la han contado. Descúbrela y sacia tu hambre de conocimiento. ¿Quién soy? ¿Qué hago aquí? ¿Qué es la realidad? ¿Soy libre? ¿Cuál es el sentido de la vida? Y, si no tiene sentido, ¿vale la pena vivirla? ¿Cómo puedo comprender este mundo loco? Y, por cierto... ¿qué venía a buscar a la nevera? Si las grandes preguntas te asaltan en el momento menos pensado, está claro que tienes hambre de conocimiento. En este original recorrido por la historia del pensamiento descubrirás que la filosofía está en todas partes... ¡Incluso dentro y fuera de tu nevera! Con un tono desenfadado, mucho humor y referencias delirantes a la cultura digital, ¿Hay filosofía en tu nevera? propone un acercamiento refrescante a los grandes temas que han traído de cabeza al ser humano desde sus inicios. Ya seas un novato en el mundo de la filosofía o un sabio experimentado, en estas páginas encontrarás un tesoro con el que no podrás parar de pensar. ¡Lo vas a devorar!",
+    "image": "http://books.google.com/books/content?id=JUnJEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "language": "es",
+    "categories": [
+      "Young Adult Nonfiction"
+    ],
+    "pageCount": 224,
+    "isbn10": "8419357189",
+    "isbn13": "9788419357182",
+    "googleBooks": {
+      "id": "JUnJEAAAQBAJ",
+      "preview": "http://books.google.com/books?id=JUnJEAAAQBAJ&printsec=frontcover&dq=intitle:%C2%BFHay+filosof%C3%ADa+en+tu+nevera%3F:+Descubre+las+grandes+preguntas+donde+menos+te+lo+esperas+by+Enric+F.+Gel&hl=&cd=1&source=gbs_api",
+      "info": "https://play.google.com/store/books/details?id=JUnJEAAAQBAJ&source=gbs_api",
+      "canonical": "https://play.google.com/store/books/details?id=JUnJEAAAQBAJ"
+    },
+    "issueNumber": 30,
+    "progressPercent": 0,
+    "state": "reading",
+    "startedAt": "2024-09-23T10:06:04.000Z"
+  },
+  {
     "title": "1984",
     "authors": [
       "George Orwell"
