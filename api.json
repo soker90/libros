@@ -1,5 +1,37 @@
 [
   {
+    "title": "1984",
+    "authors": [
+      "George Orwell"
+    ],
+    "publisher": "Arcturus Publishing",
+    "publishedDate": "2014-01-04",
+    "description": "George Orwell's dystopian masterpiece, Nineteen Eighty-Four is perhaps the most pervasively influential book of the twentieth century, making famous Big Brother, newspeak and Room 101. 'Who controls the past controls the future: who controls the present controls the past'",
+    "image": "http://books.google.com/books/content?id=uyr8BAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "language": "en",
+    "averageRating": 4,
+    "ratingsCount": 7,
+    "categories": [
+      "Fiction"
+    ],
+    "pageCount": 361,
+    "isbn10": "1784043737",
+    "isbn13": "9781784043735",
+    "googleBooks": {
+      "id": "uyr8BAAAQBAJ",
+      "preview": "http://books.google.com/books?id=uyr8BAAAQBAJ&printsec=frontcover&dq=intitle:1984&hl=&cd=1&source=gbs_api",
+      "info": "http://books.google.com/books?id=uyr8BAAAQBAJ&dq=intitle:1984&hl=&source=gbs_api",
+      "canonical": "https://books.google.com/books/about/1984.html?hl=&id=uyr8BAAAQBAJ"
+    },
+    "issueNumber": 25,
+    "progressPercent": 0,
+    "state": "completed",
+    "startedAt": "2024-08-21T17:00:12.000Z",
+    "completedAt": "2024-09-23T10:03:48.000Z",
+    "timeToComplete": 2826216000,
+    "timeToCompleteFormatted": "1 month"
+  },
+  {
     "title": "El Último deseo",
     "authors": [
       "Andrzej Sapkowski"
@@ -50,35 +82,6 @@
     "completedAt": "2024-08-21T17:15:30.000Z",
     "timeToComplete": 22000,
     "timeToCompleteFormatted": "22 seconds"
-  },
-  {
-    "title": "1984",
-    "authors": [
-      "George Orwell"
-    ],
-    "publisher": "Arcturus Publishing",
-    "publishedDate": "2014-01-04",
-    "description": "George Orwell's dystopian masterpiece, Nineteen Eighty-Four is perhaps the most pervasively influential book of the twentieth century, making famous Big Brother, newspeak and Room 101. 'Who controls the past controls the future: who controls the present controls the past'",
-    "image": "http://books.google.com/books/content?id=uyr8BAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-    "language": "en",
-    "averageRating": 4,
-    "ratingsCount": 7,
-    "categories": [
-      "Fiction"
-    ],
-    "pageCount": 361,
-    "isbn10": "1784043737",
-    "isbn13": "9781784043735",
-    "googleBooks": {
-      "id": "uyr8BAAAQBAJ",
-      "preview": "http://books.google.com/books?id=uyr8BAAAQBAJ&printsec=frontcover&dq=intitle:1984&hl=&cd=1&source=gbs_api",
-      "info": "http://books.google.com/books?id=uyr8BAAAQBAJ&dq=intitle:1984&hl=&source=gbs_api",
-      "canonical": "https://books.google.com/books/about/1984.html?hl=&id=uyr8BAAAQBAJ"
-    },
-    "issueNumber": 25,
-    "progressPercent": 0,
-    "state": "reading",
-    "startedAt": "2024-08-21T17:00:12.000Z"
   },
   {
     "title": "Cronica de una muerte anunciada - Tapa dura",
