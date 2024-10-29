@@ -16,7 +16,7 @@ Filtrar por puntuación:
 <!--start:bookshelf-action-->
 ### ⌛ Currently reading (2)
 
-[![La espada del tiempo (Magnus Chase y los dioses de Asgard 1)](https://images.weserv.nl/?url=http%3A%2F%2Fbooks.google.com%2Fbooks%2Fcontent%3Fid%3DYH__CgAAQBAJ%26printsec%3Dfrontcover%26img%3D1%26zoom%3D1%26edge%3Dcurl%26source%3Dgbs_api&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/34 "La espada del tiempo (Magnus Chase y los dioses de Asgard 1) by Rick Riordan")
+[![The Last Wish](https://images.weserv.nl/?url=http%3A%2F%2Fbooks.google.com%2Fbooks%2Fcontent%3Fid%3DqfXPGwAACAAJ%26printsec%3Dfrontcover%26img%3D1%26zoom%3D1%26source%3Dgbs_api&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/36 "The Last Wish by Andrzej Sapkowski")
 [![Isabella of Spain](https://images.weserv.nl/?url=http%3A%2F%2Fbooks.google.com%2Fbooks%2Fcontent%3Fid%3DM_mwngEACAAJ%26printsec%3Dfrontcover%26img%3D1%26zoom%3D1%26source%3Dgbs_api&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/16 "Isabella of Spain by William Thomas Walsh")
 
 ### ✅ Completed (10)
