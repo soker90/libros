@@ -23,8 +23,11 @@
     },
     "issueNumber": 30,
     "progressPercent": 0,
-    "state": "reading",
-    "startedAt": "2024-09-23T10:06:04.000Z"
+    "state": "completed",
+    "startedAt": "2024-09-23T10:06:04.000Z",
+    "completedAt": "2024-10-29T12:07:55.000Z",
+    "timeToComplete": 3117711000,
+    "timeToCompleteFormatted": "1 month"
   },
   {
     "title": "1984",
