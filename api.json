@@ -24,8 +24,11 @@
     },
     "issueNumber": 36,
     "progressPercent": 0,
-    "state": "reading",
-    "startedAt": "2024-10-29T12:10:16.000Z"
+    "state": "completed",
+    "startedAt": "2024-10-29T12:10:16.000Z",
+    "completedAt": "2024-10-31T15:12:19.000Z",
+    "timeToComplete": 183723000,
+    "timeToCompleteFormatted": "2 days"
   },
   {
     "title": "Hábitos atómicos",
@@ -117,31 +120,6 @@
     "completedAt": "2024-09-23T10:03:48.000Z",
     "timeToComplete": 2826216000,
     "timeToCompleteFormatted": "1 month"
-  },
-  {
-    "title": "El Último deseo",
-    "authors": [
-      "Andrzej Sapkowski"
-    ],
-    "publishedDate": "2010",
-    "image": "https://tse2.mm.bing.net/th?q=El%20%C3%9Altimo%20deseo%20by%20Andrzej%20Sapkowski&w=256&c=7&rs=1&p=0&dpr=3&pid=1.7&mkt=en-IN&adlt=moderate",
-    "language": "es",
-    "pageCount": 634,
-    "isbn10": "8467239743",
-    "isbn13": "9788467239744",
-    "googleBooks": {
-      "id": "0r11MwEACAAJ",
-      "preview": "http://books.google.com/books?id=0r11MwEACAAJ&dq=intitle:El+%C3%BAltimo+deseo&hl=&cd=1&source=gbs_api",
-      "info": "http://books.google.com/books?id=0r11MwEACAAJ&dq=intitle:El+%C3%BAltimo+deseo&hl=&source=gbs_api",
-      "canonical": "https://books.google.com/books/about/El_%C3%9Altimo_deseo.html?hl=&id=0r11MwEACAAJ"
-    },
-    "issueNumber": 28,
-    "progressPercent": 0,
-    "state": "completed",
-    "startedAt": "2024-08-21T17:17:46.000Z",
-    "completedAt": "2024-08-21T17:18:41.000Z",
-    "timeToComplete": 55000,
-    "timeToCompleteFormatted": "55 seconds"
   },
   {
     "title": "El hombre que era Jueves",
