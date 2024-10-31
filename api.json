@@ -17,8 +17,11 @@
     },
     "issueNumber": 37,
     "progressPercent": 0,
-    "state": "reading",
-    "startedAt": "2024-10-31T15:13:36.000Z"
+    "state": "completed",
+    "startedAt": "2024-10-31T15:13:36.000Z",
+    "completedAt": "2024-10-31T15:14:02.000Z",
+    "timeToComplete": 26000,
+    "timeToCompleteFormatted": "26 seconds"
   },
   {
     "title": "The Last Wish",

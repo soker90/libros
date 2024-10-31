@@ -14,14 +14,14 @@ Filtrar por puntuación:
 ## 📖 Mis lecturas
 
 <!--start:bookshelf-action-->
-### ⌛ Currently reading (3)
+### ⌛ Currently reading (2)
 
-[![EL LTIMO DESEO/ THE LAST WISH.](https://images.weserv.nl/?url=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fq%3DEL%2520LTIMO%2520DESEO%252F%2520THE%2520LAST%2520WISH.%2520by%2520ANDRZEJ.%2520SAPKOWSKI%26w%3D256%26c%3D7%26rs%3D1%26p%3D0%26dpr%3D3%26pid%3D1.7%26mkt%3Den-IN%26adlt%3Dmoderate&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/37 "EL LTIMO DESEO/ THE LAST WISH. by ANDRZEJ. SAPKOWSKI")
 [![The Last Wish](https://images.weserv.nl/?url=http%3A%2F%2Fbooks.google.com%2Fbooks%2Fcontent%3Fid%3DqfXPGwAACAAJ%26printsec%3Dfrontcover%26img%3D1%26zoom%3D1%26source%3Dgbs_api&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/36 "The Last Wish by Andrzej Sapkowski")
 [![Isabella of Spain](https://images.weserv.nl/?url=http%3A%2F%2Fbooks.google.com%2Fbooks%2Fcontent%3Fid%3DM_mwngEACAAJ%26printsec%3Dfrontcover%26img%3D1%26zoom%3D1%26source%3Dgbs_api&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/16 "Isabella of Spain by William Thomas Walsh")
 
-### ✅ Completed (9)
+### ✅ Completed (10)
 
+[![EL LTIMO DESEO/ THE LAST WISH.](https://images.weserv.nl/?url=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fq%3DEL%2520LTIMO%2520DESEO%252F%2520THE%2520LAST%2520WISH.%2520by%2520ANDRZEJ.%2520SAPKOWSKI%26w%3D256%26c%3D7%26rs%3D1%26p%3D0%26dpr%3D3%26pid%3D1.7%26mkt%3Den-IN%26adlt%3Dmoderate&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/37 "EL LTIMO DESEO/ THE LAST WISH. by ANDRZEJ. SAPKOWSKI completed in 26 seconds on October 2024")
 [![¿Hay filosofía en tu nevera?](https://images.weserv.nl/?url=http%3A%2F%2Fbooks.google.com%2Fbooks%2Fcontent%3Fid%3DJUnJEAAAQBAJ%26printsec%3Dfrontcover%26img%3D1%26zoom%3D1%26edge%3Dcurl%26source%3Dgbs_api&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/30 "¿Hay filosofía en tu nevera? by Enric F. Gel completed in 1 month on October 2024")
 [![1984](https://images.weserv.nl/?url=http%3A%2F%2Fbooks.google.com%2Fbooks%2Fcontent%3Fid%3Duyr8BAAAQBAJ%26printsec%3Dfrontcover%26img%3D1%26zoom%3D1%26edge%3Dcurl%26source%3Dgbs_api&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/25 "1984 by George Orwell completed in 1 month on September 2024")
 [![El hombre que era Jueves](https://images.weserv.nl/?url=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fq%3DEl%2520hombre%2520que%2520era%2520Jueves%2520by%2520G.%2520K.%2520Chesterton%26w%3D256%26c%3D7%26rs%3D1%26p%3D0%26dpr%3D3%26pid%3D1.7%26mkt%3Den-IN%26adlt%3Dmoderate&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/26 "El hombre que era Jueves by G. K. Chesterton completed in 22 seconds on August 2024")
