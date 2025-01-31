@@ -1,29 +1,5 @@
 [
   {
-    "title": "EL LTIMO DESEO/ THE LAST WISH.",
-    "authors": [
-      "ANDRZEJ. SAPKOWSKI"
-    ],
-    "publishedDate": "2022",
-    "image": "https://tse2.mm.bing.net/th?q=EL%20LTIMO%20DESEO%2F%20THE%20LAST%20WISH.%20by%20ANDRZEJ.%20SAPKOWSKI&w=256&c=7&rs=1&p=0&dpr=3&pid=1.7&mkt=en-IN&adlt=moderate",
-    "language": "es",
-    "isbn10": "8498891272",
-    "isbn13": "9788498891270",
-    "googleBooks": {
-      "id": "r6E1zwEACAAJ",
-      "preview": "http://books.google.com/books?id=r6E1zwEACAAJ&dq=intitle:El+%C3%9Altimo+Deseo+by+Andrzej+Sapkowski&hl=&cd=1&source=gbs_api",
-      "info": "http://books.google.com/books?id=r6E1zwEACAAJ&dq=intitle:El+%C3%9Altimo+Deseo+by+Andrzej+Sapkowski&hl=&source=gbs_api",
-      "canonical": "https://books.google.com/books/about/EL_LTIMO_DESEO_THE_LAST_WISH.html?hl=&id=r6E1zwEACAAJ"
-    },
-    "issueNumber": 37,
-    "progressPercent": 0,
-    "state": "completed",
-    "startedAt": "2024-10-31T15:13:36.000Z",
-    "completedAt": "2024-10-31T15:14:02.000Z",
-    "timeToComplete": 26000,
-    "timeToCompleteFormatted": "26 seconds"
-  },
-  {
     "title": "The Last Wish",
     "authors": [
       "Andrzej Sapkowski"
@@ -48,8 +24,35 @@
     },
     "issueNumber": 36,
     "progressPercent": 0,
-    "state": "reading",
-    "startedAt": "2024-10-29T12:10:16.000Z"
+    "state": "completed",
+    "startedAt": "2024-10-29T12:10:16.000Z",
+    "completedAt": "2025-01-31T09:12:56.000Z",
+    "timeToComplete": 8110960000,
+    "timeToCompleteFormatted": "3 months"
+  },
+  {
+    "title": "EL LTIMO DESEO/ THE LAST WISH.",
+    "authors": [
+      "ANDRZEJ. SAPKOWSKI"
+    ],
+    "publishedDate": "2022",
+    "image": "https://tse2.mm.bing.net/th?q=EL%20LTIMO%20DESEO%2F%20THE%20LAST%20WISH.%20by%20ANDRZEJ.%20SAPKOWSKI&w=256&c=7&rs=1&p=0&dpr=3&pid=1.7&mkt=en-IN&adlt=moderate",
+    "language": "es",
+    "isbn10": "8498891272",
+    "isbn13": "9788498891270",
+    "googleBooks": {
+      "id": "r6E1zwEACAAJ",
+      "preview": "http://books.google.com/books?id=r6E1zwEACAAJ&dq=intitle:El+%C3%9Altimo+Deseo+by+Andrzej+Sapkowski&hl=&cd=1&source=gbs_api",
+      "info": "http://books.google.com/books?id=r6E1zwEACAAJ&dq=intitle:El+%C3%9Altimo+Deseo+by+Andrzej+Sapkowski&hl=&source=gbs_api",
+      "canonical": "https://books.google.com/books/about/EL_LTIMO_DESEO_THE_LAST_WISH.html?hl=&id=r6E1zwEACAAJ"
+    },
+    "issueNumber": 37,
+    "progressPercent": 0,
+    "state": "completed",
+    "startedAt": "2024-10-31T15:13:36.000Z",
+    "completedAt": "2024-10-31T15:14:02.000Z",
+    "timeToComplete": 26000,
+    "timeToCompleteFormatted": "26 seconds"
   },
   {
     "title": "Hábitos atómicos",
