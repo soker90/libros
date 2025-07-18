@@ -32,6 +32,33 @@
     "timeToCompleteFormatted": "5 months"
   },
   {
+    "title": "Los jardines de la luna",
+    "authors": [
+      "Steven Erikson"
+    ],
+    "publisher": "La Factoría de Ideas",
+    "publishedDate": "2011-11-21",
+    "description": "Tras interminables guerras, amargas luchas internas y sangrientas confrontaciones, incluso las tropas imperiales necesitan un descanso. Pero la obsesión expansionista de la emperatriz Lassen no tiene límites, y cuenta con el apoyo de sus sanguinarios agentes de la Garra. Tras el último asedio, el sargento Whiskeyjack y su pelotón de Arrasapuentes necesitan tiempo para descansar y enterrar a sus muertos, pero Darujhistan, la última de las Ciudades Libres de Genabackis, les espera. Es el objetivo último de la insaciable emperatriz. ... Y parece que el Imperio no es el único que codicia esa plaza: fuerzas siniestras conspiran dentro y fuera de las sendas mágicas, y todo indica que los propios dioses se preparan para la batalla...",
+    "image": "http://books.google.com/books/content?id=BPbgACsuB2sC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "language": "es",
+    "categories": [
+      "Fiction"
+    ],
+    "pageCount": 603,
+    "isbn10": "8498008417",
+    "isbn13": "9788498008418",
+    "googleBooks": {
+      "id": "BPbgACsuB2sC",
+      "preview": "http://books.google.com/books?id=BPbgACsuB2sC&printsec=frontcover&dq=intitle:Los+jardines+de+la+luna&hl=&cd=1&source=gbs_api",
+      "info": "https://play.google.com/store/books/details?id=BPbgACsuB2sC&source=gbs_api",
+      "canonical": "https://play.google.com/store/books/details?id=BPbgACsuB2sC"
+    },
+    "issueNumber": 39,
+    "progressPercent": 0,
+    "state": "reading",
+    "startedAt": "2025-07-17T12:18:30.000Z"
+  },
+  {
     "title": "The Last Wish",
     "authors": [
       "Andrzej Sapkowski"
