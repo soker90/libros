@@ -1,5 +1,37 @@
 [
   {
+    "title": "Assassin's Apprentice",
+    "authors": [
+      "Robin Hobb"
+    ],
+    "publisher": "Spectra",
+    "publishedDate": "1995",
+    "description": "As Fitz, an outcast and the bastard son of Prince Chivalry, grows to manhood, a legacy of magical skill and other mysterious talents propels him into the role of protector of the kingdom, if his initial perilous mission does not destroy him first. A first novel. Original.",
+    "image": "http://books.google.com/books/content?id=-_4EAAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "language": "en",
+    "averageRating": 4.5,
+    "ratingsCount": 2,
+    "categories": [
+      "Fiction"
+    ],
+    "pageCount": 356,
+    "isbn10": "0553374451",
+    "isbn13": "9780553374452",
+    "googleBooks": {
+      "id": "-_4EAAAACAAJ",
+      "preview": "http://books.google.com/books?id=-_4EAAAACAAJ&dq=intitle:Aprendiz+de+asesino+by+Robin+Hobb&hl=&cd=5&source=gbs_api",
+      "info": "http://books.google.com/books?id=-_4EAAAACAAJ&dq=intitle:Aprendiz+de+asesino+by+Robin+Hobb&hl=&source=gbs_api",
+      "canonical": "https://books.google.com/books/about/Assassin_s_Apprentice.html?hl=&id=-_4EAAAACAAJ"
+    },
+    "issueNumber": 41,
+    "progressPercent": 0,
+    "state": "completed",
+    "startedAt": "2025-07-18T09:59:03.000Z",
+    "completedAt": "2025-07-18T09:59:22.000Z",
+    "timeToComplete": 19000,
+    "timeToCompleteFormatted": "19 seconds"
+  },
+  {
     "title": "Words of Radiance",
     "authors": [
       "Brandon Sanderson"

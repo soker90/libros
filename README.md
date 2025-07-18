@@ -19,8 +19,9 @@ Filtrar por puntuación:
 [![Los jardines de la luna](https://images.weserv.nl/?url=http%3A%2F%2Fbooks.google.com%2Fbooks%2Fcontent%3Fid%3DBPbgACsuB2sC%26printsec%3Dfrontcover%26img%3D1%26zoom%3D1%26edge%3Dcurl%26source%3Dgbs_api&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/39 "Los jardines de la luna by Steven Erikson")
 [![Isabella of Spain](https://images.weserv.nl/?url=http%3A%2F%2Fbooks.google.com%2Fbooks%2Fcontent%3Fid%3DM_mwngEACAAJ%26printsec%3Dfrontcover%26img%3D1%26zoom%3D1%26source%3Dgbs_api&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/16 "Isabella of Spain by William Thomas Walsh")
 
-### ✅ Completed (12)
+### ✅ Completed (13)
 
+[![Assassin's Apprentice](https://images.weserv.nl/?url=http%3A%2F%2Fbooks.google.com%2Fbooks%2Fcontent%3Fid%3D-_4EAAAACAAJ%26printsec%3Dfrontcover%26img%3D1%26zoom%3D1%26source%3Dgbs_api&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/41 "Assassin's Apprentice by Robin Hobb completed in 19 seconds on July 2025")
 [![Words of Radiance](https://images.weserv.nl/?url=http%3A%2F%2Fbooks.google.com%2Fbooks%2Fcontent%3Fid%3DkYjqAQAAQBAJ%26printsec%3Dfrontcover%26img%3D1%26zoom%3D1%26edge%3Dcurl%26source%3Dgbs_api&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/38 "Words of Radiance by Brandon Sanderson completed in 5 months on July 2025")
 [![The Last Wish](https://images.weserv.nl/?url=http%3A%2F%2Fbooks.google.com%2Fbooks%2Fcontent%3Fid%3DqfXPGwAACAAJ%26printsec%3Dfrontcover%26img%3D1%26zoom%3D1%26source%3Dgbs_api&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/36 "The Last Wish by Andrzej Sapkowski completed in 3 months on January 2025")
 [![EL LTIMO DESEO/ THE LAST WISH.](https://images.weserv.nl/?url=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fq%3DEL%2520LTIMO%2520DESEO%252F%2520THE%2520LAST%2520WISH.%2520by%2520ANDRZEJ.%2520SAPKOWSKI%26w%3D256%26c%3D7%26rs%3D1%26p%3D0%26dpr%3D3%26pid%3D1.7%26mkt%3Den-IN%26adlt%3Dmoderate&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/37 "EL LTIMO DESEO/ THE LAST WISH. by ANDRZEJ. SAPKOWSKI completed in 26 seconds on October 2024")
