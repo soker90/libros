@@ -1,4 +1,5 @@
 import { normalizeIsbn, normalizeText, selectBestMatch } from "./book-matching.mjs";
+import { findSpanishCatalogBookByIsbn } from "./spanish-book-catalog.mjs";
 
 const GOOGLE_BOOKS_API = "https://www.googleapis.com/books/v1/volumes";
 const OPEN_LIBRARY_API = "https://openlibrary.org";
@@ -131,8 +132,12 @@ export async function findBookByIsbn(isbn) {
     return candidates.find((book) => hasIsbn(book, isbn)) || null;
   } catch (error) {
     console.warn("Open Library ISBN search failed:", error.message);
-    return null;
   }
+
+  const spanishCatalogBook = await findSpanishCatalogBookByIsbn(isbn);
+  if (spanishCatalogBook && hasIsbn(spanishCatalogBook, isbn)) return spanishCatalogBook;
+
+  return null;
 }
 
 export async function findBookByTitle(title, author = "") {
