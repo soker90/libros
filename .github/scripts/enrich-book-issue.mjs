@@ -155,9 +155,7 @@ async function main() {
   await enrichIssue(event.issue, github);
 }
 
-if (process.env.BOOK_RESOLVER_TEST !== "1") {
-  main().catch((error) => {
-    console.error(error);
-    process.exitCode = 1;
-  });
-}
+main().catch((error) => {
+  console.error(error);
+  process.exitCode = 1;
+});
