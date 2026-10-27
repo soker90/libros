@@ -8,6 +8,7 @@ const USER_AGENT = "soker90-libros/1.0 (GitHub Actions)";
 async function fetchJson(url) {
   const response = await fetch(url, {
     headers: { "User-Agent": USER_AGENT, Accept: "application/json" },
+    signal: AbortSignal.timeout(8_000),
   });
   if (!response.ok) throw new Error(`Request failed (${response.status}) for ${url}`);
   return response.json();
