@@ -206,8 +206,8 @@ async function findOpenLibraryByTitle(title, author) {
           ratingsCount: 0,
           categories: item.subject || [],
           pageCount: item.number_of_pages_median || 0,
-          isbn10: isbnList.find((value) => /^\\d{9}[\\dXx]$/.test(isbnDigits(value))),
-          isbn13: isbnList.find((value) => /^\\d{13}$/.test(isbnDigits(value))),
+          isbn10: isbnList.find((value) => /^\d{9}[\dXx]$/.test(isbnDigits(value))),
+          isbn13: isbnList.find((value) => /^\d{13}$/.test(isbnDigits(value))),
           googleBooks: {
             id: "",
             preview: key ? OPEN_LIBRARY + key : "",
@@ -228,7 +228,7 @@ async function findOpenLibraryByTitle(title, author) {
 }
 
 function slugify(value) {
-  return normalize(value).replace(/\\s+/g, "-").slice(0, 40);
+  return normalize(value).replace(/\s+/g, "-").slice(0, 40);
 }
 
 async function githubRequest(path, token, options = {}) {
