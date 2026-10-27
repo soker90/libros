@@ -2,7 +2,7 @@
 export function normalizeText(value = "") {
   return value
     .normalize("NFD")
-    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[\\u0300-\\u036f]/g, "")
     .toLowerCase()
     .replace(/[^a-z0-9]+/g, " ")
     .trim();
@@ -12,11 +12,30 @@ export function normalizeIsbn(value = "") {
   return value.replace(/[^0-9Xx]/g, "").toUpperCase();
 }
 
+/** Return equivalent ISBN-10/ISBN-13 forms for the same publication identifier. */
+export function equivalentIsbns(value = "") {
+  const isbn = normalizeIsbn(value);
+  if (/^978\\d{10}$/.test(isbn)) {
+    const stem = isbn.slice(3, 12);
+    const checksum = [...stem].reduce((sum, digit, index) => sum + Number(digit) * (10 - index), 0);
+    const checkDigit = (11 - (checksum % 11)) % 11;
+    return [isbn, `${stem}${checkDigit === 10 ? "X" : checkDigit}`];
+  }
+
+  if (/^\\d{9}[\\dX]$/.test(isbn)) {
+    const stem = `978${isbn.slice(0, 9)}`;
+    const checksum = [...stem].reduce((sum, digit, index) => sum + Number(digit) * (index % 2 ? 3 : 1), 0);
+    return [isbn, `${stem}${(10 - (checksum % 10)) % 10}`];
+  }
+
+  return [isbn];
+}
+
 /** Validate ISBN-10 and ISBN-13 checksums, not just their length. */
 export function isValidIsbn(value) {
   const isbn = normalizeIsbn(value);
 
-  if (/^\d{13}$/.test(isbn)) {
+  if (/^\\d{13}$/.test(isbn)) {
     const checksum = [...isbn].reduce(
       (sum, digit, index) => sum + Number(digit) * (index % 2 ? 3 : 1),
       0,
@@ -24,7 +43,7 @@ export function isValidIsbn(value) {
     return checksum % 10 === 0;
   }
 
-  if (/^\d{9}[\dX]$/.test(isbn)) {
+  if (/^\\d{9}[\\dX]$/.test(isbn)) {
     const checksum = [...isbn].reduce(
       (sum, digit, index) => sum + (digit === "X" ? 10 : Number(digit)) * (10 - index),
       0,
@@ -36,20 +55,20 @@ export function isValidIsbn(value) {
 }
 
 export function extractIsbn(text = "") {
-  const pattern = /(?:97[89][\s-]?(?:\d[\s-]?){10}|\d[\s-]?(?:\d[\s-]?){8}[\dXx])/g;
+  const pattern = /(?:97[89][\\s-]?(?:\\d[\\s-]?){10}|\\d[\\s-]?(?:\\d[\\s-]?){8}[\\dXx])/g;
   return (text.match(pattern) || []).map(normalizeIsbn).find(isValidIsbn) || "";
 }
 
 export function extractAuthor(body = "") {
-  const match = body.match(/^\s*(?:author|autor|by|escrito por)\s*:\s*(.+?)\s*$/im);
+  const match = body.match(/^\\s*(?:author|autor|by|escrito por)\\s*:\\s*(.+?)\\s*$/im);
   return match?.[1]?.trim() || "";
 }
 
 export function removeIsbnFromTitle(title = "") {
   return title
-    .replace(/(?:97[89][\s-]?(?:\d[\s-]?){10}|\d[\s-]?(?:\d[\s-]?){8}[\dXx])/g, " ")
-    .replace(/[()[\]{}]/g, " ")
-    .replace(/\s+/g, " ")
+    .replace(/(?:97[89][\\s-]?(?:\\d[\\s-]?){10}|\\d[\\s-]?(?:\\d[\\s-]?){8}[\\dXx])/g, " ")
+    .replace(/[()[\\]{}]/g, " ")
+    .replace(/\\s+/g, " ")
     .trim();
 }
 
