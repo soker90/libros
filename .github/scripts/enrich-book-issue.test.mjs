@@ -1,12 +1,18 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { extractIsbn, isValidIsbn, scoreAuthor, scoreTitle, selectBestMatch } from "./book-matching.mjs";
+import { equivalentIsbns, extractIsbn, isValidIsbn, scoreAuthor, scoreTitle, selectBestMatch } from "./book-matching.mjs";
 
 test("validates ISBN-13 and ISBN-10 checksums", () => {
   assert.equal(isValidIsbn("978-0-306-40615-7"), true);
   assert.equal(isValidIsbn("978-0-306-40615-8"), false);
   assert.equal(isValidIsbn("0-8044-2957-X"), true);
   assert.equal(isValidIsbn("0-8044-2957-1"), false);
+});
+
+test("converts equivalent ISBN-10 and ISBN-13 identifiers", () => {
+  assert.deepEqual(equivalentIsbns("9788445018910"), ["9788445018910", "8445018914"]);
+  assert.deepEqual(equivalentIsbns("8445018914"), ["8445018914", "9788445018910"]);
+  assert.deepEqual(equivalentIsbns("9780306406157"), ["9780306406157", "0306406152"]);
 });
 
 test("extracts an ISBN from an issue title or body text", () => {
