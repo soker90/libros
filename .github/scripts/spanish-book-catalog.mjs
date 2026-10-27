@@ -60,9 +60,7 @@ export function parseSpanishCatalogBook(html, requestedIsbn, sourceUrl) {
     return ids.some((value) => normalizeIsbn(String(value)) === wanted);
   });
 
-  const visibleIsbns = [...html.matchAll(/(?:ISBN|EAN)[^<]{0,80}?(97[89][\d\s-]{10,20}|\d[\d\s-]{8,20}[\dXx])/gi)]
-    .map(([, value]) => normalizeIsbn(value));
-  const hasExactIsbn = Boolean(record) || visibleIsbns.includes(wanted);
+  const hasExactIsbn = Boolean(record) || normalizeIsbn(html).includes(wanted);
   if (!hasExactIsbn) return null;
 
   const title = record?.name || stripTags(html.match(/<h1\b[^>]*>([\s\S]*?)<\/h1>/i)?.[1] || "") || getMeta(html, "og:title");
@@ -125,7 +123,7 @@ export async function findSpanishCatalogBookByIsbn(isbn) {
 
   try {
     const html = await fetchText(url.toString());
-    const links = [...html.matchAll(/href=["']((?:https?:\\/\\/www\\.planetadelibros\\.com)?\/libro-[^"'#?]+\/\d+)["']/gi)]
+    const links = [...html.matchAll(/href=["']([^"'#?]*\/libro-[^"'#?]+\/\d+)["']/gi)]
       .map(([, path]) => new URL(path, "https://www.planetadelibros.com").toString());
     const candidates = [...new Set(links)].slice(0, 8);
 
