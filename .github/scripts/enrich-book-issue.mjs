@@ -250,7 +250,7 @@ async function main() {
     if (Number.isFinite(year) && year > 0) labels.push(`year: ${year}`, `decade: ${Math.floor(year / 10) * 10}s`);
   }
   if (book.language) labels.push(`language: ${slugify(book.language)}`);
-  if (book.publisher) labels.push(`publisher: ${slugify(book.publisher)`);
+  if (book.publisher) labels.push(`publisher: ${slugify(book.publisher)}`);
 
   const details = { ...book, ...(isbn ? { requestedIsbn: isbn } : {}), metadataSource: isbn && book.isbn10 && isbnDigits(book.isbn10) === isbn ? "Google Books/Open Library ISBN match" : "Google Books title/author match" };
   const sourceName = book.googleBooks?.id ? "Google Books" : "Open Library";
