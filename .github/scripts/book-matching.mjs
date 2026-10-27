@@ -12,6 +12,25 @@ export function normalizeIsbn(value = "") {
   return value.replace(/[^0-9Xx]/g, "").toUpperCase();
 }
 
+/** Return equivalent ISBN-10/ISBN-13 forms for the same publication identifier. */
+export function equivalentIsbns(value = "") {
+  const isbn = normalizeIsbn(value);
+  if (/^978\d{10}$/.test(isbn)) {
+    const stem = isbn.slice(3, 12);
+    const checksum = [...stem].reduce((sum, digit, index) => sum + Number(digit) * (10 - index), 0);
+    const checkDigit = (11 - (checksum % 11)) % 11;
+    return [isbn, `${stem}${checkDigit === 10 ? "X" : checkDigit}`];
+  }
+
+  if (/^\d{9}[\dX]$/.test(isbn)) {
+    const stem = `978${isbn.slice(0, 9)}`;
+    const checksum = [...stem].reduce((sum, digit, index) => sum + Number(digit) * (index % 2 ? 3 : 1), 0);
+    return [isbn, `${stem}${(10 - (checksum % 10)) % 10}`];
+  }
+
+  return [isbn];
+}
+
 /** Validate ISBN-10 and ISBN-13 checksums, not just their length. */
 export function isValidIsbn(value) {
   const isbn = normalizeIsbn(value);
