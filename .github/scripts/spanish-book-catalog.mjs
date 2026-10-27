@@ -114,37 +114,73 @@ async function fetchText(url) {
   return response.text();
 }
 
+function extractPublisherLinks(html) {
+  const decoded = decodeHtml(html).replace(/\\u0026/g, "&").replace(/\\\//g, "/");
+  const links = [...decoded.matchAll(/(?:href|url)=["']([^"'<>]+)["']/gi)]
+    .map(([, value]) => {
+      let candidate = value;
+      try {
+        const parsed = new URL(candidate, "https://www.planetadelibros.com");
+        if (parsed.hostname.includes("google.") && parsed.pathname === "/url") {
+          candidate = parsed.searchParams.get("q") || parsed.searchParams.get("url") || candidate;
+        }
+      } catch {
+        // Ignore malformed links.
+      }
+      try {
+        const parsed = new URL(candidate, "https://www.planetadelibros.com");
+        if (parsed.hostname === "www.planetadelibros.com" && /\/libro-[^/]+\/\d+\/?$/.test(parsed.pathname)) {
+          return parsed.toString();
+        }
+      } catch {
+        // Ignore malformed links.
+      }
+      return "";
+    })
+    .filter(Boolean);
+  return [...new Set(links)];
+}
+
 /**
  * Last-resort lookup in the Spanish publisher catalog. A page is accepted only
  * if its structured data or visible ISBN explicitly matches the requested ISBN.
  */
 export async function findSpanishCatalogBookByIsbn(isbn) {
-  const url = new URL(CATALOG_SEARCH_URL);
-  url.searchParams.set("textoBuscador", isbn);
-  url.searchParams.set("details", "true");
-  url.searchParams.set("pa", "1");
-  url.searchParams.set("pb", "20");
-  url.searchParams.set("pp", "20");
-
-  try {
-    const html = await fetchText(url.toString());
-    const links = [...html.matchAll(/href=["']([^"'#?]*\/libro-[^"'#?]+\/\d+)["']/gi)]
-      .map(([, path]) => new URL(path, "https://www.planetadelibros.com").toString());
-    const candidates = [...new Set(links)].slice(0, 8);
-
-    for (const pageUrl of candidates) {
-      try {
-        const page = await fetchText(pageUrl);
-        const book = parseSpanishCatalogBook(page, isbn, pageUrl);
-        if (book) return book;
-      } catch (error) {
-        console.warn("Spanish publisher catalog page lookup failed:", error.message);
-      }
-    }
-
-    return null;
-  } catch (error) {
-    console.warn("Spanish publisher catalog ISBN lookup failed:", error.message);
-    return null;
+  const identifiers = equivalentIsbns(isbn);
+  const searchUrls = [];
+  for (const key of ["textoBuscador", "q", "query", "search", "isbn"]) {
+    const url = new URL(CATALOG_SEARCH_URL);
+    url.searchParams.set(key, isbn);
+    url.searchParams.set("details", "true");
+    url.searchParams.set("pa", "1");
+    url.searchParams.set("pb", "20");
+    url.searchParams.set("pp", "20");
+    searchUrls.push(url.toString());
   }
+  for (const identifier of identifiers) {
+    searchUrls.push("https://www.google.com/search?q=" + encodeURIComponent("site:planetadelibros.com/libro- " + identifier));
+  }
+
+  const candidates = [];
+  for (const searchUrl of searchUrls) {
+    try {
+      candidates.push(...extractPublisherLinks(await fetchText(searchUrl)));
+    } catch (error) {
+      console.warn("Spanish publisher catalog search failed:", error.message);
+    }
+    if (candidates.length >= 12) break;
+  }
+
+  for (const pageUrl of [...new Set(candidates)].slice(0, 12)) {
+    try {
+      const page = await fetchText(pageUrl);
+      const book = parseSpanishCatalogBook(page, isbn, pageUrl);
+      if (book) return book;
+    } catch (error) {
+      console.warn("Spanish publisher catalog page lookup failed:", error.message);
+    }
+  }
+
+  console.warn("Spanish publisher catalog returned no exact match for ISBN " + isbn + " after checking " + candidates.length + " candidate links.");
+  return null;
 }
