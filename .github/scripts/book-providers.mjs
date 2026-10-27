@@ -129,7 +129,8 @@ export async function findBookByIsbn(isbn) {
     const params = new URLSearchParams({ isbn, limit: "20" });
     const data = await fetchJson(`${OPEN_LIBRARY_API}/search.json?${params.toString()}`);
     const candidates = (data.docs || []).map(normalizeOpenLibrarySearchBook);
-    return candidates.find((book) => hasIsbn(book, isbn)) || null;
+    const exactMatch = candidates.find((book) => hasIsbn(book, isbn));
+    if (exactMatch) return exactMatch;
   } catch (error) {
     console.warn("Open Library ISBN search failed:", error.message);
   }
