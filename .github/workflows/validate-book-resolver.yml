@@ -6,7 +6,7 @@ on:
       - improve-isbn-book-matching
   pull_request:
     paths:
-      - ".github/scripts/enrich-book-issue.mjs"
+      - ".github/scripts/**"
       - ".github/workflows/bookshelf-new-issue.yml"
       - ".github/workflows/validate-book-resolver.yml"
 
@@ -14,18 +14,19 @@ permissions:
   contents: read
 
 jobs:
-  syntax:
+  test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4.2.2
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v4.4.0
         with:
           node-version: 24
-      - name: Check resolver syntax
+      - name: Check JavaScript syntax
         run: |
+          node --check .github/scripts/book-matching.mjs
+          node --check .github/scripts/book-providers.mjs
+          node --check .github/scripts/github-issues.mjs
           node --check .github/scripts/enrich-book-issue.mjs
           node --check .github/scripts/enrich-book-issue.test.mjs
-      - name: Test ISBN and candidate matching
+      - name: Test book matching utilities
         run: node --test .github/scripts/enrich-book-issue.test.mjs
-        env:
-          BOOK_RESOLVER_TEST: "1"
