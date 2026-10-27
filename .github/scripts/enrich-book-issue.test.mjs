@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { authorScore, extractIsbn, isValidIsbn, titleScore } from "./enrich-book-issue.mjs";
+import { extractIsbn, isValidIsbn, scoreAuthor, scoreTitle, selectBestMatch } from "./book-matching.mjs";
 
 test("validates ISBN-13 and ISBN-10 checksums", () => {
   assert.equal(isValidIsbn("978-0-306-40615-7"), true);
@@ -16,12 +16,12 @@ test("extracts an ISBN from an issue title or body text", () => {
 });
 
 test("normalizes accents and punctuation when comparing titles", () => {
-  assert.equal(titleScore("El hombre que era Jueves", "El hombre que era jueves"), 12);
-  assert.ok(titleScore("The Last Wish", "The Last Wish: Introducing the Witcher") > 0);
+  assert.equal(scoreTitle("El hombre que era Jueves", "El hombre que era jueves"), 12);
+  assert.ok(scoreTitle("The Last Wish", "The Last Wish: Introducing the Witcher") > 0);
 });
 
 test("author match strongly affects candidate ranking", () => {
-  assert.equal(authorScore("J. R. R. Tolkien", ["J. R. R. Tolkien"]), 7);
-  assert.equal(authorScore("Ursula Le Guin", ["J. R. R. Tolkien"]), -3);
-  assert.equal(authorScore("", ["J. R. R. Tolkien"]), 0);
+  assert.equal(scoreAuthor("J. R. R. Tolkien", ["J. R. R. Tolkien"]), 7);
+  assert.equal(scoreAuthor("Ursula Le Guin", ["J. R. R. Tolkien"]), -3);
+  assert.equal(scoreAuthor("", ["J. R. R. Tolkien"]), 0);
 });
