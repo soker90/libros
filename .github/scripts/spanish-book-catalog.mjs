@@ -1,6 +1,6 @@
 import { normalizeIsbn } from "./book-matching.mjs";
 
-const CATALOG_SEARCH_URL = "https://www.planetadelibros.com/busqueda";
+const CATALOG_SEARCH_URL = "https://www.planetadelibros.com/blog/listas-y-tops-literarios";
 const USER_AGENT = "soker90-libros/1.0 (GitHub Actions)";
 
 function decodeHtml(value = "") {
@@ -139,8 +139,7 @@ export async function findSpanishCatalogBookByIsbn(isbn) {
       }
     }
 
-    // Some catalog search responses render a single matching book directly.
-    return parseSpanishCatalogBook(html, isbn, url.toString());
+    return null;
   } catch (error) {
     console.warn("Spanish publisher catalog ISBN lookup failed:", error.message);
     return null;
