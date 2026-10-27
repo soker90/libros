@@ -1,4 +1,4 @@
-import { normalizeIsbn, normalizeText, selectBestMatch } from "./book-matching.mjs";
+import { equivalentIsbns, normalizeIsbn, normalizeText, selectBestMatch } from "./book-matching.mjs";
 import { findSpanishCatalogBookByIsbn } from "./spanish-book-catalog.mjs";
 
 const GOOGLE_BOOKS_API = "https://www.googleapis.com/books/v1/volumes";
@@ -96,8 +96,11 @@ function normalizeOpenLibrarySearchBook(item) {
 }
 
 function hasIsbn(book, isbn) {
+  const requestedForms = equivalentIsbns(isbn);
   return [book.isbn10, book.isbn13]
-    .some((candidate) => candidate && normalizeIsbn(candidate) === normalizeIsbn(isbn));
+    .filter(Boolean)
+    .flatMap(equivalentIsbns)
+    .some((candidate) => requestedForms.includes(candidate));
 }
 
 async function searchGoogleBooks(query) {
