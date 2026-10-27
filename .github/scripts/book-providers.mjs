@@ -144,17 +144,19 @@ export async function findBookByTitle(title, author = "") {
     }
   }
 
-  const googleMatch = selectBestMatch([...candidates.values()], title, author);
-  if (googleMatch) return googleMatch;
-
   try {
     const params = new URLSearchParams({ title, limit: "20" });
     if (author) params.set("author", author);
     const data = await fetchJson(`${OPEN_LIBRARY_API}/search.json?${params.toString()}`);
     const openLibraryBooks = (data.docs || []).map(normalizeOpenLibrarySearchBook);
-    return selectBestMatch(openLibraryBooks, title, author);
+
+    for (const book of openLibraryBooks) {
+      const key = book.googleBooks.info || `${normalizeText(book.title)}:${book.authors.map(normalizeText).join(",")}`;
+      if (!candidates.has(key)) candidates.set(key, book);
+    }
   } catch (error) {
     console.warn("Open Library title lookup failed:", error.message);
-    return null;
   }
+
+  return selectBestMatch([...candidates.values()], title, author);
 }
