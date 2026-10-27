@@ -25,3 +25,14 @@ test("author match strongly affects candidate ranking", () => {
   assert.equal(scoreAuthor("Ursula Le Guin", ["J. R. R. Tolkien"]), -3);
   assert.equal(scoreAuthor("", ["J. R. R. Tolkien"]), 0);
 });
+
+test("selects the best title and author match and rejects weak candidates", () => {
+  const books = [
+    { title: "The Last Wish", authors: ["Andrzej Sapkowski"] },
+    { title: "The Last Wish", authors: ["Another Author"] },
+    { title: "Last Wishes", authors: ["Another Author"] },
+  ];
+
+  assert.equal(selectBestMatch(books, "The Last Wish", "Andrzej Sapkowski"), books[0]);
+  assert.equal(selectBestMatch(books, "Completely Different Title"), null);
+});
