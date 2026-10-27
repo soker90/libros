@@ -109,6 +109,7 @@ export function parseSpanishCatalogBook(html, requestedIsbn, sourceUrl) {
 async function fetchText(url) {
   const response = await fetch(url, {
     headers: { "User-Agent": USER_AGENT, Accept: "text/html,application/xhtml+xml" },
+    signal: AbortSignal.timeout(8_000),
   });
   if (!response.ok) throw new Error(`Request failed (${response.status}) for ${url}`);
   return response.text();
