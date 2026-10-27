@@ -56,7 +56,11 @@ function getMetadataSource(book, requestedIsbn) {
 }
 
 function createBookComment(book, { isbn, author }) {
-  const sourceName = book.googleBooks?.id ? "Google Books" : "Open Library";
+  const sourceName = book.googleBooks?.id
+    ? "Google Books"
+    : book.googleBooks?.info?.includes("planetadelibros.com")
+      ? "PlanetadeLibros"
+      : "Open Library";
   const sourceUrl = book.googleBooks?.info || book.googleBooks?.canonical;
   const coverMissing = book.image === NO_COVER_IMAGE;
   const matchDescription = isbn
@@ -103,7 +107,7 @@ async function resolveBook({ isbn, title, author }, github, issueNumber) {
     await commentAndFail(
       github,
       issueNumber,
-      `I couldn't find an exact edition for ISBN ${isbn} in Google Books or Open Library. I haven't selected a different edition or guessed a cover. Check the ISBN or add the book details manually, then create a new issue to retry.`,
+      `I couldn't find an exact edition for ISBN ${isbn} in Google Books, Open Library, or the Spanish publisher catalog. I haven't selected a different edition or guessed a cover. Check the ISBN or add the book details manually, then create a new issue to retry.`,
     );
   }
 

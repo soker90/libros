@@ -120,6 +120,9 @@ export async function findSpanishCatalogBookByIsbn(isbn) {
   const url = new URL(CATALOG_SEARCH_URL);
   url.searchParams.set("textoBuscador", isbn);
   url.searchParams.set("details", "true");
+  url.searchParams.set("pa", "1");
+  url.searchParams.set("pb", "20");
+  url.searchParams.set("pp", "20");
 
   try {
     const html = await fetchText(url.toString());
