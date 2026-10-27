@@ -1,0 +1,25 @@
+name: Validate book metadata resolver
+
+on:
+  push:
+    branches:
+      - improve-isbn-book-matching
+  pull_request:
+    paths:
+      - ".github/scripts/enrich-book-issue.mjs"
+      - ".github/workflows/bookshelf-new-issue.yml"
+      - ".github/workflows/validate-book-resolver.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  syntax:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4.2.2
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - name: Check resolver syntax
+        run: node --check .github/scripts/enrich-book-issue.mjs
