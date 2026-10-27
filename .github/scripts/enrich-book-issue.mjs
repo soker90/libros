@@ -230,11 +230,21 @@ async function main() {
 
   let book = isbn ? await findByIsbn(isbn) : null;
   if (isbn && !book) {
-    throw new Error(`No exact edition found for ISBN ${isbn}. No unrelated edition or cover was selected; add the book details manually or retry later.`);
+    const message = `I couldn't find an exact edition for ISBN ${isbn} in Google Books or Open Library. I haven't selected a different edition or guessed a cover. Check the ISBN or add the book details manually, then close and reopen this issue to retry.`;
+    await githubRequest(`/issues/${issue.number}/comments`, token, {
+      method: "POST",
+      body: JSON.stringify({ body: message }),
+    });
+    throw new Error(message);
   }
   if (!book) book = await findByTitle(title, author);
   if (!book) {
-    throw new Error(`No sufficiently reliable match found for "${title}"${author ? ` by ${author}` : ""}. Please add an ISBN or an "Author: Name" line to the issue body.`);
+    const message = `I couldn't find a sufficiently reliable match for "${title}"${author ? ` by ${author}` : ""}. Add the ISBN to the issue title or body, or add an "Author: Name" line to the body, then close and reopen this issue to retry.`;
+    await githubRequest(`/issues/${issue.number}/comments`, token, {
+      method: "POST",
+      body: JSON.stringify({ body: message }),
+    });
+    throw new Error(message);
   }
 
   if (!book.image) book.image = "https://placehold.co/128x196?text=No+cover";
