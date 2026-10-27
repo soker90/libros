@@ -46,7 +46,7 @@ function normalizeGoogleBook(item) {
   };
 }
 
-function normalizeOpenLibraryIsbnBook(item, requestedIsbn) {
+export function normalizeOpenLibraryIsbnBook(item) {
   const identifiers = item.identifiers || {};
   return {
     title: item.title || "",
@@ -60,8 +60,8 @@ function normalizeOpenLibraryIsbnBook(item, requestedIsbn) {
     ratingsCount: 0,
     categories: (item.subjects || []).map((subject) => subject.name).filter(Boolean),
     pageCount: item.number_of_pages || 0,
-    isbn10: identifiers.isbn_10?.[0] || (/^\d{9}[\dX]$/.test(requestedIsbn) ? requestedIsbn : undefined),
-    isbn13: identifiers.isbn_13?.[0] || (/^\d{13}$/.test(requestedIsbn) ? requestedIsbn : undefined),
+    isbn10: identifiers.isbn_10?.[0] ? normalizeIsbn(identifiers.isbn_10[0]) : undefined,
+    isbn13: identifiers.isbn_13?.[0] ? normalizeIsbn(identifiers.isbn_13[0]) : undefined,
     googleBooks: {
       id: "",
       preview: item.url || "",
@@ -134,7 +134,7 @@ export async function findBookByIsbn(isbn) {
       const url = `${OPEN_LIBRARY_API}/api/books?bibkeys=${encodeURIComponent(key)}&format=json&jscmd=data`;
       const data = await fetchJson(url);
       if (data[key]) {
-        const book = normalizeOpenLibraryIsbnBook(data[key], identifier);
+        const book = normalizeOpenLibraryIsbnBook(data[key]);
         if (hasIsbn(book, isbn)) return book;
       }
     } catch (error) {
