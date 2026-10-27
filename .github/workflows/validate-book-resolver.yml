@@ -1,0 +1,32 @@
+name: Validate book metadata resolver
+
+on:
+  push:
+    branches:
+      - improve-isbn-book-matching
+  pull_request:
+    paths:
+      - ".github/scripts/**"
+      - ".github/workflows/bookshelf-new-issue.yml"
+      - ".github/workflows/validate-book-resolver.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4.2.2
+      - uses: actions/setup-node@v4.4.0
+        with:
+          node-version: 24
+      - name: Check JavaScript syntax
+        run: |
+          node --check .github/scripts/book-matching.mjs
+          node --check .github/scripts/book-providers.mjs
+          node --check .github/scripts/github-issues.mjs
+          node --check .github/scripts/enrich-book-issue.mjs
+          node --check .github/scripts/enrich-book-issue.test.mjs
+      - name: Test book matching utilities
+        run: node --test .github/scripts/enrich-book-issue.test.mjs

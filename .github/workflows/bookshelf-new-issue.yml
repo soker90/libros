@@ -2,9 +2,12 @@ name: "Bookshelf Action: New Issue"
 on:
   issues:
     types: [opened]
+permissions:
+  contents: write
+  issues: write
 jobs:
   bookshelf-action:
-    name: Bookshelf Action
+    name: Resolve book metadata and update bookshelf
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -12,10 +15,15 @@ jobs:
         with:
           ref: ${{ github.head_ref }}
           token: ${{ secrets.GITHUB_TOKEN }}
-      - name: Run Bookshelf Action
-        uses: AnandChowdhary/bookshelf-action@HEAD
-        with:
-          command: "onNewIssue"
+      - name: Validate resolver syntax
+        run: node --check .github/scripts/enrich-book-issue.mjs
+      - name: Resolve book metadata
+        run: node .github/scripts/enrich-book-issue.mjs
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          
+      - name: Regenerate bookshelf summary and API
+        uses: AnandChowdhary/bookshelf-action@HEAD
+        with:
+          command: "updateSummary"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
