@@ -134,6 +134,13 @@ async function enrichIssue(issue, github) {
 
   await github.addComment(issueNumber, createBookComment(book, search));
 
+  const resolvedTitle = book.authors.length
+    ? `${book.title} by ${book.authors.join(", ")}`
+    : book.title;
+  if (resolvedTitle !== issue.title) {
+    await github.updateIssueTitle(issueNumber, resolvedTitle);
+  }
+
   const labels = createBookLabels(book);
   for (const label of labels) {
     await github.ensureLabel(label);
