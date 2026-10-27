@@ -125,7 +125,7 @@ export async function findSpanishCatalogBookByIsbn(isbn) {
 
   try {
     const html = await fetchText(url.toString());
-    const links = [...html.matchAll(/href=["'](\/libro-[^"'#?]+\/\d+)["']/gi)]
+    const links = [...html.matchAll(/href=["']((?:https?:\\/\\/www\\.planetadelibros\\.com)?\/libro-[^"'#?]+\/\d+)["']/gi)]
       .map(([, path]) => new URL(path, "https://www.planetadelibros.com").toString());
     const candidates = [...new Set(links)].slice(0, 8);
 
