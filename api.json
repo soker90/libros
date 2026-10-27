@@ -1,5 +1,36 @@
 [
   {
+    "isbn10": "8445018914",
+    "isbn13": "9788445018910",
+    "title": "Ciclo Pendragon nº 02/06 Merlín",
+    "authors": [
+      "Stephen R. Lawhead"
+    ],
+    "publisher": "Minotauro",
+    "publishedDate": "2025-07-02",
+    "description": "Merlín deberá hacer realidad el Reino del Verano y superar duras pruebas que pondrán a prueba su espíritu, su cuerpo y su mente.",
+    "image": "https://www.planetadelibros.com/usuaris/libros/fotos/405/original/portada_ciclo-pendragon-n-0206-merlin_stephen-r-lawhead_202505280841.jpg",
+    "language": "es",
+    "averageRating": 0,
+    "ratingsCount": 0,
+    "categories": [
+      "Fantasía"
+    ],
+    "pageCount": 480,
+    "googleBooks": {
+      "id": "",
+      "preview": "https://www.planetadelibros.com/libro-ciclo-pendragon-n-0206-merlin/404233",
+      "info": "https://www.planetadelibros.com/libro-ciclo-pendragon-n-0206-merlin/404233",
+      "canonical": "https://www.planetadelibros.com/libro-ciclo-pendragon-n-0206-merlin/404233"
+    },
+    "requestedIsbn": "9788445018910",
+    "metadataSource": "ISBN match",
+    "issueNumber": 54,
+    "progressPercent": 0,
+    "state": "reading",
+    "startedAt": "2026-10-27T15:33:06.000Z"
+  },
+  {
     "title": "Los jardines de la luna",
     "authors": [
       "Steven Erikson"
