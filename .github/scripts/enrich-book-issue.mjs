@@ -40,9 +40,9 @@ function extractAuthor(body = "") {
 function stripIsbn(title, isbn) {
   if (!isbn) return title.trim();
   return title
-    .replace(/(?:97[89][\\s-]?(?:\\d[\\s-]?){10}|\\d[\\s-]?(?:\\d[\\s-]?){8}[\\dXx])/g, " ")
-    .replace(/[()[\\]{}]/g, " ")
-    .replace(/\\s+/g, " ")
+    .replace(/(?:97[89][\s-]?(?:\d[\s-]?){10}|\d[\s-]?(?:\d[\s-]?){8}[\dXx])/g, " ")
+    .replace(/[()[\]{}]/g, " ")
+    .replace(/\s+/g, " ")
     .trim();
 }
 
