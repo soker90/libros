@@ -129,7 +129,7 @@ function extractPublisherLinks(html) {
       }
       try {
         const parsed = new URL(candidate, "https://www.planetadelibros.com");
-        if (parsed.hostname === "www.planetadelibros.com" && /\\/libro-[^/]+\\/\\d+\\/?$/.test(parsed.pathname)) {
+        if (parsed.hostname === "www.planetadelibros.com" && /\/libro-[^/]+\/\d+\/?$/.test(parsed.pathname)) {
           return parsed.toString();
         }
       } catch {
