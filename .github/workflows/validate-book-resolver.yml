@@ -26,7 +26,6 @@ jobs:
           node --check .github/scripts/book-matching.mjs
           node --check .github/scripts/book-providers.mjs
           node --check .github/scripts/spanish-book-catalog.mjs
-          node --check .github/scripts/spanish-book-catalog.mjs
           node --check .github/scripts/spanish-book-catalog.test.mjs
           node --check .github/scripts/github-issues.mjs
           node --check .github/scripts/enrich-book-issue.mjs
