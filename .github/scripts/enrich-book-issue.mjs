@@ -277,7 +277,7 @@ async function main() {
 
   let book = isbn ? await findByIsbn(isbn) : null;
   if (isbn && !book) {
-    const message = `I couldn't find an exact edition for ISBN ${isbn} in Google Books or Open Library. I haven't selected a different edition or guessed a cover. Check the ISBN or add the book details manually, then close and reopen this issue to retry.`;
+    const message = `I couldn't find an exact edition for ISBN ${isbn} in Google Books or Open Library. I haven't selected a different edition or guessed a cover. Check the ISBN or add the book details manually, then create a new issue to retry.`;
     await githubRequest(`/issues/${issue.number}/comments`, token, {
       method: "POST",
       body: JSON.stringify({ body: message }),
@@ -287,7 +287,7 @@ async function main() {
   if (!book) book = await findByTitle(title, author);
   if (!book) book = await findOpenLibraryByTitle(title, author);
   if (!book) {
-    const message = `I couldn't find a sufficiently reliable match for "${title}"${author ? ` by ${author}` : ""}. Add the ISBN to the issue title or body, or add an "Author: Name" line to the body, then close and reopen this issue to retry.`;
+    const message = `I couldn't find a sufficiently reliable match for "${title}"${author ? ` by ${author}` : ""}. Add the ISBN to the issue title or body, or add an "Author: Name" line to the body, then create a new issue to retry.`;
     await githubRequest(`/issues/${issue.number}/comments`, token, {
       method: "POST",
       body: JSON.stringify({ body: message }),
