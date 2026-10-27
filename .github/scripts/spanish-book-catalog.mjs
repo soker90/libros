@@ -1,6 +1,6 @@
-import { normalizeIsbn } from "./book-matching.mjs";
+import { equivalentIsbns, normalizeIsbn } from "./book-matching.mjs";
 
-const CATALOG_SEARCH_URL = "https://www.planetadelibros.com/blog/listas-y-tops-literarios";
+const CATALOG_SEARCH_URL = "https://www.planetadelibros.com/buscar";
 const USER_AGENT = "soker90-libros/1.0 (GitHub Actions)";
 
 function decodeHtml(value = "") {
@@ -51,17 +51,19 @@ function getJsonLdBooks(html) {
 
 /** Parse a publisher-catalog page only when it explicitly contains the requested ISBN. */
 export function parseSpanishCatalogBook(html, requestedIsbn, sourceUrl) {
-  const wanted = normalizeIsbn(requestedIsbn);
+  const wantedForms = equivalentIsbns(requestedIsbn);
   const records = getJsonLdBooks(html);
   const record = records.find((item) => {
     const ids = [item.isbn, item.productID, item.identifier]
       .flat()
       .filter((value) => typeof value === "string" || typeof value === "number");
-    return ids.some((value) => normalizeIsbn(String(value)) === wanted);
+    return ids.some((value) => wantedForms.includes(normalizeIsbn(String(value))));
   });
 
-  const hasExactIsbn = Boolean(record) || normalizeIsbn(html).includes(wanted);
+  const normalizedHtml = normalizeIsbn(html);
+  const hasExactIsbn = Boolean(record) || wantedForms.some((candidate) => normalizedHtml.includes(candidate));
   if (!hasExactIsbn) return null;
+  const wanted = normalizeIsbn(requestedIsbn);
 
   const title = record?.name || stripTags(html.match(/<h1\b[^>]*>([\s\S]*?)<\/h1>/i)?.[1] || "") || getMeta(html, "og:title");
   if (!title) return null;
