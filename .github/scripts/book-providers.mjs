@@ -1,4 +1,4 @@
-import { normalizeIsbn, normalizeText, selectBestMatch } from "./book-matching.mjs";
+import { equivalentIsbns, normalizeIsbn, normalizeText, selectBestMatch } from "./book-matching.mjs";
 import { findSpanishCatalogBookByIsbn } from "./spanish-book-catalog.mjs";
 
 const GOOGLE_BOOKS_API = "https://www.googleapis.com/books/v1/volumes";
@@ -96,8 +96,11 @@ function normalizeOpenLibrarySearchBook(item) {
 }
 
 function hasIsbn(book, isbn) {
+  const requestedForms = equivalentIsbns(isbn);
   return [book.isbn10, book.isbn13]
-    .some((candidate) => candidate && normalizeIsbn(candidate) === normalizeIsbn(isbn));
+    .filter(Boolean)
+    .flatMap(equivalentIsbns)
+    .some((candidate) => requestedForms.includes(candidate));
 }
 
 async function searchGoogleBooks(query) {
@@ -108,31 +111,42 @@ async function searchGoogleBooks(query) {
 
 /** Return only an exact ISBN match; never silently substitute another edition. */
 export async function findBookByIsbn(isbn) {
-  try {
-    const candidates = await searchGoogleBooks(`isbn:${isbn}`);
-    const exactMatch = candidates.find((book) => hasIsbn(book, isbn));
-    if (exactMatch) return exactMatch;
-  } catch (error) {
-    console.warn("Google Books ISBN lookup failed:", error.message);
+  const identifiers = equivalentIsbns(isbn);
+
+  for (const identifier of identifiers) {
+    try {
+      const candidates = await searchGoogleBooks(`isbn:${identifier}`);
+      const exactMatch = candidates.find((book) => hasIsbn(book, isbn));
+      if (exactMatch) return exactMatch;
+    } catch (error) {
+      console.warn(`Google Books ISBN lookup failed for ${identifier}:`, error.message);
+    }
   }
 
-  const key = `ISBN:${isbn}`;
-  try {
-    const url = `${OPEN_LIBRARY_API}/api/books?bibkeys=${encodeURIComponent(key)}&format=json&jscmd=data`;
-    const data = await fetchJson(url);
-    if (data[key]) return normalizeOpenLibraryIsbnBook(data[key], isbn);
-  } catch (error) {
-    console.warn("Open Library ISBN record lookup failed:", error.message);
+  for (const identifier of identifiers) {
+    const key = `ISBN:${identifier}`;
+    try {
+      const url = `${OPEN_LIBRARY_API}/api/books?bibkeys=${encodeURIComponent(key)}&format=json&jscmd=data`;
+      const data = await fetchJson(url);
+      if (data[key]) {
+        const book = normalizeOpenLibraryIsbnBook(data[key], identifier);
+        if (hasIsbn(book, isbn)) return book;
+      }
+    } catch (error) {
+      console.warn(`Open Library ISBN record lookup failed for ${identifier}:`, error.message);
+    }
   }
 
-  try {
-    const params = new URLSearchParams({ isbn, limit: "20" });
-    const data = await fetchJson(`${OPEN_LIBRARY_API}/search.json?${params.toString()}`);
-    const candidates = (data.docs || []).map(normalizeOpenLibrarySearchBook);
-    const exactMatch = candidates.find((book) => hasIsbn(book, isbn));
-    if (exactMatch) return exactMatch;
-  } catch (error) {
-    console.warn("Open Library ISBN search failed:", error.message);
+  for (const identifier of identifiers) {
+    try {
+      const params = new URLSearchParams({ isbn: identifier, limit: "20" });
+      const data = await fetchJson(`${OPEN_LIBRARY_API}/search.json?${params.toString()}`);
+      const candidates = (data.docs || []).map(normalizeOpenLibrarySearchBook);
+      const exactMatch = candidates.find((book) => hasIsbn(book, isbn));
+      if (exactMatch) return exactMatch;
+    } catch (error) {
+      console.warn(`Open Library ISBN search failed for ${identifier}:`, error.message);
+    }
   }
 
   const spanishCatalogBook = await findSpanishCatalogBookByIsbn(isbn);
