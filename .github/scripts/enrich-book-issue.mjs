@@ -342,7 +342,11 @@ async function main() {
   console.log(`Resolved issue #${issue.number} to "${book.title}"${isbn ? ` using ISBN ${isbn}` : ""}`);
 }
 
-main().catch((error) => {
-  console.error(error);
-  process.exitCode = 1;
-});
+export { isValidIsbn, extractIsbn, titleScore, authorScore };
+
+if (process.env.BOOK_RESOLVER_TEST !== "1") {
+  main().catch((error) => {
+    console.error(error);
+    process.exitCode = 1;
+  });
+}
