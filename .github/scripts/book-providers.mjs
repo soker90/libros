@@ -115,13 +115,22 @@ export async function findBookByIsbn(isbn) {
     console.warn("Google Books ISBN lookup failed:", error.message);
   }
 
+  const key = `ISBN:${isbn}`;
   try {
-    const key = `ISBN:${isbn}`;
     const url = `${OPEN_LIBRARY_API}/api/books?bibkeys=${encodeURIComponent(key)}&format=json&jscmd=data`;
     const data = await fetchJson(url);
-    return data[key] ? normalizeOpenLibraryIsbnBook(data[key], isbn) : null;
+    if (data[key]) return normalizeOpenLibraryIsbnBook(data[key], isbn);
   } catch (error) {
-    console.warn("Open Library ISBN lookup failed:", error.message);
+    console.warn("Open Library ISBN record lookup failed:", error.message);
+  }
+
+  try {
+    const params = new URLSearchParams({ isbn, limit: "20" });
+    const data = await fetchJson(`${OPEN_LIBRARY_API}/search.json?${params.toString()}`);
+    const candidates = (data.docs || []).map(normalizeOpenLibrarySearchBook);
+    return candidates.find((book) => hasIsbn(book, isbn)) || null;
+  } catch (error) {
+    console.warn("Open Library ISBN search failed:", error.message);
     return null;
   }
 }

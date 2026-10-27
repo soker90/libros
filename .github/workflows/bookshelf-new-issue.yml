@@ -1,7 +1,7 @@
 name: "Bookshelf Action: New Issue"
 on:
   issues:
-    types: [opened]
+    types: [opened, reopened]
 permissions:
   contents: write
   issues: write
