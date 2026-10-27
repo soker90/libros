@@ -2,6 +2,7 @@ import test from "node:test";
 import assert from "node:assert/strict";
 import { equivalentIsbns, extractIsbn, isValidIsbn, scoreAuthor, scoreTitle, selectBestMatch } from "./book-matching.mjs";
 import { findVerifiedBookOverride } from "./book-overrides.mjs";
+import { normalizeOpenLibraryIsbnBook } from "./book-providers.mjs";
 
 test("validates ISBN-13 and ISBN-10 checksums", () => {
   assert.equal(isValidIsbn("978-0-306-40615-7"), true);
@@ -54,4 +55,28 @@ test("returns a verified exact-edition override for either equivalent ISBN", () 
   assert.equal(isbn13Book.isbn13, "9788445018910");
   assert.equal(isbn10Book.isbn10, "8445018914");
   assert.equal(findVerifiedBookOverride("9780306406157"), null);
+});
+
+
+test("does not infer an ISBN from the Open Library lookup request", () => {
+  const book = normalizeOpenLibraryIsbnBook({
+    title: "An unrelated or incomplete record",
+    authors: [{ name: "Example Author" }],
+  });
+
+  assert.equal(book.isbn10, undefined);
+  assert.equal(book.isbn13, undefined);
+});
+
+test("normalizes only ISBN identifiers actually returned by Open Library", () => {
+  const book = normalizeOpenLibraryIsbnBook({
+    title: "Ciclo Pendragon nº 02/06 Merlín",
+    identifiers: {
+      isbn_10: ["84-450-1891-4"],
+      isbn_13: ["978-84-450-1891-0"],
+    },
+  });
+
+  assert.equal(book.isbn10, "8445018914");
+  assert.equal(book.isbn13, "9788445018910");
 });
