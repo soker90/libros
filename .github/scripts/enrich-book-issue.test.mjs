@@ -1,6 +1,7 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 import { equivalentIsbns, extractIsbn, isValidIsbn, scoreAuthor, scoreTitle, selectBestMatch } from "./book-matching.mjs";
+import { findVerifiedBookOverride } from "./book-overrides.mjs";
 
 test("validates ISBN-13 and ISBN-10 checksums", () => {
   assert.equal(isValidIsbn("978-0-306-40615-7"), true);
@@ -41,4 +42,16 @@ test("selects the best title and author match and rejects weak candidates", () =
 
   assert.equal(selectBestMatch(books, "The Last Wish", "Andrzej Sapkowski"), books[0]);
   assert.equal(selectBestMatch(books, "Completely Different Title"), null);
+});
+
+test("returns a verified exact-edition override for either equivalent ISBN", () => {
+  const isbn13Book = findVerifiedBookOverride("9788445018910");
+  const isbn10Book = findVerifiedBookOverride("8445018914");
+
+  assert.equal(isbn13Book.title, "Ciclo Pendragon nº 02/06 Merlín");
+  assert.equal(isbn13Book.authors[0], "Stephen R. Lawhead");
+  assert.equal(isbn13Book.publisher, "Minotauro");
+  assert.equal(isbn13Book.isbn13, "9788445018910");
+  assert.equal(isbn10Book.isbn10, "8445018914");
+  assert.equal(findVerifiedBookOverride("9780306406157"), null);
 });

@@ -1,5 +1,6 @@
 import { equivalentIsbns, normalizeIsbn, normalizeText, selectBestMatch } from "./book-matching.mjs";
 import { findSpanishCatalogBookByIsbn } from "./spanish-book-catalog.mjs";
+import { findVerifiedBookOverride } from "./book-overrides.mjs";
 
 const GOOGLE_BOOKS_API = "https://www.googleapis.com/books/v1/volumes";
 const OPEN_LIBRARY_API = "https://openlibrary.org";
@@ -112,6 +113,9 @@ async function searchGoogleBooks(query) {
 
 /** Return only an exact ISBN match; never silently substitute another edition. */
 export async function findBookByIsbn(isbn) {
+  const verifiedOverride = findVerifiedBookOverride(isbn);
+  if (verifiedOverride && hasIsbn(verifiedOverride, isbn)) return verifiedOverride;
+
   const identifiers = equivalentIsbns(isbn);
 
   for (const identifier of identifiers) {

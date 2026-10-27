@@ -23,6 +23,7 @@ jobs:
           node-version: 24
       - name: Check JavaScript syntax
         run: |
+          node --check .github/scripts/book-overrides.mjs
           node --check .github/scripts/book-matching.mjs
           node --check .github/scripts/book-providers.mjs
           node --check .github/scripts/spanish-book-catalog.mjs
