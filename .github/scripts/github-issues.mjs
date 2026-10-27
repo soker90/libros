@@ -29,6 +29,13 @@ export function createGitHubClient({ token, repository }) {
       });
     },
 
+    updateIssueTitle(issueNumber, title) {
+      return request(`/issues/${issueNumber}`, {
+        method: "PATCH",
+        body: JSON.stringify({ title }),
+      });
+    },
+
     async ensureLabel(name) {
       try {
         await request("/labels", {
