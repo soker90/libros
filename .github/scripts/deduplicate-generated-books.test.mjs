@@ -48,7 +48,7 @@ test("does not remove entries when a duplicate issue is absent from the generate
 test("does not remove the only generated entry if its preferred duplicate is missing", () => {
   const issues = [
     { number: 10, body: "Goodreads ID: 100", labels: [] },
-    { number: 11, body: "Goodreads ID: 100\\nFormat: Tapa dura\\nKeep the Goodreads ID and ISBN to identify this exact edition.", labels: [{ name: "kind: book" }] },
+    { number: 11, body: "Goodreads ID: 100\nFormat: Tapa dura\nKeep the Goodreads ID and ISBN to identify this exact edition.", labels: [{ name: "kind: book" }] },
   ];
   const books = [{ issueNumber: 10 }];
   const result = deduplicateGeneratedBooks(books, issues);
