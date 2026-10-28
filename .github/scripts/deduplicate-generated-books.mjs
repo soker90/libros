@@ -32,6 +32,38 @@ export function scoreCanonicalIssue(issue) {
  * Different Goodreads IDs are intentionally kept separate, even if title or
  * ISBN coincide, so edition differences are never guessed away.
  */
+/**
+ * The bookshelf action also renders one Markdown line per book in README.md.
+ * Remove duplicate issue links there too, so the generated summary and API
+ * describe the same catalog.
+ */
+export function deduplicateGeneratedReadme(readme, duplicates, repository) {
+  if (typeof readme !== "string") throw new TypeError("README content must be a string.");
+  if (!Array.isArray(duplicates) || duplicates.length === 0) return readme;
+  if (typeof repository !== "string" || !repository.includes("/")) {
+    throw new TypeError("A repository in owner/name format is required.");
+  }
+
+  const duplicateIssueNumbers = new Set(
+    duplicates.map((item) => Number(item.duplicateIssueNumber)).filter(Number.isInteger),
+  );
+  if (!duplicateIssueNumbers.size) return readme;
+
+  const escapedRepository = repository.replace(/[.*+?^${}()|[\]\\]/g, "\\export function deduplicateGeneratedBooks(books, issues) {");
+  const issueLink = new RegExp(
+    `https://github\\.com/${escapedRepository}/issues/(\\d+)(?:[?#/)]|\\s|$)`,
+    "i",
+  );
+
+  return readme
+    .split("\\n")
+    .filter((line) => {
+      const match = line.match(issueLink);
+      return !match || !duplicateIssueNumbers.has(Number(match[1]));
+    })
+    .join("\\n");
+}
+
 export function deduplicateGeneratedBooks(books, issues) {
   const candidatesByGoodreadsId = new Map();
 
