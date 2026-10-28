@@ -15,18 +15,20 @@ test("prefers Goodreads issues over known legacy duplicates in the API", () => {
   assert.deepEqual(result.removedIssueNumbers, [3]);
 });
 
-test("removes links to legacy duplicates from the generated README", () => {
+test("removes links to legacy duplicates but preserves unrelated issue numbers", () => {
   const readme = [
     "[![Yumi antigua](cover.png)](https://github.com/soker90/libros/issues/3 \"old\")",
     "[![Yumi Goodreads](cover.png)](https://github.com/soker90/libros/issues/77 \"goodreads\")",
     "[![Merlín](cover.png)](https://github.com/soker90/libros/issues/54 \"other\")",
+    "[![Filosofía](cover.png)](https://github.com/soker90/libros/issues/30 \"issue 30\")",
   ].join("\n");
 
   const result = preferGoodreadsBooks([], readme);
 
-  assert.equal(result.readme.includes("/issues/3"), false);
+  assert.equal(result.readme.includes("/issues/3 "), false);
   assert.equal(result.readme.includes("/issues/77"), true);
   assert.equal(result.readme.includes("/issues/54"), true);
+  assert.equal(result.readme.includes("/issues/30"), true);
 });
 
 test("is idempotent and does not remove unrelated books", () => {
