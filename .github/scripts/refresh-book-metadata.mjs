@@ -1,4 +1,4 @@
-import { extractIsbn, extractAuthor, removeIsbnFromTitle, normalizeIsbn } from "./book-matching.mjs";
+import { extractIsbn, extractIssueIsbn, extractAuthor, removeIsbnFromTitle, normalizeIsbn } from "./book-matching.mjs";
 import { findBookByIsbn } from "./book-providers.mjs";
 import { mergeExactIsbnMetadata } from "./book-metadata-merge.mjs";
 
@@ -95,7 +95,8 @@ async function refreshIssue(issue) {
   const previous = parseBookDetails(generated.body);
   if (!previous) return { issue: issue.number, status: "skipped", reason: "Could not parse existing metadata JSON" };
 
-  const requestedIsbn = extractIsbn(previous.requestedIsbn || issue.title || issue.body || "")
+  const requestedIsbn = extractIssueIsbn(issue)
+    || extractIsbn(previous.requestedIsbn || "")
     || extractIsbn(previous.isbn13 || "")
     || extractIsbn(previous.isbn10 || "");
   let fresh;
