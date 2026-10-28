@@ -3,14 +3,13 @@ name: "Bookshelf Action: Sync Issue to API"
 on:
   issues:
     types: [edited, labeled, unlabeled]
-  workflow_dispatch:
 
 permissions:
   contents: write
   issues: read
 
 concurrency:
-  group: bookshelf-summary-${{ github.event.issue.number || github.ref }}
+  group: bookshelf-summary-${{ github.event.issue.number }}
   cancel-in-progress: true
 
 jobs:
