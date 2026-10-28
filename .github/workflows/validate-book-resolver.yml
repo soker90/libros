@@ -7,8 +7,7 @@ on:
   pull_request:
     paths:
       - ".github/scripts/**"
-      - ".github/workflows/bookshelf-new-issue.yml"
-      - ".github/workflows/validate-book-resolver.yml"
+      - ".github/workflows/**"
 
 permissions:
   contents: read
