@@ -1,5 +1,417 @@
 [
   {
+    "title": "Trenza del Mar Esmeralda",
+    "authors": [
+      "Brandon Sanderson"
+    ],
+    "publisher": "Nova",
+    "publishedDate": "19-01-2023",
+    "description": "",
+    "image": "https://covers.openlibrary.org/b/id/14651590-L.jpg",
+    "language": "",
+    "averageRating": 0,
+    "ratingsCount": 0,
+    "categories": [
+      "series:Secret Projects",
+      "fiction",
+      "fantasy",
+      "general",
+      "Fiction, fantasy, general",
+      "nyt:hardcover-fiction=2023-04-23",
+      "New York Times bestseller",
+      "Fiction, fantasy, epic"
+    ],
+    "pageCount": 560,
+    "isbn13": "9788418037818",
+    "googleBooks": {
+      "id": "",
+      "preview": "http://openlibrary.org/books/OL52959633M/Trenza_del_Mar_Esmeralda",
+      "info": "http://openlibrary.org/books/OL52959633M/Trenza_del_Mar_Esmeralda",
+      "canonical": "http://openlibrary.org/books/OL52959633M/Trenza_del_Mar_Esmeralda"
+    },
+    "requestedIsbn": "9788418037818",
+    "metadataSource": "ISBN match",
+    "issueNumber": 84,
+    "progressPercent": 0,
+    "state": "completed",
+    "startedAt": "2026-10-28T12:17:11.000Z",
+    "completedAt": "2026-10-28T12:22:27.000Z",
+    "timeToComplete": 316000,
+    "timeToCompleteFormatted": "5 minutes"
+  },
+  {
+    "title": "Palabras Radiantes",
+    "authors": [
+      "Brandon Sanderson"
+    ],
+    "publisher": "Nova",
+    "publishedDate": "2015",
+    "description": "",
+    "image": "https://covers.openlibrary.org/b/id/14838998-L.jpg",
+    "language": "",
+    "averageRating": 0,
+    "ratingsCount": 0,
+    "categories": [
+      "Imaginary wars and battles",
+      "Fiction",
+      "Fiction, fantasy, epic",
+      "high fantasy",
+      "epic fantasy",
+      "nyt:combined-print-and-e-book-fiction=2014-03-23",
+      "New York Times bestseller",
+      "Magic",
+      "Life on other planets",
+      "Fantasy fiction",
+      "Great powers",
+      "Guerres et batailles imaginaires",
+      "Romans, nouvelles",
+      "Grandes puissances",
+      "Imaginary wars and battles -- Fiction"
+    ],
+    "pageCount": 1248,
+    "isbn13": "9788466657549",
+    "googleBooks": {
+      "id": "",
+      "preview": "http://openlibrary.org/books/OL25767557M/Palabras_Radiantes",
+      "info": "http://openlibrary.org/books/OL25767557M/Palabras_Radiantes",
+      "canonical": "http://openlibrary.org/books/OL25767557M/Palabras_Radiantes"
+    },
+    "requestedIsbn": "9788466657549",
+    "metadataSource": "ISBN match",
+    "issueNumber": 83,
+    "progressPercent": 0,
+    "state": "completed",
+    "startedAt": "2026-10-28T12:17:08.000Z",
+    "completedAt": "2026-10-28T12:22:25.000Z",
+    "timeToComplete": 317000,
+    "timeToCompleteFormatted": "5 minutes"
+  },
+  {
+    "title": "Arcanun Ilimitado",
+    "authors": [
+      "Brandon Sanderson"
+    ],
+    "publisher": "Ediciones B",
+    "publishedDate": "2018",
+    "description": "",
+    "image": "https://placehold.co/128x196?text=No+cover",
+    "language": "",
+    "averageRating": 0,
+    "ratingsCount": 0,
+    "categories": [
+      "Fiction, fantasy, short stories",
+      "Fiction, fantasy, collections & anthologies",
+      "Fiction, fantasy, general",
+      "Fantasy fiction, American"
+    ],
+    "pageCount": 650,
+    "isbn13": "9788466662321",
+    "googleBooks": {
+      "id": "",
+      "preview": "http://openlibrary.org/books/OL28851580M/Arcanun_Ilimitado",
+      "info": "http://openlibrary.org/books/OL28851580M/Arcanun_Ilimitado",
+      "canonical": "http://openlibrary.org/books/OL28851580M/Arcanun_Ilimitado"
+    },
+    "requestedIsbn": "9788466662321",
+    "metadataSource": "ISBN match",
+    "issueNumber": 82,
+    "progressPercent": 0,
+    "state": "completed",
+    "startedAt": "2026-10-28T12:17:06.000Z",
+    "completedAt": "2026-10-28T12:22:22.000Z",
+    "timeToComplete": 316000,
+    "timeToCompleteFormatted": "5 minutes"
+  },
+  {
+    "title": "Juramentada / Oathbringer",
+    "authors": [
+      "Brandon Sanderson"
+    ],
+    "publisher": "Ediciones B",
+    "publishedDate": "2018",
+    "description": "",
+    "image": "https://covers.openlibrary.org/b/id/11234168-L.jpg",
+    "language": "",
+    "averageRating": 0,
+    "ratingsCount": 0,
+    "categories": [
+      "Imaginary places",
+      "Kings and rulers",
+      "Fiction",
+      "Magic",
+      "Imaginary wars and battles",
+      "Action & Adventure",
+      "Slavery",
+      "Fantasy",
+      "Military",
+      "Epic",
+      "nyt:combined-print-and-e-book-fiction=2017-12-03",
+      "New York Times bestseller",
+      "Fiction, fantasy, epic",
+      "nyt:hardcover-fiction=2017-12-03",
+      "FICTION / Fantasy / Epic",
+      "FICTION / Fantasy / Military",
+      "FICTION / Fantasy / Action & Adventure"
+    ],
+    "pageCount": 1184,
+    "isbn13": "9788417347000",
+    "googleBooks": {
+      "id": "",
+      "preview": "http://openlibrary.org/books/OL28904896M/Juramentada_Oathbringer",
+      "info": "http://openlibrary.org/books/OL28904896M/Juramentada_Oathbringer",
+      "canonical": "http://openlibrary.org/books/OL28904896M/Juramentada_Oathbringer"
+    },
+    "requestedIsbn": "9788417347000",
+    "metadataSource": "ISBN match",
+    "issueNumber": 81,
+    "progressPercent": 0,
+    "state": "completed",
+    "startedAt": "2026-10-28T12:17:04.000Z",
+    "completedAt": "2026-10-28T12:22:19.000Z",
+    "timeToComplete": 315000,
+    "timeToCompleteFormatted": "5 minutes"
+  },
+  {
+    "title": "El Archivo de las Tormentas: Una guía de bolsillo para El camino de los reyes y Palabras radiantes",
+    "authors": [
+      "Brandon Sanderson"
+    ],
+    "isbn10": "8416628475",
+    "isbn13": "9788416628476",
+    "requestedIsbn": "9788416628476",
+    "publisher": "FLASH",
+    "publishedDate": "2018",
+    "description": "",
+    "image": "https://placehold.co/128x196?text=No+cover",
+    "language": "es",
+    "categories": [
+      "Fantasía"
+    ],
+    "pageCount": 55,
+    "metadataSource": "ISBN match (Goodreads CSV)",
+    "issueNumber": 80,
+    "progressPercent": 0,
+    "state": "completed",
+    "startedAt": "2026-10-28T12:17:02.000Z",
+    "completedAt": "2026-10-28T12:22:16.000Z",
+    "timeToComplete": 314000,
+    "timeToCompleteFormatted": "5 minutes"
+  },
+  {
+    "title": "Esquirla del Amanecer",
+    "authors": [
+      "Brandon Sanderson"
+    ],
+    "publisher": "Nova",
+    "publishedDate": "Jun 10, 2021",
+    "description": "Source title: Esquirla del Amanecer (El Archivo de las Tormentas 3.5) (Spanish Edition)",
+    "image": "https://covers.openlibrary.org/b/id/11385385-L.jpg",
+    "language": "",
+    "averageRating": 0,
+    "ratingsCount": 0,
+    "categories": [
+      "nyt:hardcover-fiction=2022-03-06",
+      "New York Times bestseller",
+      "American literature",
+      "Fiction, fantasy, epic",
+      "Fiction, fantasy, military"
+    ],
+    "pageCount": 256,
+    "isbn10": "8418037237",
+    "isbn13": "9788418037238",
+    "googleBooks": {
+      "id": "",
+      "preview": "http://openlibrary.org/books/OL32758402M/Esquirla_del_Amanecer",
+      "info": "http://openlibrary.org/books/OL32758402M/Esquirla_del_Amanecer",
+      "canonical": "http://openlibrary.org/books/OL32758402M/Esquirla_del_Amanecer"
+    },
+    "requestedIsbn": "9788418037238",
+    "metadataSource": "ISBN match",
+    "issueNumber": 79,
+    "progressPercent": 0,
+    "state": "completed",
+    "startedAt": "2026-10-28T12:17:00.000Z",
+    "completedAt": "2026-10-28T12:22:14.000Z",
+    "timeToComplete": 314000,
+    "timeToCompleteFormatted": "5 minutes"
+  },
+  {
+    "title": "El ritmo de la guerra",
+    "authors": [
+      "Brandon Sanderson"
+    ],
+    "publisher": "Nova",
+    "publishedDate": "Feb 23, 2021",
+    "description": "Source title: El ritmo de la guerra / Rhythm of War (El Archivo de las Tormentas) (Spanish Edition)",
+    "image": "https://covers.openlibrary.org/b/id/10522934-L.jpg",
+    "language": "",
+    "averageRating": 0,
+    "ratingsCount": 0,
+    "categories": [
+      "nyt:combined-print-and-e-book-fiction=2020-12-06",
+      "New York Times bestseller",
+      "Fiction, fantasy, epic",
+      "Fiction, fantasy, action and adventure",
+      "American literature",
+      "Fiction, fantasy, action & adventure"
+    ],
+    "pageCount": 137,
+    "isbn10": "8417347933",
+    "isbn13": "9788417347932",
+    "googleBooks": {
+      "id": "",
+      "preview": "http://openlibrary.org/books/OL31463070M/El_ritmo_de_la_guerra",
+      "info": "http://openlibrary.org/books/OL31463070M/El_ritmo_de_la_guerra",
+      "canonical": "http://openlibrary.org/books/OL31463070M/El_ritmo_de_la_guerra"
+    },
+    "requestedIsbn": "9788417347932",
+    "metadataSource": "ISBN match",
+    "issueNumber": 78,
+    "progressPercent": 0,
+    "state": "completed",
+    "startedAt": "2026-10-28T12:16:58.000Z",
+    "completedAt": "2026-10-28T12:22:10.000Z",
+    "timeToComplete": 312000,
+    "timeToCompleteFormatted": "5 minutes"
+  },
+  {
+    "title": "Yumi y el pintor de pesadillas",
+    "authors": [
+      "Brandon Sanderson"
+    ],
+    "publisher": "Ediciones B",
+    "publishedDate": "2023",
+    "description": "",
+    "image": "https://covers.openlibrary.org/b/id/14611343-L.jpg",
+    "language": "",
+    "averageRating": 0,
+    "ratingsCount": 0,
+    "categories": [
+      "Fiction, fantasy, epic",
+      "Fiction",
+      "Fantasy"
+    ],
+    "pageCount": 560,
+    "isbn10": "8419260029",
+    "isbn13": "9788419260024",
+    "googleBooks": {
+      "id": "",
+      "preview": "http://openlibrary.org/books/OL48947700M/Yumi_y_el_pintor_de_pesadillas",
+      "info": "http://openlibrary.org/books/OL48947700M/Yumi_y_el_pintor_de_pesadillas",
+      "canonical": "http://openlibrary.org/books/OL48947700M/Yumi_y_el_pintor_de_pesadillas"
+    },
+    "requestedIsbn": "9788419260024",
+    "metadataSource": "ISBN match",
+    "issueNumber": 77,
+    "progressPercent": 0,
+    "state": "completed",
+    "startedAt": "2026-10-28T12:16:56.000Z",
+    "completedAt": "2026-10-28T12:22:07.000Z",
+    "timeToComplete": 311000,
+    "timeToCompleteFormatted": "5 minutes"
+  },
+  {
+    "title": "El Hombre Iluminado",
+    "authors": [
+      "Brandon Sanderson"
+    ],
+    "publisher": "Nova",
+    "publishedDate": "2023",
+    "description": "",
+    "image": "https://covers.openlibrary.org/b/id/14651591-L.jpg",
+    "language": "",
+    "averageRating": 0,
+    "ratingsCount": 0,
+    "categories": [
+      "series:Secret Projects",
+      "nyt:hardcover-fiction=2024-03-24",
+      "New York Times bestseller",
+      "Fiction, fantasy, general",
+      "Fiction, science fiction, general",
+      "Children's fiction",
+      "Fiction",
+      "Fantasy",
+      "Science fiction"
+    ],
+    "pageCount": 0,
+    "isbn13": "9788419260123",
+    "googleBooks": {
+      "id": "",
+      "preview": "http://openlibrary.org/books/OL52959679M/El_Hombre_Iluminado",
+      "info": "http://openlibrary.org/books/OL52959679M/El_Hombre_Iluminado",
+      "canonical": "http://openlibrary.org/books/OL52959679M/El_Hombre_Iluminado"
+    },
+    "requestedIsbn": "9788419260123",
+    "metadataSource": "ISBN match",
+    "issueNumber": 76,
+    "progressPercent": 0,
+    "state": "completed",
+    "startedAt": "2026-10-28T12:16:54.000Z",
+    "completedAt": "2026-10-28T12:22:05.000Z",
+    "timeToComplete": 311000,
+    "timeToCompleteFormatted": "5 minutes"
+  },
+  {
+    "title": "Viento y verdad",
+    "authors": [
+      "Brandon Sanderson"
+    ],
+    "publisher": "Nova",
+    "publishedDate": "2024/12/09",
+    "description": "",
+    "image": "https://covers.openlibrary.org/b/id/14838986-L.jpg",
+    "language": "",
+    "averageRating": 0,
+    "ratingsCount": 0,
+    "categories": [
+      "series:Stormlight Archive"
+    ],
+    "pageCount": 1408,
+    "isbn10": "8419260541",
+    "isbn13": "9788419260543",
+    "googleBooks": {
+      "id": "",
+      "preview": "http://openlibrary.org/books/OL57521682M/Viento_y_verdad",
+      "info": "http://openlibrary.org/books/OL57521682M/Viento_y_verdad",
+      "canonical": "http://openlibrary.org/books/OL57521682M/Viento_y_verdad"
+    },
+    "requestedIsbn": "9788419260543",
+    "metadataSource": "ISBN match",
+    "issueNumber": 75,
+    "progressPercent": 0,
+    "state": "completed",
+    "startedAt": "2026-10-28T12:16:52.000Z",
+    "completedAt": "2026-10-28T12:22:02.000Z",
+    "timeToComplete": 310000,
+    "timeToCompleteFormatted": "5 minutes"
+  },
+  {
+    "title": "Aprendiz de asesino",
+    "authors": [
+      "Robin Hobb"
+    ],
+    "isbn10": "8419680877",
+    "isbn13": "9788419680877",
+    "requestedIsbn": "9788419680877",
+    "publisher": "Nocturna Ediciones",
+    "publishedDate": "2025-05-12",
+    "description": "Traspié, hijo bastardo del príncipe heredero, comienza su formación en las artes del asesinato y en la magia de la Habilidad.",
+    "image": "https://placehold.co/128x196?text=No+cover",
+    "language": "es",
+    "categories": [
+      "Fantasía"
+    ],
+    "pageCount": 448,
+    "metadataSource": "ISBN match",
+    "issueNumber": 74,
+    "progressPercent": 0,
+    "state": "completed",
+    "startedAt": "2026-10-28T12:16:50.000Z",
+    "completedAt": "2026-10-28T12:22:00.000Z",
+    "timeToComplete": 310000,
+    "timeToCompleteFormatted": "5 minutes"
+  },
+  {
     "title": "Asesino real",
     "authors": [
       "Robin Hobb"
@@ -712,385 +1124,6 @@
     "progressPercent": 0,
     "state": "reading",
     "startedAt": "2026-10-28T12:17:14.000Z"
-  },
-  {
-    "title": "Trenza del Mar Esmeralda",
-    "authors": [
-      "Brandon Sanderson"
-    ],
-    "publisher": "Nova",
-    "publishedDate": "19-01-2023",
-    "description": "",
-    "image": "https://covers.openlibrary.org/b/id/14651590-L.jpg",
-    "language": "",
-    "averageRating": 0,
-    "ratingsCount": 0,
-    "categories": [
-      "series:Secret Projects",
-      "fiction",
-      "fantasy",
-      "general",
-      "Fiction, fantasy, general",
-      "nyt:hardcover-fiction=2023-04-23",
-      "New York Times bestseller",
-      "Fiction, fantasy, epic"
-    ],
-    "pageCount": 560,
-    "isbn13": "9788418037818",
-    "googleBooks": {
-      "id": "",
-      "preview": "http://openlibrary.org/books/OL52959633M/Trenza_del_Mar_Esmeralda",
-      "info": "http://openlibrary.org/books/OL52959633M/Trenza_del_Mar_Esmeralda",
-      "canonical": "http://openlibrary.org/books/OL52959633M/Trenza_del_Mar_Esmeralda"
-    },
-    "requestedIsbn": "9788418037818",
-    "metadataSource": "ISBN match",
-    "issueNumber": 84,
-    "progressPercent": 0,
-    "state": "reading",
-    "startedAt": "2026-10-28T12:17:11.000Z"
-  },
-  {
-    "title": "Palabras Radiantes",
-    "authors": [
-      "Brandon Sanderson"
-    ],
-    "publisher": "Nova",
-    "publishedDate": "2015",
-    "description": "",
-    "image": "https://covers.openlibrary.org/b/id/14838998-L.jpg",
-    "language": "",
-    "averageRating": 0,
-    "ratingsCount": 0,
-    "categories": [
-      "Imaginary wars and battles",
-      "Fiction",
-      "Fiction, fantasy, epic",
-      "high fantasy",
-      "epic fantasy",
-      "nyt:combined-print-and-e-book-fiction=2014-03-23",
-      "New York Times bestseller",
-      "Magic",
-      "Life on other planets",
-      "Fantasy fiction",
-      "Great powers",
-      "Guerres et batailles imaginaires",
-      "Romans, nouvelles",
-      "Grandes puissances",
-      "Imaginary wars and battles -- Fiction"
-    ],
-    "pageCount": 1248,
-    "isbn13": "9788466657549",
-    "googleBooks": {
-      "id": "",
-      "preview": "http://openlibrary.org/books/OL25767557M/Palabras_Radiantes",
-      "info": "http://openlibrary.org/books/OL25767557M/Palabras_Radiantes",
-      "canonical": "http://openlibrary.org/books/OL25767557M/Palabras_Radiantes"
-    },
-    "requestedIsbn": "9788466657549",
-    "metadataSource": "ISBN match",
-    "issueNumber": 83,
-    "progressPercent": 0,
-    "state": "reading",
-    "startedAt": "2026-10-28T12:17:08.000Z"
-  },
-  {
-    "title": "Arcanun Ilimitado",
-    "authors": [
-      "Brandon Sanderson"
-    ],
-    "publisher": "Ediciones B",
-    "publishedDate": "2018",
-    "description": "",
-    "image": "https://placehold.co/128x196?text=No+cover",
-    "language": "",
-    "averageRating": 0,
-    "ratingsCount": 0,
-    "categories": [
-      "Fiction, fantasy, short stories",
-      "Fiction, fantasy, collections & anthologies",
-      "Fiction, fantasy, general",
-      "Fantasy fiction, American"
-    ],
-    "pageCount": 650,
-    "isbn13": "9788466662321",
-    "googleBooks": {
-      "id": "",
-      "preview": "http://openlibrary.org/books/OL28851580M/Arcanun_Ilimitado",
-      "info": "http://openlibrary.org/books/OL28851580M/Arcanun_Ilimitado",
-      "canonical": "http://openlibrary.org/books/OL28851580M/Arcanun_Ilimitado"
-    },
-    "requestedIsbn": "9788466662321",
-    "metadataSource": "ISBN match",
-    "issueNumber": 82,
-    "progressPercent": 0,
-    "state": "reading",
-    "startedAt": "2026-10-28T12:17:06.000Z"
-  },
-  {
-    "title": "Juramentada / Oathbringer",
-    "authors": [
-      "Brandon Sanderson"
-    ],
-    "publisher": "Ediciones B",
-    "publishedDate": "2018",
-    "description": "",
-    "image": "https://covers.openlibrary.org/b/id/11234168-L.jpg",
-    "language": "",
-    "averageRating": 0,
-    "ratingsCount": 0,
-    "categories": [
-      "Imaginary places",
-      "Kings and rulers",
-      "Fiction",
-      "Magic",
-      "Imaginary wars and battles",
-      "Action & Adventure",
-      "Slavery",
-      "Fantasy",
-      "Military",
-      "Epic",
-      "nyt:combined-print-and-e-book-fiction=2017-12-03",
-      "New York Times bestseller",
-      "Fiction, fantasy, epic",
-      "nyt:hardcover-fiction=2017-12-03",
-      "FICTION / Fantasy / Epic",
-      "FICTION / Fantasy / Military",
-      "FICTION / Fantasy / Action & Adventure"
-    ],
-    "pageCount": 1184,
-    "isbn13": "9788417347000",
-    "googleBooks": {
-      "id": "",
-      "preview": "http://openlibrary.org/books/OL28904896M/Juramentada_Oathbringer",
-      "info": "http://openlibrary.org/books/OL28904896M/Juramentada_Oathbringer",
-      "canonical": "http://openlibrary.org/books/OL28904896M/Juramentada_Oathbringer"
-    },
-    "requestedIsbn": "9788417347000",
-    "metadataSource": "ISBN match",
-    "issueNumber": 81,
-    "progressPercent": 0,
-    "state": "reading",
-    "startedAt": "2026-10-28T12:17:04.000Z"
-  },
-  {
-    "title": "El Archivo de las Tormentas: Una guía de bolsillo para El camino de los reyes y Palabras radiantes",
-    "authors": [
-      "Brandon Sanderson"
-    ],
-    "isbn10": "8416628475",
-    "isbn13": "9788416628476",
-    "requestedIsbn": "9788416628476",
-    "publisher": "FLASH",
-    "publishedDate": "2018",
-    "description": "",
-    "image": "https://placehold.co/128x196?text=No+cover",
-    "language": "es",
-    "categories": [
-      "Fantasía"
-    ],
-    "pageCount": 55,
-    "metadataSource": "ISBN match (Goodreads CSV)",
-    "issueNumber": 80,
-    "progressPercent": 0,
-    "state": "reading",
-    "startedAt": "2026-10-28T12:17:02.000Z"
-  },
-  {
-    "title": "Esquirla del Amanecer",
-    "authors": [
-      "Brandon Sanderson"
-    ],
-    "publisher": "Nova",
-    "publishedDate": "Jun 10, 2021",
-    "description": "Source title: Esquirla del Amanecer (El Archivo de las Tormentas 3.5) (Spanish Edition)",
-    "image": "https://covers.openlibrary.org/b/id/11385385-L.jpg",
-    "language": "",
-    "averageRating": 0,
-    "ratingsCount": 0,
-    "categories": [
-      "nyt:hardcover-fiction=2022-03-06",
-      "New York Times bestseller",
-      "American literature",
-      "Fiction, fantasy, epic",
-      "Fiction, fantasy, military"
-    ],
-    "pageCount": 256,
-    "isbn10": "8418037237",
-    "isbn13": "9788418037238",
-    "googleBooks": {
-      "id": "",
-      "preview": "http://openlibrary.org/books/OL32758402M/Esquirla_del_Amanecer",
-      "info": "http://openlibrary.org/books/OL32758402M/Esquirla_del_Amanecer",
-      "canonical": "http://openlibrary.org/books/OL32758402M/Esquirla_del_Amanecer"
-    },
-    "requestedIsbn": "9788418037238",
-    "metadataSource": "ISBN match",
-    "issueNumber": 79,
-    "progressPercent": 0,
-    "state": "reading",
-    "startedAt": "2026-10-28T12:17:00.000Z"
-  },
-  {
-    "title": "El ritmo de la guerra",
-    "authors": [
-      "Brandon Sanderson"
-    ],
-    "publisher": "Nova",
-    "publishedDate": "Feb 23, 2021",
-    "description": "Source title: El ritmo de la guerra / Rhythm of War (El Archivo de las Tormentas) (Spanish Edition)",
-    "image": "https://covers.openlibrary.org/b/id/10522934-L.jpg",
-    "language": "",
-    "averageRating": 0,
-    "ratingsCount": 0,
-    "categories": [
-      "nyt:combined-print-and-e-book-fiction=2020-12-06",
-      "New York Times bestseller",
-      "Fiction, fantasy, epic",
-      "Fiction, fantasy, action and adventure",
-      "American literature",
-      "Fiction, fantasy, action & adventure"
-    ],
-    "pageCount": 137,
-    "isbn10": "8417347933",
-    "isbn13": "9788417347932",
-    "googleBooks": {
-      "id": "",
-      "preview": "http://openlibrary.org/books/OL31463070M/El_ritmo_de_la_guerra",
-      "info": "http://openlibrary.org/books/OL31463070M/El_ritmo_de_la_guerra",
-      "canonical": "http://openlibrary.org/books/OL31463070M/El_ritmo_de_la_guerra"
-    },
-    "requestedIsbn": "9788417347932",
-    "metadataSource": "ISBN match",
-    "issueNumber": 78,
-    "progressPercent": 0,
-    "state": "reading",
-    "startedAt": "2026-10-28T12:16:58.000Z"
-  },
-  {
-    "title": "Yumi y el pintor de pesadillas",
-    "authors": [
-      "Brandon Sanderson"
-    ],
-    "publisher": "Ediciones B",
-    "publishedDate": "2023",
-    "description": "",
-    "image": "https://covers.openlibrary.org/b/id/14611343-L.jpg",
-    "language": "",
-    "averageRating": 0,
-    "ratingsCount": 0,
-    "categories": [
-      "Fiction, fantasy, epic",
-      "Fiction",
-      "Fantasy"
-    ],
-    "pageCount": 560,
-    "isbn10": "8419260029",
-    "isbn13": "9788419260024",
-    "googleBooks": {
-      "id": "",
-      "preview": "http://openlibrary.org/books/OL48947700M/Yumi_y_el_pintor_de_pesadillas",
-      "info": "http://openlibrary.org/books/OL48947700M/Yumi_y_el_pintor_de_pesadillas",
-      "canonical": "http://openlibrary.org/books/OL48947700M/Yumi_y_el_pintor_de_pesadillas"
-    },
-    "requestedIsbn": "9788419260024",
-    "metadataSource": "ISBN match",
-    "issueNumber": 77,
-    "progressPercent": 0,
-    "state": "reading",
-    "startedAt": "2026-10-28T12:16:56.000Z"
-  },
-  {
-    "title": "El Hombre Iluminado",
-    "authors": [
-      "Brandon Sanderson"
-    ],
-    "publisher": "Nova",
-    "publishedDate": "2023",
-    "description": "",
-    "image": "https://covers.openlibrary.org/b/id/14651591-L.jpg",
-    "language": "",
-    "averageRating": 0,
-    "ratingsCount": 0,
-    "categories": [
-      "series:Secret Projects",
-      "nyt:hardcover-fiction=2024-03-24",
-      "New York Times bestseller",
-      "Fiction, fantasy, general",
-      "Fiction, science fiction, general",
-      "Children's fiction",
-      "Fiction",
-      "Fantasy",
-      "Science fiction"
-    ],
-    "pageCount": 0,
-    "isbn13": "9788419260123",
-    "googleBooks": {
-      "id": "",
-      "preview": "http://openlibrary.org/books/OL52959679M/El_Hombre_Iluminado",
-      "info": "http://openlibrary.org/books/OL52959679M/El_Hombre_Iluminado",
-      "canonical": "http://openlibrary.org/books/OL52959679M/El_Hombre_Iluminado"
-    },
-    "requestedIsbn": "9788419260123",
-    "metadataSource": "ISBN match",
-    "issueNumber": 76,
-    "progressPercent": 0,
-    "state": "reading",
-    "startedAt": "2026-10-28T12:16:54.000Z"
-  },
-  {
-    "title": "Viento y verdad",
-    "authors": [
-      "Brandon Sanderson"
-    ],
-    "publisher": "Nova",
-    "publishedDate": "2024/12/09",
-    "description": "",
-    "image": "https://covers.openlibrary.org/b/id/14838986-L.jpg",
-    "language": "",
-    "averageRating": 0,
-    "ratingsCount": 0,
-    "categories": [
-      "series:Stormlight Archive"
-    ],
-    "pageCount": 1408,
-    "isbn10": "8419260541",
-    "isbn13": "9788419260543",
-    "googleBooks": {
-      "id": "",
-      "preview": "http://openlibrary.org/books/OL57521682M/Viento_y_verdad",
-      "info": "http://openlibrary.org/books/OL57521682M/Viento_y_verdad",
-      "canonical": "http://openlibrary.org/books/OL57521682M/Viento_y_verdad"
-    },
-    "requestedIsbn": "9788419260543",
-    "metadataSource": "ISBN match",
-    "issueNumber": 75,
-    "progressPercent": 0,
-    "state": "reading",
-    "startedAt": "2026-10-28T12:16:52.000Z"
-  },
-  {
-    "title": "Aprendiz de asesino",
-    "authors": [
-      "Robin Hobb"
-    ],
-    "isbn10": "8419680877",
-    "isbn13": "9788419680877",
-    "requestedIsbn": "9788419680877",
-    "publisher": "Nocturna Ediciones",
-    "publishedDate": "2025-05-12",
-    "description": "Traspié, hijo bastardo del príncipe heredero, comienza su formación en las artes del asesinato y en la magia de la Habilidad.",
-    "image": "https://placehold.co/128x196?text=No+cover",
-    "language": "es",
-    "categories": [
-      "Fantasía"
-    ],
-    "pageCount": 448,
-    "metadataSource": "ISBN match",
-    "issueNumber": 74,
-    "progressPercent": 0,
-    "state": "reading",
-    "startedAt": "2026-10-28T12:16:50.000Z"
   },
   {
     "isbn10": "8445018914",
