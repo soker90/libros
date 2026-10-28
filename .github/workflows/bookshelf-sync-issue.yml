@@ -52,4 +52,5 @@ jobs:
       - name: Delete confirmed duplicate Goodreads issues
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          LIBROS_ADMIN_TOKEN: ${{ secrets.LIBROS_ADMIN_TOKEN }}
         run: node .github/scripts/delete-duplicate-goodreads-issues.mjs
