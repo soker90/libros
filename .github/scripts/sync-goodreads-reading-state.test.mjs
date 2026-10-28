@@ -34,7 +34,8 @@ test("syncs explicit format while preserving edition-specific data when format i
       number: 69,
       body: issueBody.replace("Goodreads ID: 241240148", "Goodreads ID: 201288898")
         .replace("Goodreads shelf: read", "Goodreads shelf: read")
-        .replace("Format: Tapa blanda\n", ""),
+        .replace("Format: Tapa blanda\n", "")
+        .replace("Cover URL: https://example.org/cover.jpg\n", ""),
     },
   ];
 
