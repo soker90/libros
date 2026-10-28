@@ -29,16 +29,17 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Sync collections
+      - name: Sync collections and normalize metadata
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git pull --rebase origin "${GITHUB_REF_NAME}"
           node .github/scripts/sync-issue-collections.mjs
+          node .github/scripts/normalize-publication-dates.mjs
           git add README.md api.json
           if ! git diff --cached --quiet; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git commit -m "chore: sync bookshelf and collections"
+            git commit -m "chore: sync bookshelf metadata"
             git push origin "HEAD:${GITHUB_REF_NAME}"
           fi
