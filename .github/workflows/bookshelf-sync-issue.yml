@@ -48,3 +48,8 @@ jobs:
             git commit -m "chore: sync bookshelf metadata"
             git push origin "HEAD:${GITHUB_REF_NAME}"
           fi
+
+      - name: Delete confirmed duplicate Goodreads issues
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node .github/scripts/delete-duplicate-goodreads-issues.mjs
