@@ -2,6 +2,11 @@ name: "Bookshelf Action: Close Issue"
 on:
   issues:
     types: [closed]
+
+permissions:
+  contents: write
+  issues: write
+
 jobs:
   bookshelf-action:
     name: Bookshelf Action
@@ -10,7 +15,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4.2.2
         with:
-          ref: ${{ github.head_ref }}
           token: ${{ secrets.GITHUB_TOKEN }}
       - name: Run Bookshelf Action
         uses: AnandChowdhary/bookshelf-action@HEAD

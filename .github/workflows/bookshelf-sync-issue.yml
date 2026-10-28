@@ -1,0 +1,30 @@
+name: "Bookshelf Action: Sync Issue to API"
+
+on:
+  issues:
+    types: [edited, labeled, unlabeled]
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: bookshelf-summary-${{ github.event.issue.number }}
+  cancel-in-progress: false
+
+jobs:
+  update-summary:
+    name: Regenerate README and api.json from issues
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4.2.2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Regenerate bookshelf summary and API
+        uses: AnandChowdhary/bookshelf-action@HEAD
+        with:
+          command: "updateSummary"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
