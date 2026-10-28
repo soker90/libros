@@ -14,9 +14,17 @@ Filtrar por puntuación:
 ## 📖 Mis lecturas
 
 <!--start:bookshelf-action-->
-### ⌛ Currently reading (20)
+### ⌛ Currently reading (28)
 
-[![El pozo de la ascension](https://images.weserv.nl/?url=https%3A%2F%2Fcovers.openlibrary.org%2Fb%2Fid%2F10383351-L.jpg&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/89 "El pozo de la ascension by Brandon Sanderson")
+[![El héroe de las eras](https://images.weserv.nl/?url=https%3A%2F%2Fcovers.openlibrary.org%2Fb%2Fid%2F7241797-L.jpg&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/98 "El héroe de las eras by Brandon Sanderson")
+[![Aleación de ley](https://images.weserv.nl/?url=https%3A%2F%2Fcovers.openlibrary.org%2Fb%2Fid%2F14658419-L.jpg&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/97 "Aleación de ley by Brandon Sanderson")
+[![El rithmatista](https://images.weserv.nl/?url=https%3A%2F%2Fcovers.openlibrary.org%2Fb%2Fid%2F7334581-L.jpg&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/96 "El rithmatista by Brandon Sanderson")
+[![Sombras de identidad](https://images.weserv.nl/?url=https%3A%2F%2Fcovers.openlibrary.org%2Fb%2Fid%2F14662059-L.jpg&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/95 "Sombras de identidad by Brandon Sanderson")
+[![Aleación de ley](https://images.weserv.nl/?url=https%3A%2F%2Fcovers.openlibrary.org%2Fb%2Fid%2F13105777-L.jpg&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/94 "Aleación de ley by Brandon Sanderson")
+[![Brazales de duelo](https://images.weserv.nl/?url=https%3A%2F%2Fcovers.openlibrary.org%2Fb%2Fid%2F10696089-L.jpg&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/93 "Brazales de duelo by Brandon Sanderson")
+[![El metal perdido / The Lost Metal](https://images.weserv.nl/?url=https%3A%2F%2Fcovers.openlibrary.org%2Fb%2Fid%2F13012199-L.jpg&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/92 "El metal perdido / The Lost Metal by Brandon Sanderson")
+[![El aliento de los dioses](https://images.weserv.nl/?url=https%3A%2F%2Fcovers.openlibrary.org%2Fb%2Fid%2F7442753-L.jpg&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/91 "El aliento de los dioses by Brandon Sanderson")
+[![El imperio final](https://images.weserv.nl/?url=https%3A%2F%2Fcovers.openlibrary.org%2Fb%2Fid%2F11238015-L.jpg&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/90 "El imperio final by Brandon Sanderson")
 [![El pozo de la ascension](https://images.weserv.nl/?url=https%3A%2F%2Fcovers.openlibrary.org%2Fb%2Fid%2F10383351-L.jpg&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/88 "El pozo de la ascension by Brandon Sanderson")
 [![Elantris](https://images.weserv.nl/?url=https%3A%2F%2Fcovers.openlibrary.org%2Fb%2Fid%2F7443081-L.jpg&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/87 "Elantris by Brandon Sanderson")
 [![El camino de los reyes](https://images.weserv.nl/?url=https%3A%2F%2Fcovers.openlibrary.org%2Fb%2Fid%2F7366499-L.jpg&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/86 "El camino de los reyes by Brandon Sanderson")
