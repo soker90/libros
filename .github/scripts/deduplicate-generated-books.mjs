@@ -57,12 +57,12 @@ export function deduplicateGeneratedReadme(readme, duplicates, repository) {
   );
 
   return readme
-    .split("\\n")
+    .split("\n")
     .filter((line) => {
       const match = line.match(issueLink);
       return !match || !duplicateIssueNumbers.has(Number(match[1]));
     })
-    .join("\\n");
+    .join("\n");
 }
 
 export function deduplicateGeneratedBooks(books, issues) {");
@@ -161,14 +161,20 @@ async function main() {
     throw new Error("GITHUB_REPOSITORY and GITHUB_TOKEN are required.");
   }
 
-  const [source, issues] = await Promise.all([
+  const [source, readme, issues] = await Promise.all([
     readFile("api.json", "utf8"),
+    readFile("README.md", "utf8"),
     fetchAllIssues(repository, token),
   ]);
-  const result = deduplicateGeneratedBooks(JSON.parse(source), issues);
+  const originalBooks = JSON.parse(source);
+  const result = deduplicateGeneratedBooks(originalBooks, issues);
+  const nextReadme = deduplicateGeneratedReadme(readme, result.duplicates, repository);
 
-  if (result.books.length !== JSON.parse(source).length) {
+  if (result.books.length !== originalBooks.length) {
     await writeFile("api.json", `${JSON.stringify(result.books, null, 2)}\n`);
+  }
+  if (nextReadme !== readme) {
+    await writeFile("README.md", nextReadme);
   }
 
   for (const duplicate of result.duplicates) {
