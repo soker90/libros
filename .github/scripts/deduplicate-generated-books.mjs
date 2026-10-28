@@ -52,12 +52,20 @@ export function deduplicateGeneratedBooks(books, issues) {
       scoreCanonicalIssue(b) - scoreCanonicalIssue(a) || a.number - b.number,
     );
 
+    const canonicalIssueNumber = ranked[0].number;
+    const canonicalIsGenerated = books.some(
+      (book) => Number(book.issueNumber) === canonicalIssueNumber,
+    );
+    if (!canonicalIsGenerated) continue;
+
     for (const duplicate of ranked.slice(1)) {
-      duplicates.push({
-        goodreadsId,
-        duplicateIssueNumber: duplicate.number,
-        canonicalIssueNumber: ranked[0].number,
-      });
+      if (books.some((book) => Number(book.issueNumber) === duplicate.number)) {
+        duplicates.push({
+          goodreadsId,
+          duplicateIssueNumber: duplicate.number,
+          canonicalIssueNumber,
+        });
+      }
     }
   }
 
