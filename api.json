@@ -1,5 +1,168 @@
 [
   {
+    "title": "Asesino real",
+    "authors": [
+      "Robin Hobb"
+    ],
+    "isbn10": "8419680966",
+    "isbn13": "9788419680969",
+    "requestedIsbn": "9788419680969",
+    "publisher": "Nocturna Ediciones",
+    "publishedDate": "2025-05-12",
+    "description": "Traspié debe desentrañar las intrigas de la familia real cuando la traición amenaza el trono.",
+    "image": "https://placehold.co/128x196?text=No+cover",
+    "language": "es",
+    "categories": [
+      "Fantasía"
+    ],
+    "pageCount": 704,
+    "metadataSource": "ISBN match",
+    "issueNumber": 73,
+    "progressPercent": 0,
+    "state": "completed",
+    "startedAt": "2026-10-28T12:16:48.000Z",
+    "completedAt": "2026-10-28T12:21:58.000Z",
+    "timeToComplete": 310000,
+    "timeToCompleteFormatted": "5 minutes"
+  },
+  {
+    "title": "La búsqueda del asesino",
+    "authors": [
+      "Robin Hobb"
+    ],
+    "isbn10": "8419680974",
+    "isbn13": "9788419680976",
+    "requestedIsbn": "9788419680976",
+    "publisher": "Nocturna Ediciones",
+    "publishedDate": "2025-05-12",
+    "description": "El rey ha muerto a causa de una traición. Traspié emprende una búsqueda de venganza que podría salvar el reino o condenarlo para siempre.",
+    "image": "https://placehold.co/128x196?text=No+cover",
+    "language": "es",
+    "categories": [
+      "Fantasía"
+    ],
+    "pageCount": 896,
+    "metadataSource": "ISBN match",
+    "issueNumber": 72,
+    "progressPercent": 0,
+    "state": "completed",
+    "startedAt": "2026-10-28T12:16:45.000Z",
+    "completedAt": "2026-10-28T12:21:56.000Z",
+    "timeToComplete": 311000,
+    "timeToCompleteFormatted": "5 minutes"
+  },
+  {
+    "title": "Islas de la Ascuaoscura",
+    "authors": [
+      "Brandon Sanderson"
+    ],
+    "publisher": "Nova",
+    "publishedDate": "5 de noviembre de 2025",
+    "description": "",
+    "image": "https://covers.openlibrary.org/b/id/15228811-L.jpg",
+    "language": "",
+    "averageRating": 0,
+    "ratingsCount": 0,
+    "categories": [],
+    "pageCount": 560,
+    "isbn13": "9788419260574",
+    "googleBooks": {
+      "id": "",
+      "preview": "http://openlibrary.org/books/OL62085744M/Islas_de_la_Ascuaoscura",
+      "info": "http://openlibrary.org/books/OL62085744M/Islas_de_la_Ascuaoscura",
+      "canonical": "http://openlibrary.org/books/OL62085744M/Islas_de_la_Ascuaoscura"
+    },
+    "requestedIsbn": "9788419260574",
+    "metadataSource": "ISBN match",
+    "issueNumber": 71,
+    "progressPercent": 0,
+    "state": "completed",
+    "startedAt": "2026-10-28T12:16:43.000Z",
+    "completedAt": "2026-10-28T12:21:53.000Z",
+    "timeToComplete": 310000,
+    "timeToCompleteFormatted": "5 minutes"
+  },
+  {
+    "title": "Realidades a Medida",
+    "authors": [
+      "Brandon Sanderson"
+    ],
+    "publisher": "Nova",
+    "publishedDate": "11 de diciembre 2025",
+    "description": "",
+    "image": "https://covers.openlibrary.org/b/id/15233731-L.jpg",
+    "language": "",
+    "averageRating": 0,
+    "ratingsCount": 0,
+    "categories": [
+      "fantasy",
+      "science fiction",
+      "American literature"
+    ],
+    "pageCount": 624,
+    "isbn10": "8410466201",
+    "isbn13": "9788410466203",
+    "googleBooks": {
+      "id": "",
+      "preview": "http://openlibrary.org/books/OL62207700M/Realidades_a_Medida",
+      "info": "http://openlibrary.org/books/OL62207700M/Realidades_a_Medida",
+      "canonical": "http://openlibrary.org/books/OL62207700M/Realidades_a_Medida"
+    },
+    "requestedIsbn": "9788410466203",
+    "metadataSource": "ISBN match",
+    "issueNumber": 70,
+    "progressPercent": 0,
+    "state": "completed",
+    "startedAt": "2026-10-28T12:16:39.000Z",
+    "completedAt": "2026-10-28T12:21:51.000Z",
+    "timeToComplete": 312000,
+    "timeToCompleteFormatted": "5 minutes"
+  },
+  {
+    "title": "Legión: Las múltiples vidas de Stephen Leeds (Legión)",
+    "authors": [
+      "Brandon Sanderson"
+    ],
+    "publisher": "Penguin Random House Audio",
+    "publishedDate": "2021",
+    "description": "",
+    "image": "https://placehold.co/128x196?text=No+cover",
+    "language": "es",
+    "categories": [],
+    "pageCount": null,
+    "metadataSource": "Goodreads CSV: title/author match; no ISBN supplied",
+    "issueNumber": 69,
+    "progressPercent": 0,
+    "state": "completed",
+    "startedAt": "2026-10-28T12:16:37.000Z",
+    "completedAt": "2026-10-28T12:21:48.000Z",
+    "timeToComplete": 311000,
+    "timeToCompleteFormatted": "5 minutes"
+  },
+  {
+    "title": "El imperio final",
+    "authors": [
+      "Brandon Sanderson"
+    ],
+    "isbn10": "8466631992",
+    "isbn13": "9788466631990",
+    "requestedIsbn": "9788466631990",
+    "publisher": "Ediciones B",
+    "publishedDate": "2008-03-19",
+    "description": "Durante mil años han caído cenizas del cielo y los skaa han sido esclavizados. Kelsier, el superviviente, encuentra a Vin y a la rebelión que busca derrocar al Lord Legislador.",
+    "image": "https://placehold.co/128x196?text=No+cover",
+    "language": "es",
+    "categories": [
+      "Fantasía"
+    ],
+    "pageCount": 688,
+    "metadataSource": "ISBN match",
+    "issueNumber": 99,
+    "progressPercent": 0,
+    "state": "reading",
+    "startedAt": "2026-10-28T12:18:00.000Z"
+  },
+  {
     "title": "El héroe de las eras",
     "authors": [
       "Brandon Sanderson"
@@ -711,6 +874,29 @@
     "startedAt": "2026-10-28T12:17:04.000Z"
   },
   {
+    "title": "El Archivo de las Tormentas: Una guía de bolsillo para El camino de los reyes y Palabras radiantes",
+    "authors": [
+      "Brandon Sanderson"
+    ],
+    "isbn10": "8416628475",
+    "isbn13": "9788416628476",
+    "requestedIsbn": "9788416628476",
+    "publisher": "FLASH",
+    "publishedDate": "2018",
+    "description": "",
+    "image": "https://placehold.co/128x196?text=No+cover",
+    "language": "es",
+    "categories": [
+      "Fantasía"
+    ],
+    "pageCount": 55,
+    "metadataSource": "ISBN match (Goodreads CSV)",
+    "issueNumber": 80,
+    "progressPercent": 0,
+    "state": "reading",
+    "startedAt": "2026-10-28T12:17:02.000Z"
+  },
+  {
     "title": "Esquirla del Amanecer",
     "authors": [
       "Brandon Sanderson"
@@ -884,106 +1070,27 @@
     "startedAt": "2026-10-28T12:16:52.000Z"
   },
   {
-    "title": "La búsqueda del asesino",
+    "title": "Aprendiz de asesino",
     "authors": [
       "Robin Hobb"
     ],
-    "isbn10": "8419680974",
-    "isbn13": "9788419680976",
-    "requestedIsbn": "9788419680976",
+    "isbn10": "8419680877",
+    "isbn13": "9788419680877",
+    "requestedIsbn": "9788419680877",
     "publisher": "Nocturna Ediciones",
     "publishedDate": "2025-05-12",
-    "description": "El rey ha muerto a causa de una traición. Traspié emprende una búsqueda de venganza que podría salvar el reino o condenarlo para siempre.",
+    "description": "Traspié, hijo bastardo del príncipe heredero, comienza su formación en las artes del asesinato y en la magia de la Habilidad.",
     "image": "https://placehold.co/128x196?text=No+cover",
     "language": "es",
     "categories": [
       "Fantasía"
     ],
-    "pageCount": 896,
+    "pageCount": 448,
     "metadataSource": "ISBN match",
-    "issueNumber": 72,
+    "issueNumber": 74,
     "progressPercent": 0,
     "state": "reading",
-    "startedAt": "2026-10-28T12:16:45.000Z"
-  },
-  {
-    "title": "Islas de la Ascuaoscura",
-    "authors": [
-      "Brandon Sanderson"
-    ],
-    "publisher": "Nova",
-    "publishedDate": "5 de noviembre de 2025",
-    "description": "",
-    "image": "https://covers.openlibrary.org/b/id/15228811-L.jpg",
-    "language": "",
-    "averageRating": 0,
-    "ratingsCount": 0,
-    "categories": [],
-    "pageCount": 560,
-    "isbn13": "9788419260574",
-    "googleBooks": {
-      "id": "",
-      "preview": "http://openlibrary.org/books/OL62085744M/Islas_de_la_Ascuaoscura",
-      "info": "http://openlibrary.org/books/OL62085744M/Islas_de_la_Ascuaoscura",
-      "canonical": "http://openlibrary.org/books/OL62085744M/Islas_de_la_Ascuaoscura"
-    },
-    "requestedIsbn": "9788419260574",
-    "metadataSource": "ISBN match",
-    "issueNumber": 71,
-    "progressPercent": 0,
-    "state": "reading",
-    "startedAt": "2026-10-28T12:16:43.000Z"
-  },
-  {
-    "title": "Realidades a Medida",
-    "authors": [
-      "Brandon Sanderson"
-    ],
-    "publisher": "Nova",
-    "publishedDate": "11 de diciembre 2025",
-    "description": "",
-    "image": "https://covers.openlibrary.org/b/id/15233731-L.jpg",
-    "language": "",
-    "averageRating": 0,
-    "ratingsCount": 0,
-    "categories": [
-      "fantasy",
-      "science fiction",
-      "American literature"
-    ],
-    "pageCount": 624,
-    "isbn10": "8410466201",
-    "isbn13": "9788410466203",
-    "googleBooks": {
-      "id": "",
-      "preview": "http://openlibrary.org/books/OL62207700M/Realidades_a_Medida",
-      "info": "http://openlibrary.org/books/OL62207700M/Realidades_a_Medida",
-      "canonical": "http://openlibrary.org/books/OL62207700M/Realidades_a_Medida"
-    },
-    "requestedIsbn": "9788410466203",
-    "metadataSource": "ISBN match",
-    "issueNumber": 70,
-    "progressPercent": 0,
-    "state": "reading",
-    "startedAt": "2026-10-28T12:16:39.000Z"
-  },
-  {
-    "title": "Legión: Las múltiples vidas de Stephen Leeds (Legión)",
-    "authors": [
-      "Brandon Sanderson"
-    ],
-    "publisher": "Penguin Random House Audio",
-    "publishedDate": "2021",
-    "description": "",
-    "image": "https://placehold.co/128x196?text=No+cover",
-    "language": "es",
-    "categories": [],
-    "pageCount": null,
-    "metadataSource": "Goodreads CSV: title/author match; no ISBN supplied",
-    "issueNumber": 69,
-    "progressPercent": 0,
-    "state": "reading",
-    "startedAt": "2026-10-28T12:16:37.000Z"
+    "startedAt": "2026-10-28T12:16:50.000Z"
   },
   {
     "isbn10": "8445018914",
