@@ -14,8 +14,18 @@ Filtrar por puntuación:
 ## 📖 Mis lecturas
 
 <!--start:bookshelf-action-->
-### ⌛ Currently reading (5)
+### ⌛ Currently reading (15)
 
+[![Trenza del Mar Esmeralda](https://images.weserv.nl/?url=https%3A%2F%2Fcovers.openlibrary.org%2Fb%2Fid%2F14651590-L.jpg&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/84 "Trenza del Mar Esmeralda by Brandon Sanderson")
+[![Palabras Radiantes](https://images.weserv.nl/?url=https%3A%2F%2Fcovers.openlibrary.org%2Fb%2Fid%2F14838998-L.jpg&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/83 "Palabras Radiantes by Brandon Sanderson")
+[![Arcanun Ilimitado](https://images.weserv.nl/?url=https%3A%2F%2Fplacehold.co%2F128x196%3Ftext%3DNo%2Bcover&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/82 "Arcanun Ilimitado by Brandon Sanderson")
+[![Juramentada / Oathbringer](https://images.weserv.nl/?url=https%3A%2F%2Fcovers.openlibrary.org%2Fb%2Fid%2F11234168-L.jpg&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/81 "Juramentada / Oathbringer by Brandon Sanderson")
+[![Esquirla del Amanecer](https://images.weserv.nl/?url=https%3A%2F%2Fcovers.openlibrary.org%2Fb%2Fid%2F11385385-L.jpg&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/79 "Esquirla del Amanecer by Brandon Sanderson")
+[![El ritmo de la guerra](https://images.weserv.nl/?url=https%3A%2F%2Fcovers.openlibrary.org%2Fb%2Fid%2F10522934-L.jpg&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/78 "El ritmo de la guerra by Brandon Sanderson")
+[![Yumi y el pintor de pesadillas](https://images.weserv.nl/?url=https%3A%2F%2Fcovers.openlibrary.org%2Fb%2Fid%2F14611343-L.jpg&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/77 "Yumi y el pintor de pesadillas by Brandon Sanderson")
+[![El Hombre Iluminado](https://images.weserv.nl/?url=https%3A%2F%2Fcovers.openlibrary.org%2Fb%2Fid%2F14651591-L.jpg&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/76 "El Hombre Iluminado by Brandon Sanderson")
+[![Viento y verdad](https://images.weserv.nl/?url=https%3A%2F%2Fcovers.openlibrary.org%2Fb%2Fid%2F14838986-L.jpg&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/75 "Viento y verdad by Brandon Sanderson")
+[![Islas de la Ascuaoscura](https://images.weserv.nl/?url=https%3A%2F%2Fcovers.openlibrary.org%2Fb%2Fid%2F15228811-L.jpg&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/71 "Islas de la Ascuaoscura by Brandon Sanderson")
 [![Realidades a Medida](https://images.weserv.nl/?url=https%3A%2F%2Fcovers.openlibrary.org%2Fb%2Fid%2F15233731-L.jpg&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/70 "Realidades a Medida by Brandon Sanderson")
 [![Ciclo Pendragon nº 02/06 Merlín](https://images.weserv.nl/?url=https%3A%2F%2Fwww.planetadelibros.com%2Fusuaris%2Flibros%2Ffotos%2F405%2Foriginal%2Fportada_ciclo-pendragon-n-0206-merlin_stephen-r-lawhead_202505280841.jpg&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/54 "Ciclo Pendragon nº 02/06 Merlín by Stephen R. Lawhead")
 [![Hábitos atómicos](https://images.weserv.nl/?url=http%3A%2F%2Fbooks.google.com%2Fbooks%2Fcontent%3Fid%3DTXiMDwAAQBAJ%26printsec%3Dfrontcover%26img%3D1%26zoom%3D1%26edge%3Dcurl%26source%3Dgbs_api&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/35 "Hábitos atómicos by James Clear")
