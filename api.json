@@ -280,70 +280,6 @@
     "timeToCompleteFormatted": "2 weeks"
   },
   {
-    "title": "Assassin's Apprentice",
-    "authors": [
-      "Robin Hobb"
-    ],
-    "publisher": "Spectra",
-    "publishedDate": "1995",
-    "description": "As Fitz, an outcast and the bastard son of Prince Chivalry, grows to manhood, a legacy of magical skill and other mysterious talents propels him into the role of protector of the kingdom, if his initial perilous mission does not destroy him first. A first novel. Original.",
-    "image": "http://books.google.com/books/content?id=-_4EAAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-    "language": "en",
-    "averageRating": 4.5,
-    "ratingsCount": 2,
-    "categories": [
-      "Fiction"
-    ],
-    "pageCount": 356,
-    "isbn10": "0553374451",
-    "isbn13": "9780553374452",
-    "googleBooks": {
-      "id": "-_4EAAAACAAJ",
-      "preview": "http://books.google.com/books?id=-_4EAAAACAAJ&dq=intitle:Aprendiz+de+asesino+by+Robin+Hobb&hl=&cd=5&source=gbs_api",
-      "info": "http://books.google.com/books?id=-_4EAAAACAAJ&dq=intitle:Aprendiz+de+asesino+by+Robin+Hobb&hl=&source=gbs_api",
-      "canonical": "https://books.google.com/books/about/Assassin_s_Apprentice.html?hl=&id=-_4EAAAACAAJ"
-    },
-    "issueNumber": 41,
-    "progressPercent": 0,
-    "state": "completed",
-    "startedAt": "2025-07-18T09:59:03.000Z",
-    "completedAt": "2025-07-18T09:59:22.000Z",
-    "timeToComplete": 19000,
-    "timeToCompleteFormatted": "19 seconds"
-  },
-  {
-    "title": "Words of Radiance",
-    "authors": [
-      "Brandon Sanderson"
-    ],
-    "publisher": "Tor Books",
-    "publishedDate": "2014-03-04",
-    "description": "From #1 New York Times bestselling author Brandon Sanderson, Words of Radiance, Book Two of the Stormlight Archive, continues the immersive fantasy epic that The Way of Kings began. Expected by his enemies to die the miserable death of a military slave, Kaladin survived to be given command of the royal bodyguards, a controversial first for a low-status \"darkeyes.\" Now he must protect the king and Dalinar from every common peril as well as the distinctly uncommon threat of the Assassin, all while secretly struggling to master remarkable new powers that are somehow linked to his honorspren, Syl. The Assassin, Szeth, is active again, murdering rulers all over the world of Roshar, using his baffling powers to thwart every bodyguard and elude all pursuers. Among his prime targets is Highprince Dalinar, widely considered the power behind the Alethi throne. His leading role in the war would seem reason enough, but the Assassin's master has much deeper motives. Brilliant but troubled Shallan strives along a parallel path. Despite being broken in ways she refuses to acknowledge, she bears a terrible burden: to somehow prevent the return of the legendary Voidbringers and the civilization-ending Desolation that will follow. The secrets she needs can be found at the Shattered Plains, but just arriving there proves more difficult than she could have imagined. Meanwhile, at the heart of the Shattered Plains, the Parshendi are making an epochal decision. Hard pressed by years of Alethi attacks, their numbers ever shrinking, they are convinced by their war leader, Eshonai, to risk everything on a desperate gamble with the very supernatural forces they once fled. The possible consequences for Parshendi and humans alike, indeed, for Roshar itself, are as dangerous as they are incalculable. Other Tor books by Brandon Sanderson The Cosmere The Stormlight Archive ● The Way of Kings ● Words of Radiance ● Edgedancer (novella) ● Oathbringer ● Dawnshard (novella) ● Rhythm of War The Mistborn Saga The Original Trilogy ● Mistborn ● The Well of Ascension ● The Hero of Ages Wax and Wayne ● The Alloy of Law ● Shadows of Self ● The Bands of Mourning ● The Lost Metal Other Cosmere novels ● Elantris ● Warbreaker ● Tress of the Emerald Sea ● Yumi and the Nightmare Painter ● The Sunlit Man Collection ● Arcanum Unbounded: The Cosmere Collection The Alcatraz vs. the Evil Librarians series ● Alcatraz vs. the Evil Librarians ● The Scrivener's Bones ● The Knights of Crystallia ● The Shattered Lens ● The Dark Talent ● Bastille vs. the Evil Librarians (with Janci Patterson) Other novels ● The Rithmatist ● Legion: The Many Lives of Stephen Leeds ● The Frugal Wizard’s Handbook for Surviving Medieval England Other books by Brandon Sanderson The Reckoners ● Steelheart ● Firefight ● Calamity Skyward ● Skyward ● Starsight ● Cytonic ● Skyward Flight (with Janci Patterson) ● Defiant At the Publisher's request, this title is being sold without Digital Rights Management Software (DRM) applied.",
-    "image": "http://books.google.com/books/content?id=kYjqAQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-    "language": "en",
-    "averageRating": 5,
-    "ratingsCount": 4,
-    "categories": [
-      "Fiction"
-    ],
-    "pageCount": 1209,
-    "isbn10": "1429949627",
-    "isbn13": "9781429949620",
-    "googleBooks": {
-      "id": "kYjqAQAAQBAJ",
-      "preview": "http://books.google.com/books?id=kYjqAQAAQBAJ&printsec=frontcover&dq=intitle:Viento+y+verdad+by+Brandon+Sanderson&hl=&cd=5&source=gbs_api",
-      "info": "https://play.google.com/store/books/details?id=kYjqAQAAQBAJ&source=gbs_api",
-      "canonical": "https://play.google.com/store/books/details?id=kYjqAQAAQBAJ"
-    },
-    "issueNumber": 38,
-    "progressPercent": 0,
-    "state": "completed",
-    "startedAt": "2025-01-31T09:14:30.000Z",
-    "completedAt": "2025-07-17T12:18:40.000Z",
-    "timeToComplete": 14439850000,
-    "timeToCompleteFormatted": "5 months"
-  },
-  {
     "title": "Aprendiz de asesino",
     "authors": [
       "Robin Hobb"
@@ -634,36 +570,6 @@
     "startedAt": "2024-02-25T21:17:41.000Z"
   },
   {
-    "title": "El Hombre Iluminado (Novela Secreta 4)",
-    "authors": [
-      "Brandon Sanderson"
-    ],
-    "publisher": "NOVA",
-    "publishedDate": "2023-10-19",
-    "description": "Brandon Sanderson, el gran autor de fantasía del siglo XXI, nos lleva a un futuro de su universo del Cosmere en el que un perpetuo vagabundo planetario deberá decidir si seguir huyendo o quedarse y ayudar en un mundo atribulado. El Hombre Iluminado es una de las cuatro increíbles novelas con las que Sanderson ha protagonizado la mayor campaña de micromecenazgo de la historia de Kickstarter. Hace años tenía compañeros de armas y una causa en la que creer, pero ahora el hombre que se hace llamar Nómada solo conoce la vida a la fuga. Obligado a saltar de un mundo a otro en el Cosmere cada vez que la implacable Brigada Nocturna le gana demasiado terreno, Nómada acaba en un nuevo planeta y de inmediato se ve implicado en la trifulca entre un tirano y los rebeldes que solo pretenden evitar que los conviertan en esclavos sin mente. Y todo bajo la amenaza constante de un amanecer cuyo calor derrite la misma piedra. Incapaz de comprender su idioma, ¿sabrá navegar el conflicto y obtener el suficiente poder para saltar fuera del planeta antes de que su mente o su cuerpo paguen el precio definitivo?",
-    "image": "http://books.google.com/books/content?id=xn3aEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-    "language": "es",
-    "categories": [
-      "Fiction"
-    ],
-    "pageCount": 496,
-    "isbn10": "8419260134",
-    "isbn13": "9788419260130",
-    "googleBooks": {
-      "id": "xn3aEAAAQBAJ",
-      "preview": "http://books.google.com/books?id=xn3aEAAAQBAJ&printsec=frontcover&dq=intitle:El+Hombre+Iluminado+(Novela+Secreta+4)&hl=&cd=1&source=gbs_api",
-      "info": "https://play.google.com/store/books/details?id=xn3aEAAAQBAJ&source=gbs_api",
-      "canonical": "https://play.google.com/store/books/details?id=xn3aEAAAQBAJ"
-    },
-    "issueNumber": 13,
-    "progressPercent": 0,
-    "state": "completed",
-    "startedAt": "2024-02-01T18:49:31.000Z",
-    "completedAt": "2024-02-20T08:40:49.000Z",
-    "timeToComplete": 1605078000,
-    "timeToCompleteFormatted": "2 weeks"
-  },
-  {
     "title": "El Hombre Iluminado",
     "authors": [
       "Brandon Sanderson"
@@ -787,36 +693,6 @@
     "startedAt": "2024-01-17T17:39:24.000Z"
   },
   {
-    "title": "Yumi y el pintor de pesadillas (Novela Secreta 3)",
-    "authors": [
-      "Brandon Sanderson"
-    ],
-    "publisher": "NOVA",
-    "publishedDate": "2023-07-20",
-    "description": "Brandon Sanderson añade a su universo del Cosmere (compartido por las sagas Nacidos de la Bruma y El Archivo de las Tormentas) una nueva novela independiente que hará las delicias de los aficionados a la cultura popular asiática. Yumi viene de una tierra de jardines, meditación y espíritus, mientras que Pintor vive en un mundo de oscuridad, tecnología y pesadillas. Cuando de pronto sus vidas se ven extrañamente entrelazadas, ¿podrán dejar de lado sus diferencias y colaborar para descubrir los misterios de su situación y salvar sus respectivas comunidades de un desastre seguro? Nota de Brandon: «Llevaba años queriendo escribir una novela de fantasía protagonizada por personas que hacen trabajos normales para ellas, pero fantásticos para nosotros como lectores. Además, mi esposa me animó a añadir más romanticismo a mis historias. Cuando junté a dos personas cuyo trabajo le parece fantástico al otro, nació el relato de Yumi y el pintor de pesadillas. Esta novela en particular fue un regalo especial para mi esposa, regalo que ambos estamos encantados de compartir ahora con vosotros.»",
-    "image": "http://books.google.com/books/content?id=DDHFEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-    "language": "es",
-    "categories": [
-      "Fiction"
-    ],
-    "pageCount": 493,
-    "isbn10": "8419260037",
-    "isbn13": "9788419260031",
-    "googleBooks": {
-      "id": "DDHFEAAAQBAJ",
-      "preview": "http://books.google.com/books?id=DDHFEAAAQBAJ&printsec=frontcover&dq=intitle:Yumi+y+el+pintor+de+pesadillas&hl=&cd=1&source=gbs_api",
-      "info": "https://play.google.com/store/books/details?id=DDHFEAAAQBAJ&source=gbs_api",
-      "canonical": "https://play.google.com/store/books/details?id=DDHFEAAAQBAJ"
-    },
-    "issueNumber": 3,
-    "progressPercent": 0,
-    "state": "completed",
-    "startedAt": "2023-09-29T19:31:40.000Z",
-    "completedAt": "2023-11-30T16:19:20.000Z",
-    "timeToComplete": 5345260000,
-    "timeToCompleteFormatted": "2 months"
-  },
-  {
     "title": "Yumi y el pintor de pesadillas",
     "authors": [
       "Brandon Sanderson"
@@ -851,38 +727,6 @@
     "completedAt": "2023-11-30T00:00:00.000Z",
     "timeToComplete": 10972800000,
     "timeToCompleteFormatted": "4 months"
-  },
-  {
-    "title": "El Ritmo de la Guerra (El Archivo de las Tormentas 4)",
-    "authors": [
-      "Brandon Sanderson"
-    ],
-    "publisher": "NOVA",
-    "publishedDate": "2020-11-19",
-    "description": "El Ritmo de la Guerra es la esperada cuarta parte de la decalogía «El Archivo de las Tormentas» y el libro que continúa la historia de El camino de los reyes, Palabras radiantes y Juramentada. Hay secretos que hemos guardado mucho tiempo. Vigilantes. Insomnes. Eternos. Y pronto dejarán de ser nuestros. La Una que es Tres busca, sin saberlo, el alma capturada. El spren aprisionado, olvidado hace mucho tiempo. ¿Puede liberar su propia alma a tiempo de hallar el conocimiento que condena a todos los pueblos de Roshar? El Soldado Caído acaricia y ama la lanza, incluso mientras el arma hiende su propia carne. Camina siempre hacia delante, siempre hacia la oscuridad, sin luz. No puede llevar consigo a nadie, salvo aquello que él mismo puede avivar. La Hermana Derrumbada comprende sus errores y piensa que ella misma es un error. Parece muy alejada de sus antepasados, pero no comprende que son quienes la llevan a hombros. Hacia la victoria, y hacia ese silencio, el más importante de todos. Y la Madre de Máquinas, la más crucial de todos ellos, danza con mentirosos en un gran baile. Debe desenmascararlos, alcanzar sus verdades ocultas y entregarlas al mundo. Tiene que reconocer que las peores mentiras son las que se cuenta a sí misma. Si lo hace, nuestros secretos por fin se convertirán en verdades. La crítica ha dicho: «Me encantó este libro... ¿Qué más puedo decir?» Patrick Rothfuss sobre El camino de los reyes «Un clásico de Sanderson.» Publishers Weekly sobre Juramentada",
-    "image": "http://books.google.com/books/content?id=NFfuDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-    "language": "es",
-    "averageRating": 5,
-    "ratingsCount": 1,
-    "categories": [
-      "Fiction"
-    ],
-    "pageCount": 1376,
-    "isbn10": "8417347968",
-    "isbn13": "9788417347963",
-    "googleBooks": {
-      "id": "NFfuDwAAQBAJ",
-      "preview": "http://books.google.com/books?id=NFfuDwAAQBAJ&printsec=frontcover&dq=intitle:El+ritmo+de+la+guerra+by+Brandon+Sanderson&hl=&cd=1&source=gbs_api",
-      "info": "https://play.google.com/store/books/details?id=NFfuDwAAQBAJ&source=gbs_api",
-      "canonical": "https://play.google.com/store/books/details?id=NFfuDwAAQBAJ"
-    },
-    "issueNumber": 1,
-    "progressPercent": 0,
-    "state": "completed",
-    "startedAt": "2023-09-29T19:12:12.000Z",
-    "completedAt": "2023-11-19T20:07:27.000Z",
-    "timeToComplete": 4409715000,
-    "timeToCompleteFormatted": "1 month"
   },
   {
     "title": "El ritmo de la guerra",
@@ -1009,38 +853,6 @@
     "completedAt": "2023-08-27T00:00:00.000Z",
     "timeToComplete": 23673600000,
     "timeToCompleteFormatted": "9 months"
-  },
-  {
-    "title": "Juramentada (El Archivo de las Tormentas 3)",
-    "authors": [
-      "Brandon Sanderson"
-    ],
-    "publisher": "NOVA",
-    "publishedDate": "2018-04-05",
-    "description": "Juramentada es la aclamada continuación de El camino de los reyes y de Palabras radiantes , y tercera parte de la decalogía «El Archivo de las Tormentas», obra maestra de la fantasía épica que ha coronado la lista de best sellers de The New York Times y ha postulado a Sanderson como el autor de género que más lectores está ganando en todo el mundo. La humanidad se enfrenta a una nueva Desolación con el regreso de los Portadores del Vacío, un enemigo tan grande en número como en sed de venganza. La victoria fugaz de los ejércitos alezi de Dalinar Kholin ha tenido consecuencias: el enemigo parshendi ha convocado la violenta tormenta eterna, que arrasa el mundo y hace que los hasta ahora pacíficos parshmenios descubran con horror que llevan un milenio esclavizados por los humanos. Al mismo tiempo, en una desesperada huida para alertar a su familia de la amenaza, Kaladin se pregunta si la repentina ira de los parshmenios está justificada. Entretanto, en la torre de la ciudad de Urithiru, a salvo de la tormenta, Shallan Davar investiga las maravillas de la antigua fortaleza de los Caballeros Radiantes y desentierra oscuros secretos que acechan en las profundidades. Dalinar descubre entonces que su sagrada misión de unificar su tierra natal de Alezkar era corta de miras. A menos que todas las naciones sean capaces de unirse y dejar de lado el pasado sangriento de Dalinar, ni siquiera la restauración de los Caballeros Radiantes conseguirá impedir el fin de la civilización. La crítica ha dicho... «Brandon Sanderson es una leyenda.» Alexelcapo, @EvilAFM «Es raro que un autor de ficción comprenda tan bien cómo funciona el liderazgo y cómo el amor echa raíces en el corazón humano. Sanderson es sorprendentemente sabio.» Orson Scott Card La crítica ha dicho sobre El camino de los Reyes... «Me encantó este libro... ¿Qué más puedo decir?» Patrick Rothfuss",
-    "image": "http://books.google.com/books/content?id=ucRODwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-    "language": "es",
-    "averageRating": 5,
-    "ratingsCount": 1,
-    "categories": [
-      "Fiction"
-    ],
-    "pageCount": 1400,
-    "isbn10": "8417347151",
-    "isbn13": "9788417347154",
-    "googleBooks": {
-      "id": "ucRODwAAQBAJ",
-      "preview": "http://books.google.com/books?id=ucRODwAAQBAJ&printsec=frontcover&dq=intitle:Juramentada&hl=&cd=1&source=gbs_api",
-      "info": "https://play.google.com/store/books/details?id=ucRODwAAQBAJ&source=gbs_api",
-      "canonical": "https://play.google.com/store/books/details?id=ucRODwAAQBAJ"
-    },
-    "issueNumber": 4,
-    "progressPercent": 0,
-    "state": "completed",
-    "startedAt": "2023-08-09T00:00:00.000Z",
-    "completedAt": "2023-08-27T00:00:00.000Z",
-    "timeToComplete": 1555200000,
-    "timeToCompleteFormatted": "2 weeks"
   },
   {
     "title": "Arcanun Ilimitado",
