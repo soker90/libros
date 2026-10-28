@@ -54,7 +54,8 @@
     "issueNumber": 54,
     "progressPercent": 0,
     "state": "reading",
-    "startedAt": "2026-10-01T00:00:00.000Z"
+    "startedAt": "2026-10-01T00:00:00.000Z",
+    "format": "Tapa blanda"
   },
   {
     "title": "Legión: Las múltiples vidas de Stephen Leeds (Legión)",
@@ -119,7 +120,8 @@
     "startedAt": "2026-02-16T00:00:00.000Z",
     "completedAt": "2026-03-10T00:00:00.000Z",
     "timeToComplete": 1900800000,
-    "timeToCompleteFormatted": "3 weeks"
+    "timeToCompleteFormatted": "3 weeks",
+    "format": "Tapa blanda"
   },
   {
     "title": "Los jardines de la luna",
@@ -347,7 +349,7 @@
     "pageCount": 288,
     "isbn10": "8498890438",
     "isbn13": "9788498890433",
-    "format": "Tapa dura",
+    "format": "Cartoné",
     "metadataSource": "ISBN exacto 9788498890433; edición Alamut verificada en Casa del Libro y Agapea",
     "issueNumber": 36,
     "progressPercent": 0,
