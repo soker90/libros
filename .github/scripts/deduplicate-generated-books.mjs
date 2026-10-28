@@ -62,11 +62,9 @@ export function deduplicateGeneratedBooks(books, issues) {
   }
 
   const duplicateIssueNumbers = new Set(duplicates.map((item) => item.duplicateIssueNumber));
-  const result = books.filter((book) => {
-    const issueNumber = Number(book.issueNumber);
-    if (!duplicateIssueNumbers.has(issueNumber)) return true;
-    return false;
-  });
+  const result = books.filter((book) =>
+    !duplicateIssueNumbers.has(Number(book.issueNumber)),
+  );
 
   return {
     books: result,
