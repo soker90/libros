@@ -106,13 +106,14 @@ async function deleteIssue(issueId, token) {
 
 async function main() {
   const repository = process.env.GITHUB_REPOSITORY;
-  const token = process.env.GITHUB_TOKEN;
-  if (!repository || !token) {
+  const readToken = process.env.GITHUB_TOKEN;
+  const deleteToken = process.env.LIBROS_ADMIN_TOKEN;
+  if (!repository || !readToken) {
     throw new Error("GITHUB_REPOSITORY and GITHUB_TOKEN are required.");
   }
 
   const books = JSON.parse(await readFile("api.json", "utf8"));
-  const issues = await fetchAllIssues(repository, token);
+  const issues = await fetchAllIssues(repository, readToken);
   const duplicates = findDuplicateGoodreadsIssues(books, issues);
 
   if (!duplicates.length) {
@@ -120,8 +121,22 @@ async function main() {
     return;
   }
 
+  if (!deleteToken) {
+    console.warn(
+      `Found ${duplicates.length} confirmed duplicate Goodreads issue(s), but deletion was skipped. `
+      + "Configure the LIBROS_ADMIN_TOKEN repository secret with permission to delete issues.",
+    );
+    for (const duplicate of duplicates) {
+      console.warn(
+        `Pending deletion: issue #${duplicate.duplicateIssueNumber}; `
+        + `keep #${duplicate.canonicalIssueNumber} (Goodreads ID ${duplicate.goodreadsId}).`,
+      );
+    }
+    return;
+  }
+
   for (const duplicate of duplicates) {
-    await deleteIssue(duplicate.duplicateNodeId, token);
+    await deleteIssue(duplicate.duplicateNodeId, deleteToken);
     console.log(
       `Deleted duplicate issue #${duplicate.duplicateIssueNumber}; `
       + `kept #${duplicate.canonicalIssueNumber} (Goodreads ID ${duplicate.goodreadsId}).`,
