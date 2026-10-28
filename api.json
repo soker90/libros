@@ -191,6 +191,7 @@
     "authors": [
       "Robin Hobb"
     ],
+    "publisher": "La Factoría de Ideas",
     "publishedDate": "2004",
     "description": "En una corte que desprecia su condición de bastardo, en un reino que se encuentra al borde de la guerra, Traspié Hidalgo Vatídico debe hacer frente a una serie de compromisos para los que no se siente preparado. El amor de su vida representa la antítesis de lo que dictan las normas de la corte. El lobo Ojos de Noche es su más fiel aliado en un mundo que desprecia y castiga los vínculos especiales entre hombres y bestias. El enigmático bufón real, al que consideraba su amigo, parece anteponer a todo lo demás su lealtad a un monarca que agoniza. Los Seis Ducados parecen condenados a sucumbir a manos de los sanguinarios Corsarios de la Vela Roja, y la última posibilidad de salvación podría encontrarse al otro lado del lejano Reino de las Montañas, en la legendaria figura de los Vetulus. Pero, ¿se puede confiar la suerte de todo un reino a la búsqueda de lo que parece ser una simple quimera?",
     "image": "https://tse2.mm.bing.net/th?q=FRAGILIDAD%20DEL%20ASESINO%20by%20Robin%20Hobb&w=256&c=7&rs=1&p=0&dpr=3&pid=1.7&mkt=en-IN&adlt=moderate",
@@ -198,20 +199,21 @@
     "averageRating": 4,
     "ratingsCount": 1,
     "categories": [
-      "Literary Criticism"
+      "Fantasía épica",
+      "Ficción fantástica",
+      "Aventuras"
     ],
     "pageCount": 296,
     "isbn10": "8498000165",
     "isbn13": "9788498000160",
+    "format": "Tapa blanda",
     "googleBooks": {
       "id": "iK3_PAAACAAJ",
       "preview": "http://books.google.com/books?id=iK3_PAAACAAJ&dq=intitle:En+busca+del+aseino+by+robin+hobb&hl=&cd=6&source=gbs_api",
       "info": "http://books.google.com/books?id=iK3_PAAACAAJ&dq=intitle:En+busca+del+aseino+by+robin+hobb&hl=&source=gbs_api",
       "canonical": "https://books.google.com/books/about/FRAGILIDAD_DEL_ASESINO.html?hl=&id=iK3_PAAACAAJ"
     },
-    "publisher": "La Factoría de Ideas",
-    "format": "Tapa blanda",
-    "metadataSource": "ISBN exacto 9788498000160; ficha bibliográfica contrastada con Agapea y Casa del Libro",
+    "metadataSource": "ISBN exacto 9788498000160; edición y sinopsis contrastadas con Agapea y Casa del Libro",
     "issueNumber": 46,
     "progressPercent": 0,
     "state": "completed",
@@ -589,7 +591,7 @@
     "metadataSource": "ISBN exacto 9788495787163; ficha bibliográfica contrastada con Casa del Libro",
     "issueNumber": 17,
     "progressPercent": 0,
-    "state": "want-to-read",
+    "state": "reading",
     "startedAt": "2024-02-25T21:17:41.000Z"
   },
   {
@@ -669,9 +671,15 @@
       "William Thomas Walsh"
     ],
     "publisher": "Literary Licensing, LLC",
-    "publishedDate": "2011-10-01",
+    "publishedDate": "2011",
+    "description": "Biografía histórica de Isabel I de Castilla (1451-1504), desde su infancia y ascenso al trono hasta su reinado junto a Fernando de Aragón. Examina su papel en la Reconquista, la expansión ultramarina y los conflictos políticos y religiosos de la España del siglo XV.",
     "image": "http://books.google.com/books/content?id=M_mwngEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     "language": "en",
+    "categories": [
+      "Biografía",
+      "Historia de España",
+      "Historia religiosa"
+    ],
     "pageCount": 568,
     "isbn10": "1258217309",
     "isbn13": "9781258217303",
@@ -681,13 +689,7 @@
       "info": "http://books.google.com/books?id=M_mwngEACAAJ&dq=intitle:Isabel+de+Espa%C3%B1a+by+William+Thomas&hl=&source=gbs_api",
       "canonical": "https://books.google.com/books/about/Isabella_of_Spain.html?hl=&id=M_mwngEACAAJ"
     },
-    "description": "Biografía histórica de Isabel la Católica que recorre su vida, su ascenso al trono de Castilla, su matrimonio con Fernando de Aragón y su papel en la transformación política y religiosa de la España del siglo XV.",
-    "categories": [
-      "Biografía",
-      "Historia",
-      "Historia de España"
-    ],
-    "metadataSource": "ISBN exacto 9781258217303; descripción redactada a partir del título y del tema bibliográfico de la edición",
+    "metadataSource": "ISBN exacto 9781258217303; edición de Literary Licensing, LLC verificada en Google Books",
     "issueNumber": 16,
     "progressPercent": 0,
     "state": "reading",
@@ -719,7 +721,7 @@
     },
     "issueNumber": 7,
     "progressPercent": 0,
-    "state": "reading",
+    "state": "want-to-read",
     "startedAt": "2024-01-17T17:39:24.000Z"
   },
   {
