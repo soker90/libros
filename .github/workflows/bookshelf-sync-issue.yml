@@ -36,6 +36,7 @@ jobs:
           git pull --rebase origin "${GITHUB_REF_NAME}"
           node .github/scripts/sync-issue-collections.mjs
           node .github/scripts/normalize-publication-dates.mjs
+          node .github/scripts/sync-goodreads-reading-state.mjs
           git add README.md api.json
           if ! git diff --cached --quiet; then
             git config user.name "github-actions[bot]"
