@@ -187,40 +187,34 @@
     "timeToCompleteFormatted": "1 week"
   },
   {
-    "title": "FRAGILIDAD DEL ASESINO",
+    "title": "La búsqueda del asesino",
     "authors": [
       "Robin Hobb"
     ],
-    "publisher": "La Factoría de Ideas",
-    "publishedDate": "2004",
-    "description": "En una corte que desprecia su condición de bastardo, en un reino que se encuentra al borde de la guerra, Traspié Hidalgo Vatídico debe hacer frente a una serie de compromisos para los que no se siente preparado. El amor de su vida representa la antítesis de lo que dictan las normas de la corte. El lobo Ojos de Noche es su más fiel aliado en un mundo que desprecia y castiga los vínculos especiales entre hombres y bestias. El enigmático bufón real, al que consideraba su amigo, parece anteponer a todo lo demás su lealtad a un monarca que agoniza. Los Seis Ducados parecen condenados a sucumbir a manos de los sanguinarios Corsarios de la Vela Roja, y la última posibilidad de salvación podría encontrarse al otro lado del lejano Reino de las Montañas, en la legendaria figura de los Vetulus. Pero, ¿se puede confiar la suerte de todo un reino a la búsqueda de lo que parece ser una simple quimera?",
-    "image": "https://tse2.mm.bing.net/th?q=FRAGILIDAD%20DEL%20ASESINO%20by%20Robin%20Hobb&w=256&c=7&rs=1&p=0&dpr=3&pid=1.7&mkt=en-IN&adlt=moderate",
+    "publisher": "Nocturna Ediciones",
+    "publishedDate": "2025-05-12",
+    "description": "El rey ha muerto a causa de una traición. Al igual que Traspié, los Seis Ducados agonizan: han saqueado Torre de Alce y el heredero al trono sigue desaparecido. Prácticamente muerto en vida, Traspié emprende una búsqueda de venganza que podría salvar el reino o condenarlo para siempre.",
+    "image": "https://placehold.co/128x196?text=No+cover",
     "language": "es",
-    "averageRating": 4,
-    "ratingsCount": 1,
+    "averageRating": 0,
+    "ratingsCount": 0,
     "categories": [
-      "Fantasía épica",
-      "Ficción fantástica",
-      "Aventuras"
+      "Fantasía",
+      "Novela fantástica",
+      "Intriga política"
     ],
-    "pageCount": 296,
-    "isbn10": "8498000165",
-    "isbn13": "9788498000160",
-    "format": "Tapa blanda",
-    "googleBooks": {
-      "id": "iK3_PAAACAAJ",
-      "preview": "http://books.google.com/books?id=iK3_PAAACAAJ&dq=intitle:En+busca+del+aseino+by+robin+hobb&hl=&cd=6&source=gbs_api",
-      "info": "http://books.google.com/books?id=iK3_PAAACAAJ&dq=intitle:En+busca+del+aseino+by+robin+hobb&hl=&source=gbs_api",
-      "canonical": "https://books.google.com/books/about/FRAGILIDAD_DEL_ASESINO.html?hl=&id=iK3_PAAACAAJ"
-    },
-    "metadataSource": "ISBN exacto 9788498000160; edición y sinopsis contrastadas con Agapea y Casa del Libro",
+    "pageCount": 896,
+    "isbn10": "8419680974",
+    "isbn13": "9788419680976",
+    "format": "Tapa blanda con solapas",
+    "metadataSource": "ISBN exacto 9788419680976; edición y datos verificados en el catálogo oficial de Nocturna Ediciones",
     "issueNumber": 46,
     "progressPercent": 0,
     "state": "completed",
-    "startedAt": "2025-12-18T10:56:43.000Z",
-    "completedAt": "2026-01-07T08:33:48.000Z",
-    "timeToComplete": 1719425000,
-    "timeToCompleteFormatted": "2 weeks"
+    "startedAt": "2025-12-08T00:00:00.000Z",
+    "completedAt": "2025-12-31T00:00:00.000Z",
+    "timeToComplete": 1987200000,
+    "timeToCompleteFormatted": "3 weeks"
   },
   {
     "title": "La búsqueda del asesino",
@@ -335,38 +329,33 @@
     "timeToCompleteFormatted": "2 months"
   },
   {
-    "title": "The Last Wish",
+    "title": "La espada del destino",
     "authors": [
       "Andrzej Sapkowski"
     ],
-    "publishedDate": "2008",
-    "description": "Geralt de Riv, a Witcher, uses his vast sorcerous powers to hunt down the monsters that threaten the world, but he soon discovers that not every monstrous-looking creature is evil, and not everything beautiful is good.",
-    "image": "http://books.google.com/books/content?id=qfXPGwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-    "language": "en",
-    "averageRating": 4.5,
-    "ratingsCount": 2,
+    "publishedDate": "2010-05-04",
+    "description": "Geralt de Rivia, el brujo cazador de monstruos, recorre un mundo de magia, guerras y criaturas extraordinarias. Sus encuentros le obligan a distinguir entre apariencia y realidad y a tomar decisiones morales en las que no siempre existe una opción limpia.",
+    "language": "es",
+    "averageRating": 0,
+    "ratingsCount": 0,
     "categories": [
-      "Assassins"
+      "Fantasía",
+      "Ficción fantástica",
+      "Aventuras"
     ],
     "pageCount": 288,
-    "isbn10": "0575082445",
-    "isbn13": "9780575082441",
-    "googleBooks": {
-      "id": "qfXPGwAACAAJ",
-      "preview": "http://books.google.com/books?id=qfXPGwAACAAJ&dq=intitle:La+espada+del+destino+by+Andrzej+Sapkowski&hl=&cd=9&source=gbs_api",
-      "info": "http://books.google.com/books?id=qfXPGwAACAAJ&dq=intitle:La+espada+del+destino+by+Andrzej+Sapkowski&hl=&source=gbs_api",
-      "canonical": "https://books.google.com/books/about/The_Last_Wish.html?hl=&id=qfXPGwAACAAJ"
-    },
-    "publisher": "Gollancz - Cassell Group",
-    "format": "Tapa blanda",
-    "metadataSource": "ISBN exacto 9780575082441; edición inglesa contrastada con Casa del Libro",
+    "isbn10": "8498890438",
+    "isbn13": "9788498890433",
+    "publisher": "Alamut",
+    "format": "Tapa dura",
+    "metadataSource": "ISBN exacto 9788498890433; edición Alamut verificada en Casa del Libro y Agapea",
     "issueNumber": 36,
     "progressPercent": 0,
     "state": "completed",
-    "startedAt": "2024-10-29T12:10:16.000Z",
-    "completedAt": "2025-01-31T09:12:56.000Z",
-    "timeToComplete": 8110960000,
-    "timeToCompleteFormatted": "3 months"
+    "startedAt": "2024-10-28T00:00:00.000Z",
+    "completedAt": "2025-01-04T00:00:00.000Z",
+    "timeToComplete": 6825600000,
+    "timeToCompleteFormatted": "2 months"
   },
   {
     "title": "EL LTIMO DESEO/ THE LAST WISH.",
