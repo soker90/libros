@@ -14,7 +14,7 @@ Filtrar por puntuación:
 ## 📖 Mis lecturas
 
 <!--start:bookshelf-action-->
-### ⌛ Currently reading (28)
+### ⌛ Currently reading (30)
 
 [![El héroe de las eras](https://images.weserv.nl/?url=https%3A%2F%2Fcovers.openlibrary.org%2Fb%2Fid%2F7241797-L.jpg&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/98 "El héroe de las eras by Brandon Sanderson")
 [![Aleación de ley](https://images.weserv.nl/?url=https%3A%2F%2Fcovers.openlibrary.org%2Fb%2Fid%2F14658419-L.jpg&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/97 "Aleación de ley by Brandon Sanderson")
@@ -38,8 +38,10 @@ Filtrar por puntuación:
 [![Yumi y el pintor de pesadillas](https://images.weserv.nl/?url=https%3A%2F%2Fcovers.openlibrary.org%2Fb%2Fid%2F14611343-L.jpg&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/77 "Yumi y el pintor de pesadillas by Brandon Sanderson")
 [![El Hombre Iluminado](https://images.weserv.nl/?url=https%3A%2F%2Fcovers.openlibrary.org%2Fb%2Fid%2F14651591-L.jpg&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/76 "El Hombre Iluminado by Brandon Sanderson")
 [![Viento y verdad](https://images.weserv.nl/?url=https%3A%2F%2Fcovers.openlibrary.org%2Fb%2Fid%2F14838986-L.jpg&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/75 "Viento y verdad by Brandon Sanderson")
+[![La búsqueda del asesino](https://images.weserv.nl/?url=https%3A%2F%2Fplacehold.co%2F128x196%3Ftext%3DNo%2Bcover&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/72 "La búsqueda del asesino by Robin Hobb")
 [![Islas de la Ascuaoscura](https://images.weserv.nl/?url=https%3A%2F%2Fcovers.openlibrary.org%2Fb%2Fid%2F15228811-L.jpg&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/71 "Islas de la Ascuaoscura by Brandon Sanderson")
 [![Realidades a Medida](https://images.weserv.nl/?url=https%3A%2F%2Fcovers.openlibrary.org%2Fb%2Fid%2F15233731-L.jpg&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/70 "Realidades a Medida by Brandon Sanderson")
+[![Legión: Las múltiples vidas de Stephen Leeds (Legión)](https://images.weserv.nl/?url=https%3A%2F%2Fplacehold.co%2F128x196%3Ftext%3DNo%2Bcover&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/69 "Legión: Las múltiples vidas de Stephen Leeds (Legión) by Brandon Sanderson")
 [![Ciclo Pendragon nº 02/06 Merlín](https://images.weserv.nl/?url=https%3A%2F%2Fwww.planetadelibros.com%2Fusuaris%2Flibros%2Ffotos%2F405%2Foriginal%2Fportada_ciclo-pendragon-n-0206-merlin_stephen-r-lawhead_202505280841.jpg&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/54 "Ciclo Pendragon nº 02/06 Merlín by Stephen R. Lawhead")
 [![Hábitos atómicos](https://images.weserv.nl/?url=http%3A%2F%2Fbooks.google.com%2Fbooks%2Fcontent%3Fid%3DTXiMDwAAQBAJ%26printsec%3Dfrontcover%26img%3D1%26zoom%3D1%26edge%3Dcurl%26source%3Dgbs_api&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/35 "Hábitos atómicos by James Clear")
 [![Isabella of Spain](https://images.weserv.nl/?url=http%3A%2F%2Fbooks.google.com%2Fbooks%2Fcontent%3Fid%3DM_mwngEACAAJ%26printsec%3Dfrontcover%26img%3D1%26zoom%3D1%26source%3Dgbs_api&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/16 "Isabella of Spain by William Thomas Walsh")

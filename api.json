@@ -884,6 +884,29 @@
     "startedAt": "2026-10-28T12:16:52.000Z"
   },
   {
+    "title": "La búsqueda del asesino",
+    "authors": [
+      "Robin Hobb"
+    ],
+    "isbn10": "8419680974",
+    "isbn13": "9788419680976",
+    "requestedIsbn": "9788419680976",
+    "publisher": "Nocturna Ediciones",
+    "publishedDate": "2025-05-12",
+    "description": "El rey ha muerto a causa de una traición. Traspié emprende una búsqueda de venganza que podría salvar el reino o condenarlo para siempre.",
+    "image": "https://placehold.co/128x196?text=No+cover",
+    "language": "es",
+    "categories": [
+      "Fantasía"
+    ],
+    "pageCount": 896,
+    "metadataSource": "ISBN match",
+    "issueNumber": 72,
+    "progressPercent": 0,
+    "state": "reading",
+    "startedAt": "2026-10-28T12:16:45.000Z"
+  },
+  {
     "title": "Islas de la Ascuaoscura",
     "authors": [
       "Brandon Sanderson"
@@ -943,6 +966,24 @@
     "progressPercent": 0,
     "state": "reading",
     "startedAt": "2026-10-28T12:16:39.000Z"
+  },
+  {
+    "title": "Legión: Las múltiples vidas de Stephen Leeds (Legión)",
+    "authors": [
+      "Brandon Sanderson"
+    ],
+    "publisher": "Penguin Random House Audio",
+    "publishedDate": "2021",
+    "description": "",
+    "image": "https://placehold.co/128x196?text=No+cover",
+    "language": "es",
+    "categories": [],
+    "pageCount": null,
+    "metadataSource": "Goodreads CSV: title/author match; no ISBN supplied",
+    "issueNumber": 69,
+    "progressPercent": 0,
+    "state": "reading",
+    "startedAt": "2026-10-28T12:16:37.000Z"
   },
   {
     "isbn10": "8445018914",
