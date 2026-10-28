@@ -21,9 +21,9 @@ Filtrar por puntuación:
 [![Isabella of Spain](https://images.weserv.nl/?url=http%3A%2F%2Fbooks.google.com%2Fbooks%2Fcontent%3Fid%3DM_mwngEACAAJ%26printsec%3Dfrontcover%26img%3D1%26zoom%3D1%26source%3Dgbs_api&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/16 "Isabella of Spain by William Thomas Walsh")
 [![¿Qué hace un bosón como tú en un Big Bang como este?](https://images.weserv.nl/?url=http%3A%2F%2Fbooks.google.com%2Fbooks%2Fcontent%3Fid%3DLKaIEAAAQBAJ%26printsec%3Dfrontcover%26img%3D1%26zoom%3D1%26edge%3Dcurl%26source%3Dgbs_api&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/7 "¿Qué hace un bosón como tú en un Big Bang como este? by Javier Santaolalla")
 
-### ✅ Completed (44)
+### ✅ Completed (38)
 
-[![Legión: Las múltiples vidas de Stephen Leeds (Legión)](https://images.weserv.nl/?url=https%3A%2F%2Fplacehold.co%2F128x196%3Ftext%3DNo%2Bcover&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/69 "Legión: Las múltiples vidas de Stephen Leeds (Legión) by Brandon Sanderson completed in 1 day on May 2026")
+[![Legión: Las múltiples vidas de Stephen Leeds (Legión)](https://images.weserv.nl/?url=https%3A%2F%2Fwww.penguinlibros.com%2Fes%2F1479081-large_default%2Flegion-las-multiples-vidas-de-stephen-leeds-legion.webp&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/69 "Legión: Las múltiples vidas de Stephen Leeds (Legión) by Brandon Sanderson completed in 1 day on May 2026")
 [![Realidades a Medida](https://images.weserv.nl/?url=https%3A%2F%2Fcovers.openlibrary.org%2Fb%2Fid%2F15233731-L.jpg&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/70 "Realidades a Medida by Brandon Sanderson completed in 3 weeks on March 2026")
 [![Los jardines de la luna](https://images.weserv.nl/?url=http%3A%2F%2Fbooks.google.com%2Fbooks%2Fcontent%3Fid%3DBPbgACsuB2sC%26printsec%3Dfrontcover%26img%3D1%26zoom%3D1%26edge%3Dcurl%26source%3Dgbs_api&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/39 "Los jardines de la luna by Steven Erikson completed in 7 months on February 2026")
 [![Islas de la Ascuaoscura](https://images.weserv.nl/?url=https%3A%2F%2Fcovers.openlibrary.org%2Fb%2Fid%2F15228811-L.jpg&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/71 "Islas de la Ascuaoscura by Brandon Sanderson completed in 1 week on January 2026")

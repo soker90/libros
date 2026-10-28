@@ -41,7 +41,7 @@
       "canonical": "http://openlibrary.org/books/OL25662893M/El_rithmatista"
     },
     "requestedIsbn": "9788466655866",
-    "metadataSource": "ISBN match",
+    "metadataSource": "Exact ISBN match; existing metadata refreshed",
     "issueNumber": 96,
     "progressPercent": 0,
     "state": "want-to-read",
@@ -72,7 +72,7 @@
       "canonical": "https://www.planetadelibros.com/libro-ciclo-pendragon-n-0206-merlin/404233"
     },
     "requestedIsbn": "9788445018910",
-    "metadataSource": "ISBN match",
+    "metadataSource": "Exact ISBN match; existing metadata refreshed",
     "issueNumber": 54,
     "progressPercent": 0,
     "state": "reading",
@@ -84,13 +84,21 @@
       "Brandon Sanderson"
     ],
     "publisher": "Penguin Random House Audio",
-    "publishedDate": "2021",
-    "description": "",
-    "image": "https://placehold.co/128x196?text=No+cover",
+    "publishedDate": "2021-05-27",
+    "description": "Recopilación de tres novelas cortas de ciencia ficción y suspense protagonizadas por Stephen Leeds, un genio cuya mente crea expertos imaginarios —sus «aspectos»— que le ayudan a resolver casos extraordinarios. Cuando esos aspectos empiezan a cobrar vida propia, sus investigaciones lo llevan a descubrir una trama que podría afectar a varias religiones y a la comprensión de sus propias alucinaciones.",
+    "image": "https://www.penguinlibros.com/es/1479081-large_default/legion-las-multiples-vidas-de-stephen-leeds-legion.webp",
     "language": "es",
-    "categories": [],
+    "categories": [
+      "Ciencia ficción y fantasía",
+      "Audiolibros",
+      "Ficción"
+    ],
     "pageCount": null,
-    "metadataSource": "Goodreads CSV: title/author match; no ISBN supplied",
+    "isbn13": "9788418037337",
+    "format": "Audiolibro",
+    "narrator": "Íñigo Álvarez de Lara",
+    "duration": "10 horas y 39 minutos",
+    "metadataSource": "Official publisher catalogue; exact ISBN match",
     "issueNumber": 69,
     "progressPercent": 0,
     "state": "completed",
@@ -105,7 +113,7 @@
       "Brandon Sanderson"
     ],
     "publisher": "Nova",
-    "publishedDate": "2025-12-11",
+    "publishedDate": "11 de diciembre 2025",
     "description": "",
     "image": "https://covers.openlibrary.org/b/id/15233731-L.jpg",
     "language": "",
@@ -126,7 +134,7 @@
       "canonical": "http://openlibrary.org/books/OL62207700M/Realidades_a_Medida"
     },
     "requestedIsbn": "9788410466203",
-    "metadataSource": "ISBN match",
+    "metadataSource": "Exact ISBN match; existing metadata refreshed",
     "issueNumber": 70,
     "progressPercent": 0,
     "state": "completed",
@@ -171,7 +179,7 @@
       "Brandon Sanderson"
     ],
     "publisher": "Nova",
-    "publishedDate": "2025-11-05",
+    "publishedDate": "5 de noviembre de 2025",
     "description": "",
     "image": "https://covers.openlibrary.org/b/id/15228811-L.jpg",
     "language": "",
@@ -187,7 +195,7 @@
       "canonical": "http://openlibrary.org/books/OL62085744M/Islas_de_la_Ascuaoscura"
     },
     "requestedIsbn": "9788419260574",
-    "metadataSource": "ISBN match",
+    "metadataSource": "Exact ISBN match; existing metadata refreshed",
     "issueNumber": 71,
     "progressPercent": 0,
     "state": "completed",
@@ -311,7 +319,7 @@
       "Brandon Sanderson"
     ],
     "publisher": "Nova",
-    "publishedDate": "2024-12-09",
+    "publishedDate": "2024/12/09",
     "description": "",
     "image": "https://covers.openlibrary.org/b/id/14838986-L.jpg",
     "language": "",
@@ -330,7 +338,7 @@
       "canonical": "http://openlibrary.org/books/OL57521682M/Viento_y_verdad"
     },
     "requestedIsbn": "9788419260543",
-    "metadataSource": "ISBN match",
+    "metadataSource": "Exact ISBN match; existing metadata refreshed",
     "issueNumber": 75,
     "progressPercent": 0,
     "state": "completed",
@@ -601,7 +609,7 @@
       "canonical": "http://openlibrary.org/books/OL52959679M/El_Hombre_Iluminado"
     },
     "requestedIsbn": "9788419260123",
-    "metadataSource": "ISBN match",
+    "metadataSource": "Exact ISBN match; existing metadata refreshed",
     "issueNumber": 76,
     "progressPercent": 0,
     "state": "completed",
@@ -719,7 +727,7 @@
       "canonical": "http://openlibrary.org/books/OL48947700M/Yumi_y_el_pintor_de_pesadillas"
     },
     "requestedIsbn": "9788419260024",
-    "metadataSource": "ISBN match",
+    "metadataSource": "Exact ISBN match; existing metadata refreshed",
     "issueNumber": 77,
     "progressPercent": 0,
     "state": "completed",
@@ -734,7 +742,7 @@
       "Brandon Sanderson"
     ],
     "publisher": "Nova",
-    "publishedDate": "2021-02-23",
+    "publishedDate": "Feb 23, 2021",
     "description": "Source title: El ritmo de la guerra / Rhythm of War (El Archivo de las Tormentas) (Spanish Edition)",
     "image": "https://covers.openlibrary.org/b/id/10522934-L.jpg",
     "language": "",
@@ -758,7 +766,7 @@
       "canonical": "http://openlibrary.org/books/OL31463070M/El_ritmo_de_la_guerra"
     },
     "requestedIsbn": "9788417347932",
-    "metadataSource": "ISBN match",
+    "metadataSource": "Exact ISBN match; existing metadata refreshed",
     "issueNumber": 78,
     "progressPercent": 0,
     "state": "completed",
@@ -773,7 +781,7 @@
       "Brandon Sanderson"
     ],
     "publisher": "Nova",
-    "publishedDate": "2021-06-10",
+    "publishedDate": "Jun 10, 2021",
     "description": "Source title: Esquirla del Amanecer (El Archivo de las Tormentas 3.5) (Spanish Edition)",
     "image": "https://covers.openlibrary.org/b/id/11385385-L.jpg",
     "language": "",
@@ -796,7 +804,7 @@
       "canonical": "http://openlibrary.org/books/OL32758402M/Esquirla_del_Amanecer"
     },
     "requestedIsbn": "9788418037238",
-    "metadataSource": "ISBN match",
+    "metadataSource": "Exact ISBN match; existing metadata refreshed",
     "issueNumber": 79,
     "progressPercent": 0,
     "state": "completed",
@@ -845,7 +853,7 @@
       "canonical": "http://openlibrary.org/books/OL28904896M/Juramentada_Oathbringer"
     },
     "requestedIsbn": "9788417347000",
-    "metadataSource": "ISBN match",
+    "metadataSource": "Exact ISBN match; existing metadata refreshed",
     "issueNumber": 81,
     "progressPercent": 0,
     "state": "completed",
@@ -881,7 +889,7 @@
       "canonical": "http://openlibrary.org/books/OL28851580M/Arcanun_Ilimitado"
     },
     "requestedIsbn": "9788466662321",
-    "metadataSource": "ISBN match",
+    "metadataSource": "Exact ISBN match; existing metadata refreshed",
     "issueNumber": 82,
     "progressPercent": 0,
     "state": "completed",
@@ -928,7 +936,7 @@
       "canonical": "http://openlibrary.org/books/OL25767557M/Palabras_Radiantes"
     },
     "requestedIsbn": "9788466657549",
-    "metadataSource": "ISBN match",
+    "metadataSource": "Exact ISBN match; existing metadata refreshed",
     "issueNumber": 83,
     "progressPercent": 0,
     "state": "completed",
@@ -969,7 +977,7 @@
       "Brandon Sanderson"
     ],
     "publisher": "Nova",
-    "publishedDate": "2023-01-19",
+    "publishedDate": "19-01-2023",
     "description": "",
     "image": "https://covers.openlibrary.org/b/id/14651590-L.jpg",
     "language": "",
@@ -994,7 +1002,7 @@
       "canonical": "http://openlibrary.org/books/OL52959633M/Trenza_del_Mar_Esmeralda"
     },
     "requestedIsbn": "9788418037818",
-    "metadataSource": "ISBN match",
+    "metadataSource": "Exact ISBN match; existing metadata refreshed",
     "issueNumber": 84,
     "progressPercent": 0,
     "state": "completed",
@@ -1035,7 +1043,7 @@
       "canonical": "http://openlibrary.org/books/OL29292017M/El_héroe_de_las_eras"
     },
     "requestedIsbn": "9788466658911",
-    "metadataSource": "ISBN match",
+    "metadataSource": "Exact ISBN match; existing metadata refreshed",
     "issueNumber": 85,
     "progressPercent": 0,
     "state": "completed",
@@ -1084,7 +1092,7 @@
       "canonical": "http://openlibrary.org/books/OL25769520M/El_camino_de_los_reyes"
     },
     "requestedIsbn": "9788466657662",
-    "metadataSource": "ISBN match",
+    "metadataSource": "Exact ISBN match; existing metadata refreshed",
     "issueNumber": 86,
     "progressPercent": 0,
     "state": "completed",
@@ -1132,7 +1140,7 @@
       "canonical": "http://openlibrary.org/books/OL25943559M/Elantris"
     },
     "requestedIsbn": "9788466658843",
-    "metadataSource": "ISBN match",
+    "metadataSource": "Exact ISBN match; existing metadata refreshed",
     "issueNumber": 87,
     "progressPercent": 0,
     "state": "completed",
@@ -1185,7 +1193,7 @@
       "canonical": "http://openlibrary.org/books/OL32600208M/El_imperio_final"
     },
     "requestedIsbn": "9788417347291",
-    "metadataSource": "ISBN match",
+    "metadataSource": "Exact ISBN match; existing metadata refreshed",
     "issueNumber": 90,
     "progressPercent": 0,
     "state": "completed",
@@ -1233,7 +1241,7 @@
       "canonical": "http://openlibrary.org/books/OL25943295M/El_aliento_de_los_dioses"
     },
     "requestedIsbn": "9788466658874",
-    "metadataSource": "ISBN match",
+    "metadataSource": "Exact ISBN match; existing metadata refreshed",
     "issueNumber": 91,
     "progressPercent": 0,
     "state": "completed",
@@ -1248,7 +1256,7 @@
       "Brandon Sanderson"
     ],
     "publisher": "Nova",
-    "publishedDate": "2023-03-21",
+    "publishedDate": "Mar 21, 2023",
     "description": "Source title: El metal perdido / The Lost Metal: A Mistborn Novel (Nacidos de la bruma / Mistborn) (Spanish Edition)",
     "image": "https://covers.openlibrary.org/b/id/13012199-L.jpg",
     "language": "",
@@ -1273,7 +1281,7 @@
       "canonical": "http://openlibrary.org/books/OL39820964M/El_metal_perdido_The_Lost_Metal"
     },
     "requestedIsbn": "9788418037733",
-    "metadataSource": "ISBN match",
+    "metadataSource": "Exact ISBN match; existing metadata refreshed",
     "issueNumber": 92,
     "progressPercent": 0,
     "state": "completed",
@@ -1312,7 +1320,7 @@
       "canonical": "http://openlibrary.org/books/OL34058774M/Aleación_de_ley"
     },
     "requestedIsbn": "9788466658928",
-    "metadataSource": "ISBN match",
+    "metadataSource": "Exact ISBN match; existing metadata refreshed",
     "issueNumber": 94,
     "progressPercent": 0,
     "state": "completed",
@@ -1359,7 +1367,7 @@
       "canonical": "http://openlibrary.org/books/OL32029412M/Brazales_de_duelo"
     },
     "requestedIsbn": "9788466659628",
-    "metadataSource": "ISBN match",
+    "metadataSource": "Exact ISBN match; existing metadata refreshed",
     "issueNumber": 93,
     "progressPercent": 0,
     "state": "completed",
@@ -1402,7 +1410,7 @@
       "canonical": "http://openlibrary.org/books/OL26718146M/Sombras_de_identidad"
     },
     "requestedIsbn": "9788466658850",
-    "metadataSource": "ISBN match",
+    "metadataSource": "Exact ISBN match; existing metadata refreshed",
     "issueNumber": 95,
     "progressPercent": 0,
     "state": "completed",
@@ -1442,7 +1450,7 @@
       "canonical": "http://openlibrary.org/books/OL35625508M/Aleación_de_ley"
     },
     "requestedIsbn": "9788498728767",
-    "metadataSource": "ISBN match",
+    "metadataSource": "Exact ISBN match; existing metadata refreshed",
     "issueNumber": 97,
     "progressPercent": 0,
     "state": "completed",
@@ -1482,7 +1490,7 @@
       "canonical": "http://openlibrary.org/books/OL25417812M/El_héroe_de_las_eras"
     },
     "requestedIsbn": "9788466643825",
-    "metadataSource": "ISBN match",
+    "metadataSource": "Exact ISBN match; existing metadata refreshed",
     "issueNumber": 98,
     "progressPercent": 0,
     "state": "completed",
@@ -1497,7 +1505,7 @@
       "Brandon Sanderson"
     ],
     "publisher": "Nova",
-    "publishedDate": "2016-11-30",
+    "publishedDate": "Nov 30, 2016",
     "description": "Source title: El pozo de la ascension / The Well of Ascension (Nacidos de la bruma [Mistborn]) (Spanish Edition)",
     "image": "https://covers.openlibrary.org/b/id/10383351-L.jpg",
     "language": "",
@@ -1533,7 +1541,7 @@
       "canonical": "http://openlibrary.org/books/OL29291786M/El_pozo_de_la_ascension"
     },
     "requestedIsbn": "9788466658904",
-    "metadataSource": "ISBN match",
+    "metadataSource": "Exact ISBN match; existing metadata refreshed",
     "issueNumber": 88,
     "progressPercent": 0,
     "state": "completed",
