@@ -29,17 +29,16 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Prefer Goodreads entries and sync collections
+      - name: Sync collections
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git pull --rebase origin "${GITHUB_REF_NAME}"
-          node .github/scripts/dedupe-goodreads-books.mjs
           node .github/scripts/sync-issue-collections.mjs
           git add README.md api.json
           if ! git diff --cached --quiet; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git commit -m "chore: sync bookshelf and prefer Goodreads duplicates"
+            git commit -m "chore: sync bookshelf and collections"
             git push origin "HEAD:${GITHUB_REF_NAME}"
           fi
