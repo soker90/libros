@@ -23,7 +23,7 @@
     "issueNumber": 96,
     "progressPercent": 0,
     "state": "want-to-read",
-    "startedAt": "2026-10-28T12:17:51.000Z"
+    "startedAt": "2022-03-04T00:00:00.000Z"
   },
   {
     "isbn10": "8445018914",
@@ -54,7 +54,8 @@
     "issueNumber": 54,
     "progressPercent": 0,
     "state": "reading",
-    "startedAt": "2026-10-27T15:33:06.000Z"
+    "startedAt": "2026-10-01T00:00:00.000Z",
+    "format": "Tapa blanda"
   },
   {
     "title": "Legión: Las múltiples vidas de Stephen Leeds (Legión)",
@@ -119,7 +120,8 @@
     "startedAt": "2026-02-16T00:00:00.000Z",
     "completedAt": "2026-03-10T00:00:00.000Z",
     "timeToComplete": 1900800000,
-    "timeToCompleteFormatted": "3 weeks"
+    "timeToCompleteFormatted": "3 weeks",
+    "format": "Tapa blanda"
   },
   {
     "title": "Los jardines de la luna",
@@ -146,10 +148,11 @@
     "issueNumber": 39,
     "progressPercent": 0,
     "state": "completed",
-    "startedAt": "2025-07-17T12:18:30.000Z",
-    "completedAt": "2026-02-15T23:05:26.000Z",
-    "timeToComplete": 18442016000,
-    "timeToCompleteFormatted": "7 months"
+    "startedAt": "2025-06-29T00:00:00.000Z",
+    "completedAt": "2026-02-15T00:00:00.000Z",
+    "timeToComplete": 19958400000,
+    "timeToCompleteFormatted": "7 months",
+    "format": "Tapa blanda"
   },
   {
     "title": "Islas de la Ascuaoscura",
@@ -184,37 +187,8 @@
     "startedAt": "2026-01-07T00:00:00.000Z",
     "completedAt": "2026-01-14T00:00:00.000Z",
     "timeToComplete": 604800000,
-    "timeToCompleteFormatted": "1 week"
-  },
-  {
-    "title": "La búsqueda del asesino",
-    "authors": [
-      "Robin Hobb"
-    ],
-    "publisher": "Nocturna Ediciones",
-    "publishedDate": "2025-05-12",
-    "description": "El rey ha muerto a causa de una traición. Al igual que Traspié, los Seis Ducados agonizan: han saqueado Torre de Alce y el heredero al trono sigue desaparecido. Prácticamente muerto en vida, Traspié emprende una búsqueda de venganza que podría salvar el reino o condenarlo para siempre.",
-    "image": "https://placehold.co/128x196?text=No+cover",
-    "language": "es",
-    "averageRating": 0,
-    "ratingsCount": 0,
-    "categories": [
-      "Fantasía",
-      "Novela fantástica",
-      "Intriga política"
-    ],
-    "pageCount": 896,
-    "isbn10": "8419680974",
-    "isbn13": "9788419680976",
-    "format": "Tapa blanda con solapas",
-    "metadataSource": "ISBN exacto 9788419680976; edición y datos verificados en el catálogo oficial de Nocturna Ediciones",
-    "issueNumber": 46,
-    "progressPercent": 0,
-    "state": "completed",
-    "startedAt": "2025-12-18T10:56:43.000Z",
-    "completedAt": "2026-01-07T08:33:48.000Z",
-    "timeToComplete": 1719425000,
-    "timeToCompleteFormatted": "2 weeks"
+    "timeToCompleteFormatted": "1 week",
+    "format": "Cartoné"
   },
   {
     "title": "La búsqueda del asesino",
@@ -240,7 +214,8 @@
     "startedAt": "2025-12-08T00:00:00.000Z",
     "completedAt": "2025-12-31T00:00:00.000Z",
     "timeToComplete": 1987200000,
-    "timeToCompleteFormatted": "3 weeks"
+    "timeToCompleteFormatted": "3 weeks",
+    "format": "Tapa blanda"
   },
   {
     "title": "Asesino real",
@@ -266,7 +241,8 @@
     "startedAt": "2025-11-22T00:00:00.000Z",
     "completedAt": "2025-12-07T00:00:00.000Z",
     "timeToComplete": 1296000000,
-    "timeToCompleteFormatted": "2 weeks"
+    "timeToCompleteFormatted": "2 weeks",
+    "format": "Tapa blanda"
   },
   {
     "title": "Aprendiz de asesino",
@@ -292,7 +268,8 @@
     "startedAt": "2024-04-23T00:00:00.000Z",
     "completedAt": "2025-06-20T00:00:00.000Z",
     "timeToComplete": 36547200000,
-    "timeToCompleteFormatted": "1 year"
+    "timeToCompleteFormatted": "1 year",
+    "format": "Tapa blanda"
   },
   {
     "title": "Viento y verdad",
@@ -326,7 +303,8 @@
     "startedAt": "2025-01-20T00:00:00.000Z",
     "completedAt": "2025-04-21T00:00:00.000Z",
     "timeToComplete": 7862400000,
-    "timeToCompleteFormatted": "2 months"
+    "timeToCompleteFormatted": "3 months",
+    "format": "Tapa dura"
   },
   {
     "title": "La espada del destino",
@@ -347,15 +325,16 @@
     "pageCount": 288,
     "isbn10": "8498890438",
     "isbn13": "9788498890433",
-    "format": "Tapa dura",
+    "format": "Cartoné",
     "metadataSource": "ISBN exacto 9788498890433; edición Alamut verificada en Casa del Libro y Agapea",
     "issueNumber": 36,
     "progressPercent": 0,
     "state": "completed",
-    "startedAt": "2024-10-29T12:10:16.000Z",
-    "completedAt": "2025-01-31T09:12:56.000Z",
-    "timeToComplete": 8110960000,
-    "timeToCompleteFormatted": "3 months"
+    "startedAt": "2024-10-28T00:00:00.000Z",
+    "completedAt": "2025-01-04T00:00:00.000Z",
+    "timeToComplete": 5875200000,
+    "timeToCompleteFormatted": "2 months",
+    "image": "https://static.imosver.com/imagenes_small/9788498/978849889043.jpg"
   },
   {
     "title": "EL LTIMO DESEO/ THE LAST WISH.",
@@ -386,10 +365,10 @@
     "issueNumber": 37,
     "progressPercent": 0,
     "state": "completed",
-    "startedAt": "2024-10-31T15:13:36.000Z",
-    "completedAt": "2024-10-31T15:14:02.000Z",
-    "timeToComplete": 26000,
-    "timeToCompleteFormatted": "26 seconds"
+    "startedAt": "2024-04-08T00:00:00.000Z",
+    "completedAt": "2024-06-01T00:00:00.000Z",
+    "timeToComplete": 4665600000,
+    "timeToCompleteFormatted": "1 month"
   },
   {
     "title": "Hábitos atómicos",
@@ -418,7 +397,8 @@
     "issueNumber": 35,
     "progressPercent": 0,
     "state": "want-to-read",
-    "startedAt": "2024-10-29T12:09:20.000Z"
+    "startedAt": "2024-04-22T00:00:00.000Z",
+    "format": "Kindle Edition"
   },
   {
     "title": "¿Hay filosofía en tu nevera?",
@@ -445,10 +425,11 @@
     "issueNumber": 30,
     "progressPercent": 0,
     "state": "completed",
-    "startedAt": "2024-09-23T10:06:04.000Z",
-    "completedAt": "2024-10-29T12:07:55.000Z",
-    "timeToComplete": 3117711000,
-    "timeToCompleteFormatted": "1 month"
+    "startedAt": "2023-09-26T00:00:00.000Z",
+    "completedAt": "2024-10-24T00:00:00.000Z",
+    "timeToComplete": 34041600000,
+    "timeToCompleteFormatted": "1 year",
+    "format": "eBook de diseño fijo"
   },
   {
     "title": "1984",
@@ -477,10 +458,10 @@
     "issueNumber": 25,
     "progressPercent": 0,
     "state": "completed",
-    "startedAt": "2024-08-21T17:00:12.000Z",
-    "completedAt": "2024-09-23T10:03:48.000Z",
-    "timeToComplete": 2826216000,
-    "timeToCompleteFormatted": "1 month"
+    "startedAt": "2020-02-20T00:00:00.000Z",
+    "completedAt": "2024-09-21T00:00:00.000Z",
+    "timeToComplete": 144720000000,
+    "timeToCompleteFormatted": "4 years"
   },
   {
     "title": "El hombre que era Jueves",
@@ -512,10 +493,11 @@
     "issueNumber": 26,
     "progressPercent": 0,
     "state": "completed",
-    "startedAt": "2024-08-21T17:15:08.000Z",
-    "completedAt": "2024-08-21T17:15:30.000Z",
-    "timeToComplete": 22000,
-    "timeToCompleteFormatted": "22 seconds"
+    "startedAt": "2024-06-16T00:00:00.000Z",
+    "completedAt": "2024-07-21T00:00:00.000Z",
+    "timeToComplete": 3024000000,
+    "timeToCompleteFormatted": "1 month",
+    "format": "Tapa blanda"
   },
   {
     "title": "Cronica de una muerte anunciada - Tapa dura",
@@ -547,10 +529,11 @@
     "issueNumber": 18,
     "progressPercent": 0,
     "state": "completed",
-    "startedAt": "2024-03-14T23:28:20.000Z",
-    "completedAt": "2024-03-16T00:23:58.000Z",
-    "timeToComplete": 89738000,
-    "timeToCompleteFormatted": "1 day"
+    "startedAt": "2024-03-13T00:00:00.000Z",
+    "completedAt": "2024-03-15T00:00:00.000Z",
+    "timeToComplete": 172800000,
+    "timeToCompleteFormatted": "2 days",
+    "format": "Tapa dura"
   },
   {
     "title": "Organízate con eficacia",
@@ -622,7 +605,8 @@
     "startedAt": "2024-02-12T00:00:00.000Z",
     "completedAt": "2024-02-19T00:00:00.000Z",
     "timeToComplete": 604800000,
-    "timeToCompleteFormatted": "1 week"
+    "timeToCompleteFormatted": "1 week",
+    "format": "Tapa dura"
   },
   {
     "title": "Murtagh",
@@ -649,10 +633,11 @@
     "issueNumber": 14,
     "progressPercent": 0,
     "state": "completed",
-    "startedAt": "2024-02-01T18:51:37.000Z",
-    "completedAt": "2024-02-12T00:06:58.000Z",
-    "timeToComplete": 882921000,
-    "timeToCompleteFormatted": "1 week"
+    "startedAt": "2023-08-28T00:00:00.000Z",
+    "completedAt": "2024-02-11T00:00:00.000Z",
+    "timeToComplete": 14428800000,
+    "timeToCompleteFormatted": "5 months",
+    "format": "eBook"
   },
   {
     "title": "Isabel de España",
@@ -668,7 +653,7 @@
     "issueNumber": 16,
     "progressPercent": 0,
     "state": "reading",
-    "startedAt": "2024-02-01T19:01:01.000Z"
+    "startedAt": "2022-10-16T00:00:00.000Z"
   },
   {
     "title": "¿Qué hace un bosón como tú en un Big Bang como este?",
@@ -697,7 +682,8 @@
     "issueNumber": 7,
     "progressPercent": 0,
     "state": "want-to-read",
-    "startedAt": "2024-01-17T17:39:24.000Z"
+    "startedAt": "2023-06-20T00:00:00.000Z",
+    "format": "eBook (EPUB)"
   },
   {
     "title": "Yumi y el pintor de pesadillas",
@@ -733,7 +719,8 @@
     "startedAt": "2023-07-26T00:00:00.000Z",
     "completedAt": "2023-11-30T00:00:00.000Z",
     "timeToComplete": 10972800000,
-    "timeToCompleteFormatted": "4 months"
+    "timeToCompleteFormatted": "4 months",
+    "format": "Tapa dura"
   },
   {
     "title": "El ritmo de la guerra",
@@ -772,7 +759,8 @@
     "startedAt": "2023-09-09T00:00:00.000Z",
     "completedAt": "2023-11-19T00:00:00.000Z",
     "timeToComplete": 6134400000,
-    "timeToCompleteFormatted": "2 months"
+    "timeToCompleteFormatted": "2 months",
+    "format": "Tapa dura"
   },
   {
     "title": "Esquirla del Amanecer",
@@ -810,7 +798,8 @@
     "startedAt": "2023-08-28T00:00:00.000Z",
     "completedAt": "2023-08-31T00:00:00.000Z",
     "timeToComplete": 259200000,
-    "timeToCompleteFormatted": "3 days"
+    "timeToCompleteFormatted": "3 days",
+    "format": "Tapa dura"
   },
   {
     "title": "Juramentada / Oathbringer",
@@ -859,7 +848,8 @@
     "startedAt": "2022-11-26T00:00:00.000Z",
     "completedAt": "2023-08-27T00:00:00.000Z",
     "timeToComplete": 23673600000,
-    "timeToCompleteFormatted": "9 months"
+    "timeToCompleteFormatted": "9 months",
+    "format": "Tapa dura"
   },
   {
     "title": "Arcanun Ilimitado",
@@ -895,7 +885,8 @@
     "startedAt": "2022-09-05T00:00:00.000Z",
     "completedAt": "2023-08-08T00:00:00.000Z",
     "timeToComplete": 29116800000,
-    "timeToCompleteFormatted": "11 months"
+    "timeToCompleteFormatted": "11 months",
+    "format": "Tapa dura"
   },
   {
     "title": "Palabras Radiantes",
@@ -942,7 +933,8 @@
     "startedAt": "2022-11-26T00:00:00.000Z",
     "completedAt": "2023-08-07T00:00:00.000Z",
     "timeToComplete": 21945600000,
-    "timeToCompleteFormatted": "8 months"
+    "timeToCompleteFormatted": "8 months",
+    "format": "Tapa dura"
   },
   {
     "title": "El Archivo de las Tormentas: Una guía de bolsillo para El camino de los reyes y Palabras radiantes",
@@ -968,7 +960,8 @@
     "startedAt": "2023-08-07T00:00:00.000Z",
     "completedAt": "2023-08-07T00:00:00.000Z",
     "timeToComplete": 0,
-    "timeToCompleteFormatted": "0 seconds"
+    "timeToCompleteFormatted": "0 seconds",
+    "format": "eBook (EPUB)"
   },
   {
     "title": "Trenza del Mar Esmeralda",
@@ -1008,7 +1001,8 @@
     "startedAt": "2023-01-11T00:00:00.000Z",
     "completedAt": "2023-07-23T00:00:00.000Z",
     "timeToComplete": 16675200000,
-    "timeToCompleteFormatted": "6 months"
+    "timeToCompleteFormatted": "6 months",
+    "format": "Tapa dura"
   },
   {
     "title": "El héroe de las eras",
@@ -1049,7 +1043,8 @@
     "startedAt": "2023-04-05T00:00:00.000Z",
     "completedAt": "2023-05-09T00:00:00.000Z",
     "timeToComplete": 2937600000,
-    "timeToCompleteFormatted": "1 month"
+    "timeToCompleteFormatted": "1 month",
+    "format": "Tapa dura"
   },
   {
     "title": "El camino de los reyes",
@@ -1098,7 +1093,8 @@
     "startedAt": "2022-11-17T00:00:00.000Z",
     "completedAt": "2023-04-04T00:00:00.000Z",
     "timeToComplete": 11923200000,
-    "timeToCompleteFormatted": "4 months"
+    "timeToCompleteFormatted": "4 months",
+    "format": "Tapa dura"
   },
   {
     "title": "Elantris",
@@ -1146,7 +1142,8 @@
     "startedAt": "2023-02-28T00:00:00.000Z",
     "completedAt": "2023-03-10T00:00:00.000Z",
     "timeToComplete": 864000000,
-    "timeToCompleteFormatted": "1 week"
+    "timeToCompleteFormatted": "1 week",
+    "format": "Tapa dura"
   },
   {
     "title": "El imperio final",
@@ -1199,7 +1196,8 @@
     "startedAt": "2023-01-07T00:00:00.000Z",
     "completedAt": "2023-01-18T00:00:00.000Z",
     "timeToComplete": 950400000,
-    "timeToCompleteFormatted": "1 week"
+    "timeToCompleteFormatted": "1 week",
+    "format": "Tapa dura"
   },
   {
     "title": "El aliento de los dioses",
@@ -1247,7 +1245,8 @@
     "startedAt": "2022-11-26T00:00:00.000Z",
     "completedAt": "2023-01-02T00:00:00.000Z",
     "timeToComplete": 3196800000,
-    "timeToCompleteFormatted": "1 month"
+    "timeToCompleteFormatted": "1 month",
+    "format": "Tapa dura"
   },
   {
     "title": "El metal perdido / The Lost Metal",
@@ -1287,7 +1286,8 @@
     "startedAt": "2022-09-05T00:00:00.000Z",
     "completedAt": "2022-12-23T00:00:00.000Z",
     "timeToComplete": 9417600000,
-    "timeToCompleteFormatted": "3 months"
+    "timeToCompleteFormatted": "3 months",
+    "format": "Tapa dura"
   },
   {
     "title": "Aleación de ley",
@@ -1326,7 +1326,8 @@
     "startedAt": "2022-11-14T00:00:00.000Z",
     "completedAt": "2022-11-14T00:00:00.000Z",
     "timeToComplete": 0,
-    "timeToCompleteFormatted": "0 seconds"
+    "timeToCompleteFormatted": "0 seconds",
+    "format": "Tapa dura"
   },
   {
     "title": "Brazales de duelo",
@@ -1373,7 +1374,8 @@
     "startedAt": "2019-05-16T00:00:00.000Z",
     "completedAt": "2019-06-23T00:00:00.000Z",
     "timeToComplete": 3283200000,
-    "timeToCompleteFormatted": "1 month"
+    "timeToCompleteFormatted": "1 month",
+    "format": "Tapa dura"
   },
   {
     "title": "Sombras de identidad",
@@ -1416,7 +1418,8 @@
     "startedAt": "2019-03-19T00:00:00.000Z",
     "completedAt": "2019-04-20T00:00:00.000Z",
     "timeToComplete": 2764800000,
-    "timeToCompleteFormatted": "1 month"
+    "timeToCompleteFormatted": "1 month",
+    "format": "Tapa dura"
   },
   {
     "title": "Aleación de ley",
@@ -1456,7 +1459,8 @@
     "startedAt": "2019-02-27T00:00:00.000Z",
     "completedAt": "2019-03-19T00:00:00.000Z",
     "timeToComplete": 1728000000,
-    "timeToCompleteFormatted": "2 weeks"
+    "timeToCompleteFormatted": "2 weeks",
+    "format": "Tapa blanda"
   },
   {
     "title": "El héroe de las eras",
@@ -1496,7 +1500,8 @@
     "startedAt": "2019-01-23T00:00:00.000Z",
     "completedAt": "2019-02-27T00:00:00.000Z",
     "timeToComplete": 3024000000,
-    "timeToCompleteFormatted": "1 month"
+    "timeToCompleteFormatted": "1 month",
+    "format": "Tapa blanda"
   },
   {
     "title": "El pozo de la ascension",
@@ -1547,7 +1552,8 @@
     "startedAt": "2018-11-08T00:00:00.000Z",
     "completedAt": "2019-01-22T00:00:00.000Z",
     "timeToComplete": 6480000000,
-    "timeToCompleteFormatted": "2 months"
+    "timeToCompleteFormatted": "2 months",
+    "format": "Tapa dura"
   },
   {
     "title": "El imperio final",
@@ -1573,6 +1579,7 @@
     "startedAt": "2017-11-26T00:00:00.000Z",
     "completedAt": "2018-07-18T00:00:00.000Z",
     "timeToComplete": 20217600000,
-    "timeToCompleteFormatted": "7 months"
+    "timeToCompleteFormatted": "7 months",
+    "format": "Tapa blanda"
   }
 ]
