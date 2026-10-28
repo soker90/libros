@@ -55,7 +55,7 @@ export function isValidIsbn(value) {
 }
 
 export function extractIsbn(text = "") {
-  const pattern = /(?:97[89][\\s-]?(?:\\d[\\s-]?){10}|\\d[\\s-]?(?:\\d[\\s-]?){8}[\\dXx])/g;
+  const pattern = /(?:97[89][\s-]?(?:\d[\s-]?){10}|\d[\s-]?(?:\d[\s-]?){8}[\dXx])/g;
   return (text.match(pattern) || []).map(normalizeIsbn).find(isValidIsbn) || "";
 }
 
@@ -66,7 +66,7 @@ export function extractIsbn(text = "") {
  */
 export function extractIssueIsbn(issue) {
   const body = typeof issue?.body === "string" ? issue.body : "";
-  const isbnField = body.match(/^ISBN\\s*:\\s*(.+?)\\s*$/im)?.[1] || "";
+  const isbnField = body.match(/^ISBN\s*:\s*(.+?)\s*$/im)?.[1] || "";
   return extractIsbn(isbnField)
     || extractIsbn(issue?.title || "")
     || extractIsbn(body);
