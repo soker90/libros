@@ -21,14 +21,18 @@ export const GOODREADS_DUPLICATE_ISSUES = Object.freeze({
 
 const duplicateIssueNumbers = new Set(Object.keys(GOODREADS_DUPLICATE_ISSUES).map(Number));
 
+function isLegacyDuplicateLink(line) {
+  return [...duplicateIssueNumbers].some((issueNumber) =>
+    new RegExp(`github\\.com/soker90/libros/issues/${issueNumber}(?:\\D|$)`).test(line),
+  );
+}
+
 /** Remove legacy duplicate records from the public API and generated README. */
 export function preferGoodreadsBooks(books, readme) {
   const filteredBooks = books.filter((book) => !duplicateIssueNumbers.has(Number(book.issueNumber)));
   const filteredReadme = readme
     .split("\n")
-    .filter((line) => ![...duplicateIssueNumbers].some((issueNumber) =>
-      line.includes(`github.com/soker90/libros/issues/${issueNumber}`),
-    ))
+    .filter((line) => !isLegacyDuplicateLink(line))
     .join("\n");
 
   return {
