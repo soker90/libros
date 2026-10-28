@@ -7,6 +7,7 @@ const DATE_FIELDS = {
   read: /^Date read:\s*(.+?)\s*$/im,
   id: /^Goodreads ID:\s*(\d+)\s*$/im,
   format: /^Format:\s*(.+?)\s*$/im,
+  cover: /^Cover URL:\s*(https?:\/\/\S+)\s*$/im,
 };
 
 function parseGoodreadsDate(value) {
@@ -31,6 +32,7 @@ export function parseGoodreadsReadingData(body) {
     startedAt: parseGoodreadsDate(get(DATE_FIELDS.added)),
     completedAt: shelf === "read" ? parseGoodreadsDate(get(DATE_FIELDS.read)) : null,
     format: get(DATE_FIELDS.format),
+    cover: get(DATE_FIELDS.cover),
   };
 }
 
@@ -60,6 +62,7 @@ export function applyGoodreadsReadingData(books, issues) {
 
     // Edition-specific fields belong to source issues, never manual API edits.
     if (data.format) next.format = data.format;
+    if (data.cover) next.image = data.cover;
 
     updated += 1;
     return next;
@@ -100,7 +103,7 @@ async function main() {
   if (result.updated > 0) {
     await writeFile("api.json", `${JSON.stringify(result.books, null, 2)}\n`);
   }
-  console.log(`Synced Goodreads status, dates, and explicit edition formats for ${result.updated} book(s) from issue metadata.`);
+  console.log(`Synced Goodreads status, dates, edition formats, and cover URLs for ${result.updated} book(s) from issue metadata.`);
 }
 
 if (process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1]) {
