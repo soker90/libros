@@ -14,8 +14,9 @@ Filtrar por puntuación:
 ## 📖 Mis lecturas
 
 <!--start:bookshelf-action-->
-### ⌛ Currently reading (4)
+### ⌛ Currently reading (5)
 
+[![Realidades a Medida](https://images.weserv.nl/?url=https%3A%2F%2Fcovers.openlibrary.org%2Fb%2Fid%2F15233731-L.jpg&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/70 "Realidades a Medida by Brandon Sanderson")
 [![Ciclo Pendragon nº 02/06 Merlín](https://images.weserv.nl/?url=https%3A%2F%2Fwww.planetadelibros.com%2Fusuaris%2Flibros%2Ffotos%2F405%2Foriginal%2Fportada_ciclo-pendragon-n-0206-merlin_stephen-r-lawhead_202505280841.jpg&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/54 "Ciclo Pendragon nº 02/06 Merlín by Stephen R. Lawhead")
 [![Hábitos atómicos](https://images.weserv.nl/?url=http%3A%2F%2Fbooks.google.com%2Fbooks%2Fcontent%3Fid%3DTXiMDwAAQBAJ%26printsec%3Dfrontcover%26img%3D1%26zoom%3D1%26edge%3Dcurl%26source%3Dgbs_api&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/35 "Hábitos atómicos by James Clear")
 [![Isabella of Spain](https://images.weserv.nl/?url=http%3A%2F%2Fbooks.google.com%2Fbooks%2Fcontent%3Fid%3DM_mwngEACAAJ%26printsec%3Dfrontcover%26img%3D1%26zoom%3D1%26source%3Dgbs_api&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/16 "Isabella of Spain by William Thomas Walsh")

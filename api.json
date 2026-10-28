@@ -1,5 +1,38 @@
 [
   {
+    "title": "Realidades a Medida",
+    "authors": [
+      "Brandon Sanderson"
+    ],
+    "publisher": "Nova",
+    "publishedDate": "11 de diciembre 2025",
+    "description": "",
+    "image": "https://covers.openlibrary.org/b/id/15233731-L.jpg",
+    "language": "",
+    "averageRating": 0,
+    "ratingsCount": 0,
+    "categories": [
+      "fantasy",
+      "science fiction",
+      "American literature"
+    ],
+    "pageCount": 624,
+    "isbn10": "8410466201",
+    "isbn13": "9788410466203",
+    "googleBooks": {
+      "id": "",
+      "preview": "http://openlibrary.org/books/OL62207700M/Realidades_a_Medida",
+      "info": "http://openlibrary.org/books/OL62207700M/Realidades_a_Medida",
+      "canonical": "http://openlibrary.org/books/OL62207700M/Realidades_a_Medida"
+    },
+    "requestedIsbn": "9788410466203",
+    "metadataSource": "ISBN match",
+    "issueNumber": 70,
+    "progressPercent": 0,
+    "state": "reading",
+    "startedAt": "2026-10-28T12:16:39.000Z"
+  },
+  {
     "isbn10": "8445018914",
     "isbn13": "9788445018910",
     "title": "Ciclo Pendragon nº 02/06 Merlín",
