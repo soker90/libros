@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { deduplicateGeneratedBooks, getGoodreadsId } from "./deduplicate-generated-books.mjs";
+import { deduplicateGeneratedBooks, deduplicateGeneratedReadme, getGoodreadsId } from "./deduplicate-generated-books.mjs";
 
 test("identifies the Goodreads record stored in an issue", () => {
   assert.equal(getGoodreadsId({ body: "Author: Example\nGoodreads ID: 12345\n" }), "12345");
@@ -55,4 +55,26 @@ test("does not remove the only generated entry if its preferred duplicate is mis
 
   assert.deepEqual(result.books, books);
   assert.deepEqual(result.duplicates, []);
+});
+
+test("removes duplicate book lines from the generated README but keeps the canonical issue", () => {
+  const readme = [
+    "# Books",
+    "[![Duplicate](cover.jpg)](https://github.com/soker90/libros/issues/46 \"Duplicate\")",
+    "[![Canonical](cover.jpg)](https://github.com/soker90/libros/issues/72 \"Canonical\")",
+    "[![Other](cover.jpg)](https://github.com/soker90/libros/issues/99 \"Other\")",
+    "",
+  ].join("\n");
+  const duplicates = [{ duplicateIssueNumber: 46, canonicalIssueNumber: 72 }];
+  const result = deduplicateGeneratedReadme(readme, duplicates, "soker90/libros");
+
+  assert.equal(result.includes("/issues/46"), false);
+  assert.equal(result.includes("/issues/72"), true);
+  assert.equal(result.includes("/issues/99"), true);
+  assert.equal(result.endsWith("\n"), true);
+});
+
+test("leaves README untouched when there are no duplicates", () => {
+  const readme = "# Books\n[Book](https://github.com/soker90/libros/issues/46)\n";
+  assert.equal(deduplicateGeneratedReadme(readme, [], "soker90/libros"), readme);
 });
