@@ -1,4 +1,5 @@
 import { readFile, writeFile } from "node:fs/promises";
+import { fileURLToPath } from "node:url";
 
 const DATE_FIELDS = {
   shelf: /^Goodreads shelf:\s*(.+?)\s*$/im,
@@ -97,7 +98,7 @@ async function main() {
   console.log(`Synced Goodreads status and dates for ${result.updated} book(s) from issue metadata.`);
 }
 
-if (process.argv[1] && new URL(import.meta.url).pathname === process.argv[1]) {
+if (process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1]) {
   main().catch((error) => {
     console.error(error);
     process.exitCode = 1;
