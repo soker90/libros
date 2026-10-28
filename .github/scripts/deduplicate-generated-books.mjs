@@ -1,4 +1,5 @@
 import { readFile, writeFile } from "node:fs/promises";
+import { fileURLToPath } from "node:url";
 
 const GOODREADS_ID = /^Goodreads ID:\s*(\d+)\s*$/im;
 
@@ -44,14 +45,12 @@ export function deduplicateGeneratedBooks(books, issues) {
     candidatesByGoodreadsId.set(id, candidates);
   }
 
-  const canonicalIssueNumbers = new Set();
   const duplicates = [];
 
   for (const [goodreadsId, candidates] of candidatesByGoodreadsId) {
     const ranked = candidates.toSorted((a, b) =>
       scoreCanonicalIssue(b) - scoreCanonicalIssue(a) || a.number - b.number,
     );
-    canonicalIssueNumbers.add(ranked[0].number);
 
     for (const duplicate of ranked.slice(1)) {
       duplicates.push({
@@ -62,7 +61,6 @@ export function deduplicateGeneratedBooks(books, issues) {
     }
   }
 
-  const seenGoodreadsIds = new Set();
   const duplicateIssueNumbers = new Set(duplicates.map((item) => item.duplicateIssueNumber));
   const result = books.filter((book) => {
     const issueNumber = Number(book.issueNumber);
@@ -128,7 +126,7 @@ async function main() {
   console.log(`Catalog deduplication complete: removed ${result.duplicates.length} duplicate API entry/entries.`);
 }
 
-if (process.argv[1] && new URL(import.meta.url).pathname === process.argv[1]) {
+if (process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1]) {
   main().catch((error) => {
     console.error(error);
     process.exitCode = 1;
