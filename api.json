@@ -92,15 +92,15 @@
     ],
     "publisher": "Nova",
     "publishedDate": "2025-12-11",
-    "description": "",
+    "description": "El recopilatorio de relatos no pertenecientes al Cosmere reúne diez historias de fantasía y ciencia ficción de Brandon Sanderson, incluida la novela corta inédita «Momento Cero». Entre los relatos figuran «Instantánea», «Estado perfecto», «La defensa del Elíseo», «Primogénito» y «Mitosis», además de notas del autor e ilustraciones.",
     "image": "https://covers.openlibrary.org/b/id/15233731-L.jpg",
-    "language": "",
+    "language": "es",
     "averageRating": 0,
     "ratingsCount": 0,
     "categories": [
-      "fantasy",
-      "science fiction",
-      "American literature"
+      "Ciencia ficción",
+      "Fantasía",
+      "Relatos"
     ],
     "pageCount": 624,
     "isbn10": "8410466201",
@@ -112,7 +112,7 @@
       "canonical": "http://openlibrary.org/books/OL62207700M/Realidades_a_Medida"
     },
     "requestedIsbn": "9788410466203",
-    "metadataSource": "Exact ISBN match; existing metadata refreshed",
+    "metadataSource": "ISBN exacto 9788410466203; descripción e idioma verificados en el catálogo de Penguin Libros",
     "issueNumber": 70,
     "progressPercent": 0,
     "state": "completed",
@@ -158,12 +158,16 @@
     ],
     "publisher": "Nova",
     "publishedDate": "2025-11-05",
-    "description": "",
+    "description": "Sexto del Ocaso vive como trampero en la peligrosa isla de Patji. Cuando la amenaza de invasores llegados de las estrellas obliga a su pueblo a modernizarse, emprende un viaje para proteger su forma de vida. Al mismo tiempo, Starling, una dragona atrapada en forma humana, y su tripulación de exiliados buscan recuperar su libertad. Sus destinos podrían cruzarse en una lucha marcada por la política, la independencia y el legado de un dios muerto.",
     "image": "https://covers.openlibrary.org/b/id/15228811-L.jpg",
-    "language": "",
+    "language": "es",
     "averageRating": 0,
     "ratingsCount": 0,
-    "categories": [],
+    "categories": [
+      "Fantasía",
+      "Ciencia ficción",
+      "Cosmere"
+    ],
     "pageCount": 560,
     "isbn13": "9788419260574",
     "googleBooks": {
@@ -173,7 +177,7 @@
       "canonical": "http://openlibrary.org/books/OL62085744M/Islas_de_la_Ascuaoscura"
     },
     "requestedIsbn": "9788419260574",
-    "metadataSource": "Exact ISBN match; existing metadata refreshed",
+    "metadataSource": "ISBN exacto 9788419260574; descripción e idioma verificados en catálogo editorial",
     "issueNumber": 71,
     "progressPercent": 0,
     "state": "completed",
@@ -196,7 +200,7 @@
     "categories": [
       "Literary Criticism"
     ],
-    "pageCount": 0,
+    "pageCount": 296,
     "isbn10": "8498000165",
     "isbn13": "9788498000160",
     "googleBooks": {
@@ -205,6 +209,9 @@
       "info": "http://books.google.com/books?id=iK3_PAAACAAJ&dq=intitle:En+busca+del+aseino+by+robin+hobb&hl=&source=gbs_api",
       "canonical": "https://books.google.com/books/about/FRAGILIDAD_DEL_ASESINO.html?hl=&id=iK3_PAAACAAJ"
     },
+    "publisher": "La Factoría de Ideas",
+    "format": "Tapa blanda",
+    "metadataSource": "ISBN exacto 9788498000160; ficha bibliográfica contrastada con Agapea y Casa del Libro",
     "issueNumber": 46,
     "progressPercent": 0,
     "state": "completed",
@@ -298,9 +305,9 @@
     ],
     "publisher": "Nova",
     "publishedDate": "2024-12-09",
-    "description": "",
+    "description": "La esperada conclusión del primer gran arco de El Archivo de las Tormentas. Mientras Roshar afronta una guerra decisiva, Dalinar y sus aliados se preparan para el enfrentamiento que determinará el futuro de los reinos y de los Caballeros Radiantes.",
     "image": "https://covers.openlibrary.org/b/id/14838986-L.jpg",
-    "language": "",
+    "language": "es",
     "averageRating": 0,
     "ratingsCount": 0,
     "categories": [
@@ -316,7 +323,7 @@
       "canonical": "http://openlibrary.org/books/OL57521682M/Viento_y_verdad"
     },
     "requestedIsbn": "9788419260543",
-    "metadataSource": "Exact ISBN match; existing metadata refreshed",
+    "metadataSource": "ISBN exacto 9788419260543; descripción e idioma verificados en Penguin Libros",
     "issueNumber": 75,
     "progressPercent": 0,
     "state": "completed",
@@ -339,7 +346,7 @@
     "categories": [
       "Assassins"
     ],
-    "pageCount": 0,
+    "pageCount": 288,
     "isbn10": "0575082445",
     "isbn13": "9780575082441",
     "googleBooks": {
@@ -348,6 +355,9 @@
       "info": "http://books.google.com/books?id=qfXPGwAACAAJ&dq=intitle:La+espada+del+destino+by+Andrzej+Sapkowski&hl=&source=gbs_api",
       "canonical": "https://books.google.com/books/about/The_Last_Wish.html?hl=&id=qfXPGwAACAAJ"
     },
+    "publisher": "Gollancz - Cassell Group",
+    "format": "Tapa blanda",
+    "metadataSource": "ISBN exacto 9780575082441; edición inglesa contrastada con Casa del Libro",
     "issueNumber": 36,
     "progressPercent": 0,
     "state": "completed",
@@ -372,6 +382,16 @@
       "info": "http://books.google.com/books?id=r6E1zwEACAAJ&dq=intitle:El+%C3%9Altimo+Deseo+by+Andrzej+Sapkowski&hl=&source=gbs_api",
       "canonical": "https://books.google.com/books/about/EL_LTIMO_DESEO_THE_LAST_WISH.html?hl=&id=r6E1zwEACAAJ"
     },
+    "publisher": "Alamut",
+    "pageCount": 264,
+    "description": "Geralt de Rivia, brujo y mutante, recorre un mundo de magia como cazador de monstruos. Sus encargos lo enfrentan a criaturas temibles, pero también a dilemas morales, intrigas y personas que no siempre son lo que parecen. Esta colección de relatos presenta los primeros pasos del brujo y su particular manera de elegir el mal menor.",
+    "categories": [
+      "Fantasía",
+      "Ficción fantástica",
+      "Aventuras"
+    ],
+    "format": "Tapa blanda",
+    "metadataSource": "ISBN exacto 9788498891270; ficha de la edición de Alamut contrastada con Casa del Libro",
     "issueNumber": 37,
     "progressPercent": 0,
     "state": "completed",
@@ -562,9 +582,9 @@
     ],
     "publisher": "Nova",
     "publishedDate": "2023",
-    "description": "",
+    "description": "Nómada, perseguido por la Brigada Nocturna, salta de planeta en planeta hasta quedar atrapado en un mundo amenazado por un tirano y por un amanecer capaz de derretir la piedra. Sin comprender el idioma local, tendrá que decidir si ayuda a los rebeldes y encuentra una forma de escapar antes de que el viaje acabe con él.",
     "image": "https://covers.openlibrary.org/b/id/14651591-L.jpg",
-    "language": "",
+    "language": "es",
     "averageRating": 0,
     "ratingsCount": 0,
     "categories": [
@@ -578,7 +598,7 @@
       "Fantasy",
       "Science fiction"
     ],
-    "pageCount": 0,
+    "pageCount": 544,
     "isbn13": "9788419260123",
     "googleBooks": {
       "id": "",
@@ -587,7 +607,7 @@
       "canonical": "http://openlibrary.org/books/OL52959679M/El_Hombre_Iluminado"
     },
     "requestedIsbn": "9788419260123",
-    "metadataSource": "Exact ISBN match; existing metadata refreshed",
+    "metadataSource": "ISBN exacto 9788419260123; datos contrastados con Penguin Random House y Casa del Libro",
     "issueNumber": 76,
     "progressPercent": 0,
     "state": "completed",
@@ -685,9 +705,9 @@
     ],
     "publisher": "Ediciones B",
     "publishedDate": "2023",
-    "description": "",
+    "description": "Yumi ha dedicado su vida a invocar espíritus para ayudar a su comunidad; Pintor recorre un mundo oscuro y tecnológico mientras sueña con convertirse en héroe. Cuando sus vidas quedan entrelazadas de forma inexplicable, ambos deberán colaborar para descubrir qué los une y evitar una catástrofe que amenaza sus mundos.",
     "image": "https://covers.openlibrary.org/b/id/14611343-L.jpg",
-    "language": "",
+    "language": "es",
     "averageRating": 0,
     "ratingsCount": 0,
     "categories": [
@@ -705,7 +725,7 @@
       "canonical": "http://openlibrary.org/books/OL48947700M/Yumi_y_el_pintor_de_pesadillas"
     },
     "requestedIsbn": "9788419260024",
-    "metadataSource": "Exact ISBN match; existing metadata refreshed",
+    "metadataSource": "ISBN exacto 9788419260024; descripción e idioma verificados en Penguin Libros",
     "issueNumber": 77,
     "progressPercent": 0,
     "state": "completed",
@@ -723,7 +743,7 @@
     "publishedDate": "2021-02-23",
     "description": "Source title: El ritmo de la guerra / Rhythm of War (El Archivo de las Tormentas) (Spanish Edition)",
     "image": "https://covers.openlibrary.org/b/id/10522934-L.jpg",
-    "language": "",
+    "language": "es",
     "averageRating": 0,
     "ratingsCount": 0,
     "categories": [
@@ -744,7 +764,7 @@
       "canonical": "http://openlibrary.org/books/OL31463070M/El_ritmo_de_la_guerra"
     },
     "requestedIsbn": "9788417347932",
-    "metadataSource": "Exact ISBN match; existing metadata refreshed",
+    "metadataSource": "ISBN exacto 9788417347932; edición española Nova, datos contrastados con catálogo editorial",
     "issueNumber": 78,
     "progressPercent": 0,
     "state": "completed",
@@ -762,7 +782,7 @@
     "publishedDate": "2021-06-10",
     "description": "Source title: Esquirla del Amanecer (El Archivo de las Tormentas 3.5) (Spanish Edition)",
     "image": "https://covers.openlibrary.org/b/id/11385385-L.jpg",
-    "language": "",
+    "language": "es",
     "averageRating": 0,
     "ratingsCount": 0,
     "categories": [
@@ -782,7 +802,7 @@
       "canonical": "http://openlibrary.org/books/OL32758402M/Esquirla_del_Amanecer"
     },
     "requestedIsbn": "9788418037238",
-    "metadataSource": "Exact ISBN match; existing metadata refreshed",
+    "metadataSource": "ISBN exacto 9788418037238; edición española Nova, datos contrastados con catálogo editorial",
     "issueNumber": 79,
     "progressPercent": 0,
     "state": "completed",
@@ -798,9 +818,9 @@
     ],
     "publisher": "Ediciones B",
     "publishedDate": "2018",
-    "description": "",
+    "description": "Tercera entrega de El Archivo de las Tormentas. Mientras los reinos de Roshar afrontan las consecuencias de una guerra devastadora, Dalinar, Kaladin, Shallan y sus aliados deben asumir sus juramentos, enfrentarse a sus propios conflictos y prepararse para una amenaza que puede cambiar el destino del mundo.",
     "image": "https://covers.openlibrary.org/b/id/11234168-L.jpg",
-    "language": "",
+    "language": "es",
     "averageRating": 0,
     "ratingsCount": 0,
     "categories": [
@@ -831,7 +851,7 @@
       "canonical": "http://openlibrary.org/books/OL28904896M/Juramentada_Oathbringer"
     },
     "requestedIsbn": "9788417347000",
-    "metadataSource": "Exact ISBN match; existing metadata refreshed",
+    "metadataSource": "ISBN exacto 9788417347000; descripción e idioma verificados en Penguin Libros",
     "issueNumber": 81,
     "progressPercent": 0,
     "state": "completed",
@@ -847,9 +867,9 @@
     ],
     "publisher": "Ediciones B",
     "publishedDate": "2018",
-    "description": "",
+    "description": "Antología de relatos y novelas cortas ambientados en el Cosmere, el universo compartido de Brandon Sanderson. Incluye historias que amplían distintos mundos y personajes, junto con material que permite conocer nuevas facetas de su magia y su historia.",
     "image": "https://placehold.co/128x196?text=No+cover",
-    "language": "",
+    "language": "es",
     "averageRating": 0,
     "ratingsCount": 0,
     "categories": [
@@ -867,7 +887,7 @@
       "canonical": "http://openlibrary.org/books/OL28851580M/Arcanun_Ilimitado"
     },
     "requestedIsbn": "9788466662321",
-    "metadataSource": "Exact ISBN match; existing metadata refreshed",
+    "metadataSource": "ISBN exacto 9788466662321; idioma y datos de edición contrastados con catálogo editorial",
     "issueNumber": 82,
     "progressPercent": 0,
     "state": "completed",
@@ -883,9 +903,9 @@
     ],
     "publisher": "Nova",
     "publishedDate": "2015",
-    "description": "",
+    "description": "Segunda entrega de El Archivo de las Tormentas. Los antiguos juramentos de los Caballeros Radiantes empiezan a despertar, mientras Dalinar, Kaladin, Shallan y otros personajes afrontan misiones y decisiones que pueden determinar el futuro de Roshar.",
     "image": "https://covers.openlibrary.org/b/id/14838998-L.jpg",
-    "language": "",
+    "language": "es",
     "averageRating": 0,
     "ratingsCount": 0,
     "categories": [
@@ -914,7 +934,7 @@
       "canonical": "http://openlibrary.org/books/OL25767557M/Palabras_Radiantes"
     },
     "requestedIsbn": "9788466657549",
-    "metadataSource": "Exact ISBN match; existing metadata refreshed",
+    "metadataSource": "ISBN exacto 9788466657549; descripción e idioma verificados en Penguin Libros",
     "issueNumber": 83,
     "progressPercent": 0,
     "state": "completed",
@@ -928,19 +948,19 @@
     "authors": [
       "Brandon Sanderson"
     ],
-    "isbn10": "8416628475",
-    "isbn13": "9788416628476",
-    "requestedIsbn": "9788416628476",
     "publisher": "FLASH",
     "publishedDate": "2018",
-    "description": "",
+    "description": "Guía de bolsillo que reúne información y material complementario para acompañar la lectura de El camino de los reyes y Palabras radiantes, las dos primeras novelas de El Archivo de las Tormentas. Edición digital breve publicada por Flash.",
     "image": "https://placehold.co/128x196?text=No+cover",
     "language": "es",
     "categories": [
       "Fantasía"
     ],
     "pageCount": 55,
-    "metadataSource": "ISBN match (Goodreads CSV)",
+    "isbn10": "8416628475",
+    "isbn13": "9788416628476",
+    "requestedIsbn": "9788416628476",
+    "metadataSource": "ISBN exacto 9788416628476; datos de edición contrastados con la ficha bibliográfica",
     "issueNumber": 80,
     "progressPercent": 0,
     "state": "completed",
@@ -956,9 +976,9 @@
     ],
     "publisher": "Nova",
     "publishedDate": "2023-01-19",
-    "description": "",
+    "description": "Una aventura del Cosmere narrada por Hoid. Trenza vive en una isla donde recoge vasos de lluvia y sueña con conocer el mundo más allá del mar. Cuando el barco que se lleva al joven del que está enamorada regresa sin él, Trenza abandona su hogar y se embarca en un viaje peligroso hacia mares mortales y una magia desconocida.",
     "image": "https://covers.openlibrary.org/b/id/14651590-L.jpg",
-    "language": "",
+    "language": "es",
     "averageRating": 0,
     "ratingsCount": 0,
     "categories": [
@@ -980,7 +1000,7 @@
       "canonical": "http://openlibrary.org/books/OL52959633M/Trenza_del_Mar_Esmeralda"
     },
     "requestedIsbn": "9788418037818",
-    "metadataSource": "Exact ISBN match; existing metadata refreshed",
+    "metadataSource": "ISBN exacto 9788418037818; descripción e idioma contrastados con Penguin Libros",
     "issueNumber": 84,
     "progressPercent": 0,
     "state": "completed",
@@ -998,7 +1018,7 @@
     "publishedDate": "2019",
     "description": "Source title: El héroe de las eras / The Hero of Ages (Nacidos de la bruma [Mistborn]) (Spanish Edition)",
     "image": "https://covers.openlibrary.org/b/id/14658391-L.jpg",
-    "language": "",
+    "language": "es",
     "averageRating": 0,
     "ratingsCount": 0,
     "categories": [
@@ -1021,7 +1041,7 @@
       "canonical": "http://openlibrary.org/books/OL29292017M/El_héroe_de_las_eras"
     },
     "requestedIsbn": "9788466658911",
-    "metadataSource": "Exact ISBN match; existing metadata refreshed",
+    "metadataSource": "ISBN exacto 9788466658911; edición española de Nova",
     "issueNumber": 85,
     "progressPercent": 0,
     "state": "completed",
@@ -1037,9 +1057,9 @@
     ],
     "publisher": "Nova, NOVA",
     "publishedDate": "2015",
-    "description": "",
+    "description": "Primera novela de El Archivo de las Tormentas. En el mundo de Roshar, azotado por tormentas sobrenaturales, el soldado Kaladin lucha por sobrevivir tras caer en la esclavitud, mientras el príncipe Dalinar y la joven Shallan se ven arrastrados hacia secretos que podrían transformar el destino de la humanidad.",
     "image": "https://covers.openlibrary.org/b/id/7366499-L.jpg",
-    "language": "",
+    "language": "es",
     "averageRating": 0,
     "ratingsCount": 0,
     "categories": [
@@ -1070,7 +1090,7 @@
       "canonical": "http://openlibrary.org/books/OL25769520M/El_camino_de_los_reyes"
     },
     "requestedIsbn": "9788466657662",
-    "metadataSource": "Exact ISBN match; existing metadata refreshed",
+    "metadataSource": "ISBN exacto 9788466657662; descripción e idioma verificados en Penguin Libros",
     "issueNumber": 86,
     "progressPercent": 0,
     "state": "completed",
@@ -1086,9 +1106,9 @@
     ],
     "publisher": "Nova",
     "publishedDate": "2016",
-    "description": "",
+    "description": "En la ciudad de Elantris, antaño considerada sagrada, quienes sufren una misteriosa transformación pierden sus poderes y quedan condenados a una existencia degradada. Cuando el príncipe Raoden cae víctima de esa maldición, la princesa Sarene y el sacerdote Hrathen se ven envueltos en una lucha política y religiosa que decidirá el futuro de Arelon.",
     "image": "https://covers.openlibrary.org/b/id/7443081-L.jpg",
-    "language": "",
+    "language": "es",
     "averageRating": 0,
     "ratingsCount": 0,
     "categories": [
@@ -1109,7 +1129,7 @@
       "Klątwa",
       "Wojna"
     ],
-    "pageCount": 0,
+    "pageCount": 800,
     "isbn13": "9788466658843",
     "googleBooks": {
       "id": "",
@@ -1118,7 +1138,7 @@
       "canonical": "http://openlibrary.org/books/OL25943559M/Elantris"
     },
     "requestedIsbn": "9788466658843",
-    "metadataSource": "Exact ISBN match; existing metadata refreshed",
+    "metadataSource": "ISBN exacto 9788466658843; datos contrastados con Penguin Random House y Casa del Libro",
     "issueNumber": 87,
     "progressPercent": 0,
     "state": "completed",
@@ -1134,9 +1154,9 @@
     ],
     "publisher": "Nova",
     "publishedDate": "2020",
-    "description": "",
+    "description": "En Scadrial, una bruma cubre las noches y el Lord Legislador gobierna con poder absoluto. Vin, una joven ladrona con habilidades alománticas, se une a Kelsier y a un grupo de conspiradores que planea derribar el Imperio Final. Para lograrlo, tendrá que descubrir hasta dónde llegan sus poderes y qué significa realmente la esperanza.",
     "image": "https://covers.openlibrary.org/b/id/11238015-L.jpg",
-    "language": "",
+    "language": "es",
     "averageRating": 0,
     "ratingsCount": 0,
     "categories": [
@@ -1162,7 +1182,7 @@
       "Magia",
       "Adulto"
     ],
-    "pageCount": 0,
+    "pageCount": 672,
     "isbn13": "9788417347291",
     "googleBooks": {
       "id": "",
@@ -1171,7 +1191,7 @@
       "canonical": "http://openlibrary.org/books/OL32600208M/El_imperio_final"
     },
     "requestedIsbn": "9788417347291",
-    "metadataSource": "Exact ISBN match; existing metadata refreshed",
+    "metadataSource": "ISBN exacto 9788417347291; edición española de Nova, datos contrastados con catálogo editorial",
     "issueNumber": 90,
     "progressPercent": 0,
     "state": "completed",
@@ -1187,9 +1207,9 @@
     ],
     "publisher": "Nova",
     "publishedDate": "2016",
-    "description": "",
+    "description": "En un mundo donde los dioses pueden nacer de los colores y los alientos de las personas, dos princesas quedan atrapadas en una intriga política que amenaza con provocar una guerra. Siri debe adaptarse a un matrimonio inesperado, mientras Vivenna viaja para rescatarla y descubre una realidad muy distinta de la que imaginaba.",
     "image": "https://covers.openlibrary.org/b/id/7442753-L.jpg",
-    "language": "",
+    "language": "es",
     "averageRating": 0,
     "ratingsCount": 0,
     "categories": [
@@ -1210,7 +1230,7 @@
       "Magia",
       "Rodzeństwo"
     ],
-    "pageCount": 0,
+    "pageCount": 720,
     "isbn13": "9788466658874",
     "googleBooks": {
       "id": "",
@@ -1219,7 +1239,7 @@
       "canonical": "http://openlibrary.org/books/OL25943295M/El_aliento_de_los_dioses"
     },
     "requestedIsbn": "9788466658874",
-    "metadataSource": "Exact ISBN match; existing metadata refreshed",
+    "metadataSource": "ISBN exacto 9788466658874; datos contrastados con Casa del Libro",
     "issueNumber": 91,
     "progressPercent": 0,
     "state": "completed",
@@ -1237,7 +1257,7 @@
     "publishedDate": "2023-03-21",
     "description": "Source title: El metal perdido / The Lost Metal: A Mistborn Novel (Nacidos de la bruma / Mistborn) (Spanish Edition)",
     "image": "https://covers.openlibrary.org/b/id/13012199-L.jpg",
-    "language": "",
+    "language": "es",
     "averageRating": 0,
     "ratingsCount": 0,
     "categories": [
@@ -1259,7 +1279,7 @@
       "canonical": "http://openlibrary.org/books/OL39820964M/El_metal_perdido_The_Lost_Metal"
     },
     "requestedIsbn": "9788418037733",
-    "metadataSource": "Exact ISBN match; existing metadata refreshed",
+    "metadataSource": "ISBN exacto 9788418037733; idioma y edición contrastados con Penguin Random House",
     "issueNumber": 92,
     "progressPercent": 0,
     "state": "completed",
@@ -1275,9 +1295,9 @@
     ],
     "publisher": "Ediciones B",
     "publishedDate": "2017",
-    "description": "",
+    "description": "Trescientos años después de la trilogía original de Nacidos de la Bruma, Scadrial se acerca a la modernidad: los trenes, la electricidad y las nuevas ciudades conviven con la alomancia y la feruquimia. Waxillium Ladrian, antiguo agente de la frontera convertido en investigador urbano, debe aplicar sus poderes y su experiencia para combatir el crimen.",
     "image": "https://covers.openlibrary.org/b/id/13105777-L.jpg",
-    "language": "",
+    "language": "es",
     "averageRating": 0,
     "ratingsCount": 0,
     "categories": [
@@ -1298,7 +1318,7 @@
       "canonical": "http://openlibrary.org/books/OL34058774M/Aleación_de_ley"
     },
     "requestedIsbn": "9788466658928",
-    "metadataSource": "Exact ISBN match; existing metadata refreshed",
+    "metadataSource": "ISBN exacto 9788466658928; descripción e idioma contrastados con Penguin Random House",
     "issueNumber": 94,
     "progressPercent": 0,
     "state": "completed",
@@ -1314,9 +1334,9 @@
     ],
     "publisher": "Nova",
     "publishedDate": "2019",
-    "description": "",
+    "description": "Sexta entrega de la segunda era de Nacidos de la Bruma. Wax y Wayne se enfrentan a una amenaza que pone en peligro Elendel y sus habitantes, mientras una expedición en busca de los Brazales de Duelo revela secretos capaces de alterar el equilibrio de poder en Scadrial.",
     "image": "https://covers.openlibrary.org/b/id/10696089-L.jpg",
-    "language": "",
+    "language": "es",
     "averageRating": 0,
     "ratingsCount": 0,
     "categories": [
@@ -1336,7 +1356,7 @@
       "Magic paraphernalia",
       "Secret societies"
     ],
-    "pageCount": 0,
+    "pageCount": 512,
     "isbn13": "9788466659628",
     "googleBooks": {
       "id": "",
@@ -1345,7 +1365,7 @@
       "canonical": "http://openlibrary.org/books/OL32029412M/Brazales_de_duelo"
     },
     "requestedIsbn": "9788466659628",
-    "metadataSource": "Exact ISBN match; existing metadata refreshed",
+    "metadataSource": "ISBN exacto 9788466659628; edición española Nova",
     "issueNumber": 93,
     "progressPercent": 0,
     "state": "completed",
@@ -1361,9 +1381,9 @@
     ],
     "publisher": "Nova",
     "publishedDate": "2016",
-    "description": "",
+    "description": "Wax y Wayne investigan una serie de atentados y asesinatos que amenazan con desestabilizar la sociedad de Scadrial. Mientras la democracia, la religión y la industria transforman el mundo, ambos deberán descubrir quién alimenta la violencia antes de que el conflicto se extienda.",
     "image": "https://covers.openlibrary.org/b/id/14662059-L.jpg",
-    "language": "",
+    "language": "es",
     "averageRating": 0,
     "ratingsCount": 0,
     "categories": [
@@ -1388,7 +1408,7 @@
       "canonical": "http://openlibrary.org/books/OL26718146M/Sombras_de_identidad"
     },
     "requestedIsbn": "9788466658850",
-    "metadataSource": "Exact ISBN match; existing metadata refreshed",
+    "metadataSource": "ISBN exacto 9788466658850; descripción e idioma contrastados con Casa del Libro",
     "issueNumber": 95,
     "progressPercent": 0,
     "state": "completed",
@@ -1406,7 +1426,7 @@
     "publishedDate": "2013",
     "description": "Source title: Aleación de ley (Nacidos de la bruma [Mistborn] 4) (Bolsillo Ciencia Ficcion) (Spanish Edition)",
     "image": "https://covers.openlibrary.org/b/id/14658419-L.jpg",
-    "language": "",
+    "language": "es",
     "averageRating": 0,
     "ratingsCount": 0,
     "categories": [
@@ -1428,7 +1448,7 @@
       "canonical": "http://openlibrary.org/books/OL35625508M/Aleación_de_ley"
     },
     "requestedIsbn": "9788498728767",
-    "metadataSource": "Exact ISBN match; existing metadata refreshed",
+    "metadataSource": "ISBN exacto 9788498728767; edición española de B de Bolsillo",
     "issueNumber": 97,
     "progressPercent": 0,
     "state": "completed",
@@ -1444,9 +1464,9 @@
     ],
     "publisher": "Ediciones B",
     "publishedDate": "2010",
-    "description": "",
+    "description": "Tercera novela de la trilogía original Nacidos de la Bruma. Tras las revelaciones que cambiaron el mundo, Vin y Elend deben enfrentarse a las consecuencias del colapso del Imperio Final y a señales de que una fuerza mucho más antigua amenaza con destruirlo todo.",
     "image": "https://covers.openlibrary.org/b/id/7241797-L.jpg",
-    "language": "",
+    "language": "es",
     "averageRating": 0,
     "ratingsCount": 0,
     "categories": [
@@ -1459,7 +1479,7 @@
       "Imaginary places",
       "Magic"
     ],
-    "pageCount": 0,
+    "pageCount": 768,
     "isbn13": "9788466643825",
     "googleBooks": {
       "id": "",
@@ -1468,7 +1488,7 @@
       "canonical": "http://openlibrary.org/books/OL25417812M/El_héroe_de_las_eras"
     },
     "requestedIsbn": "9788466643825",
-    "metadataSource": "Exact ISBN match; existing metadata refreshed",
+    "metadataSource": "ISBN exacto 9788466643825; datos de la edición de Ediciones B contrastados con Casa del Libro",
     "issueNumber": 98,
     "progressPercent": 0,
     "state": "completed",
@@ -1486,7 +1506,7 @@
     "publishedDate": "2016-11-30",
     "description": "Source title: El pozo de la ascension / The Well of Ascension (Nacidos de la bruma [Mistborn]) (Spanish Edition)",
     "image": "https://covers.openlibrary.org/b/id/10383351-L.jpg",
-    "language": "",
+    "language": "es",
     "averageRating": 0,
     "ratingsCount": 0,
     "categories": [
@@ -1519,7 +1539,7 @@
       "canonical": "http://openlibrary.org/books/OL29291786M/El_pozo_de_la_ascension"
     },
     "requestedIsbn": "9788466658904",
-    "metadataSource": "Exact ISBN match; existing metadata refreshed",
+    "metadataSource": "ISBN exacto 9788466658904; edición española de Nova",
     "issueNumber": 88,
     "progressPercent": 0,
     "state": "completed",
