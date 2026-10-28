@@ -65,21 +65,6 @@ export function deduplicateGeneratedReadme(readme, duplicates, repository) {
     .join("\n");
 }
 
-export function deduplicateGeneratedBooks(books, issues) {");
-  const issueLink = new RegExp(
-    `https://github\\.com/${escapedRepository}/issues/(\\d+)(?:[?#/)]|\\s|$)`,
-    "i",
-  );
-
-  return readme
-    .split("\\n")
-    .filter((line) => {
-      const match = line.match(issueLink);
-      return !match || !duplicateIssueNumbers.has(Number(match[1]));
-    })
-    .join("\\n");
-}
-
 export function deduplicateGeneratedBooks(books, issues) {
   const candidatesByGoodreadsId = new Map();
 
