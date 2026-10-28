@@ -510,6 +510,14 @@
       "info": "http://books.google.com/books?id=7eBEPwAACAAJ&dq=intitle:El+Hombre+Que+Era+Jueves:+Una+Pesadilla&hl=&source=gbs_api",
       "canonical": "https://books.google.com/books/about/El_hombre_que_era_Jueves.html?hl=&id=7eBEPwAACAAJ"
     },
+    "publisher": "Alianza Editorial",
+    "description": "En una Inglaterra imaginaria, Gabriel Syme es reclutado por una organización secreta que combate el anarquismo. Su infiltración en un consejo de conspiradores lo conduce a una aventura absurda y filosófica que convierte la persecución política en una reflexión sobre el orden, la libertad y la naturaleza del bien.",
+    "categories": [
+      "Clásicos",
+      "Ficción literaria",
+      "Sátira"
+    ],
+    "metadataSource": "ISBN exacto 9788420602561; ficha bibliográfica contrastada con Casa del Libro",
     "issueNumber": 26,
     "progressPercent": 0,
     "state": "completed",
@@ -538,6 +546,13 @@
       "info": "http://books.google.com/books?id=bQ8_ckZEYDkC&dq=intitle:Cr%C3%B3nica+de+una+muerte+anunciada&hl=&source=gbs_api",
       "canonical": "https://books.google.com/books/about/Cronica_de_una_muerte_anunciada_Tapa_dur.html?hl=&id=bQ8_ckZEYDkC"
     },
+    "description": "En un pequeño pueblo caribeño, todos parecen saber que Santiago Nasar va a morir, pero nadie consigue impedir el crimen. A partir de testimonios y recuerdos fragmentarios, el narrador reconstruye las horas previas al asesinato y examina el honor, la responsabilidad colectiva y la fatalidad.",
+    "categories": [
+      "Novela",
+      "Ficción literaria",
+      "Literatura latinoamericana"
+    ],
+    "metadataSource": "ISBN exacto 9789580487456; ficha de Editorial Norma contrastada con Google Books",
     "issueNumber": 18,
     "progressPercent": 0,
     "state": "completed",
@@ -561,7 +576,7 @@
     "categories": [
       "Self-management (Psychology)"
     ],
-    "pageCount": 0,
+    "pageCount": 304,
     "isbn10": "8495787164",
     "isbn13": "9788495787163",
     "googleBooks": {
@@ -570,6 +585,8 @@
       "info": "http://books.google.com/books?id=l-cFAAAACAAJ&dq=intitle:Organizate+con+eficacia&hl=&source=gbs_api",
       "canonical": "https://books.google.com/books/about/Organ%C3%ADzate_con_eficacia.html?hl=&id=l-cFAAAACAAJ"
     },
+    "format": "Tapa blanda",
+    "metadataSource": "ISBN exacto 9788495787163; ficha bibliográfica contrastada con Casa del Libro",
     "issueNumber": 17,
     "progressPercent": 0,
     "state": "want-to-read",
@@ -664,6 +681,13 @@
       "info": "http://books.google.com/books?id=M_mwngEACAAJ&dq=intitle:Isabel+de+Espa%C3%B1a+by+William+Thomas&hl=&source=gbs_api",
       "canonical": "https://books.google.com/books/about/Isabella_of_Spain.html?hl=&id=M_mwngEACAAJ"
     },
+    "description": "Biografía histórica de Isabel la Católica que recorre su vida, su ascenso al trono de Castilla, su matrimonio con Fernando de Aragón y su papel en la transformación política y religiosa de la España del siglo XV.",
+    "categories": [
+      "Biografía",
+      "Historia",
+      "Historia de España"
+    ],
+    "metadataSource": "ISBN exacto 9781258217303; descripción redactada a partir del título y del tema bibliográfico de la edición",
     "issueNumber": 16,
     "progressPercent": 0,
     "state": "reading",
