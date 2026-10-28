@@ -30,5 +30,7 @@ jobs:
           node --check .github/scripts/github-issues.mjs
           node --check .github/scripts/enrich-book-issue.mjs
           node --check .github/scripts/enrich-book-issue.test.mjs
+          node --check .github/scripts/sync-issue-collections.mjs
+          node --check .github/scripts/sync-issue-collections.test.mjs
       - name: Test book matching utilities
-        run: node --test .github/scripts/enrich-book-issue.test.mjs .github/scripts/spanish-book-catalog.test.mjs
+        run: node --test .github/scripts/enrich-book-issue.test.mjs .github/scripts/spanish-book-catalog.test.mjs .github/scripts/sync-issue-collections.test.mjs
