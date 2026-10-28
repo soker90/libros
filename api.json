@@ -837,7 +837,8 @@
     "startedAt": "2023-08-28T00:00:00.000Z",
     "completedAt": "2023-08-31T00:00:00.000Z",
     "timeToComplete": 259200000,
-    "timeToCompleteFormatted": "3 days"
+    "timeToCompleteFormatted": "3 days",
+    "format": "Tapa dura"
   },
   {
     "title": "Juramentada / Oathbringer",
@@ -886,7 +887,8 @@
     "startedAt": "2022-11-26T00:00:00.000Z",
     "completedAt": "2023-08-27T00:00:00.000Z",
     "timeToComplete": 23673600000,
-    "timeToCompleteFormatted": "9 months"
+    "timeToCompleteFormatted": "9 months",
+    "format": "Tapa dura"
   },
   {
     "title": "Arcanun Ilimitado",
