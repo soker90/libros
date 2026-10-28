@@ -22,6 +22,9 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Test metadata synchronization scripts
+        run: node --test .github/scripts/*.test.mjs
+
       - name: Regenerate bookshelf summary and API
         uses: AnandChowdhary/bookshelf-action@HEAD
         with:
