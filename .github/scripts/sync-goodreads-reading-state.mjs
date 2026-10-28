@@ -20,6 +20,31 @@ function parseGoodreadsDate(value) {
   return date.toISOString();
 }
 
+export function formatDuration(durationMs) {
+  const seconds = Math.max(0, Math.floor(durationMs / 1000));
+  if (seconds < 60) return `${seconds} second${seconds === 1 ? "" : "s"}`;
+
+  const minutes = Math.floor(seconds / 60);
+  if (minutes < 60) return `${minutes} minute${minutes === 1 ? "" : "s"}`;
+
+  const hours = Math.floor(minutes / 60);
+  if (hours < 24) return `${hours} hour${hours === 1 ? "" : "s"}`;
+
+  const days = Math.floor(hours / 24);
+  if (days < 7) return `${days} day${days === 1 ? "" : "s"}`;
+  if (days < 30) {
+    const weeks = Math.floor(days / 7);
+    return `${weeks} week${weeks === 1 ? "" : "s"}`;
+  }
+  if (days < 365) {
+    const months = Math.floor(days / 30);
+    return `${months} month${months === 1 ? "" : "s"}`;
+  }
+
+  const years = Math.floor(days / 365);
+  return `${years} year${years === 1 ? "" : "s"}`;
+}
+
 export function parseGoodreadsReadingData(body) {
   if (typeof body !== "string") return null;
   const get = (regex) => body.match(regex)?.[1]?.trim() ?? null;
@@ -27,10 +52,16 @@ export function parseGoodreadsReadingData(body) {
   const shelf = get(DATE_FIELDS.shelf)?.toLowerCase();
   if (!goodreadsId || !["read", "currently-reading", "to-read"].includes(shelf)) return null;
 
+  const completedAt = shelf === "read" ? parseGoodreadsDate(get(DATE_FIELDS.read)) : null;
+  const addedAt = parseGoodreadsDate(get(DATE_FIELDS.added));
+  // Goodreads Date Added is only a proxy for reading start. If it comes after
+  // Date Read, use Date Read as the start rather than creating a negative span.
+  const startedAt = completedAt && addedAt && addedAt > completedAt ? completedAt : addedAt;
+
   return {
     shelf,
-    startedAt: parseGoodreadsDate(get(DATE_FIELDS.added)),
-    completedAt: shelf === "read" ? parseGoodreadsDate(get(DATE_FIELDS.read)) : null,
+    startedAt,
+    completedAt,
     format: get(DATE_FIELDS.format),
     cover: get(DATE_FIELDS.cover),
   };
@@ -59,6 +90,14 @@ export function applyGoodreadsReadingData(books, issues) {
 
     if (data.completedAt) next.completedAt = data.completedAt;
     else delete next.completedAt;
+
+    if (data.startedAt && data.completedAt) {
+      next.timeToComplete = Date.parse(data.completedAt) - Date.parse(data.startedAt);
+      next.timeToCompleteFormatted = formatDuration(next.timeToComplete);
+    } else {
+      delete next.timeToComplete;
+      delete next.timeToCompleteFormatted;
+    }
 
     // Edition-specific fields belong to source issues, never manual API edits.
     if (data.format) next.format = data.format;
