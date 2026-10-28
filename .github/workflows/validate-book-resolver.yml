@@ -39,8 +39,8 @@ jobs:
           node --check .github/scripts/normalize-publication-dates.mjs
           node --check .github/scripts/normalize-publication-dates.test.mjs
           node --check .github/scripts/sync-goodreads-reading-state.mjs
-          node --check .github/scripts/sync-goodreads-reading-state.test.mjs .github/scripts/deduplicate-generated-books.test.mjs
+          node --check .github/scripts/sync-goodreads-reading-state.test.mjs
           node --check .github/scripts/deduplicate-generated-books.mjs
           node --check .github/scripts/deduplicate-generated-books.test.mjs
       - name: Test book metadata utilities
-        run: node --test .github/scripts/book-matching.test.mjs .github/scripts/enrich-book-issue.test.mjs .github/scripts/book-metadata-merge.test.mjs .github/scripts/spanish-book-catalog.test.mjs .github/scripts/sync-issue-collections.test.mjs .github/scripts/normalize-publication-dates.test.mjs .github/scripts/sync-goodreads-reading-state.test.mjs
+        run: node --test .github/scripts/book-matching.test.mjs .github/scripts/enrich-book-issue.test.mjs .github/scripts/book-metadata-merge.test.mjs .github/scripts/spanish-book-catalog.test.mjs .github/scripts/sync-issue-collections.test.mjs .github/scripts/normalize-publication-dates.test.mjs .github/scripts/sync-goodreads-reading-state.test.mjs .github/scripts/deduplicate-generated-books.test.mjs
