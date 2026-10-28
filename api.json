@@ -146,10 +146,10 @@
     "issueNumber": 39,
     "progressPercent": 0,
     "state": "completed",
-    "startedAt": "2025-07-17T12:18:30.000Z",
-    "completedAt": "2026-02-15T23:05:26.000Z",
-    "timeToComplete": 18442016000,
-    "timeToCompleteFormatted": "7 months"
+    "startedAt": "2025-06-29T00:00:00.000Z",
+    "completedAt": "2026-02-15T00:00:00.000Z",
+    "timeToComplete": 19958400000,
+    "timeToCompleteFormatted": "231 days"
   },
   {
     "title": "Islas de la Ascuaoscura",
@@ -397,10 +397,10 @@
     "issueNumber": 37,
     "progressPercent": 0,
     "state": "completed",
-    "startedAt": "2024-10-31T15:13:36.000Z",
-    "completedAt": "2024-10-31T15:14:02.000Z",
-    "timeToComplete": 26000,
-    "timeToCompleteFormatted": "26 seconds"
+    "startedAt": "2024-04-08T00:00:00.000Z",
+    "completedAt": "2024-06-01T00:00:00.000Z",
+    "timeToComplete": 4665600000,
+    "timeToCompleteFormatted": "54 days"
   },
   {
     "title": "Hábitos atómicos",
@@ -429,7 +429,7 @@
     "issueNumber": 35,
     "progressPercent": 0,
     "state": "want-to-read",
-    "startedAt": "2024-10-29T12:09:20.000Z"
+    "startedAt": "2024-04-22T00:00:00.000Z"
   },
   {
     "title": "¿Hay filosofía en tu nevera?",
@@ -456,10 +456,10 @@
     "issueNumber": 30,
     "progressPercent": 0,
     "state": "completed",
-    "startedAt": "2024-09-23T10:06:04.000Z",
-    "completedAt": "2024-10-29T12:07:55.000Z",
-    "timeToComplete": 3117711000,
-    "timeToCompleteFormatted": "1 month"
+    "startedAt": "2023-09-26T00:00:00.000Z",
+    "completedAt": "2024-10-24T00:00:00.000Z",
+    "timeToComplete": 34041600000,
+    "timeToCompleteFormatted": "394 days"
   },
   {
     "title": "1984",
@@ -488,10 +488,10 @@
     "issueNumber": 25,
     "progressPercent": 0,
     "state": "completed",
-    "startedAt": "2024-08-21T17:00:12.000Z",
-    "completedAt": "2024-09-23T10:03:48.000Z",
-    "timeToComplete": 2826216000,
-    "timeToCompleteFormatted": "1 month"
+    "startedAt": "2020-02-20T00:00:00.000Z",
+    "completedAt": "2024-09-21T00:00:00.000Z",
+    "timeToComplete": 144720000000,
+    "timeToCompleteFormatted": "1675 days"
   },
   {
     "title": "El hombre que era Jueves",
@@ -523,10 +523,10 @@
     "issueNumber": 26,
     "progressPercent": 0,
     "state": "completed",
-    "startedAt": "2024-08-21T17:15:08.000Z",
-    "completedAt": "2024-08-21T17:15:30.000Z",
-    "timeToComplete": 22000,
-    "timeToCompleteFormatted": "22 seconds"
+    "startedAt": "2024-06-16T00:00:00.000Z",
+    "completedAt": "2024-07-21T00:00:00.000Z",
+    "timeToComplete": 3024000000,
+    "timeToCompleteFormatted": "35 days"
   },
   {
     "title": "Cronica de una muerte anunciada - Tapa dura",
@@ -558,10 +558,10 @@
     "issueNumber": 18,
     "progressPercent": 0,
     "state": "completed",
-    "startedAt": "2024-03-14T23:28:20.000Z",
-    "completedAt": "2024-03-16T00:23:58.000Z",
-    "timeToComplete": 89738000,
-    "timeToCompleteFormatted": "1 day"
+    "startedAt": "2024-03-13T00:00:00.000Z",
+    "completedAt": "2024-03-15T00:00:00.000Z",
+    "timeToComplete": 172800000,
+    "timeToCompleteFormatted": "2 days"
   },
   {
     "title": "Organízate con eficacia",
@@ -660,10 +660,10 @@
     "issueNumber": 14,
     "progressPercent": 0,
     "state": "completed",
-    "startedAt": "2024-02-01T18:51:37.000Z",
-    "completedAt": "2024-02-12T00:06:58.000Z",
-    "timeToComplete": 882921000,
-    "timeToCompleteFormatted": "1 week"
+    "startedAt": "2023-08-28T00:00:00.000Z",
+    "completedAt": "2024-02-11T00:00:00.000Z",
+    "timeToComplete": 14428800000,
+    "timeToCompleteFormatted": "167 days"
   },
   {
     "title": "Isabella of Spain",
@@ -693,7 +693,7 @@
     "issueNumber": 16,
     "progressPercent": 0,
     "state": "reading",
-    "startedAt": "2024-02-01T19:01:01.000Z"
+    "startedAt": "2022-10-16T00:00:00.000Z"
   },
   {
     "title": "¿Qué hace un bosón como tú en un Big Bang como este?",
@@ -722,7 +722,7 @@
     "issueNumber": 7,
     "progressPercent": 0,
     "state": "want-to-read",
-    "startedAt": "2024-01-17T17:39:24.000Z"
+    "startedAt": "2023-06-20T00:00:00.000Z"
   },
   {
     "title": "Yumi y el pintor de pesadillas",
