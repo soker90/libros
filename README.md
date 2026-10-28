@@ -14,20 +14,20 @@ Filtrar por puntuación:
 ## 📖 Mis lecturas
 
 <!--start:bookshelf-action-->
-### ⌛ Currently reading (9)
+### ⌛ Currently reading (5)
 
-[![El imperio final](https://images.weserv.nl/?url=https%3A%2F%2Fplacehold.co%2F128x196%3Ftext%3DNo%2Bcover&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/99 "El imperio final by Brandon Sanderson")
-[![El héroe de las eras](https://images.weserv.nl/?url=https%3A%2F%2Fcovers.openlibrary.org%2Fb%2Fid%2F7241797-L.jpg&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/98 "El héroe de las eras by Brandon Sanderson")
-[![Aleación de ley](https://images.weserv.nl/?url=https%3A%2F%2Fcovers.openlibrary.org%2Fb%2Fid%2F14658419-L.jpg&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/97 "Aleación de ley by Brandon Sanderson")
 [![El rithmatista](https://images.weserv.nl/?url=https%3A%2F%2Fcovers.openlibrary.org%2Fb%2Fid%2F7334581-L.jpg&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/96 "El rithmatista by Brandon Sanderson")
-[![Sombras de identidad](https://images.weserv.nl/?url=https%3A%2F%2Fcovers.openlibrary.org%2Fb%2Fid%2F14662059-L.jpg&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/95 "Sombras de identidad by Brandon Sanderson")
 [![Ciclo Pendragon nº 02/06 Merlín](https://images.weserv.nl/?url=https%3A%2F%2Fwww.planetadelibros.com%2Fusuaris%2Flibros%2Ffotos%2F405%2Foriginal%2Fportada_ciclo-pendragon-n-0206-merlin_stephen-r-lawhead_202505280841.jpg&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/54 "Ciclo Pendragon nº 02/06 Merlín by Stephen R. Lawhead")
 [![Hábitos atómicos](https://images.weserv.nl/?url=http%3A%2F%2Fbooks.google.com%2Fbooks%2Fcontent%3Fid%3DTXiMDwAAQBAJ%26printsec%3Dfrontcover%26img%3D1%26zoom%3D1%26edge%3Dcurl%26source%3Dgbs_api&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/35 "Hábitos atómicos by James Clear")
 [![Isabella of Spain](https://images.weserv.nl/?url=http%3A%2F%2Fbooks.google.com%2Fbooks%2Fcontent%3Fid%3DM_mwngEACAAJ%26printsec%3Dfrontcover%26img%3D1%26zoom%3D1%26source%3Dgbs_api&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/16 "Isabella of Spain by William Thomas Walsh")
 [![¿Qué hace un bosón como tú en un Big Bang como este?](https://images.weserv.nl/?url=http%3A%2F%2Fbooks.google.com%2Fbooks%2Fcontent%3Fid%3DLKaIEAAAQBAJ%26printsec%3Dfrontcover%26img%3D1%26zoom%3D1%26edge%3Dcurl%26source%3Dgbs_api&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/7 "¿Qué hace un bosón como tú en un Big Bang como este? by Javier Santaolalla")
 
-### ✅ Completed (40)
+### ✅ Completed (44)
 
+[![El imperio final](https://images.weserv.nl/?url=https%3A%2F%2Fplacehold.co%2F128x196%3Ftext%3DNo%2Bcover&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/99 "El imperio final by Brandon Sanderson completed in 5 minutes on October 2026")
+[![El héroe de las eras](https://images.weserv.nl/?url=https%3A%2F%2Fcovers.openlibrary.org%2Fb%2Fid%2F7241797-L.jpg&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/98 "El héroe de las eras by Brandon Sanderson completed in 5 minutes on October 2026")
+[![Aleación de ley](https://images.weserv.nl/?url=https%3A%2F%2Fcovers.openlibrary.org%2Fb%2Fid%2F14658419-L.jpg&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/97 "Aleación de ley by Brandon Sanderson completed in 5 minutes on October 2026")
+[![Sombras de identidad](https://images.weserv.nl/?url=https%3A%2F%2Fcovers.openlibrary.org%2Fb%2Fid%2F14662059-L.jpg&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/95 "Sombras de identidad by Brandon Sanderson completed in 5 minutes on October 2026")
 [![Aleación de ley](https://images.weserv.nl/?url=https%3A%2F%2Fcovers.openlibrary.org%2Fb%2Fid%2F13105777-L.jpg&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/94 "Aleación de ley by Brandon Sanderson completed in 5 minutes on October 2026")
 [![Brazales de duelo](https://images.weserv.nl/?url=https%3A%2F%2Fcovers.openlibrary.org%2Fb%2Fid%2F10696089-L.jpg&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/93 "Brazales de duelo by Brandon Sanderson completed in 5 minutes on October 2026")
 [![El metal perdido / The Lost Metal](https://images.weserv.nl/?url=https%3A%2F%2Fcovers.openlibrary.org%2Fb%2Fid%2F13012199-L.jpg&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/92 "El metal perdido / The Lost Metal by Brandon Sanderson completed in 5 minutes on October 2026")

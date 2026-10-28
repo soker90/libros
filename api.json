@@ -1,5 +1,154 @@
 [
   {
+    "title": "El imperio final",
+    "authors": [
+      "Brandon Sanderson"
+    ],
+    "isbn10": "8466631992",
+    "isbn13": "9788466631990",
+    "requestedIsbn": "9788466631990",
+    "publisher": "Ediciones B",
+    "publishedDate": "2008-03-19",
+    "description": "Durante mil años han caído cenizas del cielo y los skaa han sido esclavizados. Kelsier, el superviviente, encuentra a Vin y a la rebelión que busca derrocar al Lord Legislador.",
+    "image": "https://placehold.co/128x196?text=No+cover",
+    "language": "es",
+    "categories": [
+      "Fantasía"
+    ],
+    "pageCount": 688,
+    "metadataSource": "ISBN match",
+    "issueNumber": 99,
+    "progressPercent": 0,
+    "state": "completed",
+    "startedAt": "2026-10-28T12:18:00.000Z",
+    "completedAt": "2026-10-28T12:23:05.000Z",
+    "timeToComplete": 305000,
+    "timeToCompleteFormatted": "5 minutes"
+  },
+  {
+    "title": "El héroe de las eras",
+    "authors": [
+      "Brandon Sanderson"
+    ],
+    "publisher": "Ediciones B",
+    "publishedDate": "2010",
+    "description": "",
+    "image": "https://covers.openlibrary.org/b/id/7241797-L.jpg",
+    "language": "",
+    "averageRating": 0,
+    "ratingsCount": 0,
+    "categories": [
+      "Fiction",
+      "Fantasy",
+      "Epic Fantasy",
+      "Fantasy fiction",
+      "Fiction, fantasy, general",
+      "Children's fiction",
+      "Imaginary places",
+      "Magic"
+    ],
+    "pageCount": 0,
+    "isbn13": "9788466643825",
+    "googleBooks": {
+      "id": "",
+      "preview": "http://openlibrary.org/books/OL25417812M/El_héroe_de_las_eras",
+      "info": "http://openlibrary.org/books/OL25417812M/El_héroe_de_las_eras",
+      "canonical": "http://openlibrary.org/books/OL25417812M/El_héroe_de_las_eras"
+    },
+    "requestedIsbn": "9788466643825",
+    "metadataSource": "ISBN match",
+    "issueNumber": 98,
+    "progressPercent": 0,
+    "state": "completed",
+    "startedAt": "2026-10-28T12:17:55.000Z",
+    "completedAt": "2026-10-28T12:23:02.000Z",
+    "timeToComplete": 307000,
+    "timeToCompleteFormatted": "5 minutes"
+  },
+  {
+    "title": "Aleación de ley",
+    "authors": [
+      "Brandon Sanderson"
+    ],
+    "publisher": "B de Bolsillo (Ediciones B)",
+    "publishedDate": "2013",
+    "description": "Source title: Aleación de ley (Nacidos de la bruma [Mistborn] 4) (Bolsillo Ciencia Ficcion) (Spanish Edition)",
+    "image": "https://covers.openlibrary.org/b/id/14658419-L.jpg",
+    "language": "",
+    "averageRating": 0,
+    "ratingsCount": 0,
+    "categories": [
+      "Imaginary Places",
+      "Magic",
+      "Fiction",
+      "Fantasy",
+      "Fiction, fantasy, epic",
+      "New York Times bestseller",
+      "FICTION / Fantasy / Epic"
+    ],
+    "pageCount": 368,
+    "isbn10": "8498728762",
+    "isbn13": "9788498728767",
+    "googleBooks": {
+      "id": "",
+      "preview": "http://openlibrary.org/books/OL35625508M/Aleación_de_ley",
+      "info": "http://openlibrary.org/books/OL35625508M/Aleación_de_ley",
+      "canonical": "http://openlibrary.org/books/OL35625508M/Aleación_de_ley"
+    },
+    "requestedIsbn": "9788498728767",
+    "metadataSource": "ISBN match",
+    "issueNumber": 97,
+    "progressPercent": 0,
+    "state": "completed",
+    "startedAt": "2026-10-28T12:17:53.000Z",
+    "completedAt": "2026-10-28T12:22:59.000Z",
+    "timeToComplete": 306000,
+    "timeToCompleteFormatted": "5 minutes"
+  },
+  {
+    "title": "Sombras de identidad",
+    "authors": [
+      "Brandon Sanderson"
+    ],
+    "publisher": "Nova",
+    "publishedDate": "2016",
+    "description": "",
+    "image": "https://covers.openlibrary.org/b/id/14662059-L.jpg",
+    "language": "",
+    "averageRating": 0,
+    "ratingsCount": 0,
+    "categories": [
+      "Magic",
+      "Fiction",
+      "Religious disputations",
+      "Domestic terrorism",
+      "Imaginary places",
+      "FICTION / Fantasy / Epic",
+      "Fiction, fantasy, general",
+      "Fiction, fantasy, epic",
+      "Imaginary places, fiction",
+      "nyt:hardcover-fiction=2015-10-25",
+      "New York Times bestseller"
+    ],
+    "pageCount": 446,
+    "isbn13": "9788466658850",
+    "googleBooks": {
+      "id": "",
+      "preview": "http://openlibrary.org/books/OL26718146M/Sombras_de_identidad",
+      "info": "http://openlibrary.org/books/OL26718146M/Sombras_de_identidad",
+      "canonical": "http://openlibrary.org/books/OL26718146M/Sombras_de_identidad"
+    },
+    "requestedIsbn": "9788466658850",
+    "metadataSource": "ISBN match",
+    "issueNumber": 95,
+    "progressPercent": 0,
+    "state": "completed",
+    "startedAt": "2026-10-28T12:17:49.000Z",
+    "completedAt": "2026-10-28T12:22:57.000Z",
+    "timeToComplete": 308000,
+    "timeToCompleteFormatted": "5 minutes"
+  },
+  {
     "title": "Aleación de ley",
     "authors": [
       "Brandon Sanderson"
@@ -968,103 +1117,6 @@
     "timeToCompleteFormatted": "5 minutes"
   },
   {
-    "title": "El imperio final",
-    "authors": [
-      "Brandon Sanderson"
-    ],
-    "isbn10": "8466631992",
-    "isbn13": "9788466631990",
-    "requestedIsbn": "9788466631990",
-    "publisher": "Ediciones B",
-    "publishedDate": "2008-03-19",
-    "description": "Durante mil años han caído cenizas del cielo y los skaa han sido esclavizados. Kelsier, el superviviente, encuentra a Vin y a la rebelión que busca derrocar al Lord Legislador.",
-    "image": "https://placehold.co/128x196?text=No+cover",
-    "language": "es",
-    "categories": [
-      "Fantasía"
-    ],
-    "pageCount": 688,
-    "metadataSource": "ISBN match",
-    "issueNumber": 99,
-    "progressPercent": 0,
-    "state": "reading",
-    "startedAt": "2026-10-28T12:18:00.000Z"
-  },
-  {
-    "title": "El héroe de las eras",
-    "authors": [
-      "Brandon Sanderson"
-    ],
-    "publisher": "Ediciones B",
-    "publishedDate": "2010",
-    "description": "",
-    "image": "https://covers.openlibrary.org/b/id/7241797-L.jpg",
-    "language": "",
-    "averageRating": 0,
-    "ratingsCount": 0,
-    "categories": [
-      "Fiction",
-      "Fantasy",
-      "Epic Fantasy",
-      "Fantasy fiction",
-      "Fiction, fantasy, general",
-      "Children's fiction",
-      "Imaginary places",
-      "Magic"
-    ],
-    "pageCount": 0,
-    "isbn13": "9788466643825",
-    "googleBooks": {
-      "id": "",
-      "preview": "http://openlibrary.org/books/OL25417812M/El_héroe_de_las_eras",
-      "info": "http://openlibrary.org/books/OL25417812M/El_héroe_de_las_eras",
-      "canonical": "http://openlibrary.org/books/OL25417812M/El_héroe_de_las_eras"
-    },
-    "requestedIsbn": "9788466643825",
-    "metadataSource": "ISBN match",
-    "issueNumber": 98,
-    "progressPercent": 0,
-    "state": "reading",
-    "startedAt": "2026-10-28T12:17:55.000Z"
-  },
-  {
-    "title": "Aleación de ley",
-    "authors": [
-      "Brandon Sanderson"
-    ],
-    "publisher": "B de Bolsillo (Ediciones B)",
-    "publishedDate": "2013",
-    "description": "Source title: Aleación de ley (Nacidos de la bruma [Mistborn] 4) (Bolsillo Ciencia Ficcion) (Spanish Edition)",
-    "image": "https://covers.openlibrary.org/b/id/14658419-L.jpg",
-    "language": "",
-    "averageRating": 0,
-    "ratingsCount": 0,
-    "categories": [
-      "Imaginary Places",
-      "Magic",
-      "Fiction",
-      "Fantasy",
-      "Fiction, fantasy, epic",
-      "New York Times bestseller",
-      "FICTION / Fantasy / Epic"
-    ],
-    "pageCount": 368,
-    "isbn10": "8498728762",
-    "isbn13": "9788498728767",
-    "googleBooks": {
-      "id": "",
-      "preview": "http://openlibrary.org/books/OL35625508M/Aleación_de_ley",
-      "info": "http://openlibrary.org/books/OL35625508M/Aleación_de_ley",
-      "canonical": "http://openlibrary.org/books/OL35625508M/Aleación_de_ley"
-    },
-    "requestedIsbn": "9788498728767",
-    "metadataSource": "ISBN match",
-    "issueNumber": 97,
-    "progressPercent": 0,
-    "state": "reading",
-    "startedAt": "2026-10-28T12:17:53.000Z"
-  },
-  {
     "title": "El rithmatista",
     "authors": [
       "Brandon Sanderson"
@@ -1111,46 +1163,6 @@
     "progressPercent": 0,
     "state": "reading",
     "startedAt": "2026-10-28T12:17:51.000Z"
-  },
-  {
-    "title": "Sombras de identidad",
-    "authors": [
-      "Brandon Sanderson"
-    ],
-    "publisher": "Nova",
-    "publishedDate": "2016",
-    "description": "",
-    "image": "https://covers.openlibrary.org/b/id/14662059-L.jpg",
-    "language": "",
-    "averageRating": 0,
-    "ratingsCount": 0,
-    "categories": [
-      "Magic",
-      "Fiction",
-      "Religious disputations",
-      "Domestic terrorism",
-      "Imaginary places",
-      "FICTION / Fantasy / Epic",
-      "Fiction, fantasy, general",
-      "Fiction, fantasy, epic",
-      "Imaginary places, fiction",
-      "nyt:hardcover-fiction=2015-10-25",
-      "New York Times bestseller"
-    ],
-    "pageCount": 446,
-    "isbn13": "9788466658850",
-    "googleBooks": {
-      "id": "",
-      "preview": "http://openlibrary.org/books/OL26718146M/Sombras_de_identidad",
-      "info": "http://openlibrary.org/books/OL26718146M/Sombras_de_identidad",
-      "canonical": "http://openlibrary.org/books/OL26718146M/Sombras_de_identidad"
-    },
-    "requestedIsbn": "9788466658850",
-    "metadataSource": "ISBN match",
-    "issueNumber": 95,
-    "progressPercent": 0,
-    "state": "reading",
-    "startedAt": "2026-10-28T12:17:49.000Z"
   },
   {
     "isbn10": "8445018914",
