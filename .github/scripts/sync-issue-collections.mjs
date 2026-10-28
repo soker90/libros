@@ -1,4 +1,6 @@
 import { readFile, writeFile } from "node:fs/promises";
+import { resolve } from "node:path";
+import { fileURLToPath } from "node:url";
 
 const COLLECTION_LABEL_PREFIX = "collection:";
 
@@ -68,7 +70,7 @@ async function main() {
   );
 }
 
-if (process.env.GITHUB_EVENT_PATH) {
+if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
   main().catch((error) => {
     console.error(error);
     process.exitCode = 1;
