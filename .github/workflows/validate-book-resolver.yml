@@ -27,6 +27,7 @@ jobs:
           node --check .github/scripts/book-providers.mjs
           node --check .github/scripts/book-metadata-merge.mjs
           node --check .github/scripts/book-metadata-merge.test.mjs
+          node --check .github/scripts/refresh-book-metadata.mjs
           node --check .github/scripts/spanish-book-catalog.mjs
           node --check .github/scripts/spanish-book-catalog.test.mjs
           node --check .github/scripts/github-issues.mjs
