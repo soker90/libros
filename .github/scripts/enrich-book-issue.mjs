@@ -1,12 +1,12 @@
 import { readFile } from "node:fs/promises";
-import { extractAuthor, extractIsbn, removeIsbnFromTitle, normalizeIsbn } from "./book-matching.mjs";
+import { extractAuthor, extractIssueIsbn, removeIsbnFromTitle, normalizeIsbn } from "./book-matching.mjs";
 import { findBookByIsbn, findBookByTitle } from "./book-providers.mjs";
 import { createGitHubClient, limitLabelLength } from "./github-issues.mjs";
 
 const NO_COVER_IMAGE = "https://placehold.co/128x196?text=No+cover";
 
 function getIssueBookDetails(issue) {
-  const isbn = extractIsbn(issue.title || "") || extractIsbn(issue.body || "");
+  const isbn = extractIssueIsbn(issue);
   return {
     isbn,
     title: removeIsbnFromTitle(issue.title || ""),
