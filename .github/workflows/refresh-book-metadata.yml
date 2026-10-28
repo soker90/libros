@@ -1,0 +1,35 @@
+name: Refresh existing book metadata
+
+on:
+  workflow_dispatch:
+    inputs:
+      issue_number:
+        description: "Optional issue number. Leave blank to refresh all book issues."
+        required: false
+        type: string
+        default: ""
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: refresh-book-metadata
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    name: Refresh metadata using exact ISBN matches
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4.2.2
+      - name: Validate refresh script
+        run: node --check .github/scripts/refresh-book-metadata.mjs
+      - name: Refresh existing book metadata
+        run: node .github/scripts/refresh-book-metadata.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          ISSUE_NUMBER: ${{ inputs.issue_number }}
