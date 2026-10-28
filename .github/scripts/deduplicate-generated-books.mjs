@@ -1,5 +1,6 @@
 import { readFile, writeFile } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
+import { resolve } from "node:path";
 
 const GOODREADS_ID = /^Goodreads ID:\s*(\d+)\s*$/im;
 
@@ -171,7 +172,7 @@ async function main() {
   console.log(`Catalog deduplication complete: removed ${result.duplicates.length} duplicate API entry/entries.`);
 }
 
-if (process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1]) {
+if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
   main().catch((error) => {
     console.error(error);
     process.exitCode = 1;
