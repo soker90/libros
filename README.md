@@ -14,8 +14,13 @@ Filtrar por puntuación:
 ## 📖 Mis lecturas
 
 <!--start:bookshelf-action-->
-### ⌛ Currently reading (15)
+### ⌛ Currently reading (20)
 
+[![El pozo de la ascension](https://images.weserv.nl/?url=https%3A%2F%2Fcovers.openlibrary.org%2Fb%2Fid%2F10383351-L.jpg&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/89 "El pozo de la ascension by Brandon Sanderson")
+[![El pozo de la ascension](https://images.weserv.nl/?url=https%3A%2F%2Fcovers.openlibrary.org%2Fb%2Fid%2F10383351-L.jpg&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/88 "El pozo de la ascension by Brandon Sanderson")
+[![Elantris](https://images.weserv.nl/?url=https%3A%2F%2Fcovers.openlibrary.org%2Fb%2Fid%2F7443081-L.jpg&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/87 "Elantris by Brandon Sanderson")
+[![El camino de los reyes](https://images.weserv.nl/?url=https%3A%2F%2Fcovers.openlibrary.org%2Fb%2Fid%2F7366499-L.jpg&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/86 "El camino de los reyes by Brandon Sanderson")
+[![El héroe de las eras](https://images.weserv.nl/?url=https%3A%2F%2Fcovers.openlibrary.org%2Fb%2Fid%2F14658391-L.jpg&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/85 "El héroe de las eras by Brandon Sanderson")
 [![Trenza del Mar Esmeralda](https://images.weserv.nl/?url=https%3A%2F%2Fcovers.openlibrary.org%2Fb%2Fid%2F14651590-L.jpg&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/84 "Trenza del Mar Esmeralda by Brandon Sanderson")
 [![Palabras Radiantes](https://images.weserv.nl/?url=https%3A%2F%2Fcovers.openlibrary.org%2Fb%2Fid%2F14838998-L.jpg&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/83 "Palabras Radiantes by Brandon Sanderson")
 [![Arcanun Ilimitado](https://images.weserv.nl/?url=https%3A%2F%2Fplacehold.co%2F128x196%3Ftext%3DNo%2Bcover&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/82 "Arcanun Ilimitado by Brandon Sanderson")
