@@ -4,6 +4,10 @@ on:
   push:
     branches:
       - improve-isbn-book-matching
+      - master
+    paths:
+      - ".github/scripts/**"
+      - ".github/workflows/**"
   pull_request:
     paths:
       - ".github/scripts/**"
