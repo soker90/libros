@@ -59,6 +59,19 @@ export function extractIsbn(text = "") {
   return (text.match(pattern) || []).map(normalizeIsbn).find(isValidIsbn) || "";
 }
 
+/**
+ * Prefer the ISBN explicitly recorded in the source issue over stale provider
+ * metadata. If the field is absent or unparseable, fall back to ISBNs elsewhere
+ * in the issue title/body (including a manually verified edition section).
+ */
+export function extractIssueIsbn(issue) {
+  const body = typeof issue?.body === "string" ? issue.body : "";
+  const isbnField = body.match(/^ISBN\s*:\s*(.+?)\s*$/im)?.[1] || "";
+  return extractIsbn(isbnField)
+    || extractIsbn(issue?.title || "")
+    || extractIsbn(body);
+}
+
 export function extractAuthor(body = "") {
   const match = body.match(/^\s*(?:author|autor|by|escrito por)\s*:\s*(.+?)\s*$/im);
   return match?.[1]?.trim() || "";
