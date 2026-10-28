@@ -13,7 +13,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4.2.2
         with:
-          ref: ${{ github.head_ref }}
           token: ${{ secrets.GITHUB_TOKEN }}
       - name: Validate resolver syntax
         run: node --check .github/scripts/enrich-book-issue.mjs
