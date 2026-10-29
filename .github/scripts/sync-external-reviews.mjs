@@ -50,9 +50,9 @@ export function parseExternalReviews(comments = []) {
 }
 
 export function parseIssueAuthors(issueBody = "") {
-  const match = /^Author:\\s*(.+?)\\s*$/im.exec(issueBody);
+  const match = /^Author:\s*(.+?)\s*$/im.exec(issueBody);
   if (!match) return [];
-  return match[1].split(/\\s*,\\s*/).map((author) => author.trim()).filter(Boolean);
+  return match[1].split(/\s*,\s*/).map((author) => author.trim()).filter(Boolean);
 }
 
 export function parseLongSynopsis(issueBody = "") {
