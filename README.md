@@ -22,7 +22,6 @@ Filtrar por puntuación:
 
 ### ✅ Completed (52)
 
-[![En el Otro Viento](https://images.weserv.nl/?url=https%3A%2F%2Fcovers.openlibrary.org%2Fb%2Fid%2F4912480-L.jpg&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/135 "En el Otro Viento by Ursula K. Le Guin completed in 3 hours on October 2026")
 [![El niño con el pijama de rayas](https://images.weserv.nl/?url=https%3A%2F%2Fcovers.openlibrary.org%2Fb%2Fid%2F7398451-L.jpg&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/126 "El niño con el pijama de rayas by John Boyne completed in 3 hours on October 2026")
 [![Carta de una desconocida](https://images.weserv.nl/?url=https%3A%2F%2Fcovers.openlibrary.org%2Fb%2Fid%2F7425040-L.jpg&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/127 "Carta de una desconocida by Iglesia Católica. completed in 3 hours on October 2026")
 [![Rebelión en la granja](https://images.weserv.nl/?url=https%3A%2F%2Fcovers.openlibrary.org%2Fb%2Fid%2F10382248-L.jpg&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/129 "Rebelión en la granja by George Orwell completed in 3 hours on October 2026")
