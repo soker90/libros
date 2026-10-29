@@ -154,12 +154,25 @@
     "startedAt": "2026-10-29T07:08:44.000Z",
     "completedAt": "2026-10-29T11:03:35.000Z",
     "timeToComplete": 14091000,
-    "timeToCompleteFormatted": "3 hours"
+    "timeToCompleteFormatted": "3 hours",
+    "longDescription": "Bruno, de nueve años, se muda con su familia desde Berlín a una casa aislada junto a una alambrada. Su curiosidad lo lleva a conocer a Shmuel, un niño que vive al otro lado, y la amistad entre ambos contrasta con la realidad brutal del lugar y con la inocencia con la que Bruno intenta comprenderlo.",
+    "externalReviews": [
+      {
+        "source": "Aceprensa",
+        "title": "Aceprensa",
+        "url": "https://www.aceprensa.com/resenas-libros/el-nino-con-el-pijama-de-rayas/"
+      },
+      {
+        "source": "El Club del Lector",
+        "title": "El Club del Lector",
+        "url": "https://www.clubdellector.com/libro/el-nino-con-el-pijama-de-rayas"
+      }
+    ]
   },
   {
     "title": "Carta de una desconocida",
     "authors": [
-      "Iglesia Católica."
+      "Stefan Zweig"
     ],
     "publisher": "El Acantilado",
     "publishedDate": "2010",
@@ -185,7 +198,15 @@
     "startedAt": "2026-10-29T07:08:52.000Z",
     "completedAt": "2026-10-29T11:03:33.000Z",
     "timeToComplete": 14081000,
-    "timeToCompleteFormatted": "3 hours"
+    "timeToCompleteFormatted": "3 hours",
+    "longDescription": "Un escritor recibe una extensa carta de una mujer que lo ha amado en secreto durante años. En ella, la desconocida repasa los encuentros fugaces y las esperanzas que marcaron su vida, mientras él descubre, demasiado tarde, la intensidad de una historia que nunca llegó a conocer.",
+    "externalReviews": [
+      {
+        "source": "Aceprensa",
+        "title": "Aceprensa",
+        "url": "https://www.aceprensa.com/resenas-libros/carta-de-una-desconocida/"
+      }
+    ]
   },
   {
     "title": "Rebelión en la granja",
@@ -265,7 +286,25 @@
     "startedAt": "2026-10-29T07:11:58.000Z",
     "completedAt": "2026-10-29T11:03:30.000Z",
     "timeToComplete": 13892000,
-    "timeToCompleteFormatted": "3 hours"
+    "timeToCompleteFormatted": "3 hours",
+    "longDescription": "En una granja, los animales se rebelan contra su dueño con la esperanza de construir una comunidad igualitaria. Poco a poco, los cerdos concentran el poder y convierten los ideales de la revolución en un sistema opresivo. La fábula muestra cómo el poder puede corromper y alterar la verdad.",
+    "externalReviews": [
+      {
+        "source": "Aceprensa",
+        "title": "Aceprensa",
+        "url": "https://www.aceprensa.com/infantil_y_juvenil/rebelion-en-la-granja/"
+      },
+      {
+        "source": "El Club del Lector",
+        "title": "El Club del Lector",
+        "url": "https://www.clubdellector.com/comment/8592"
+      },
+      {
+        "source": "Delibris",
+        "title": "Delibris",
+        "url": "https://www.delibris.org/es/node/210961"
+      }
+    ]
   },
   {
     "title": "En el Otro Viento",
@@ -312,7 +351,11 @@
     "startedAt": "2026-10-29T07:55:59.000Z",
     "completedAt": "2026-10-29T11:03:28.000Z",
     "timeToComplete": 11249000,
-    "timeToCompleteFormatted": "3 hours"
+    "timeToCompleteFormatted": "3 hours",
+    "longDescription": "Terramar afronta una amenaza nacida en la frontera con la Tierra Seca, donde los muertos intentan regresar al mundo de los vivos. Aliso pide ayuda a Gavilán, antiguo archimago, y junto a Tenar, Tehanu, Lebannen e Irian intentan restaurar el equilibrio mientras resurgen los dragones.",
+    "collections": [
+      "Terramar"
+    ]
   },
   {
     "title": "Historias de Terramar II: La costa más lejana. Tehanu",
@@ -344,7 +387,18 @@
     "startedAt": "2026-10-29T07:56:06.000Z",
     "completedAt": "2026-10-29T11:03:25.000Z",
     "timeToComplete": 11239000,
-    "timeToCompleteFormatted": "3 hours"
+    "timeToCompleteFormatted": "3 hours",
+    "longDescription": "Esta edición reúne La costa más lejana y Tehanu. En la primera, Ged y el príncipe Arren recorren Terramar para averiguar por qué la magia se debilita y devolver el equilibrio al archipiélago. En la segunda, años después, Tenar y Tehanu afrontan nuevas amenazas y exploran qué significa el poder en un mundo que cambia.",
+    "externalReviews": [
+      {
+        "source": "Biblioteca de Nehemías",
+        "title": "Biblioteca de Nehemías",
+        "url": "https://labibliotecadenehemias.wordpress.com/2023/09/25/la-costa-mas-lejana-historias-de-terramar-3/"
+      }
+    ],
+    "collections": [
+      "Terramar"
+    ]
   },
   {
     "title": "Leal",
@@ -427,7 +481,11 @@
     "startedAt": "2026-10-29T07:56:15.000Z",
     "completedAt": "2026-10-29T11:03:23.000Z",
     "timeToComplete": 11228000,
-    "timeToCompleteFormatted": "3 hours"
+    "timeToCompleteFormatted": "3 hours",
+    "longDescription": "Tras el derrumbe del sistema de facciones, Tris y sus compañeros deben decidir cómo reconstruir su sociedad. Al explorar el mundo más allá de los límites conocidos, descubren una realidad mucho más compleja de lo que les habían contado y afrontan decisiones difíciles sobre identidad, lealtad, sacrificio y amor.",
+    "collections": [
+      "Divergente"
+    ]
   },
   {
     "title": "Insurgente",
@@ -521,7 +579,18 @@
     "startedAt": "2026-10-29T07:56:22.000Z",
     "completedAt": "2026-10-29T11:03:20.000Z",
     "timeToComplete": 11218000,
-    "timeToCompleteFormatted": "3 hours"
+    "timeToCompleteFormatted": "3 hours",
+    "longDescription": "Tras los disturbios que sacuden las facciones de Chicago, Tris intenta proteger a quienes quiere mientras el conflicto se intensifica. Las facciones se enfrentan, afloran secretos y cada decisión la obliga a reconsiderar la culpa, el perdón, la identidad, la lealtad, la política y el amor.",
+    "externalReviews": [
+      {
+        "source": "Biblioteca de Nehemías",
+        "title": "Biblioteca de Nehemías",
+        "url": "https://labibliotecadenehemias.wordpress.com/2023/06/14/insurgente-saga-divergente-2/"
+      }
+    ],
+    "collections": [
+      "Divergente"
+    ]
   },
   {
     "title": "Divergente",
@@ -614,13 +683,28 @@
     "startedAt": "2026-10-29T07:57:10.000Z",
     "completedAt": "2026-10-29T11:03:18.000Z",
     "timeToComplete": 11168000,
-    "timeToCompleteFormatted": "3 hours"
+    "timeToCompleteFormatted": "3 hours",
+    "longDescription": "En un Chicago del futuro, la sociedad se organiza en cinco facciones que representan virtudes distintas. Al llegar el momento de elegir, Beatrice Prior deja atrás la facción de su familia y adopta el nombre de Tris. Pronto descubre que no encaja en el sistema y que esa diferencia puede convertirla en una amenaza para quienes lo controlan.",
+    "externalReviews": [
+      {
+        "source": "Aceprensa",
+        "title": "Aceprensa",
+        "url": "https://www.aceprensa.com/resenas-libros/divergente/"
+      },
+      {
+        "source": "Biblioteca de Nehemías",
+        "title": "Biblioteca de Nehemías",
+        "url": "https://labibliotecadenehemias.wordpress.com/2023/03/13/divergente-saga-divergente-1/"
+      }
+    ],
+    "collections": [
+      "Divergente"
+    ]
   },
   {
     "title": "The Silmarillion",
     "authors": [
-      "J.R.R. Tolkien",
-      "Christopher Tolkien"
+      "J.R.R. Tolkien"
     ],
     "publisher": "Houghton Mifflin",
     "publishedDate": "2004",
@@ -666,7 +750,10 @@
     "startedAt": "2026-10-29T07:58:16.000Z",
     "completedAt": "2026-10-29T11:03:15.000Z",
     "timeToComplete": 11099000,
-    "timeToCompleteFormatted": "3 hours"
+    "timeToCompleteFormatted": "3 hours",
+    "collections": [
+      "Legendarium de la Tierra Media"
+    ]
   },
   {
     "title": "El Hobbit",
@@ -792,7 +879,17 @@
     "startedAt": "2026-10-29T07:58:28.000Z",
     "completedAt": "2026-10-29T11:03:11.000Z",
     "timeToComplete": 11083000,
-    "timeToCompleteFormatted": "3 hours"
+    "timeToCompleteFormatted": "3 hours",
+    "externalReviews": [
+      {
+        "source": "El Club del Lector",
+        "title": "El Club del Lector",
+        "url": "https://www.clubdellector.com/node/35178"
+      }
+    ],
+    "collections": [
+      "Legendarium de la Tierra Media"
+    ]
   },
   {
     "title": "Historias de Terramar I",
@@ -821,7 +918,23 @@
     "issueNumber": 139,
     "progressPercent": 0,
     "state": "reading",
-    "startedAt": "2026-10-29T08:54:31.000Z"
+    "startedAt": "2026-10-29T08:54:31.000Z",
+    "longDescription": "Esta edición reúne Un mago de Terramar y Las tumbas de Atuan. En la primera, el joven Ged aprende magia y, llevado por el orgullo, libera una sombra que deberá afrontar. En la segunda, Tenar, criada como sacerdotisa en un recinto sagrado, conoce a Ged y empieza a cuestionar el destino que otros han impuesto para ella.",
+    "externalReviews": [
+      {
+        "source": "Biblioteca de Nehemías",
+        "title": "Biblioteca de Nehemías",
+        "url": "https://labibliotecadenehemias.wordpress.com/2023/08/07/un-mago-de-terramar-historias-de-terramar-1/"
+      },
+      {
+        "source": "Biblioteca de Nehemías",
+        "title": "Biblioteca de Nehemías",
+        "url": "https://labibliotecadenehemias.wordpress.com/2023/08/30/las-tumbas-de-atuan-historias-de-terramar-2/"
+      }
+    ],
+    "collections": [
+      "Terramar"
+    ]
   },
   {
     "title": "El extranjero",
@@ -920,12 +1033,24 @@
     "startedAt": "2026-10-29T06:42:14.000Z",
     "completedAt": "2026-10-29T06:46:26.000Z",
     "timeToComplete": 252000,
-    "timeToCompleteFormatted": "4 minutes"
+    "timeToCompleteFormatted": "4 minutes",
+    "externalReviews": [
+      {
+        "source": "Delibris",
+        "title": "Delibris",
+        "url": "https://www.delibris.org/es/cinco-panes-de-cebada"
+      },
+      {
+        "source": "El Club del Lector",
+        "title": "El Club del Lector",
+        "url": "https://www.clubdellector.com/libro/cinco-panes-de-cebada"
+      }
+    ]
   },
   {
     "title": "Diario de un padre primerizo",
     "authors": [
-      "Pedro del Castillo"
+      "Pedro Del Castillo"
     ],
     "publisher": "Espasa",
     "publishedDate": "2025-01-15",
@@ -1037,7 +1162,10 @@
     "issueNumber": 54,
     "progressPercent": 0,
     "state": "reading",
-    "startedAt": "2026-10-27T15:33:06.000Z"
+    "startedAt": "2026-10-27T15:33:06.000Z",
+    "collections": [
+      "Ciclo Pendragon"
+    ]
   },
   {
     "title": "Legión: Las múltiples vidas de Stephen Leeds (Legión)",
@@ -1196,7 +1324,10 @@
     "startedAt": "2025-12-08T00:00:00.000Z",
     "completedAt": "2025-12-31T00:00:00.000Z",
     "timeToComplete": 1987200000,
-    "timeToCompleteFormatted": "3 weeks"
+    "timeToCompleteFormatted": "3 weeks",
+    "collections": [
+      "Trilogía del Vatídico"
+    ]
   },
   {
     "title": "Asesino real",
@@ -1222,7 +1353,10 @@
     "startedAt": "2025-11-22T00:00:00.000Z",
     "completedAt": "2025-12-07T00:00:00.000Z",
     "timeToComplete": 1296000000,
-    "timeToCompleteFormatted": "2 weeks"
+    "timeToCompleteFormatted": "2 weeks",
+    "collections": [
+      "Trilogía del Vatídico"
+    ]
   },
   {
     "title": "Aprendiz de asesino",
@@ -1248,7 +1382,17 @@
     "startedAt": "2024-04-23T00:00:00.000Z",
     "completedAt": "2025-06-20T00:00:00.000Z",
     "timeToComplete": 36547200000,
-    "timeToCompleteFormatted": "1 year"
+    "timeToCompleteFormatted": "1 year",
+    "externalReviews": [
+      {
+        "source": "Delibris",
+        "title": "Delibris",
+        "url": "https://www.delibris.org/es/node/233297"
+      }
+    ],
+    "collections": [
+      "Trilogía del Vatídico"
+    ]
   },
   {
     "title": "Viento y verdad",
@@ -1282,7 +1426,18 @@
     "startedAt": "2025-01-20T00:00:00.000Z",
     "completedAt": "2025-04-21T00:00:00.000Z",
     "timeToComplete": 7862400000,
-    "timeToCompleteFormatted": "2 months"
+    "timeToCompleteFormatted": "2 months",
+    "externalReviews": [
+      {
+        "source": "Delibris",
+        "title": "Delibris",
+        "url": "https://www.delibris.org/es/viento-y-verdad-0"
+      }
+    ],
+    "collections": [
+      "El Archivo de las Tormentas",
+      "Cosmere"
+    ]
   },
   {
     "title": "La espada del destino",
@@ -1319,12 +1474,15 @@
     "startedAt": "2024-10-29T12:10:16.000Z",
     "completedAt": "2025-01-31T09:12:56.000Z",
     "timeToComplete": 8110960000,
-    "timeToCompleteFormatted": "3 months"
+    "timeToCompleteFormatted": "3 months",
+    "collections": [
+      "The Witcher"
+    ]
   },
   {
     "title": "EL LTIMO DESEO/ THE LAST WISH.",
     "authors": [
-      "ANDRZEJ. SAPKOWSKI"
+      "Andrzej Sapkowski"
     ],
     "publishedDate": "2022",
     "image": "https://tse2.mm.bing.net/th?q=EL%20LTIMO%20DESEO%2F%20THE%20LAST%20WISH.%20by%20ANDRZEJ.%20SAPKOWSKI&w=256&c=7&rs=1&p=0&dpr=3&pid=1.7&mkt=en-IN&adlt=moderate",
@@ -1354,7 +1512,10 @@
     "startedAt": "2024-10-31T15:13:36.000Z",
     "completedAt": "2024-10-31T15:14:02.000Z",
     "timeToComplete": 26000,
-    "timeToCompleteFormatted": "26 seconds"
+    "timeToCompleteFormatted": "26 seconds",
+    "collections": [
+      "The Witcher"
+    ]
   },
   {
     "title": "Hábitos atómicos",
@@ -1445,12 +1606,19 @@
     "startedAt": "2024-08-21T17:00:12.000Z",
     "completedAt": "2024-09-23T10:03:48.000Z",
     "timeToComplete": 2826216000,
-    "timeToCompleteFormatted": "1 month"
+    "timeToCompleteFormatted": "1 month",
+    "externalReviews": [
+      {
+        "source": "Delibris",
+        "title": "Delibris",
+        "url": "https://www.delibris.org/es/1984"
+      }
+    ]
   },
   {
     "title": "El hombre que era Jueves",
     "authors": [
-      "G. K. Chesterton"
+      "G.K. Chesterton"
     ],
     "publishedDate": "1998",
     "image": "https://tse2.mm.bing.net/th?q=El%20hombre%20que%20era%20Jueves%20by%20G.%20K.%20Chesterton&w=256&c=7&rs=1&p=0&dpr=3&pid=1.7&mkt=en-IN&adlt=moderate",
@@ -1486,7 +1654,7 @@
   {
     "title": "Cronica de una muerte anunciada - Tapa dura",
     "authors": [
-      "Gabriel Garca̕ Mr̀quez"
+      "Gabriel García Márquez"
     ],
     "publisher": "Editorial Norma",
     "publishedDate": "2005",
@@ -1654,7 +1822,17 @@
     "startedAt": "2024-02-01T18:51:37.000Z",
     "completedAt": "2024-02-12T00:06:58.000Z",
     "timeToComplete": 882921000,
-    "timeToCompleteFormatted": "1 week"
+    "timeToCompleteFormatted": "1 week",
+    "externalReviews": [
+      {
+        "source": "Biblioteca de Nehemías",
+        "title": "Biblioteca de Nehemías",
+        "url": "https://labibliotecadenehemias.wordpress.com/2026/05/08/murtagh-el-legado-5/"
+      }
+    ],
+    "collections": [
+      "Ciclo de la Herencia"
+    ]
   },
   {
     "title": "Isabel de España",
@@ -1774,7 +1952,11 @@
     "startedAt": "2023-09-09T00:00:00.000Z",
     "completedAt": "2023-11-19T00:00:00.000Z",
     "timeToComplete": 6134400000,
-    "timeToCompleteFormatted": "2 months"
+    "timeToCompleteFormatted": "2 months",
+    "collections": [
+      "El Archivo de las Tormentas",
+      "Cosmere"
+    ]
   },
   {
     "title": "Esquirla del Amanecer",
@@ -1812,7 +1994,11 @@
     "startedAt": "2023-08-28T00:00:00.000Z",
     "completedAt": "2023-08-31T00:00:00.000Z",
     "timeToComplete": 259200000,
-    "timeToCompleteFormatted": "3 days"
+    "timeToCompleteFormatted": "3 days",
+    "collections": [
+      "El Archivo de las Tormentas",
+      "Cosmere"
+    ]
   },
   {
     "title": "Juramentada / Oathbringer",
@@ -1861,7 +2047,11 @@
     "startedAt": "2022-11-26T00:00:00.000Z",
     "completedAt": "2023-08-27T00:00:00.000Z",
     "timeToComplete": 23673600000,
-    "timeToCompleteFormatted": "9 months"
+    "timeToCompleteFormatted": "9 months",
+    "collections": [
+      "El Archivo de las Tormentas",
+      "Cosmere"
+    ]
   },
   {
     "title": "Arcanun Ilimitado",
@@ -1944,7 +2134,18 @@
     "startedAt": "2022-11-26T00:00:00.000Z",
     "completedAt": "2023-08-07T00:00:00.000Z",
     "timeToComplete": 21945600000,
-    "timeToCompleteFormatted": "8 months"
+    "timeToCompleteFormatted": "8 months",
+    "externalReviews": [
+      {
+        "source": "Biblioteca de Nehemías",
+        "title": "Biblioteca de Nehemías",
+        "url": "https://labibliotecadenehemias.wordpress.com/2025/04/09/palabras-radiantes-el-archivo-de-las-tormentas-2/"
+      }
+    ],
+    "collections": [
+      "El Archivo de las Tormentas",
+      "Cosmere"
+    ]
   },
   {
     "title": "El Archivo de las Tormentas: Una guía de bolsillo para El camino de los reyes y Palabras radiantes",
@@ -1970,7 +2171,10 @@
     "startedAt": "2023-08-07T00:00:00.000Z",
     "completedAt": "2023-08-07T00:00:00.000Z",
     "timeToComplete": 0,
-    "timeToCompleteFormatted": "0 seconds"
+    "timeToCompleteFormatted": "0 seconds",
+    "collections": [
+      "El Archivo de las Tormentas"
+    ]
   },
   {
     "title": "Trenza del Mar Esmeralda",
@@ -2010,7 +2214,14 @@
     "startedAt": "2023-01-11T00:00:00.000Z",
     "completedAt": "2023-07-23T00:00:00.000Z",
     "timeToComplete": 16675200000,
-    "timeToCompleteFormatted": "6 months"
+    "timeToCompleteFormatted": "6 months",
+    "externalReviews": [
+      {
+        "source": "Biblioteca de Nehemías",
+        "title": "Biblioteca de Nehemías",
+        "url": "https://labibliotecadenehemias.wordpress.com/2026/10/02/trenza-del-mar-esmeralda/"
+      }
+    ]
   },
   {
     "title": "El héroe de las eras",
@@ -2051,7 +2262,18 @@
     "startedAt": "2023-04-05T00:00:00.000Z",
     "completedAt": "2023-05-09T00:00:00.000Z",
     "timeToComplete": 2937600000,
-    "timeToCompleteFormatted": "1 month"
+    "timeToCompleteFormatted": "1 month",
+    "externalReviews": [
+      {
+        "source": "Biblioteca de Nehemías",
+        "title": "Biblioteca de Nehemías",
+        "url": "https://labibliotecadenehemias.wordpress.com/2025/01/31/el-heroe-de-las-eras-nacidos-de-la-bruma-3/"
+      }
+    ],
+    "collections": [
+      "Nacidos de la Bruma",
+      "Cosmere"
+    ]
   },
   {
     "title": "El camino de los reyes",
@@ -2100,7 +2322,18 @@
     "startedAt": "2022-11-17T00:00:00.000Z",
     "completedAt": "2023-04-04T00:00:00.000Z",
     "timeToComplete": 11923200000,
-    "timeToCompleteFormatted": "4 months"
+    "timeToCompleteFormatted": "4 months",
+    "externalReviews": [
+      {
+        "source": "Biblioteca de Nehemías",
+        "title": "Biblioteca de Nehemías",
+        "url": "https://labibliotecadenehemias.wordpress.com/2024/11/11/el-camino-de-los-reyes-el-archivo-de-las-tormentas-1/"
+      }
+    ],
+    "collections": [
+      "El Archivo de las Tormentas",
+      "Cosmere"
+    ]
   },
   {
     "title": "Elantris",
@@ -2201,7 +2434,11 @@
     "startedAt": "2023-01-07T00:00:00.000Z",
     "completedAt": "2023-01-18T00:00:00.000Z",
     "timeToComplete": 950400000,
-    "timeToCompleteFormatted": "1 week"
+    "timeToCompleteFormatted": "1 week",
+    "collections": [
+      "Nacidos de la Bruma",
+      "Cosmere"
+    ]
   },
   {
     "title": "El aliento de los dioses",
@@ -2289,7 +2526,11 @@
     "startedAt": "2022-09-05T00:00:00.000Z",
     "completedAt": "2022-12-23T00:00:00.000Z",
     "timeToComplete": 9417600000,
-    "timeToCompleteFormatted": "3 months"
+    "timeToCompleteFormatted": "3 months",
+    "collections": [
+      "Nacidos de la Bruma",
+      "Cosmere"
+    ]
   },
   {
     "title": "Aleación de ley",
@@ -2328,7 +2569,11 @@
     "startedAt": "2022-11-14T00:00:00.000Z",
     "completedAt": "2022-11-14T00:00:00.000Z",
     "timeToComplete": 0,
-    "timeToCompleteFormatted": "0 seconds"
+    "timeToCompleteFormatted": "0 seconds",
+    "collections": [
+      "Nacidos de la Bruma",
+      "Cosmere"
+    ]
   },
   {
     "title": "Brazales de duelo",
@@ -2375,7 +2620,11 @@
     "startedAt": "2019-05-16T00:00:00.000Z",
     "completedAt": "2019-06-23T00:00:00.000Z",
     "timeToComplete": 3283200000,
-    "timeToCompleteFormatted": "1 month"
+    "timeToCompleteFormatted": "1 month",
+    "collections": [
+      "Nacidos de la Bruma",
+      "Cosmere"
+    ]
   },
   {
     "title": "Sombras de identidad",
@@ -2418,7 +2667,11 @@
     "startedAt": "2019-03-19T00:00:00.000Z",
     "completedAt": "2019-04-20T00:00:00.000Z",
     "timeToComplete": 2764800000,
-    "timeToCompleteFormatted": "1 month"
+    "timeToCompleteFormatted": "1 month",
+    "collections": [
+      "Nacidos de la Bruma",
+      "Cosmere"
+    ]
   },
   {
     "title": "Aleación de ley",
@@ -2458,7 +2711,11 @@
     "startedAt": "2019-02-27T00:00:00.000Z",
     "completedAt": "2019-03-19T00:00:00.000Z",
     "timeToComplete": 1728000000,
-    "timeToCompleteFormatted": "2 weeks"
+    "timeToCompleteFormatted": "2 weeks",
+    "collections": [
+      "Nacidos de la Bruma",
+      "Cosmere"
+    ]
   },
   {
     "title": "El héroe de las eras",
@@ -2498,7 +2755,11 @@
     "startedAt": "2019-01-23T00:00:00.000Z",
     "completedAt": "2019-02-27T00:00:00.000Z",
     "timeToComplete": 3024000000,
-    "timeToCompleteFormatted": "1 month"
+    "timeToCompleteFormatted": "1 month",
+    "collections": [
+      "Nacidos de la Bruma",
+      "Cosmere"
+    ]
   },
   {
     "title": "El pozo de la ascension",
@@ -2549,7 +2810,11 @@
     "startedAt": "2018-11-08T00:00:00.000Z",
     "completedAt": "2019-01-22T00:00:00.000Z",
     "timeToComplete": 6480000000,
-    "timeToCompleteFormatted": "2 months"
+    "timeToCompleteFormatted": "2 months",
+    "collections": [
+      "Nacidos de la Bruma",
+      "Cosmere"
+    ]
   },
   {
     "title": "El imperio final",
@@ -2575,6 +2840,10 @@
     "startedAt": "2017-11-26T00:00:00.000Z",
     "completedAt": "2018-07-18T00:00:00.000Z",
     "timeToComplete": 20217600000,
-    "timeToCompleteFormatted": "7 months"
+    "timeToCompleteFormatted": "7 months",
+    "collections": [
+      "Nacidos de la Bruma",
+      "Cosmere"
+    ]
   }
 ]
