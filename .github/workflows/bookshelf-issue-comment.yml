@@ -1,7 +1,11 @@
 name: "Bookshelf Action: Issue Comment"
 on:
   issue_comment:
-    types: [created]
+    types: [created, edited, deleted]
+
+concurrency:
+  group: bookshelf-summary
+  cancel-in-progress: false
 
 permissions:
   contents: write
@@ -16,9 +20,27 @@ jobs:
         uses: actions/checkout@v6.0.2
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Test metadata synchronization scripts
+        run: node --test .github/scripts/*.test.mjs
+
       - name: Run Bookshelf Action
+        if: github.event.action == 'created'
         uses: AnandChowdhary/bookshelf-action@HEAD
         with:
           command: "onIssueComment"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Sync external reviews into API
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          node .github/scripts/sync-external-reviews.mjs
+          git add api.json
+          if ! git diff --cached --quiet; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -m "chore: sync external book reviews"
+            git push origin "HEAD:${GITHUB_REF_NAME}"
+          fi
