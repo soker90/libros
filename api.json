@@ -1,5 +1,44 @@
 [
   {
+    "title": "El extranjero",
+    "authors": [
+      "Albert Camus"
+    ],
+    "publisher": "Alianza Editorial",
+    "publishedDate": "1999",
+    "language": "es",
+    "format": "Unknown Binding",
+    "metadataSource": "Goodreads library export supplied by the user; no description, page count, or cover URL available in the export",
+    "issueNumber": 124,
+    "progressPercent": 0,
+    "state": "completed",
+    "startedAt": "2026-10-29T06:42:25.000Z",
+    "completedAt": "2026-10-29T06:47:00.000Z",
+    "timeToComplete": 275000,
+    "timeToCompleteFormatted": "4 minutes"
+  },
+  {
+    "title": "Yo, Robot",
+    "authors": [
+      "Isaac Asimov"
+    ],
+    "publisher": "Edhasa",
+    "publishedDate": "2019",
+    "language": "es",
+    "isbn10": "8435021343",
+    "isbn13": "9788435021340",
+    "format": "Paperback",
+    "metadataSource": "Goodreads library export supplied by the user; no description, page count, or cover URL available in the export",
+    "requestedIsbn": "9788435021340",
+    "issueNumber": 123,
+    "progressPercent": 0,
+    "state": "completed",
+    "startedAt": "2026-10-29T06:42:19.000Z",
+    "completedAt": "2026-10-29T06:46:45.000Z",
+    "timeToComplete": 266000,
+    "timeToCompleteFormatted": "4 minutes"
+  },
+  {
     "title": "Cinco panes de cebada",
     "authors": [
       "Lucía Baquedano"
@@ -40,39 +79,6 @@
     "completedAt": "2026-10-29T06:46:20.000Z",
     "timeToComplete": 253000,
     "timeToCompleteFormatted": "4 minutes"
-  },
-  {
-    "title": "El extranjero",
-    "authors": [
-      "Albert Camus"
-    ],
-    "publisher": "Alianza Editorial",
-    "publishedDate": "1999",
-    "language": "es",
-    "format": "Unknown Binding",
-    "metadataSource": "Goodreads library export supplied by the user; no description, page count, or cover URL available in the export",
-    "issueNumber": 124,
-    "progressPercent": 0,
-    "state": "reading",
-    "startedAt": "2026-10-29T06:42:25.000Z"
-  },
-  {
-    "title": "Yo, Robot",
-    "authors": [
-      "Isaac Asimov"
-    ],
-    "publisher": "Edhasa",
-    "publishedDate": "2019",
-    "language": "es",
-    "isbn10": "8435021343",
-    "isbn13": "9788435021340",
-    "format": "Paperback",
-    "metadataSource": "Goodreads library export supplied by the user; no description, page count, or cover URL available in the export",
-    "requestedIsbn": "9788435021340",
-    "issueNumber": 123,
-    "progressPercent": 0,
-    "state": "reading",
-    "startedAt": "2026-10-29T06:42:19.000Z"
   },
   {
     "title": "El rithmatista",

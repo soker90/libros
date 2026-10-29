@@ -14,15 +14,15 @@ Filtrar por puntuación:
 ## 📖 Mis lecturas
 
 <!--start:bookshelf-action-->
-### ⌛ Currently reading (4)
+### ⌛ Currently reading (2)
 
-[![El extranjero](https://images.weserv.nl/?url=undefined&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/124 "El extranjero by Albert Camus")
-[![Yo, Robot](https://images.weserv.nl/?url=undefined&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/123 "Yo, Robot by Isaac Asimov")
 [![Ciclo Pendragon nº 02/06 Merlín](https://images.weserv.nl/?url=https%3A%2F%2Fwww.planetadelibros.com%2Fusuaris%2Flibros%2Ffotos%2F405%2Foriginal%2Fportada_ciclo-pendragon-n-0206-merlin_stephen-r-lawhead_202505280841.jpg&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/54 "Ciclo Pendragon nº 02/06 Merlín by Stephen R. Lawhead")
 [![Isabel de España](https://images.weserv.nl/?url=undefined&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/16 "Isabel de España by William Thomas Walsh")
 
-### ✅ Completed (39)
+### ✅ Completed (41)
 
+[![El extranjero](https://images.weserv.nl/?url=undefined&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/124 "El extranjero by Albert Camus completed in 4 minutes on October 2026")
+[![Yo, Robot](https://images.weserv.nl/?url=undefined&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/123 "Yo, Robot by Isaac Asimov completed in 4 minutes on October 2026")
 [![Cinco panes de cebada](https://images.weserv.nl/?url=undefined&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/122 "Cinco panes de cebada by Lucía Baquedano completed in 4 minutes on October 2026")
 [![Diario de un padre primerizo](https://images.weserv.nl/?url=undefined&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/121 "Diario de un padre primerizo by Pedro Del Castillo completed in 4 minutes on October 2026")
 [![Legión: Las múltiples vidas de Stephen Leeds (Legión)](https://images.weserv.nl/?url=https%3A%2F%2Fwww.penguinlibros.com%2Fes%2F1479081-large_default%2Flegion-las-multiples-vidas-de-stephen-leeds-legion.webp&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/69 "Legión: Las múltiples vidas de Stephen Leeds (Legión) by Brandon Sanderson completed in 1 day on May 2026")
