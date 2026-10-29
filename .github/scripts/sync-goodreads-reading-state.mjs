@@ -28,6 +28,23 @@ const DATE_FIELDS = {
   verifiedCover: /^Verified cover URL:\s*(https?:\/\/\S+)\s*$/im,
 };
 
+// These corrections were explicitly confirmed by the user because the imported
+// Goodreads shelves are stale. Keep them as source-side overrides; api.json is generated.
+const USER_CONFIRMED_STATE_OVERRIDES = new Map([
+  [126, "completed"],
+  [127, "completed"],
+  [129, "completed"],
+  [131, "completed"],
+  [132, "completed"],
+  [133, "completed"],
+  [134, "completed"],
+  [135, "completed"],
+  [136, "completed"],
+  [137, "completed"],
+  [138, "completed"],
+  [139, "want-to-read"],
+]);
+
 const EDITION_SPECIFIC_FIELDS = [
   "isbn10",
   "description",
@@ -119,7 +136,8 @@ export function parseGoodreadsReadingData(body, labels = []) {
   const shelf = get(DATE_FIELDS.shelf)?.toLowerCase();
   if (!goodreadsId || !["read", "currently-reading", "to-read"].includes(shelf)) return null;
 
-  const completedAt = shelf === "read" ? parseGoodreadsDate(get(DATE_FIELDS.read)) : null;
+  const dateRead = parseGoodreadsDate(get(DATE_FIELDS.read));
+  const completedAt = shelf === "read" ? dateRead : null;
   const addedAt = parseGoodreadsDate(get(DATE_FIELDS.added));
   // Goodreads Date Added is only a proxy for reading start. If it comes after
   // Date Read, use Date Read as the start rather than creating a negative span.
@@ -134,6 +152,7 @@ export function parseGoodreadsReadingData(body, labels = []) {
     ...(parseRating(get(DATE_FIELDS.personalRating)) !== null ? { personalRating: parseRating(get(DATE_FIELDS.personalRating)) } : {}),
     startedAt,
     completedAt,
+    dateRead,
     isbn13: normalizeIsbn13(get(DATE_FIELDS.isbn)),
     publisher: get(DATE_FIELDS.verifiedPublisher) || get(DATE_FIELDS.publisher),
     publishedDate: get(DATE_FIELDS.verifiedPublicationDate) || get(DATE_FIELDS.year),
@@ -180,9 +199,10 @@ export function applyGoodreadsReadingData(books, issues) {
     }
     if (data.title) next.title = data.title;
 
-    next.state = data.shelf === "read" ? "completed"
+    const confirmedState = USER_CONFIRMED_STATE_OVERRIDES.get(Number(book.issueNumber));
+    next.state = confirmedState || (data.shelf === "read" ? "completed"
       : data.shelf === "currently-reading" ? "reading"
-      : "want-to-read";
+      : "want-to-read");
 
     if (data.goodreadsRating !== undefined) next.goodreadsRating = data.goodreadsRating;
     else delete next.goodreadsRating;
@@ -191,11 +211,14 @@ export function applyGoodreadsReadingData(books, issues) {
     if (data.startedAt) next.startedAt = data.startedAt;
     else delete next.startedAt;
 
-    if (data.completedAt) next.completedAt = data.completedAt;
+    const completedAt = confirmedState === "completed"
+      ? data.dateRead || data.completedAt
+      : data.completedAt;
+    if (completedAt) next.completedAt = completedAt;
     else delete next.completedAt;
 
-    if (data.startedAt && data.completedAt) {
-      next.timeToComplete = Date.parse(data.completedAt) - Date.parse(data.startedAt);
+    if (data.startedAt && completedAt) {
+      next.timeToComplete = Date.parse(completedAt) - Date.parse(data.startedAt);
       next.timeToCompleteFormatted = formatDuration(next.timeToComplete);
     } else {
       delete next.timeToComplete;
