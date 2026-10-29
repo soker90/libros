@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { applyExternalReviews, parseCollections, parseExternalReviews } from "./sync-external-reviews.mjs";
+import { applyExternalReviews, parseCollections, parseExternalReviews, parseIssueAuthors, parseLongSynopsis } from "./sync-external-reviews.mjs";
 
 test("parses approved external review comments and normalizes source names", () => {
   const reviews = parseExternalReviews([
@@ -69,4 +69,21 @@ test("syncs collections alongside reviews and removes stale collection metadata"
 
   assert.deepEqual(result.books[0].collections, ["Terramar"]);
   assert.equal("collections" in applyExternalReviews(books, 12, [], []).books[0], false);
+});
+
+test("parses a long synopsis from the issue body", () => {
+  const body = "Goodreads ID: 123\nColección: Terramar\n\nSinopsis larga:\nGed debe afrontar una amenaza que emerge de la Tierra Seca y pone en peligro el equilibrio de Terramar.";
+  assert.equal(parseLongSynopsis(body), "Ged debe afrontar una amenaza que emerge de la Tierra Seca y pone en peligro el equilibrio de Terramar.");
+});
+
+test("updates long synopsis without changing the provider description", () => {
+  const books = [{ issueNumber: 12, title: "A book", description: "Provider description" }];
+  const result = applyExternalReviews(books, 12, [], [], "Sinopsis larga:\nA fuller synopsis.");
+  assert.equal(result.books[0].description, "Provider description");
+  assert.equal(result.books[0].longDescription, "A fuller synopsis.");
+});
+
+test("parses the author from the issue body for accurate related-book cards", () => {
+  assert.deepEqual(parseIssueAuthors("Goodreads ID: 123\nAuthor: Stefan Zweig\nISBN: 9788495359476"), ["Stefan Zweig"]);
+  assert.deepEqual(parseIssueAuthors("Author: J.R.R. Tolkien, Christopher Tolkien"), ["J.R.R. Tolkien", "Christopher Tolkien"]);
 });

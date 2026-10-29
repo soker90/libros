@@ -49,6 +49,18 @@ export function parseExternalReviews(comments = []) {
   return [...reviews.values()];
 }
 
+export function parseIssueAuthors(issueBody = "") {
+  const match = /^Author:\s*(.+?)\s*$/im.exec(issueBody);
+  if (!match) return [];
+  return match[1].split(/\s*,\s*/).map((author) => author.trim()).filter(Boolean);
+}
+
+export function parseLongSynopsis(issueBody = "") {
+  const marker = /^Sinopsis larga:\s*$/im.exec(issueBody);
+  if (!marker) return "";
+  return issueBody.slice(marker.index + marker[0].length).trim();
+}
+
 export function parseCollections(comments = [], labels = [], issueBody = "") {
   const collections = new Set();
 
@@ -77,11 +89,16 @@ export function applyExternalReviews(books, issueNumber, comments, labels = [], 
 
   const externalReviews = parseExternalReviews(comments);
   const collections = parseCollections(comments, labels, issueBody);
+  const longDescription = parseLongSynopsis(issueBody);
+  const authors = parseIssueAuthors(issueBody);
   let updated = false;
   const result = books.map((book) => {
     if (Number(book.issueNumber) !== number) return book;
     updated = true;
     const next = { ...book };
+    if (authors.length) next.authors = authors;
+    if (longDescription) next.longDescription = longDescription;
+    else delete next.longDescription;
     if (externalReviews.length) next.externalReviews = externalReviews;
     else delete next.externalReviews;
     if (collections.length) next.collections = collections;
