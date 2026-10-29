@@ -1,6 +1,12 @@
 name: Refresh existing book metadata
 
 on:
+  push:
+    branches: [master]
+    paths:
+      - ".github/scripts/book-metadata-merge.mjs"
+      - ".github/scripts/refresh-book-metadata.mjs"
+      - ".github/workflows/refresh-book-metadata.yml"
   workflow_dispatch:
     inputs:
       issue_number:
