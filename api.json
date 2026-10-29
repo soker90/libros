@@ -498,9 +498,19 @@
     "completedAt": "2024-03-15T00:00:00.000Z",
     "timeToComplete": 172800000,
     "timeToCompleteFormatted": "2 days",
-    "metadataSource": "Goodreads ISBN from source issue; edition metadata needs verification",
+    "metadataSource": "Exact ISBN match; edition metadata verified against ISBN-specific catalogue sources",
     "requestedIsbn": "9781400034956",
-    "format": "Tapa dura"
+    "format": "Tapa blanda",
+    "publisher": "Vintage Español",
+    "publishedDate": "2003-10-14",
+    "language": "es",
+    "image": "https://images1.penguinrandomhouse.com/cover/9781400034956",
+    "description": "En un pueblo caribeño, Santiago Nasar es asesinado pese a que muchos conocen de antemano las intenciones de sus asesinos. La novela reconstruye los hechos y las responsabilidades colectivas que rodean su muerte.",
+    "pageCount": 128,
+    "categories": [
+      "Ficción",
+      "Literatura latinoamericana"
+    ]
   },
   {
     "title": "Organízate con eficacia",
@@ -588,11 +598,19 @@
     "completedAt": "2024-02-11T00:00:00.000Z",
     "timeToComplete": 14428800000,
     "timeToCompleteFormatted": "5 months",
-    "metadataSource": "Goodreads ISBN from source issue; edition metadata needs verification",
+    "metadataSource": "Exact ISBN match; edition metadata verified against ISBN-specific catalogue sources",
     "requestedIsbn": "9781774882993",
-    "publishedDate": "2023",
+    "publishedDate": "2023-11-07",
     "language": "en",
-    "format": "eBook"
+    "format": "Kindle Edition",
+    "publisher": "Penguin Teen Canada",
+    "description": "A year after the fall of a tyrant, Murtagh and his dragon Thorn are isolated and mistrusted. They travel into unfamiliar lands to investigate a growing threat and confront a mysterious witch.",
+    "pageCount": 704,
+    "categories": [
+      "Fantasy",
+      "Young Adult Fiction",
+      "Action & Adventure"
+    ]
   },
   {
     "title": "Isabel de España",
