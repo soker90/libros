@@ -282,7 +282,7 @@ test("restores a legacy issue's authoritative Date Read without requiring a Good
   const result = applyGoodreadsReadingData(books, [{
     number: 131,
     closed_at: "2026-10-29T11:03:28Z",
-    body: "Goodreads ID: 2674644\\nDate read: 2018/09/27\\n",
+    body: "Goodreads ID: 2674644\nDate read: 2018/09/27\n",
   }]);
   const book = result.books[0];
 
@@ -304,7 +304,7 @@ test("removes completion timestamps fabricated by issue closure when Goodreads h
   const result = applyGoodreadsReadingData(books, [{
     number: 138,
     closed_at: "2026-10-29T11:03:11Z",
-    body: "Goodreads ID: 60530561\\nDate read: Not listed in Goodreads export\\n",
+    body: "Goodreads ID: 60530561\nDate read: Not listed in Goodreads export\n",
   }]);
   const book = result.books[0];
 
