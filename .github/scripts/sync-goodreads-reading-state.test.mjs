@@ -18,6 +18,7 @@ Cover URL: https://example.org/cover.jpg
 test("parses Goodreads status, dates, ISBN, and explicit edition metadata from issue body", () => {
   assert.deepEqual(parseGoodreadsReadingData(issueBody), {
     shelf: "read",
+    goodreadsRating: 4,
     startedAt: "2026-02-16T00:00:00.000Z",
     completedAt: "2026-03-10T00:00:00.000Z",
     isbn13: "9788410466203",
@@ -137,6 +138,7 @@ test("uses Date Read as the start when Goodreads Date Added is later", () => {
 
   assert.deepEqual(parseGoodreadsReadingData(body), {
     shelf: "read",
+    goodreadsRating: 4,
     startedAt: "2023-08-07T00:00:00.000Z",
     completedAt: "2023-08-07T00:00:00.000Z",
     isbn13: "9788410466203",
@@ -212,4 +214,17 @@ test("uses an explicitly verified title instead of an imported title containing 
 
   const result = applyGoodreadsReadingData(books, [{ number: 37, body }]);
   assert.equal(result.books[0].title, "El último deseo");
+});
+
+
+test("keeps personal ratings separate from Goodreads ratings", () => {
+  const body = issueBody + "Personal rating: 5/5\n";
+  const parsed = parseGoodreadsReadingData(body);
+  assert.equal(parsed.goodreadsRating, 4);
+  assert.equal(parsed.personalRating, 5);
+
+  const result = applyGoodreadsReadingData([{ issueNumber: 14, averageRating: 4.3 }], [{ number: 14, body }]);
+  assert.equal(result.books[0].goodreadsRating, 4);
+  assert.equal(result.books[0].personalRating, 5);
+  assert.equal(result.books[0].averageRating, 4.3);
 });
