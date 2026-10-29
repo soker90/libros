@@ -117,6 +117,7 @@ export function parseGoodreadsReadingData(body, labels = []) {
   // Goodreads Date Added is only a proxy for reading start. If it comes after
   // Date Read, use Date Read as the start rather than creating a negative span.
   const startedAt = completedAt && addedAt && addedAt > completedAt ? completedAt : addedAt;
+  const verifiedTitle = get(DATE_FIELDS.verifiedTitle);
   const categories = get(DATE_FIELDS.verifiedCategories) || get(DATE_FIELDS.categories);
   const verifiedSource = get(DATE_FIELDS.verifiedSource);
 
