@@ -18,7 +18,6 @@ Filtrar por puntuación:
 
 [![The Silmarillion](https://images.weserv.nl/?url=https%3A%2F%2Fcovers.openlibrary.org%2Fb%2Fid%2F14625966-L.jpg&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/137 "The Silmarillion by J.R.R. Tolkien, Christopher Tolkien")
 [![Divergente](https://images.weserv.nl/?url=https%3A%2F%2Fcovers.openlibrary.org%2Fb%2Fid%2F9341951-L.jpg&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/136 "Divergente by Veronica Roth")
-[![En el Otro Viento](https://images.weserv.nl/?url=https%3A%2F%2Fcovers.openlibrary.org%2Fb%2Fid%2F4912480-L.jpg&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/135 "En el Otro Viento by Ursula K. Le Guin")
 [![Insurgente](https://images.weserv.nl/?url=https%3A%2F%2Fcovers.openlibrary.org%2Fb%2Fid%2F13829187-L.jpg&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/134 "Insurgente by Veronica Roth")
 [![Leal](https://images.weserv.nl/?url=https%3A%2F%2Fcovers.openlibrary.org%2Fb%2Fid%2F7272890-L.jpg&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/133 "Leal by Veronica Roth")
 [![Historias de Terramar II: La costa más lejana. Tehanu](https://images.weserv.nl/?url=https%3A%2F%2Fcovers.openlibrary.org%2Fb%2Fid%2F11573302-L.jpg&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/132 "Historias de Terramar II: La costa más lejana. Tehanu by Ursula K. Le Guin")
