@@ -179,7 +179,12 @@ export function applyGoodreadsReadingData(books, issues) {
   let updated = 0;
   const result = books.map((book) => {
     const data = dataByIssue.get(Number(book.issueNumber));
-    if (!data) return book;
+    const confirmedState = USER_CONFIRMED_STATE_OVERRIDES.get(Number(book.issueNumber));
+    if (!data) {
+      if (!confirmedState || book.state === confirmedState) return book;
+      updated += 1;
+      return { ...book, state: confirmedState };
+    }
 
     const next = { ...book };
     const isbnChanged = Boolean(data.isbn13 && book.isbn13 && data.isbn13 !== book.isbn13);
@@ -199,7 +204,6 @@ export function applyGoodreadsReadingData(books, issues) {
     }
     if (data.title) next.title = data.title;
 
-    const confirmedState = USER_CONFIRMED_STATE_OVERRIDES.get(Number(book.issueNumber));
     next.state = confirmedState || (data.shelf === "read" ? "completed"
       : data.shelf === "currently-reading" ? "reading"
       : "want-to-read");

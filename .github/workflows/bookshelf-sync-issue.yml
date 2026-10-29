@@ -32,6 +32,7 @@ jobs:
         run: node --test .github/scripts/*.test.mjs
 
       - name: Regenerate bookshelf summary and API
+        if: github.event_name == 'issues'
         uses: AnandChowdhary/bookshelf-action@HEAD
         with:
           command: "updateSummary"

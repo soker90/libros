@@ -252,3 +252,19 @@ test("overrides stale imported shelves with user-confirmed reading states", () =
   ]);
   assert.equal(result.books[2].completedAt, "2026-03-10T00:00:00.000Z");
 });
+
+
+test("applies user-confirmed state overrides even when Goodreads metadata is missing", () => {
+  const books = [
+    { issueNumber: 131, state: "reading" },
+    { issueNumber: 132, state: "reading" },
+    { issueNumber: 138, state: "reading" },
+    { issueNumber: 139, state: "reading" },
+    { issueNumber: 54, state: "reading" },
+    { issueNumber: 16, state: "reading" },
+  ];
+  const result = applyGoodreadsReadingData(books, []);
+  assert.deepEqual(result.books.map((book) => book.state), [
+    "completed", "completed", "completed", "want-to-read", "reading", "reading",
+  ]);
+});
