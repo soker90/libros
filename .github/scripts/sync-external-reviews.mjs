@@ -49,6 +49,12 @@ export function parseExternalReviews(comments = []) {
   return [...reviews.values()];
 }
 
+export function parseLongSynopsis(issueBody = "") {
+  const marker = /^Sinopsis larga:\\s*$/im.exec(issueBody);
+  if (!marker) return "";
+  return issueBody.slice(marker.index + marker[0].length).trim();
+}
+
 export function parseCollections(comments = [], labels = [], issueBody = "") {
   const collections = new Set();
 
@@ -76,7 +82,7 @@ export function applyExternalReviews(books, issueNumber, comments, labels = [], 
   if (!Number.isInteger(number) || number < 1) throw new TypeError("The issue number must be a positive integer.");
 
   const externalReviews = parseExternalReviews(comments);
-  const collections = parseCollections(comments, labels, issueBody);
+  const collections = parseCollections(comments, labels, issueBody);\n  const longDescription = parseLongSynopsis(issueBody);
   let updated = false;
   const result = books.map((book) => {
     if (Number(book.issueNumber) !== number) return book;
