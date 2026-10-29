@@ -6,9 +6,23 @@
     ],
     "publisher": "Alianza Editorial",
     "publishedDate": "1999",
+    "description": "Meursault, protagonista de la novela, se ve conducido a cometer un crimen aparentemente inmotivado. La obra describe la carencia de valores del mundo contemporáneo y la relación del individuo con el absurdo, la responsabilidad y la muerte.",
+    "image": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1504301541i/1836303.jpg",
     "language": "es",
+    "averageRating": 4.03,
+    "ratingsCount": 1538856,
+    "categories": [
+      "Clásicos",
+      "Ficción",
+      "Filosofía"
+    ],
+    "pageCount": 124,
     "format": "Unknown Binding",
-    "metadataSource": "Goodreads library export supplied by the user; no description, page count, or cover URL available in the export",
+    "metadataSource": "Goodreads public pages accessed manually without API; edition-specific bibliographic data cross-checked against publisher catalogue where noted",
+    "sources": [
+      "https://www.goodreads.com/book/show/1836303.El_extranjero",
+      "https://www.goodreads.com/work/editions/3324344-l-tranger?expanded=true"
+    ],
     "issueNumber": 124,
     "progressPercent": 0,
     "state": "completed",

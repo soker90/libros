@@ -21,7 +21,7 @@ Filtrar por puntuación:
 
 ### ✅ Completed (41)
 
-[![El extranjero](https://images.weserv.nl/?url=undefined&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/124 "El extranjero by Albert Camus completed in 4 minutes on October 2026")
+[![El extranjero](https://images.weserv.nl/?url=https%3A%2F%2Fm.media-amazon.com%2Fimages%2FS%2Fcompressed.photo.goodreads.com%2Fbooks%2F1504301541i%2F1836303.jpg&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/124 "El extranjero by Albert Camus completed in 4 minutes on October 2026")
 [![Yo, Robot](https://images.weserv.nl/?url=https%3A%2F%2Fplacehold.co%2F128x196%3Ftext%3DNo%2Bcover&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/123 "Yo, Robot by Isaac Asimov completed in 4 minutes on October 2026")
 [![Cinco panes de cebada](https://images.weserv.nl/?url=https%3A%2F%2Fplacehold.co%2F128x196%3Ftext%3DNo%2Bcover&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/122 "Cinco panes de cebada by Lucía Baquedano completed in 4 minutes on October 2026")
 [![Diario de un padre primerizo](https://images.weserv.nl/?url=https%3A%2F%2Fproassets.planetadelibros.com.uy%2Fusuaris%2Flibros%2Ffotos%2F413%2Foriginal%2F412479_portada_diario-de-un-padre-primerizo_pedro-del-castillo_202412090840.jpg&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/121 "Diario de un padre primerizo by Pedro del Castillo completed in 4 minutes on October 2026")
