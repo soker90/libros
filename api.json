@@ -1,5 +1,41 @@
 [
   {
+    "title": "Yo, Robot",
+    "authors": [
+      "Isaac Asimov"
+    ],
+    "publisher": "Edhasa",
+    "publishedDate": "2019",
+    "language": "es",
+    "isbn10": "8435021343",
+    "isbn13": "9788435021340",
+    "format": "Paperback",
+    "metadataSource": "Goodreads library export supplied by the user; no description, page count, or cover URL available in the export",
+    "requestedIsbn": "9788435021340",
+    "issueNumber": 123,
+    "progressPercent": 0,
+    "state": "reading",
+    "startedAt": "2026-10-29T06:42:19.000Z"
+  },
+  {
+    "title": "Cinco panes de cebada",
+    "authors": [
+      "Lucía Baquedano"
+    ],
+    "publisher": "EDICIONES SM",
+    "publishedDate": "2021",
+    "language": "es",
+    "isbn10": "8413921902",
+    "isbn13": "9788413921907",
+    "format": "Paperback",
+    "metadataSource": "Goodreads library export supplied by the user; no description, page count, or cover URL available in the export",
+    "requestedIsbn": "9788413921907",
+    "issueNumber": 122,
+    "progressPercent": 0,
+    "state": "reading",
+    "startedAt": "2026-10-29T06:42:14.000Z"
+  },
+  {
     "title": "Diario de un padre primerizo",
     "authors": [
       "Pedro Del Castillo"
