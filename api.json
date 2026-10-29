@@ -235,7 +235,7 @@
     "publishedDate": "June 2004",
     "description": "",
     "image": "https://covers.openlibrary.org/b/id/4912480-L.jpg",
-    "language": "",
+    "language": "es",
     "averageRating": 0,
     "ratingsCount": 0,
     "categories": [
@@ -268,10 +268,7 @@
     "issueNumber": 131,
     "progressPercent": 0,
     "state": "completed",
-    "startedAt": "2026-10-29T07:55:59.000Z",
-    "completedAt": "2026-10-29T11:03:28.000Z",
-    "timeToComplete": 11249000,
-    "timeToCompleteFormatted": "3 hours"
+    "completedAt": "2018-09-27T00:00:00.000Z"
   },
   {
     "title": "Historias de Terramar II: La costa más lejana. Tehanu",
@@ -282,7 +279,7 @@
     "publishedDate": "2005-09-13",
     "description": "",
     "image": "https://covers.openlibrary.org/b/id/11573302-L.jpg",
-    "language": "",
+    "language": "es",
     "averageRating": 0,
     "ratingsCount": 0,
     "categories": [],
@@ -300,10 +297,7 @@
     "issueNumber": 132,
     "progressPercent": 0,
     "state": "completed",
-    "startedAt": "2026-10-29T07:56:06.000Z",
-    "completedAt": "2026-10-29T11:03:25.000Z",
-    "timeToComplete": 11239000,
-    "timeToCompleteFormatted": "3 hours"
+    "completedAt": "2017-12-07T00:00:00.000Z"
   },
   {
     "title": "Leal",
@@ -314,7 +308,7 @@
     "publishedDate": "2014",
     "description": "",
     "image": "https://covers.openlibrary.org/b/id/7272890-L.jpg",
-    "language": "",
+    "language": "es",
     "averageRating": 0,
     "ratingsCount": 0,
     "categories": [
@@ -383,10 +377,7 @@
     "issueNumber": 133,
     "progressPercent": 0,
     "state": "completed",
-    "startedAt": "2026-10-29T07:56:15.000Z",
-    "completedAt": "2026-10-29T11:03:23.000Z",
-    "timeToComplete": 11228000,
-    "timeToCompleteFormatted": "3 hours"
+    "completedAt": "2016-08-04T00:00:00.000Z"
   },
   {
     "title": "Insurgente",
@@ -397,7 +388,7 @@
     "publishedDate": "2014",
     "description": "",
     "image": "https://covers.openlibrary.org/b/id/13829187-L.jpg",
-    "language": "",
+    "language": "es",
     "averageRating": 0,
     "ratingsCount": 0,
     "categories": [
@@ -477,10 +468,7 @@
     "issueNumber": 134,
     "progressPercent": 0,
     "state": "completed",
-    "startedAt": "2026-10-29T07:56:22.000Z",
-    "completedAt": "2026-10-29T11:03:20.000Z",
-    "timeToComplete": 11218000,
-    "timeToCompleteFormatted": "3 hours"
+    "completedAt": "2016-08-02T00:00:00.000Z"
   },
   {
     "title": "Divergente",
@@ -491,7 +479,7 @@
     "publishedDate": "2014",
     "description": "",
     "image": "https://covers.openlibrary.org/b/id/9341951-L.jpg",
-    "language": "",
+    "language": "es",
     "averageRating": 0,
     "ratingsCount": 0,
     "categories": [
@@ -570,10 +558,7 @@
     "issueNumber": 136,
     "progressPercent": 0,
     "state": "completed",
-    "startedAt": "2026-10-29T07:57:10.000Z",
-    "completedAt": "2026-10-29T11:03:18.000Z",
-    "timeToComplete": 11168000,
-    "timeToCompleteFormatted": "3 hours"
+    "completedAt": "2016-07-30T00:00:00.000Z"
   },
   {
     "title": "The Silmarillion",
@@ -585,7 +570,7 @@
     "publishedDate": "2004",
     "description": "Includes index.",
     "image": "https://covers.openlibrary.org/b/id/14625966-L.jpg",
-    "language": "",
+    "language": "en",
     "averageRating": 0,
     "ratingsCount": 0,
     "categories": [
@@ -622,10 +607,7 @@
     "issueNumber": 137,
     "progressPercent": 0,
     "state": "completed",
-    "startedAt": "2026-10-29T07:58:16.000Z",
-    "completedAt": "2026-10-29T11:03:15.000Z",
-    "timeToComplete": 11099000,
-    "timeToCompleteFormatted": "3 hours"
+    "completedAt": "2015-07-01T00:00:00.000Z"
   },
   {
     "title": "El Hobbit",
@@ -636,7 +618,7 @@
     "publishedDate": "2022",
     "description": "Source title: El Hobbit (NE)",
     "image": "https://covers.openlibrary.org/b/id/14626854-L.jpg",
-    "language": "",
+    "language": "es",
     "averageRating": 0,
     "ratingsCount": 0,
     "categories": [
@@ -747,11 +729,7 @@
     "metadataSource": "ISBN match",
     "issueNumber": 138,
     "progressPercent": 0,
-    "state": "completed",
-    "startedAt": "2026-10-29T07:58:28.000Z",
-    "completedAt": "2026-10-29T11:03:11.000Z",
-    "timeToComplete": 11083000,
-    "timeToCompleteFormatted": "3 hours"
+    "state": "completed"
   },
   {
     "title": "Historias de Terramar I",
