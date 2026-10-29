@@ -93,27 +93,35 @@ async function main() {
   }
 
   const event = JSON.parse(await readFile(GITHUB_EVENT_PATH, "utf8"));
-  const issueNumber = Number(event.issue?.number);
-  if (!Number.isInteger(issueNumber) || issueNumber < 1) {
-    throw new Error("This workflow did not receive a valid issue.");
-  }
-
-  const comments = await fetchIssueComments({ token: GITHUB_TOKEN, repository: GITHUB_REPOSITORY, issueNumber });
   const apiPath = "api.json";
   const books = JSON.parse(await readFile(apiPath, "utf8"));
-  const result = applyExternalReviews(books, issueNumber, comments);
+  const issueNumber = Number(event.issue?.number);
 
-  if (!result.updated) {
-    console.warn(`No API entry found for issue #${issueNumber}; external reviews were not changed.`);
+  if (Number.isInteger(issueNumber) && issueNumber > 0) {
+    const comments = await fetchIssueComments({ token: GITHUB_TOKEN, repository: GITHUB_REPOSITORY, issueNumber });
+    const result = applyExternalReviews(books, issueNumber, comments);
+    if (!result.updated) {
+      console.warn(`No API entry found for issue #${issueNumber}; external reviews were not changed.`);
+      return;
+    }
+    await writeFile(apiPath, `${JSON.stringify(result.books, null, 2)}\n`);
+    console.log(`Synced ${result.externalReviews.length} external review(s) for issue #${issueNumber}.`);
     return;
   }
 
-  await writeFile(apiPath, `${JSON.stringify(result.books, null, 2)}\n`);
-  console.log(
-    result.externalReviews.length
-      ? `Synced ${result.externalReviews.length} external review(s) for issue #${issueNumber}.`
-      : `Removed external reviews for issue #${issueNumber}; no approved review comments remain.`,
-  );
+  // On a workflow push, backfill comments already present before this sync was introduced.
+  let updatedBooks = books;
+  for (const book of books) {
+    if (!Number.isInteger(book.issueNumber) || book.issueNumber < 1) continue;
+    const comments = await fetchIssueComments({
+      token: GITHUB_TOKEN,
+      repository: GITHUB_REPOSITORY,
+      issueNumber: book.issueNumber,
+    });
+    updatedBooks = applyExternalReviews(updatedBooks, book.issueNumber, comments).books;
+  }
+  await writeFile(apiPath, `${JSON.stringify(updatedBooks, null, 2)}\n`);
+  console.log(`Backfilled external reviews for ${updatedBooks.filter((book) => Array.isArray(book.externalReviews)).length} books.`);
 }
 
 if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
