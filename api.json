@@ -109,7 +109,19 @@
     "timeToComplete": 172800000,
     "timeToCompleteFormatted": "2 days",
     "goodreadsRating": 4,
-    "format": "Paperback"
+    "format": "Paperback",
+    "externalReviews": [
+      {
+        "source": "Aceprensa",
+        "title": "Aceprensa",
+        "url": "https://www.aceprensa.com/resenas-libros/el-nino-con-el-pijama-de-rayas/"
+      },
+      {
+        "source": "El Club del Lector",
+        "title": "El Club del Lector",
+        "url": "https://www.clubdellector.com/libro/el-nino-con-el-pijama-de-rayas"
+      }
+    ]
   },
   {
     "title": "Carta de una desconocida",
@@ -142,7 +154,14 @@
     "timeToComplete": 86400000,
     "timeToCompleteFormatted": "1 day",
     "goodreadsRating": 5,
-    "format": "Paperback"
+    "format": "Paperback",
+    "externalReviews": [
+      {
+        "source": "Aceprensa",
+        "title": "Aceprensa",
+        "url": "https://www.aceprensa.com/resenas-libros/carta-de-una-desconocida/"
+      }
+    ]
   },
   {
     "title": "Rebelión en la granja",
@@ -224,7 +243,19 @@
     "timeToComplete": 89856000000,
     "timeToCompleteFormatted": "2 years",
     "goodreadsRating": 5,
-    "format": "Mass Market Paperback"
+    "format": "Mass Market Paperback",
+    "externalReviews": [
+      {
+        "source": "Aceprensa",
+        "title": "Aceprensa",
+        "url": "https://www.aceprensa.com/infantil_y_juvenil/rebelion-en-la-granja/"
+      },
+      {
+        "source": "El Club del Lector",
+        "title": "El Club del Lector",
+        "url": "https://www.clubdellector.com/comment/8592"
+      }
+    ]
   },
   {
     "title": "En el Otro Viento",
@@ -558,7 +589,14 @@
     "issueNumber": 136,
     "progressPercent": 0,
     "state": "completed",
-    "completedAt": "2016-07-30T00:00:00.000Z"
+    "completedAt": "2016-07-30T00:00:00.000Z",
+    "externalReviews": [
+      {
+        "source": "Aceprensa",
+        "title": "Aceprensa",
+        "url": "https://www.aceprensa.com/resenas-libros/divergente/"
+      }
+    ]
   },
   {
     "title": "The Silmarillion",
@@ -729,7 +767,14 @@
     "metadataSource": "ISBN match",
     "issueNumber": 138,
     "progressPercent": 0,
-    "state": "completed"
+    "state": "completed",
+    "externalReviews": [
+      {
+        "source": "El Club del Lector",
+        "title": "El Club del Lector",
+        "url": "https://www.clubdellector.com/node/35178"
+      }
+    ]
   },
   {
     "title": "Historias de Terramar I",
@@ -861,7 +906,19 @@
     "timeToComplete": 604800000,
     "timeToCompleteFormatted": "1 week",
     "requestedIsbn": "9788413921907",
-    "goodreadsRating": 4
+    "goodreadsRating": 4,
+    "externalReviews": [
+      {
+        "source": "Delibris",
+        "title": "Delibris",
+        "url": "https://www.delibris.org/es/cinco-panes-de-cebada"
+      },
+      {
+        "source": "El Club del Lector",
+        "title": "El Club del Lector",
+        "url": "https://www.clubdellector.com/libro/cinco-panes-de-cebada"
+      }
+    ]
   },
   {
     "title": "Diario de un padre primerizo",
@@ -1171,7 +1228,14 @@
     "timeToComplete": 36547200000,
     "timeToCompleteFormatted": "1 year",
     "goodreadsRating": 5,
-    "format": "Tapa blanda"
+    "format": "Tapa blanda",
+    "externalReviews": [
+      {
+        "source": "Delibris",
+        "title": "Delibris",
+        "url": "https://www.delibris.org/es/node/233297"
+      }
+    ]
   },
   {
     "title": "Viento y verdad",
@@ -1207,7 +1271,14 @@
     "timeToComplete": 7862400000,
     "timeToCompleteFormatted": "3 months",
     "goodreadsRating": 3,
-    "format": "Tapa dura"
+    "format": "Tapa dura",
+    "externalReviews": [
+      {
+        "source": "Delibris",
+        "title": "Delibris",
+        "url": "https://www.delibris.org/es/viento-y-verdad-0"
+      }
+    ]
   },
   {
     "title": "La espada del destino",
@@ -1353,6 +1424,13 @@
       "Narrativa",
       "Clásicos universales",
       "Distopía"
+    ],
+    "externalReviews": [
+      {
+        "source": "Delibris",
+        "title": "Delibris",
+        "url": "https://www.delibris.org/es/1984"
+      }
     ]
   },
   {
