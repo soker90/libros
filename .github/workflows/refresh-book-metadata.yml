@@ -10,7 +10,7 @@ on:
         default: ""
 
 permissions:
-  contents: read
+  contents: write
   issues: write
 
 concurrency:
@@ -33,3 +33,30 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}
           ISSUE_NUMBER: ${{ inputs.issue_number }}
+
+      - name: Regenerate bookshelf summary and API from refreshed metadata
+        uses: AnandChowdhary/bookshelf-action@HEAD
+        with:
+          command: "updateSummary"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Restore external reviews, long synopses and collections
+        run: node .github/scripts/sync-external-reviews.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          GITHUB_EVENT_PATH: ${{ github.event_path }}
+          GITHUB_EVENT_NAME: ${{ github.event_name }}
+
+      - name: Commit regenerated catalogue
+        run: |
+          git add README.md api.json
+          if ! git diff --cached --quiet; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -m "chore: refresh book descriptions and catalogue"
+            git push origin "HEAD:${GITHUB_REF_NAME}"
+          fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
