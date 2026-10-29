@@ -4,11 +4,11 @@
     "authors": [
       "George Orwell"
     ],
-    "publisher": "Debolsillo",
-    "publishedDate": "2017",
+    "publisher": "DeBolsillo",
+    "publishedDate": "2014",
     "description": "",
-    "image": "https://covers.openlibrary.org/b/id/10382248-L.jpg",
-    "language": "",
+    "image": "https://placehold.co/128x196?text=No+cover",
+    "language": "es",
     "averageRating": 0,
     "ratingsCount": 0,
     "categories": [
@@ -73,8 +73,13 @@
     "metadataSource": "ISBN match",
     "issueNumber": 129,
     "progressPercent": 0,
-    "state": "reading",
-    "startedAt": "2026-10-29T07:11:58.000Z"
+    "state": "completed",
+    "startedAt": "2020-02-20T00:00:00.000Z",
+    "goodreadsRating": 5,
+    "completedAt": "2022-12-26T00:00:00.000Z",
+    "timeToComplete": 89856000000,
+    "timeToCompleteFormatted": "2 years",
+    "format": "Mass Market Paperback"
   },
   {
     "title": "Carta de una desconocida",
