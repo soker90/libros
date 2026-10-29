@@ -88,7 +88,9 @@ export function applyExternalReviews(books, issueNumber, comments, labels = [], 
   if (!Number.isInteger(number) || number < 1) throw new TypeError("The issue number must be a positive integer.");
 
   const externalReviews = parseExternalReviews(comments);
-  const collections = parseCollections(comments, labels, issueBody);\n  const longDescription = parseLongSynopsis(issueBody);\n  const authors = parseIssueAuthors(issueBody);
+  const collections = parseCollections(comments, labels, issueBody);
+  const longDescription = parseLongSynopsis(issueBody);
+  const authors = parseIssueAuthors(issueBody);
   let updated = false;
   const result = books.map((book) => {
     if (Number(book.issueNumber) !== number) return book;
