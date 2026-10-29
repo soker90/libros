@@ -4,9 +4,9 @@ import { applyExternalReviews, parseExternalReviews } from "./sync-external-revi
 
 test("parses approved external review comments and normalizes source names", () => {
   const reviews = parseExternalReviews([
-    { body: "Reseña externa: Aceprensa\\nhttps://www.aceprensa.com/resenas-libros/example/" },
-    { body: "Reseña externa: Biblioteca de Nehemías\\nhttps://bibliotecadenehemias.example/book" },
-    { body: "Reseña externa: sitio desconocido\\nhttps://example.com/book" },
+    { body: "Reseña externa: Aceprensa\nhttps://www.aceprensa.com/resenas-libros/example/" },
+    { body: "Reseña externa: Biblioteca de Nehemías\nhttps://bibliotecadenehemias.example/book" },
+    { body: "Reseña externa: sitio desconocido\nhttps://example.com/book" },
     { body: "A regular comment with https://example.com/book" },
   ]);
 
@@ -18,9 +18,9 @@ test("parses approved external review comments and normalizes source names", () 
 
 test("deduplicates URLs and ignores unsafe URLs", () => {
   const reviews = parseExternalReviews([
-    { body: "Reseña externa: De libros\\nhttps://delibros.example/book" },
-    { body: "Reseña externa: De libros\\nhttps://delibros.example/book" },
-    { body: "Reseña externa: De libros\\njavascript:alert(1)" },
+    { body: "Reseña externa: De libros\nhttps://delibros.example/book" },
+    { body: "Reseña externa: De libros\nhttps://delibros.example/book" },
+    { body: "Reseña externa: De libros\njavascript:alert(1)" },
   ]);
   assert.equal(reviews.length, 1);
 });
@@ -31,7 +31,7 @@ test("copies reviews to only the matching API entry and removes stale reviews", 
     { issueNumber: 13, title: "Another book" },
   ];
   const result = applyExternalReviews(books, 12, [
-    { body: "Reseña externa: Aceprensa\\nhttps://www.aceprensa.com/review/" },
+    { body: "Reseña externa: Aceprensa\nhttps://www.aceprensa.com/review/" },
   ]);
 
   assert.equal(result.updated, true);
