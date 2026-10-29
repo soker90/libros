@@ -198,3 +198,18 @@ test("syncs a work-level description and categories without claiming the edition
   assert.equal(book.format, "Kindle Edition");
   assert.equal(book.metadataSource, "Goodreads source issue; exact ISBN not independently verified");
 });
+
+test("uses an explicitly verified title instead of an imported title containing edition noise", () => {
+  const books = [{
+    issueNumber: 37,
+    title: "EL LTIMO DESEO/ THE LAST WISH.",
+    isbn13: "9788498890372",
+  }];
+  const body = issueBody
+    .replace("Goodreads ID: 241240148", "Goodreads ID: 7902503")
+    .replace("ISBN: 9788410466203", "ISBN: 9788498890372")
+    + "Verified title: El último deseo\n";
+
+  const result = applyGoodreadsReadingData(books, [{ number: 37, body }]);
+  assert.equal(result.books[0].title, "El último deseo");
+});
