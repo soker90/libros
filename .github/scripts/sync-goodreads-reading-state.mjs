@@ -134,10 +134,10 @@ export function parseGoodreadsReadingData(body, labels = []) {
   };
   const goodreadsId = get(DATE_FIELDS.id);
   const shelf = get(DATE_FIELDS.shelf)?.toLowerCase();
-  if (!goodreadsId || !["read", "currently-reading", "to-read"].includes(shelf)) return null;
+  if (!goodreadsId || (shelf && !["read", "currently-reading", "to-read"].includes(shelf))) return null;
 
   const dateRead = parseGoodreadsDate(get(DATE_FIELDS.read));
-  const completedAt = shelf === "read" ? dateRead : null;
+  const completedAt = shelf === "read" || (!shelf && dateRead) ? dateRead : null;
   const addedAt = parseGoodreadsDate(get(DATE_FIELDS.added));
   // Goodreads Date Added is only a proxy for reading start. If it comes after
   // Date Read, use Date Read as the start rather than creating a negative span.
@@ -173,12 +173,14 @@ export function applyGoodreadsReadingData(books, issues) {
   for (const issue of issues) {
     if (!issue || issue.pull_request || !Number.isInteger(issue.number)) continue;
     const data = parseGoodreadsReadingData(issue.body, issue.labels);
-    if (data) dataByIssue.set(issue.number, data);
+    if (data) dataByIssue.set(issue.number, { data, issue });
   }
 
   let updated = 0;
   const result = books.map((book) => {
-    const data = dataByIssue.get(Number(book.issueNumber));
+    const source = dataByIssue.get(Number(book.issueNumber));
+    const data = source?.data;
+    const sourceIssue = source?.issue;
     const confirmedState = USER_CONFIRMED_STATE_OVERRIDES.get(Number(book.issueNumber));
     if (!data) {
       if (!confirmedState || book.state === confirmedState) return book;
@@ -206,25 +208,42 @@ export function applyGoodreadsReadingData(books, issues) {
 
     next.state = confirmedState || (data.shelf === "read" ? "completed"
       : data.shelf === "currently-reading" ? "reading"
-      : "want-to-read");
+      : data.shelf === "to-read" ? "want-to-read"
+      : book.state);
 
     if (data.goodreadsRating !== undefined) next.goodreadsRating = data.goodreadsRating;
     else delete next.goodreadsRating;
     if (data.personalRating !== undefined) next.personalRating = data.personalRating;
 
+    const closedAtDay = sourceIssue?.closed_at?.slice(0, 10);
+    const generatedStartDate = confirmedState === "completed"
+      && !data.startedAt
+      && closedAtDay
+      && book.startedAt?.slice(0, 10) === closedAtDay;
+    const generatedCompletionDate = confirmedState === "completed"
+      && !data.dateRead
+      && closedAtDay
+      && book.completedAt?.slice(0, 10) === closedAtDay;
+
     if (data.startedAt) next.startedAt = data.startedAt;
-    else delete next.startedAt;
+    else if (data.shelf || generatedStartDate) delete next.startedAt;
 
-    const completedAt = confirmedState === "completed"
-      ? data.dateRead || data.completedAt
-      : data.completedAt;
+    const completedAt = data.dateRead
+      && (confirmedState === "completed" || data.shelf === "read" || (!data.shelf && book.state === "completed"))
+      ? data.dateRead
+      : confirmedState === "completed"
+        ? data.dateRead || data.completedAt
+        : data.completedAt;
     if (completedAt) next.completedAt = completedAt;
-    else delete next.completedAt;
+    else if (data.shelf || generatedCompletionDate) delete next.completedAt;
 
-    if (data.startedAt && completedAt) {
-      next.timeToComplete = Date.parse(completedAt) - Date.parse(data.startedAt);
+    if (generatedCompletionDate) delete next.completedAt;
+    if (generatedStartDate) delete next.startedAt;
+
+    if (next.startedAt && next.completedAt && (data.startedAt || completedAt || generatedStartDate || generatedCompletionDate)) {
+      next.timeToComplete = Date.parse(next.completedAt) - Date.parse(next.startedAt);
       next.timeToCompleteFormatted = formatDuration(next.timeToComplete);
-    } else {
+    } else if (generatedStartDate || generatedCompletionDate || data.startedAt || completedAt) {
       delete next.timeToComplete;
       delete next.timeToCompleteFormatted;
     }
