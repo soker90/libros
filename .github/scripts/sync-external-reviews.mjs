@@ -6,6 +6,7 @@ const API_URL = "https://api.github.com";
 const REVIEW_PREFIX = /^Reseña externa:\s*(.+?)\s*$/im;
 const ALLOWED_SOURCES = new Map([
   ["biblioteca de nehemias", "Biblioteca de Nehemías"],
+  ["la biblioteca de nehemias", "Biblioteca de Nehemías"],
   ["de libros", "De libros"],
   ["el club del lector", "El Club del Lector"],
   ["aceprensa", "Aceprensa"],
@@ -25,7 +26,8 @@ export function parseExternalReviews(comments = []) {
     const match = body.match(REVIEW_PREFIX);
     if (!match) continue;
 
-    const source = ALLOWED_SOURCES.get(normalizeSource(match[1]));
+    const sourceLabel = match[1].split(/\s+[—–-]\s+/)[0].replace(/\s*\([^)]*\)\s*$/, "").trim();
+    const source = ALLOWED_SOURCES.get(normalizeSource(sourceLabel));
     if (!source) continue;
 
     const urls = [...body.matchAll(/https?:\/\/[^\s<>]+/gi)]
