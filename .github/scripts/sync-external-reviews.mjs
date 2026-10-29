@@ -3,7 +3,7 @@ import { resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const API_URL = "https://api.github.com";
-const REVIEW_PREFIX = /^Reseña externa:\\s*(.+?)\\s*$/im;
+const REVIEW_PREFIX = /^Reseña externa:\s*(.+?)\s*$/im;
 const ALLOWED_SOURCES = new Map([
   ["biblioteca de nehemias", "Biblioteca de Nehemías"],
   ["de libros", "De libros"],
@@ -14,7 +14,7 @@ const ALLOWED_SOURCES = new Map([
 ]);
 
 function normalizeSource(value) {
-  return value.normalize("NFD").replace(/[\\u0300-\\u036f]/g, "").trim().toLocaleLowerCase("es");
+  return value.normalize("NFD").replace(/[\u0300-\u036f]/g, "").trim().toLocaleLowerCase("es");
 }
 
 export function parseExternalReviews(comments = []) {
@@ -28,7 +28,7 @@ export function parseExternalReviews(comments = []) {
     const source = ALLOWED_SOURCES.get(normalizeSource(match[1]));
     if (!source) continue;
 
-    const urls = [...body.matchAll(/https?:\\/\\/[^\\s<>]+/gi)]
+    const urls = [...body.matchAll(/https?:\/\/[^\s<>]+/gi)]
       .map(([url]) => url.replace(/[),.;]+$/, ""))
       .filter((url) => {
         try {
@@ -108,7 +108,7 @@ async function main() {
     return;
   }
 
-  await writeFile(apiPath, `${JSON.stringify(result.books, null, 2)}\\n`);
+  await writeFile(apiPath, `${JSON.stringify(result.books, null, 2)}\n`);
   console.log(
     result.externalReviews.length
       ? `Synced ${result.externalReviews.length} external review(s) for issue #${issueNumber}.`
