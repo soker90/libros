@@ -218,7 +218,7 @@ test("uses an explicitly verified title instead of an imported title containing 
 
 
 test("keeps personal ratings separate from Goodreads ratings", () => {
-  const body = issueBody + "Personal rating: 5/5\\n";
+  const body = issueBody + "Personal rating: 5/5\n";
   const parsed = parseGoodreadsReadingData(body);
   assert.equal(parsed.goodreadsRating, 4);
   assert.equal(parsed.personalRating, 5);
