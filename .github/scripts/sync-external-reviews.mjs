@@ -60,8 +60,7 @@ export function parseCollections(comments = [], labels = [], issueBody = "") {
     }
   }
 
-  for (const comment of comments) {
-    const body = typeof comment?.body === "string" ? comment.body : "";
+  for (const body of [...comments.map((comment) => typeof comment?.body === "string" ? comment.body : ""), issueBody]) {
     for (const match of body.matchAll(/^Colección:\s*(.+?)\s*$/gim)) {
       const value = match[1].trim();
       if (value) collections.add(value);
