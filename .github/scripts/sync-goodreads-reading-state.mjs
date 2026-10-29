@@ -15,7 +15,9 @@ const DATE_FIELDS = {
   verifiedFormat: /^Verified format:\s*(.+?)\s*$/im,
   verifiedPageCount: /^Verified page count:\s*(\d+)\s*$/im,
   verifiedDescription: /^Verified description:\s*(.+?)\s*$/im,
+  description: /^Description:\s*(.+?)\s*$/im,
   verifiedCategories: /^Verified categories:\s*(.+?)\s*$/im,
+  categories: /^Categories:\s*(.+?)\s*$/im,
   verifiedSource: /^Verified source:\s*(https?:\/\/\S+)\s*$/im,
   language: /^Language:\s*(.+?)\s*$/im,
   format: /^Format:\s*(.+?)\s*$/im,
@@ -114,7 +116,7 @@ export function parseGoodreadsReadingData(body, labels = []) {
   // Goodreads Date Added is only a proxy for reading start. If it comes after
   // Date Read, use Date Read as the start rather than creating a negative span.
   const startedAt = completedAt && addedAt && addedAt > completedAt ? completedAt : addedAt;
-  const verifiedCategories = get(DATE_FIELDS.verifiedCategories);
+  const categories = get(DATE_FIELDS.verifiedCategories) || get(DATE_FIELDS.categories);
   const verifiedSource = get(DATE_FIELDS.verifiedSource);
 
   return {
@@ -127,9 +129,9 @@ export function parseGoodreadsReadingData(body, labels = []) {
     language: parseLanguage(body, labels),
     format: get(DATE_FIELDS.verifiedFormat) || get(DATE_FIELDS.format),
     cover: get(DATE_FIELDS.verifiedCover) || get(DATE_FIELDS.cover),
-    description: get(DATE_FIELDS.verifiedDescription),
+    description: get(DATE_FIELDS.verifiedDescription) || get(DATE_FIELDS.description),
     pageCount: Number(get(DATE_FIELDS.verifiedPageCount)) || null,
-    categories: verifiedCategories ? verifiedCategories.split(/[;,]/).map((category) => category.trim()).filter(Boolean) : null,
+    categories: categories ? categories.split(/[;,]/).map((category) => category.trim()).filter(Boolean) : null,
     verified: Boolean(verifiedSource),
   };
 }

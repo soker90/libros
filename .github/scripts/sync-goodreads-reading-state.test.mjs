@@ -170,3 +170,31 @@ test("formats zero and longer durations consistently", () => {
   assert.equal(formatDuration(35 * 24 * 60 * 60 * 1000), "1 month");
   assert.equal(formatDuration(400 * 24 * 60 * 60 * 1000), "1 year");
 });
+
+test("syncs a work-level description and categories without claiming the edition was verified", () => {
+  const books = [{
+    issueNumber: 16,
+    title: "Isabel de España",
+    isbn13: "9788498409741",
+    metadataSource: "Goodreads source issue; exact ISBN not independently verified",
+  }];
+  const body = issueBody
+    .replace("Goodreads ID: 241240148", "Goodreads ID: 19316725")
+    .replace("ISBN: 9788410466203", "ISBN: 9788498409741")
+    .replace("Publisher in Goodreads: Nova", "Publisher in Goodreads: Palabra")
+    .replace("Year published in Goodreads: 2026", "Year published in Goodreads: 2013")
+    .replace("Format: Tapa blanda", "Format: Kindle Edition")
+    + "Description: Biografía histórica de Isabel la Católica, desde su ascenso al trono hasta su papel en los acontecimientos políticos y religiosos de la España de finales del siglo XV.\n"
+    + "Categories: Historia; Biografía\n"
+    + "Description source: https://books.google.es/books?id=pFtTWfsxHKgC\n";
+
+  const result = applyGoodreadsReadingData(books, [{ number: 16, body }]);
+  const book = result.books[0];
+
+  assert.match(book.description, /Biografía histórica de Isabel la Católica/);
+  assert.deepEqual(book.categories, ["Historia", "Biografía"]);
+  assert.equal(book.publisher, "Palabra");
+  assert.equal(book.publishedDate, "2013");
+  assert.equal(book.format, "Kindle Edition");
+  assert.equal(book.metadataSource, "Goodreads source issue; exact ISBN not independently verified");
+});
