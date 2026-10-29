@@ -254,6 +254,11 @@
         "source": "El Club del Lector",
         "title": "El Club del Lector",
         "url": "https://www.clubdellector.com/comment/8592"
+      },
+      {
+        "source": "Delibris",
+        "title": "Delibris",
+        "url": "https://www.delibris.org/es/node/210961"
       }
     ]
   },
@@ -328,7 +333,14 @@
     "issueNumber": 132,
     "progressPercent": 0,
     "state": "completed",
-    "completedAt": "2017-12-07T00:00:00.000Z"
+    "completedAt": "2017-12-07T00:00:00.000Z",
+    "externalReviews": [
+      {
+        "source": "Biblioteca de Nehemías",
+        "title": "Biblioteca de Nehemías",
+        "url": "https://labibliotecadenehemias.wordpress.com/2023/09/25/la-costa-mas-lejana-historias-de-terramar-3/"
+      }
+    ]
   },
   {
     "title": "Leal",
@@ -499,7 +511,14 @@
     "issueNumber": 134,
     "progressPercent": 0,
     "state": "completed",
-    "completedAt": "2016-08-02T00:00:00.000Z"
+    "completedAt": "2016-08-02T00:00:00.000Z",
+    "externalReviews": [
+      {
+        "source": "Biblioteca de Nehemías",
+        "title": "Biblioteca de Nehemías",
+        "url": "https://labibliotecadenehemias.wordpress.com/2023/06/14/insurgente-saga-divergente-2/"
+      }
+    ]
   },
   {
     "title": "Divergente",
@@ -595,6 +614,11 @@
         "source": "Aceprensa",
         "title": "Aceprensa",
         "url": "https://www.aceprensa.com/resenas-libros/divergente/"
+      },
+      {
+        "source": "Biblioteca de Nehemías",
+        "title": "Biblioteca de Nehemías",
+        "url": "https://labibliotecadenehemias.wordpress.com/2023/03/13/divergente-saga-divergente-1/"
       }
     ]
   },
@@ -802,7 +826,19 @@
     "metadataSource": "ISBN match",
     "issueNumber": 139,
     "progressPercent": 0,
-    "state": "want-to-read"
+    "state": "want-to-read",
+    "externalReviews": [
+      {
+        "source": "Biblioteca de Nehemías",
+        "title": "Biblioteca de Nehemías",
+        "url": "https://labibliotecadenehemias.wordpress.com/2023/08/07/un-mago-de-terramar-historias-de-terramar-1/"
+      },
+      {
+        "source": "Biblioteca de Nehemías",
+        "title": "Biblioteca de Nehemías",
+        "url": "https://labibliotecadenehemias.wordpress.com/2023/08/30/las-tumbas-de-atuan-historias-de-terramar-2/"
+      }
+    ]
   },
   {
     "title": "El extranjero",
@@ -1602,7 +1638,14 @@
     "completedAt": "2024-02-11T00:00:00.000Z",
     "timeToComplete": 14428800000,
     "timeToCompleteFormatted": "5 months",
-    "goodreadsRating": 3
+    "goodreadsRating": 3,
+    "externalReviews": [
+      {
+        "source": "Biblioteca de Nehemías",
+        "title": "Biblioteca de Nehemías",
+        "url": "https://labibliotecadenehemias.wordpress.com/2026/05/08/murtagh-el-legado-5/"
+      }
+    ]
   },
   {
     "title": "Isabel de España",
@@ -1911,7 +1954,14 @@
     "timeToComplete": 21945600000,
     "timeToCompleteFormatted": "8 months",
     "goodreadsRating": 5,
-    "format": "Tapa dura"
+    "format": "Tapa dura",
+    "externalReviews": [
+      {
+        "source": "Biblioteca de Nehemías",
+        "title": "Biblioteca de Nehemías",
+        "url": "https://labibliotecadenehemias.wordpress.com/2025/04/09/palabras-radiantes-el-archivo-de-las-tormentas-2/"
+      }
+    ]
   },
   {
     "title": "El Archivo de las Tormentas: Una guía de bolsillo para El camino de los reyes y Palabras radiantes",
@@ -1981,7 +2031,14 @@
     "timeToComplete": 16675200000,
     "timeToCompleteFormatted": "6 months",
     "goodreadsRating": 4,
-    "format": "Tapa dura"
+    "format": "Tapa dura",
+    "externalReviews": [
+      {
+        "source": "Biblioteca de Nehemías",
+        "title": "Biblioteca de Nehemías",
+        "url": "https://labibliotecadenehemias.wordpress.com/2026/10/02/trenza-del-mar-esmeralda/"
+      }
+    ]
   },
   {
     "title": "El héroe de las eras",
@@ -2024,7 +2081,14 @@
     "timeToComplete": 2937600000,
     "timeToCompleteFormatted": "1 month",
     "goodreadsRating": 5,
-    "format": "Tapa dura"
+    "format": "Tapa dura",
+    "externalReviews": [
+      {
+        "source": "Biblioteca de Nehemías",
+        "title": "Biblioteca de Nehemías",
+        "url": "https://labibliotecadenehemias.wordpress.com/2025/01/31/el-heroe-de-las-eras-nacidos-de-la-bruma-3/"
+      }
+    ]
   },
   {
     "title": "El camino de los reyes",
@@ -2075,7 +2139,14 @@
     "timeToComplete": 11923200000,
     "timeToCompleteFormatted": "4 months",
     "goodreadsRating": 5,
-    "format": "Tapa dura"
+    "format": "Tapa dura",
+    "externalReviews": [
+      {
+        "source": "Biblioteca de Nehemías",
+        "title": "Biblioteca de Nehemías",
+        "url": "https://labibliotecadenehemias.wordpress.com/2024/11/11/el-camino-de-los-reyes-el-archivo-de-las-tormentas-1/"
+      }
+    ]
   },
   {
     "title": "Elantris",
