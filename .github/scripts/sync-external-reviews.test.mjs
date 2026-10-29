@@ -55,7 +55,7 @@ test("reports when the issue has no corresponding API entry", () => {
 
 test("parses collection metadata from issue comments and labels", () => {
   assert.deepEqual(parseCollections(
-    [{ body: "Colección: Terramar\\nColección: fantasía clásica" }],
+    [{ body: "Colección: Terramar\nColección: fantasía clásica" }],
     [{ name: "collection: Terramar" }, { name: "kind: book" }],
   ), ["Terramar", "fantasía clásica"]);
 });
@@ -63,7 +63,7 @@ test("parses collection metadata from issue comments and labels", () => {
 test("syncs collections alongside reviews and removes stale collection metadata", () => {
   const books = [{ issueNumber: 12, title: "A book", collections: ["Old collection"] }];
   const result = applyExternalReviews(books, 12, [
-    { body: "Reseña externa: Aceprensa\\nhttps://www.aceprensa.com/review/" },
+    { body: "Reseña externa: Aceprensa\nhttps://www.aceprensa.com/review/" },
     { body: "Colección: Terramar" },
   ]);
 
