@@ -3,6 +3,8 @@ name: "Bookshelf Action: Sync Issue to API"
 on:
   issues:
     types: [edited, labeled, unlabeled]
+  issue_comment:
+    types: [created, edited, deleted]
   push:
     branches: [master]
     paths:
@@ -50,6 +52,9 @@ jobs:
           fi
           node .github/scripts/sync-goodreads-reading-state.mjs
           node .github/scripts/deduplicate-generated-books.mjs
+          if [[ "${GITHUB_EVENT_NAME}" == "issues" || "${GITHUB_EVENT_NAME}" == "issue_comment" ]]; then
+            node .github/scripts/sync-external-reviews.mjs
+          fi
           git add README.md api.json
           if ! git diff --cached --quiet; then
             git config user.name "github-actions[bot]"
