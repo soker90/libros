@@ -268,3 +268,49 @@ test("applies user-confirmed state overrides even when Goodreads metadata is mis
     "completed", "completed", "completed", "want-to-read", "reading", "reading",
   ]);
 });
+
+
+test("restores a legacy issue's authoritative Date Read without requiring a Goodreads shelf", () => {
+  const books = [{
+    issueNumber: 131,
+    state: "completed",
+    startedAt: "2026-10-29T07:55:59.000Z",
+    completedAt: "2026-10-29T11:03:28.000Z",
+    timeToComplete: 11249000,
+    timeToCompleteFormatted: "3 hours",
+  }];
+  const result = applyGoodreadsReadingData(books, [{
+    number: 131,
+    closed_at: "2026-10-29T11:03:28Z",
+    body: "Goodreads ID: 2674644\\nDate read: 2018/09/27\\n",
+  }]);
+  const book = result.books[0];
+
+  assert.equal(book.state, "completed");
+  assert.equal(book.completedAt, "2018-09-27T00:00:00.000Z");
+  assert.equal("startedAt" in book, false);
+  assert.equal("timeToComplete" in book, false);
+});
+
+test("removes completion timestamps fabricated by issue closure when Goodreads has no Date Read", () => {
+  const books = [{
+    issueNumber: 138,
+    state: "completed",
+    startedAt: "2026-10-29T07:58:28.000Z",
+    completedAt: "2026-10-29T11:03:11.000Z",
+    timeToComplete: 11083000,
+    timeToCompleteFormatted: "3 hours",
+  }];
+  const result = applyGoodreadsReadingData(books, [{
+    number: 138,
+    closed_at: "2026-10-29T11:03:11Z",
+    body: "Goodreads ID: 60530561\\nDate read: Not listed in Goodreads export\\n",
+  }]);
+  const book = result.books[0];
+
+  assert.equal(book.state, "completed");
+  assert.equal("startedAt" in book, false);
+  assert.equal("completedAt" in book, false);
+  assert.equal("timeToComplete" in book, false);
+  assert.equal("timeToCompleteFormatted" in book, false);
+});
