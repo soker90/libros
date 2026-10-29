@@ -49,12 +49,34 @@ export function parseExternalReviews(comments = []) {
   return [...reviews.values()];
 }
 
-export function applyExternalReviews(books, issueNumber, comments) {
+export function parseCollections(comments = [], labels = []) {
+  const collections = new Set();
+
+  for (const label of labels) {
+    const name = (typeof label === "string" ? label : label?.name || "").trim();
+    if (name.toLowerCase().startsWith("collection:")) {
+      const value = name.slice("collection:".length).trim();
+      if (value) collections.add(value);
+    }
+  }
+
+  for (const comment of comments) {
+    const body = typeof comment?.body === "string" ? comment.body : "";
+    for (const match of body.matchAll(/^Colección:\\s*(.+?)\\s*$/gim)) {
+      const value = match[1].trim();
+      if (value) collections.add(value);
+    }
+  }
+
+  return [...collections];
+}
+
+export function applyExternalReviews(books, issueNumber, comments, labels = []) {
   if (!Array.isArray(books)) throw new TypeError("The API data must be an array of books.");
   const number = Number(issueNumber);
   if (!Number.isInteger(number) || number < 1) throw new TypeError("The issue number must be a positive integer.");
 
-  const externalReviews = parseExternalReviews(comments);
+  const externalReviews = parseExternalReviews(comments);\n  const collections = parseCollections(comments, labels);
   let updated = false;
   const result = books.map((book) => {
     if (Number(book.issueNumber) !== number) return book;
@@ -66,6 +88,18 @@ export function applyExternalReviews(books, issueNumber, comments) {
   });
 
   return { books: result, updated, externalReviews };
+}
+
+async function fetchIssueDetails({ token, repository, issueNumber }) {
+  const response = await fetch(`${API_URL}/repos/${repository}/issues/${issueNumber}`, {
+    headers: {
+      Accept: "application/vnd.github+json",
+      Authorization: `Bearer ${token}`,
+      "X-GitHub-Api-Version": "2022-11-28",
+    },
+  });
+  if (!response.ok) throw new Error(`GitHub API ${response.status}: ${await response.text()}`);
+  return response.json();
 }
 
 async function fetchIssueComments({ token, repository, issueNumber }) {
