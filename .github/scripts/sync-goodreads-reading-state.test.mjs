@@ -21,6 +21,7 @@ test("parses Goodreads status, dates, ISBN, and explicit edition metadata from i
     goodreadsRating: 4,
     startedAt: "2026-02-16T00:00:00.000Z",
     completedAt: "2026-03-10T00:00:00.000Z",
+    dateRead: "2026-03-10T00:00:00.000Z",
     isbn13: "9788410466203",
     publisher: "Nova",
     publishedDate: "2026",
@@ -141,6 +142,7 @@ test("uses Date Read as the start when Goodreads Date Added is later", () => {
     goodreadsRating: 4,
     startedAt: "2023-08-07T00:00:00.000Z",
     completedAt: "2023-08-07T00:00:00.000Z",
+    dateRead: "2023-08-07T00:00:00.000Z",
     isbn13: "9788410466203",
     publisher: "Nova",
     publishedDate: "2026",
@@ -227,4 +229,26 @@ test("keeps personal ratings separate from Goodreads ratings", () => {
   assert.equal(result.books[0].goodreadsRating, 4);
   assert.equal(result.books[0].personalRating, 5);
   assert.equal(result.books[0].averageRating, 4.3);
+});
+
+
+test("overrides stale imported shelves with user-confirmed reading states", () => {
+  const books = [
+    { issueNumber: 54, state: "completed" },
+    { issueNumber: 16, state: "want-to-read" },
+    { issueNumber: 126, state: "reading" },
+    { issueNumber: 138, state: "reading" },
+    { issueNumber: 139, state: "reading" },
+  ];
+  const result = applyGoodreadsReadingData(books, [
+    { number: 54, body: issueBody.replace("Goodreads ID: 241240148", "Goodreads ID: 123").replace("Goodreads shelf: read", "Goodreads shelf: currently-reading") },
+    { number: 16, body: issueBody.replace("Goodreads ID: 241240148", "Goodreads ID: 456").replace("Goodreads shelf: read", "Goodreads shelf: currently-reading") },
+    { number: 126, body: issueBody.replace("Goodreads ID: 241240148", "Goodreads ID: 789").replace("Goodreads shelf: read", "Goodreads shelf: currently-reading") },
+    { number: 138, body: issueBody.replace("Goodreads ID: 241240148", "Goodreads ID: 999").replace("Goodreads shelf: read", "Goodreads shelf: currently-reading").replace("Date read: 2026/03/10", "Date read: Not read yet") },
+    { number: 139, body: issueBody.replace("Goodreads ID: 241240148", "Goodreads ID: 100").replace("Goodreads shelf: read", "Goodreads shelf: currently-reading").replace("Date read: 2026/03/10", "Date read: Not read yet") },
+  ]);
+  assert.deepEqual(result.books.map((book) => book.state), [
+    "reading", "reading", "completed", "completed", "want-to-read",
+  ]);
+  assert.equal(result.books[2].completedAt, "2026-03-10T00:00:00.000Z");
 });

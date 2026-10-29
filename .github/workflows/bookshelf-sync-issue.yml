@@ -3,6 +3,12 @@ name: "Bookshelf Action: Sync Issue to API"
 on:
   issues:
     types: [edited, labeled, unlabeled]
+  push:
+    branches: [master]
+    paths:
+      - ".github/scripts/sync-goodreads-reading-state.mjs"
+      - ".github/scripts/sync-goodreads-reading-state.test.mjs"
+      - ".github/workflows/bookshelf-sync-issue.yml"
 
 permissions:
   contents: write
