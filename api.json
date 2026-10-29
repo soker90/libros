@@ -1864,7 +1864,10 @@
     "completedAt": "2023-08-07T00:00:00.000Z",
     "timeToComplete": 0,
     "timeToCompleteFormatted": "0 seconds",
-    "format": "eBook (EPUB)"
+    "format": "eBook (EPUB)",
+    "collections": [
+      "El Archivo de las Tormentas"
+    ]
   },
   {
     "title": "Trenza del Mar Esmeralda",
