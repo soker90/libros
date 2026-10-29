@@ -137,8 +137,9 @@ async function main() {
   const issueNumber = Number(event.issue?.number);
 
   if (Number.isInteger(issueNumber) && issueNumber > 0) {
+    const details = event.issue?.labels ? event.issue : await fetchIssueDetails({ token: GITHUB_TOKEN, repository: GITHUB_REPOSITORY, issueNumber });
     const comments = await fetchIssueComments({ token: GITHUB_TOKEN, repository: GITHUB_REPOSITORY, issueNumber });
-    const result = applyExternalReviews(books, issueNumber, comments);
+    const result = applyExternalReviews(books, issueNumber, comments, details.labels || []);
     if (!result.updated) {
       console.warn(`No API entry found for issue #${issueNumber}; external reviews were not changed.`);
       return;
@@ -152,12 +153,13 @@ async function main() {
   let updatedBooks = books;
   for (const book of books) {
     if (!Number.isInteger(book.issueNumber) || book.issueNumber < 1) continue;
+    const details = await fetchIssueDetails({ token: GITHUB_TOKEN, repository: GITHUB_REPOSITORY, issueNumber: book.issueNumber });
     const comments = await fetchIssueComments({
       token: GITHUB_TOKEN,
       repository: GITHUB_REPOSITORY,
       issueNumber: book.issueNumber,
     });
-    updatedBooks = applyExternalReviews(updatedBooks, book.issueNumber, comments).books;
+    updatedBooks = applyExternalReviews(updatedBooks, book.issueNumber, comments, details.labels || []).books;
   }
   await writeFile(apiPath, `${JSON.stringify(updatedBooks, null, 2)}\n`);
   console.log(`Backfilled external reviews for ${updatedBooks.filter((book) => Array.isArray(book.externalReviews)).length} books.`);
