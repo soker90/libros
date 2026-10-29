@@ -6,6 +6,8 @@ test("parses approved external review comments and normalizes source names", () 
   const reviews = parseExternalReviews([
     { body: "Reseña externa: Aceprensa\nhttps://www.aceprensa.com/resenas-libros/example/" },
     { body: "Reseña externa: Biblioteca de Nehemías\nhttps://bibliotecadenehemias.example/book" },
+    { body: "Reseña externa: La Biblioteca de Nehemías — reseña de una novela\nhttps://bibliotecadenehemias.example/annotated" },
+    { body: "Reseña externa: Delibris (reseña en inglés)\nhttps://www.delibris.org/en/example" },
     { body: "Reseña externa: sitio desconocido\nhttps://example.com/book" },
     { body: "A regular comment with https://example.com/book" },
   ]);
@@ -13,6 +15,8 @@ test("parses approved external review comments and normalizes source names", () 
   assert.deepEqual(reviews, [
     { source: "Aceprensa", title: "Aceprensa", url: "https://www.aceprensa.com/resenas-libros/example/" },
     { source: "Biblioteca de Nehemías", title: "Biblioteca de Nehemías", url: "https://bibliotecadenehemias.example/book" },
+    { source: "Biblioteca de Nehemías", title: "Biblioteca de Nehemías", url: "https://bibliotecadenehemias.example/annotated" },
+    { source: "Delibris", title: "Delibris", url: "https://www.delibris.org/en/example" },
   ]);
 });
 
