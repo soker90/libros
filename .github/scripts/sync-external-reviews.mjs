@@ -49,12 +49,35 @@ export function parseExternalReviews(comments = []) {
   return [...reviews.values()];
 }
 
-export function applyExternalReviews(books, issueNumber, comments) {
+export function parseCollections(comments = [], labels = []) {
+  const collections = new Set();
+
+  for (const label of labels) {
+    const name = (typeof label === "string" ? label : label?.name || "").trim();
+    if (name.toLowerCase().startsWith("collection:")) {
+      const value = name.slice("collection:".length).trim();
+      if (value) collections.add(value);
+    }
+  }
+
+  for (const comment of comments) {
+    const body = typeof comment?.body === "string" ? comment.body : "";
+    for (const match of body.matchAll(/^Colección:\s*(.+?)\s*$/gim)) {
+      const value = match[1].trim();
+      if (value) collections.add(value);
+    }
+  }
+
+  return [...collections];
+}
+
+export function applyExternalReviews(books, issueNumber, comments, labels = []) {
   if (!Array.isArray(books)) throw new TypeError("The API data must be an array of books.");
   const number = Number(issueNumber);
   if (!Number.isInteger(number) || number < 1) throw new TypeError("The issue number must be a positive integer.");
 
   const externalReviews = parseExternalReviews(comments);
+  const collections = parseCollections(comments, labels);
   let updated = false;
   const result = books.map((book) => {
     if (Number(book.issueNumber) !== number) return book;
@@ -62,10 +85,24 @@ export function applyExternalReviews(books, issueNumber, comments) {
     const next = { ...book };
     if (externalReviews.length) next.externalReviews = externalReviews;
     else delete next.externalReviews;
+    if (collections.length) next.collections = collections;
+    else delete next.collections;
     return next;
   });
 
   return { books: result, updated, externalReviews };
+}
+
+async function fetchIssueDetails({ token, repository, issueNumber }) {
+  const response = await fetch(`${API_URL}/repos/${repository}/issues/${issueNumber}`, {
+    headers: {
+      Accept: "application/vnd.github+json",
+      Authorization: `Bearer ${token}`,
+      "X-GitHub-Api-Version": "2022-11-28",
+    },
+  });
+  if (!response.ok) throw new Error(`GitHub API ${response.status}: ${await response.text()}`);
+  return response.json();
 }
 
 async function fetchIssueComments({ token, repository, issueNumber }) {
@@ -100,8 +137,9 @@ async function main() {
   const issueNumber = Number(event.issue?.number);
 
   if (Number.isInteger(issueNumber) && issueNumber > 0) {
+    const details = event.issue?.labels ? event.issue : await fetchIssueDetails({ token: GITHUB_TOKEN, repository: GITHUB_REPOSITORY, issueNumber });
     const comments = await fetchIssueComments({ token: GITHUB_TOKEN, repository: GITHUB_REPOSITORY, issueNumber });
-    const result = applyExternalReviews(books, issueNumber, comments);
+    const result = applyExternalReviews(books, issueNumber, comments, details.labels || []);
     if (!result.updated) {
       console.warn(`No API entry found for issue #${issueNumber}; external reviews were not changed.`);
       return;
@@ -115,12 +153,13 @@ async function main() {
   let updatedBooks = books;
   for (const book of books) {
     if (!Number.isInteger(book.issueNumber) || book.issueNumber < 1) continue;
+    const details = await fetchIssueDetails({ token: GITHUB_TOKEN, repository: GITHUB_REPOSITORY, issueNumber: book.issueNumber });
     const comments = await fetchIssueComments({
       token: GITHUB_TOKEN,
       repository: GITHUB_REPOSITORY,
       issueNumber: book.issueNumber,
     });
-    updatedBooks = applyExternalReviews(updatedBooks, book.issueNumber, comments).books;
+    updatedBooks = applyExternalReviews(updatedBooks, book.issueNumber, comments, details.labels || []).books;
   }
   await writeFile(apiPath, `${JSON.stringify(updatedBooks, null, 2)}\n`);
   console.log(`Backfilled external reviews for ${updatedBooks.filter((book) => Array.isArray(book.externalReviews)).length} books.`);

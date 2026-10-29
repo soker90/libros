@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { applyExternalReviews, parseExternalReviews } from "./sync-external-reviews.mjs";
+import { applyExternalReviews, parseCollections, parseExternalReviews } from "./sync-external-reviews.mjs";
 
 test("parses approved external review comments and normalizes source names", () => {
   const reviews = parseExternalReviews([
@@ -51,4 +51,22 @@ test("reports when the issue has no corresponding API entry", () => {
   const result = applyExternalReviews(books, 12, []);
   assert.equal(result.updated, false);
   assert.deepEqual(books, [{ issueNumber: 99, title: "Untouched" }]);
+});
+
+test("parses collection metadata from issue comments and labels", () => {
+  assert.deepEqual(parseCollections(
+    [{ body: "Colección: Terramar\nColección: fantasía clásica" }],
+    [{ name: "collection: Terramar" }, { name: "kind: book" }],
+  ), ["Terramar", "fantasía clásica"]);
+});
+
+test("syncs collections alongside reviews and removes stale collection metadata", () => {
+  const books = [{ issueNumber: 12, title: "A book", collections: ["Old collection"] }];
+  const result = applyExternalReviews(books, 12, [
+    { body: "Reseña externa: Aceprensa\nhttps://www.aceprensa.com/review/" },
+    { body: "Colección: Terramar" },
+  ]);
+
+  assert.deepEqual(result.books[0].collections, ["Terramar"]);
+  assert.equal("collections" in applyExternalReviews(books, 12, [], []).books[0], false);
 });
