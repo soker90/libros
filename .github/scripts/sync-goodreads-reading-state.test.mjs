@@ -26,10 +26,14 @@ test("parses Goodreads status, dates, ISBN, and explicit edition metadata from i
     language: null,
     format: "Tapa blanda",
     cover: "https://example.org/cover.jpg",
+    description: null,
+    pageCount: null,
+    categories: null,
+    verified: false,
   });
 });
 
-test("uses the source ISBN and clears edition metadata fetched for another edition", () => {
+test("uses source ISBN and verified metadata instead of a mismatched edition", () => {
   const books = [{
     issueNumber: 25,
     title: "1984",
@@ -51,10 +55,20 @@ test("uses the source ISBN and clears edition metadata fetched for another editi
   }];
   const body = issueBody
     .replace("ISBN: 9788410466203", "ISBN: 9786078578245")
-    .replace("Publisher in Goodreads: Nova\n", "")
-    .replace("Year published in Goodreads: 2026\n", "")
-    .replace("Format: Tapa blanda\n", "")
-    .replace("Cover URL: https://example.org/cover.jpg\n", "");
+    .replace("Publisher in Goodreads: Nova\n", "Publisher in Goodreads: Total Books\n")
+    .replace("Year published in Goodreads: 2026\n", "Year published in Goodreads: 2020\n")
+    .replace("Format: Tapa blanda\n", "Format: Paperback\n")
+    .replace("Cover URL: https://example.org/cover.jpg\n", "")
+    + `Verified publisher: Total Book
+Verified publication date: 2019-11-01
+Verified format: Paperback
+Verified page count: 160
+Language: Spanish
+Verified description: Winston Smith works for a regime that rewrites history and monitors citizens; as he questions the Party, he tries to preserve truth and personal freedom.
+Verified categories: Narrativa; Clásicos universales; Distopía
+Verified source: https://www.imosver.com/es/libros/1984-TOR0008474
+Verified cover URL: https://example.org/spanish-cover.jpg
+`;
   const result = applyGoodreadsReadingData(books, [{
     number: 25,
     body,
@@ -64,11 +78,18 @@ test("uses the source ISBN and clears edition metadata fetched for another editi
 
   assert.equal(book.isbn13, "9786078578245");
   assert.equal(book.requestedIsbn, "9786078578245");
+  assert.equal(book.publisher, "Total Book");
+  assert.equal(book.publishedDate, "2019-11-01");
   assert.equal(book.language, "es");
-  assert.equal(book.metadataSource, "Goodreads ISBN from source issue; edition metadata needs verification");
-  for (const field of ["publisher", "publishedDate", "description", "image", "averageRating", "ratingsCount", "categories", "pageCount", "format", "isbn10", "googleBooks"]) {
-    assert.equal(field in book, false, `expected mismatched edition field ${field} to be removed`);
-  }
+  assert.equal(book.format, "Paperback");
+  assert.equal(book.pageCount, 160);
+  assert.equal(book.image, "https://example.org/spanish-cover.jpg");
+  assert.match(book.description, /Winston Smith/);
+  assert.deepEqual(book.categories, ["Narrativa", "Clásicos universales", "Distopía"]);
+  assert.equal(book.metadataSource, "Exact ISBN match; edition metadata verified against ISBN-specific catalogue sources");
+  assert.equal("averageRating" in book, false);
+  assert.equal("ratingsCount" in book, false);
+  assert.equal("googleBooks" in book, false);
   assert.equal(book.authors[0], "George Orwell");
   assert.equal(book.state, "completed");
 });
@@ -83,7 +104,6 @@ test("syncs explicit format and cover while preserving edition-specific data whe
     {
       number: 69,
       body: issueBody.replace("Goodreads ID: 241240148", "Goodreads ID: 201288898")
-        .replace("Goodreads shelf: read", "Goodreads shelf: read")
         .replace("ISBN: 9788410466203", "ISBN: Not listed in Goodreads export")
         .replace("Publisher in Goodreads: Nova\n", "")
         .replace("Year published in Goodreads: 2026\n", "")
@@ -125,6 +145,10 @@ test("uses Date Read as the start when Goodreads Date Added is later", () => {
     language: null,
     format: "Tapa blanda",
     cover: "https://example.org/cover.jpg",
+    description: null,
+    pageCount: null,
+    categories: null,
+    verified: false,
   });
 });
 
