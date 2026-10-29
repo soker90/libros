@@ -81,7 +81,8 @@
     "startedAt": "2026-10-01T00:00:00.000Z",
     "completedAt": "2026-10-17T00:00:00.000Z",
     "timeToComplete": 1382400000,
-    "timeToCompleteFormatted": "2 weeks"
+    "timeToCompleteFormatted": "2 weeks",
+    "image": "https://placehold.co/128x196?text=No+cover"
   },
   {
     "title": "El rithmatista",
