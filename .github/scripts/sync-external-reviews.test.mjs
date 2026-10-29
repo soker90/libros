@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { applyExternalReviews, parseCollections, parseExternalReviews, parseLongSynopsis } from "./sync-external-reviews.mjs";
+import { applyExternalReviews, parseCollections, parseExternalReviews, parseIssueAuthors, parseLongSynopsis } from "./sync-external-reviews.mjs";
 
 test("parses approved external review comments and normalizes source names", () => {
   const reviews = parseExternalReviews([
@@ -81,4 +81,9 @@ test("updates long synopsis without changing the provider description", () => {
   const result = applyExternalReviews(books, 12, [], [], "Sinopsis larga:\nA fuller synopsis.");
   assert.equal(result.books[0].description, "Provider description");
   assert.equal(result.books[0].longDescription, "A fuller synopsis.");
+});
+
+test("parses the author from the issue body for accurate related-book cards", () => {
+  assert.deepEqual(parseIssueAuthors("Goodreads ID: 123\\nAuthor: Stefan Zweig\\nISBN: 9788495359476"), ["Stefan Zweig"]);
+  assert.deepEqual(parseIssueAuthors("Author: J.R.R. Tolkien, Christopher Tolkien"), ["J.R.R. Tolkien", "Christopher Tolkien"]);
 });
