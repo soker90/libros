@@ -2498,6 +2498,10 @@
     "timeToComplete": 20217600000,
     "timeToCompleteFormatted": "7 months",
     "goodreadsRating": 4,
-    "format": "Tapa blanda"
+    "format": "Tapa blanda",
+    "collections": [
+      "Nacidos de la Bruma",
+      "Cosmere"
+    ]
   }
 ]
