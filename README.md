@@ -14,14 +14,10 @@ Filtrar por puntuación:
 ## 📖 Mis lecturas
 
 <!--start:bookshelf-action-->
-### ⌛ Currently reading (14)
+### ⌛ Currently reading (9)
 
 [![Historias de Terramar I](https://images.weserv.nl/?url=https%3A%2F%2Fcovers.openlibrary.org%2Fb%2Fid%2F15171264-L.jpg&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/139 "Historias de Terramar I by Ursula K. Le Guin")
-[![El Hobbit](https://images.weserv.nl/?url=https%3A%2F%2Fcovers.openlibrary.org%2Fb%2Fid%2F14626854-L.jpg&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/138 "El Hobbit by J.R.R. Tolkien")
-[![The Silmarillion](https://images.weserv.nl/?url=https%3A%2F%2Fcovers.openlibrary.org%2Fb%2Fid%2F14625966-L.jpg&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/137 "The Silmarillion by J.R.R. Tolkien, Christopher Tolkien")
-[![Divergente](https://images.weserv.nl/?url=https%3A%2F%2Fcovers.openlibrary.org%2Fb%2Fid%2F9341951-L.jpg&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/136 "Divergente by Veronica Roth")
-[![Insurgente](https://images.weserv.nl/?url=https%3A%2F%2Fcovers.openlibrary.org%2Fb%2Fid%2F13829187-L.jpg&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/134 "Insurgente by Veronica Roth")
-[![Leal](https://images.weserv.nl/?url=https%3A%2F%2Fcovers.openlibrary.org%2Fb%2Fid%2F7272890-L.jpg&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/133 "Leal by Veronica Roth")
+[![En el Otro Viento](https://images.weserv.nl/?url=https%3A%2F%2Fcovers.openlibrary.org%2Fb%2Fid%2F4912480-L.jpg&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/135 "En el Otro Viento by Ursula K. Le Guin")
 [![Historias de Terramar II: La costa más lejana. Tehanu](https://images.weserv.nl/?url=https%3A%2F%2Fcovers.openlibrary.org%2Fb%2Fid%2F11573302-L.jpg&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/132 "Historias de Terramar II: La costa más lejana. Tehanu by Ursula K. Le Guin")
 [![En el Otro Viento](https://images.weserv.nl/?url=https%3A%2F%2Fcovers.openlibrary.org%2Fb%2Fid%2F4912480-L.jpg&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/131 "En el Otro Viento by Ursula K. Le Guin")
 [![Rebelión en la granja](https://images.weserv.nl/?url=https%3A%2F%2Fcovers.openlibrary.org%2Fb%2Fid%2F10382248-L.jpg&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/129 "Rebelión en la granja by George Orwell")
@@ -30,8 +26,13 @@ Filtrar por puntuación:
 [![Ciclo Pendragon nº 02/06 Merlín](https://images.weserv.nl/?url=https%3A%2F%2Fwww.planetadelibros.com%2Fusuaris%2Flibros%2Ffotos%2F405%2Foriginal%2Fportada_ciclo-pendragon-n-0206-merlin_stephen-r-lawhead_202505280841.jpg&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/54 "Ciclo Pendragon nº 02/06 Merlín by Stephen R. Lawhead")
 [![Isabel de España](https://images.weserv.nl/?url=undefined&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/16 "Isabel de España by William Thomas Walsh")
 
-### ✅ Completed (41)
+### ✅ Completed (46)
 
+[![Leal](https://images.weserv.nl/?url=https%3A%2F%2Fcovers.openlibrary.org%2Fb%2Fid%2F7272890-L.jpg&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/133 "Leal by Veronica Roth completed in 3 hours on October 2026")
+[![Insurgente](https://images.weserv.nl/?url=https%3A%2F%2Fcovers.openlibrary.org%2Fb%2Fid%2F13829187-L.jpg&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/134 "Insurgente by Veronica Roth completed in 3 hours on October 2026")
+[![Divergente](https://images.weserv.nl/?url=https%3A%2F%2Fcovers.openlibrary.org%2Fb%2Fid%2F9341951-L.jpg&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/136 "Divergente by Veronica Roth completed in 3 hours on October 2026")
+[![The Silmarillion](https://images.weserv.nl/?url=https%3A%2F%2Fcovers.openlibrary.org%2Fb%2Fid%2F14625966-L.jpg&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/137 "The Silmarillion by J.R.R. Tolkien, Christopher Tolkien completed in 3 hours on October 2026")
+[![El Hobbit](https://images.weserv.nl/?url=https%3A%2F%2Fcovers.openlibrary.org%2Fb%2Fid%2F14626854-L.jpg&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/138 "El Hobbit by J.R.R. Tolkien completed in 3 hours on October 2026")
 [![El extranjero](https://images.weserv.nl/?url=https%3A%2F%2Fm.media-amazon.com%2Fimages%2FS%2Fcompressed.photo.goodreads.com%2Fbooks%2F1504301541i%2F1836303.jpg&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/124 "El extranjero by Albert Camus completed in 4 minutes on October 2026")
 [![Yo, Robot](https://images.weserv.nl/?url=https%3A%2F%2Fplacehold.co%2F128x196%3Ftext%3DNo%2Bcover&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/123 "Yo, Robot by Isaac Asimov completed in 4 minutes on October 2026")
 [![Cinco panes de cebada](https://images.weserv.nl/?url=https%3A%2F%2Fplacehold.co%2F128x196%3Ftext%3DNo%2Bcover&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/122 "Cinco panes de cebada by Lucía Baquedano completed in 4 minutes on October 2026")
