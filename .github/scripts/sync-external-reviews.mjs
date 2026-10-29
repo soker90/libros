@@ -49,7 +49,7 @@ export function parseExternalReviews(comments = []) {
   return [...reviews.values()];
 }
 
-export function parseCollections(comments = [], labels = []) {
+export function parseCollections(comments = [], labels = [], issueBody = "") {
   const collections = new Set();
 
   for (const label of labels) {
@@ -71,13 +71,13 @@ export function parseCollections(comments = [], labels = []) {
   return [...collections];
 }
 
-export function applyExternalReviews(books, issueNumber, comments, labels = []) {
+export function applyExternalReviews(books, issueNumber, comments, labels = [], issueBody = "") {
   if (!Array.isArray(books)) throw new TypeError("The API data must be an array of books.");
   const number = Number(issueNumber);
   if (!Number.isInteger(number) || number < 1) throw new TypeError("The issue number must be a positive integer.");
 
   const externalReviews = parseExternalReviews(comments);
-  const collections = parseCollections(comments, labels);
+  const collections = parseCollections(comments, labels, issueBody);
   let updated = false;
   const result = books.map((book) => {
     if (Number(book.issueNumber) !== number) return book;
@@ -139,7 +139,7 @@ async function main() {
   if (Number.isInteger(issueNumber) && issueNumber > 0) {
     const details = event.issue?.labels ? event.issue : await fetchIssueDetails({ token: GITHUB_TOKEN, repository: GITHUB_REPOSITORY, issueNumber });
     const comments = await fetchIssueComments({ token: GITHUB_TOKEN, repository: GITHUB_REPOSITORY, issueNumber });
-    const result = applyExternalReviews(books, issueNumber, comments, details.labels || []);
+    const result = applyExternalReviews(books, issueNumber, comments, details.labels || [], details.body || "");
     if (!result.updated) {
       console.warn(`No API entry found for issue #${issueNumber}; external reviews were not changed.`);
       return;
@@ -159,7 +159,7 @@ async function main() {
       repository: GITHUB_REPOSITORY,
       issueNumber: book.issueNumber,
     });
-    updatedBooks = applyExternalReviews(updatedBooks, book.issueNumber, comments, details.labels || []).books;
+    updatedBooks = applyExternalReviews(updatedBooks, book.issueNumber, comments, details.labels || [], details.body || "").books;
   }
   await writeFile(apiPath, `${JSON.stringify(updatedBooks, null, 2)}\n`);
   console.log(`Backfilled external reviews for ${updatedBooks.filter((book) => Array.isArray(book.externalReviews)).length} books.`);
