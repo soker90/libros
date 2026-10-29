@@ -11,6 +11,7 @@ const DATE_FIELDS = {
   publisher: /^Publisher in Goodreads:\s*(.+?)\s*$/im,
   year: /^Year published in Goodreads:\s*(\d{4})\s*$/im,
   verifiedPublisher: /^Verified publisher:\s*(.+?)\s*$/im,
+  verifiedTitle: /^Verified title:\s*(.+?)\s*$/im,
   verifiedPublicationDate: /^Verified publication date:\s*(\d{4}(?:-\d{2}-\d{2})?)\s*$/im,
   verifiedFormat: /^Verified format:\s*(.+?)\s*$/im,
   verifiedPageCount: /^Verified page count:\s*(\d+)\s*$/im,
@@ -119,7 +120,7 @@ export function parseGoodreadsReadingData(body, labels = []) {
   const categories = get(DATE_FIELDS.verifiedCategories) || get(DATE_FIELDS.categories);
   const verifiedSource = get(DATE_FIELDS.verifiedSource);
 
-  return {
+  const data = {
     shelf,
     startedAt,
     completedAt,
@@ -134,6 +135,8 @@ export function parseGoodreadsReadingData(body, labels = []) {
     categories: categories ? categories.split(/[;,]/).map((category) => category.trim()).filter(Boolean) : null,
     verified: Boolean(verifiedSource),
   };
+  if (verifiedTitle) data.title = verifiedTitle;
+  return data;
 }
 
 export function applyGoodreadsReadingData(books, issues) {
@@ -165,6 +168,7 @@ export function applyGoodreadsReadingData(books, issues) {
       next.isbn13 = data.isbn13;
       next.requestedIsbn = data.isbn13;
     }
+    if (data.title) next.title = data.title;
 
     next.state = data.shelf === "read" ? "completed"
       : data.shelf === "currently-reading" ? "reading"
