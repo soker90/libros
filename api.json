@@ -1,49 +1,5 @@
 [
   {
-    "title": "En el Otro Viento",
-    "authors": [
-      "Ursula K. Le Guin"
-    ],
-    "publisher": "Minotauro",
-    "publishedDate": "June 2004",
-    "description": "",
-    "image": "https://covers.openlibrary.org/b/id/4912480-L.jpg",
-    "language": "",
-    "averageRating": 0,
-    "ratingsCount": 0,
-    "categories": [
-      "Fiction, fantasy, general",
-      "Earthsea (imaginary place), fiction",
-      "Magic",
-      "Wizards",
-      "Magic in fiction",
-      "Fiction",
-      "Ged (Fictitious character)",
-      "Earthsea (Imaginary place)",
-      "Wizards in fiction",
-      "American Fantasy fiction",
-      "Juvenile fiction",
-      "Fantasy fiction",
-      "Dragons",
-      "Kings and rulers"
-    ],
-    "pageCount": 269,
-    "isbn10": "9505470142",
-    "isbn13": "9789505470143",
-    "googleBooks": {
-      "id": "",
-      "preview": "http://openlibrary.org/books/OL9137991M/En_el_Otro_Viento",
-      "info": "http://openlibrary.org/books/OL9137991M/En_el_Otro_Viento",
-      "canonical": "http://openlibrary.org/books/OL9137991M/En_el_Otro_Viento"
-    },
-    "requestedIsbn": "9789505470143",
-    "metadataSource": "ISBN match",
-    "issueNumber": 135,
-    "progressPercent": 0,
-    "state": "reading",
-    "startedAt": "2026-10-29T07:56:39.000Z"
-  },
-  {
     "title": "Insurgente",
     "authors": [
       "Veronica Roth"
