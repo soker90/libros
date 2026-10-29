@@ -96,6 +96,9 @@ export function applyExternalReviews(books, issueNumber, comments, labels = [], 
     if (Number(book.issueNumber) !== number) return book;
     updated = true;
     const next = { ...book };
+    if (authors.length) next.authors = authors;
+    if (longDescription) next.longDescription = longDescription;
+    else delete next.longDescription;
     if (externalReviews.length) next.externalReviews = externalReviews;
     else delete next.externalReviews;
     if (collections.length) next.collections = collections;
