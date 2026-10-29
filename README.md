@@ -14,16 +14,17 @@ Filtrar por puntuación:
 ## 📖 Mis lecturas
 
 <!--start:bookshelf-action-->
-### ⌛ Currently reading (5)
+### ⌛ Currently reading (4)
 
+[![El extranjero](https://images.weserv.nl/?url=undefined&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/124 "El extranjero by Albert Camus")
 [![Yo, Robot](https://images.weserv.nl/?url=undefined&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/123 "Yo, Robot by Isaac Asimov")
-[![Cinco panes de cebada](https://images.weserv.nl/?url=undefined&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/122 "Cinco panes de cebada by Lucía Baquedano")
-[![Diario de un padre primerizo](https://images.weserv.nl/?url=undefined&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/121 "Diario de un padre primerizo by Pedro Del Castillo")
 [![Ciclo Pendragon nº 02/06 Merlín](https://images.weserv.nl/?url=https%3A%2F%2Fwww.planetadelibros.com%2Fusuaris%2Flibros%2Ffotos%2F405%2Foriginal%2Fportada_ciclo-pendragon-n-0206-merlin_stephen-r-lawhead_202505280841.jpg&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/54 "Ciclo Pendragon nº 02/06 Merlín by Stephen R. Lawhead")
 [![Isabel de España](https://images.weserv.nl/?url=undefined&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/16 "Isabel de España by William Thomas Walsh")
 
-### ✅ Completed (37)
+### ✅ Completed (39)
 
+[![Cinco panes de cebada](https://images.weserv.nl/?url=undefined&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/122 "Cinco panes de cebada by Lucía Baquedano completed in 4 minutes on October 2026")
+[![Diario de un padre primerizo](https://images.weserv.nl/?url=undefined&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/121 "Diario de un padre primerizo by Pedro Del Castillo completed in 4 minutes on October 2026")
 [![Legión: Las múltiples vidas de Stephen Leeds (Legión)](https://images.weserv.nl/?url=https%3A%2F%2Fwww.penguinlibros.com%2Fes%2F1479081-large_default%2Flegion-las-multiples-vidas-de-stephen-leeds-legion.webp&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/69 "Legión: Las múltiples vidas de Stephen Leeds (Legión) by Brandon Sanderson completed in 1 day on May 2026")
 [![Realidades a Medida](https://images.weserv.nl/?url=https%3A%2F%2Fcovers.openlibrary.org%2Fb%2Fid%2F15233731-L.jpg&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/70 "Realidades a Medida by Brandon Sanderson completed in 3 weeks on March 2026")
 [![Los jardines de la luna](https://images.weserv.nl/?url=http%3A%2F%2Fbooks.google.com%2Fbooks%2Fcontent%3Fid%3DBPbgACsuB2sC%26printsec%3Dfrontcover%26img%3D1%26zoom%3D1%26edge%3Dcurl%26source%3Dgbs_api&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/39 "Los jardines de la luna by Steven Erikson completed in 7 months on February 2026")
