@@ -147,7 +147,7 @@
     "metadataSource": "ISBN match",
     "issueNumber": 138,
     "progressPercent": 0,
-    "state": "reading",
+    "state": "completed",
     "startedAt": "2026-10-29T07:58:28.000Z"
   },
   {
@@ -196,7 +196,7 @@
     "metadataSource": "ISBN match",
     "issueNumber": 137,
     "progressPercent": 0,
-    "state": "reading",
+    "state": "completed",
     "startedAt": "2026-10-29T07:58:16.000Z"
   },
   {
@@ -286,7 +286,7 @@
     "metadataSource": "ISBN match",
     "issueNumber": 136,
     "progressPercent": 0,
-    "state": "reading",
+    "state": "completed",
     "startedAt": "2026-10-29T07:57:10.000Z"
   },
   {
@@ -377,7 +377,7 @@
     "metadataSource": "ISBN match",
     "issueNumber": 134,
     "progressPercent": 0,
-    "state": "reading",
+    "state": "completed",
     "startedAt": "2026-10-29T07:56:22.000Z"
   },
   {
@@ -457,7 +457,7 @@
     "metadataSource": "ISBN match",
     "issueNumber": 133,
     "progressPercent": 0,
-    "state": "reading",
+    "state": "completed",
     "startedAt": "2026-10-29T07:56:15.000Z"
   },
   {
@@ -486,7 +486,7 @@
     "metadataSource": "ISBN match",
     "issueNumber": 132,
     "progressPercent": 0,
-    "state": "reading",
+    "state": "completed",
     "startedAt": "2026-10-29T07:56:06.000Z"
   },
   {
@@ -530,7 +530,7 @@
     "metadataSource": "ISBN match",
     "issueNumber": 131,
     "progressPercent": 0,
-    "state": "reading",
+    "state": "completed",
     "startedAt": "2026-10-29T07:55:59.000Z"
   },
   {
