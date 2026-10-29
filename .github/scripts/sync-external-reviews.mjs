@@ -50,7 +50,7 @@ export function parseExternalReviews(comments = []) {
 }
 
 export function parseLongSynopsis(issueBody = "") {
-  const marker = /^Sinopsis larga:\\s*$/im.exec(issueBody);
+  const marker = /^Sinopsis larga:\s*$/im.exec(issueBody);
   if (!marker) return "";
   return issueBody.slice(marker.index + marker[0].length).trim();
 }
