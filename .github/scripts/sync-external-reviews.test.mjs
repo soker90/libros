@@ -72,13 +72,13 @@ test("syncs collections alongside reviews and removes stale collection metadata"
 });
 
 test("parses a long synopsis from the issue body", () => {
-  const body = "Goodreads ID: 123\\nColección: Terramar\\n\\nSinopsis larga:\\nGed debe afrontar una amenaza que emerge de la Tierra Seca y pone en peligro el equilibrio de Terramar.";
+  const body = "Goodreads ID: 123\nColección: Terramar\n\nSinopsis larga:\nGed debe afrontar una amenaza que emerge de la Tierra Seca y pone en peligro el equilibrio de Terramar.";
   assert.equal(parseLongSynopsis(body), "Ged debe afrontar una amenaza que emerge de la Tierra Seca y pone en peligro el equilibrio de Terramar.");
 });
 
 test("updates long synopsis without changing the provider description", () => {
   const books = [{ issueNumber: 12, title: "A book", description: "Provider description" }];
-  const result = applyExternalReviews(books, 12, [], [], "Sinopsis larga:\\nA fuller synopsis.");
+  const result = applyExternalReviews(books, 12, [], [], "Sinopsis larga:\nA fuller synopsis.");
   assert.equal(result.books[0].description, "Provider description");
   assert.equal(result.books[0].longDescription, "A fuller synopsis.");
 });
