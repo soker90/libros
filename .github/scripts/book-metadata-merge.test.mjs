@@ -78,3 +78,29 @@ test("keeps populated primary fields and returns null for no matching records", 
   assert.deepEqual(merged.categories, ["Fantasy", "Adventure"]);
   assert.equal(mergeExactIsbnRecords([null, undefined]), null);
 });
+
+
+test("prefers a longer synopsis from a supplemental exact-ISBN provider", () => {
+  const primary = {
+    title: "The Hobbit",
+    authors: ["J. R. R. Tolkien"],
+    description: "A hobbit goes on an adventure.",
+    categories: [],
+  };
+  const supplemental = {
+    description: "Bilbo Baggins lives a quiet life until Gandalf arrives with a company of dwarves. Their journey takes them through dangerous lands toward a dragon's treasure.",
+    categories: [],
+  };
+
+  const merged = mergeExactIsbnMetadata(primary, supplemental);
+
+  assert.equal(merged.description, supplemental.description);
+  assert.equal(primary.description, "A hobbit goes on an adventure.");
+});
+
+test("keeps the primary synopsis when the supplemental synopsis is shorter", () => {
+  const primary = { title: "Book", authors: ["Author"], description: "A much longer and more useful description of the book." };
+  const supplemental = { description: "A short description." };
+
+  assert.equal(mergeExactIsbnMetadata(primary, supplemental).description, primary.description);
+});

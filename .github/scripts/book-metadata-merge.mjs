@@ -38,6 +38,17 @@ export function mergeExactIsbnMetadata(primary, supplemental) {
       continue;
     }
 
+    // When both exact-ISBN providers have a synopsis, retain the more complete
+    // description instead of letting a short primary snippet hide it.
+    if (
+      field === "description"
+      && typeof candidate === "string"
+      && candidate.trim().length > (typeof current === "string" ? current.trim().length : 0)
+    ) {
+      merged[field] = candidate;
+      continue;
+    }
+
     if (
       field === "publishedDate"
       && isYearOnly(current)
