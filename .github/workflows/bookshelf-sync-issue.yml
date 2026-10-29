@@ -52,7 +52,7 @@ jobs:
           fi
           node .github/scripts/sync-goodreads-reading-state.mjs
           node .github/scripts/deduplicate-generated-books.mjs
-          if [[ "${GITHUB_EVENT_NAME}" == "push" ]]; then
+          if [[ "${GITHUB_EVENT_NAME}" == "push" || "${GITHUB_EVENT_NAME}" == "issues" ]]; then
             node .github/scripts/sync-external-reviews.mjs
           fi
           git add README.md api.json
