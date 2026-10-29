@@ -212,7 +212,7 @@ export function applyGoodreadsReadingData(books, issues) {
       : book.state);
 
     if (data.goodreadsRating !== undefined) next.goodreadsRating = data.goodreadsRating;
-    else delete next.goodreadsRating;
+    else if (data.shelf) delete next.goodreadsRating;
     if (data.personalRating !== undefined) next.personalRating = data.personalRating;
 
     const closedAtDay = sourceIssue?.closed_at?.slice(0, 10);
