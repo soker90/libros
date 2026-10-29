@@ -7,6 +7,8 @@ const DATE_FIELDS = {
   added: /^Date added:\s*(.+?)\s*$/im,
   read: /^Date read:\s*(.+?)\s*$/im,
   id: /^Goodreads ID:\s*(\d+)\s*$/im,
+  goodreadsRating: /^Goodreads rating:\s*(\d+(?:[.,]\d+)?)\s*\/\s*5\s*$/im,
+  personalRating: /^Personal rating:\s*(\d+(?:[.,]\d+)?)\s*\/\s*5\s*$/im,
   isbn: /^\s*(?:-\s*)?ISBN(?:-13)?:\s*(978\d{10}|979\d{10})\s*$/im,
   publisher: /^Publisher in Goodreads:\s*(.+?)\s*$/im,
   year: /^Year published in Goodreads:\s*(\d{4})\s*$/im,
@@ -108,6 +110,11 @@ export function formatDuration(durationMs) {
 export function parseGoodreadsReadingData(body, labels = []) {
   if (typeof body !== "string") return null;
   const get = (regex) => body.match(regex)?.[1]?.trim() ?? null;
+  const parseRating = (value) => {
+    if (!value) return null;
+    const rating = Number(value.replace(",", "."));
+    return Number.isFinite(rating) && rating >= 0 && rating <= 5 ? rating : null;
+  };
   const goodreadsId = get(DATE_FIELDS.id);
   const shelf = get(DATE_FIELDS.shelf)?.toLowerCase();
   if (!goodreadsId || !["read", "currently-reading", "to-read"].includes(shelf)) return null;
@@ -123,6 +130,8 @@ export function parseGoodreadsReadingData(body, labels = []) {
 
   const data = {
     shelf,
+    ...(parseRating(get(DATE_FIELDS.goodreadsRating)) !== null ? { goodreadsRating: parseRating(get(DATE_FIELDS.goodreadsRating)) } : {}),
+    ...(parseRating(get(DATE_FIELDS.personalRating)) !== null ? { personalRating: parseRating(get(DATE_FIELDS.personalRating)) } : {}),
     startedAt,
     completedAt,
     isbn13: normalizeIsbn13(get(DATE_FIELDS.isbn)),
@@ -174,6 +183,10 @@ export function applyGoodreadsReadingData(books, issues) {
     next.state = data.shelf === "read" ? "completed"
       : data.shelf === "currently-reading" ? "reading"
       : "want-to-read";
+
+    if (data.goodreadsRating !== undefined) next.goodreadsRating = data.goodreadsRating;
+    else delete next.goodreadsRating;
+    if (data.personalRating !== undefined) next.personalRating = data.personalRating;
 
     if (data.startedAt) next.startedAt = data.startedAt;
     else delete next.startedAt;
