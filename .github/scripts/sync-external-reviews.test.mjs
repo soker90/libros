@@ -84,6 +84,6 @@ test("updates long synopsis without changing the provider description", () => {
 });
 
 test("parses the author from the issue body for accurate related-book cards", () => {
-  assert.deepEqual(parseIssueAuthors("Goodreads ID: 123\\nAuthor: Stefan Zweig\\nISBN: 9788495359476"), ["Stefan Zweig"]);
+  assert.deepEqual(parseIssueAuthors("Goodreads ID: 123\nAuthor: Stefan Zweig\nISBN: 9788495359476"), ["Stefan Zweig"]);
   assert.deepEqual(parseIssueAuthors("Author: J.R.R. Tolkien, Christopher Tolkien"), ["J.R.R. Tolkien", "Christopher Tolkien"]);
 });
