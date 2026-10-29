@@ -20,7 +20,7 @@ Filtrar por puntuación:
 [![Organízate con eficacia](https://images.weserv.nl/?url=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fq%3DOrgan%25C3%25ADzate%2520con%2520eficacia%2520by%2520David%2520Allen%26w%3D256%26c%3D7%26rs%3D1%26p%3D0%26dpr%3D3%26pid%3D1.7%26mkt%3Den-IN%26adlt%3Dmoderate&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/17 "Organízate con eficacia by David Allen")
 [![Isabel de España](https://images.weserv.nl/?url=undefined&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/16 "Isabel de España by William Thomas Walsh")
 
-### ✅ Completed (38)
+### ✅ Completed (37)
 
 [![Legión: Las múltiples vidas de Stephen Leeds (Legión)](https://images.weserv.nl/?url=https%3A%2F%2Fwww.penguinlibros.com%2Fes%2F1479081-large_default%2Flegion-las-multiples-vidas-de-stephen-leeds-legion.webp&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/69 "Legión: Las múltiples vidas de Stephen Leeds (Legión) by Brandon Sanderson completed in 1 day on May 2026")
 [![Realidades a Medida](https://images.weserv.nl/?url=https%3A%2F%2Fcovers.openlibrary.org%2Fb%2Fid%2F15233731-L.jpg&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/70 "Realidades a Medida by Brandon Sanderson completed in 3 weeks on March 2026")
