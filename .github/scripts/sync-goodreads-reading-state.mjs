@@ -10,9 +10,17 @@ const DATE_FIELDS = {
   isbn: /^\s*(?:-\s*)?ISBN(?:-13)?:\s*(978\d{10}|979\d{10})\s*$/im,
   publisher: /^Publisher in Goodreads:\s*(.+?)\s*$/im,
   year: /^Year published in Goodreads:\s*(\d{4})\s*$/im,
+  verifiedPublisher: /^Verified publisher:\s*(.+?)\s*$/im,
+  verifiedPublicationDate: /^Verified publication date:\s*(\d{4}(?:-\d{2}-\d{2})?)\s*$/im,
+  verifiedFormat: /^Verified format:\s*(.+?)\s*$/im,
+  verifiedPageCount: /^Verified page count:\s*(\d+)\s*$/im,
+  verifiedDescription: /^Verified description:\s*(.+?)\s*$/im,
+  verifiedCategories: /^Verified categories:\s*(.+?)\s*$/im,
+  verifiedSource: /^Verified source:\s*(https?:\/\/\S+)\s*$/im,
   language: /^Language:\s*(.+?)\s*$/im,
   format: /^Format:\s*(.+?)\s*$/im,
   cover: /^Cover URL:\s*(https?:\/\/\S+)\s*$/im,
+  verifiedCover: /^Verified cover URL:\s*(https?:\/\/\S+)\s*$/im,
 };
 
 const EDITION_SPECIFIC_FIELDS = [
@@ -106,17 +114,23 @@ export function parseGoodreadsReadingData(body, labels = []) {
   // Goodreads Date Added is only a proxy for reading start. If it comes after
   // Date Read, use Date Read as the start rather than creating a negative span.
   const startedAt = completedAt && addedAt && addedAt > completedAt ? completedAt : addedAt;
+  const verifiedCategories = get(DATE_FIELDS.verifiedCategories);
+  const verifiedSource = get(DATE_FIELDS.verifiedSource);
 
   return {
     shelf,
     startedAt,
     completedAt,
     isbn13: normalizeIsbn13(get(DATE_FIELDS.isbn)),
-    publisher: get(DATE_FIELDS.publisher),
-    publishedDate: get(DATE_FIELDS.year),
+    publisher: get(DATE_FIELDS.verifiedPublisher) || get(DATE_FIELDS.publisher),
+    publishedDate: get(DATE_FIELDS.verifiedPublicationDate) || get(DATE_FIELDS.year),
     language: parseLanguage(body, labels),
-    format: get(DATE_FIELDS.format),
-    cover: get(DATE_FIELDS.cover),
+    format: get(DATE_FIELDS.verifiedFormat) || get(DATE_FIELDS.format),
+    cover: get(DATE_FIELDS.verifiedCover) || get(DATE_FIELDS.cover),
+    description: get(DATE_FIELDS.verifiedDescription),
+    pageCount: Number(get(DATE_FIELDS.verifiedPageCount)) || null,
+    categories: verifiedCategories ? verifiedCategories.split(/[;,]/).map((category) => category.trim()).filter(Boolean) : null,
+    verified: Boolean(verifiedSource),
   };
 }
 
@@ -140,7 +154,9 @@ export function applyGoodreadsReadingData(books, issues) {
     // edition-specific data fetched for a different ISBN.
     if (isbnChanged) {
       for (const field of EDITION_SPECIFIC_FIELDS) delete next[field];
-      next.metadataSource = "Goodreads ISBN from source issue; edition metadata needs verification";
+      next.metadataSource = data.verified
+        ? "Exact ISBN match; edition metadata verified against ISBN-specific catalogue sources"
+        : "Goodreads ISBN from source issue; edition metadata needs verification";
     }
 
     if (data.isbn13) {
@@ -172,6 +188,10 @@ export function applyGoodreadsReadingData(books, issues) {
     if (data.language) next.language = data.language;
     if (data.format) next.format = data.format;
     if (data.cover) next.image = data.cover;
+    if (data.description) next.description = data.description;
+    if (data.pageCount) next.pageCount = data.pageCount;
+    if (data.categories?.length) next.categories = data.categories;
+    if (data.verified) next.metadataSource = "Exact ISBN match; edition metadata verified against ISBN-specific catalogue sources";
 
     updated += 1;
     return next;
@@ -212,7 +232,7 @@ async function main() {
   if (result.updated > 0) {
     await writeFile("api.json", `${JSON.stringify(result.books, null, 2)}\n`);
   }
-  console.log(`Synced Goodreads status, dates, ISBNs, explicit edition metadata, and cover URLs for ${result.updated} book(s) from issue metadata.`);
+  console.log(`Synced Goodreads status, dates, ISBNs, and explicitly verified edition metadata for ${result.updated} book(s) from issue metadata.`);
 }
 
 if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
