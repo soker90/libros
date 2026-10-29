@@ -14,10 +14,9 @@ Filtrar por puntuación:
 ## 📖 Mis lecturas
 
 <!--start:bookshelf-action-->
-### ⌛ Currently reading (3)
+### ⌛ Currently reading (2)
 
 [![Ciclo Pendragon nº 02/06 Merlín](https://images.weserv.nl/?url=https%3A%2F%2Fwww.planetadelibros.com%2Fusuaris%2Flibros%2Ffotos%2F405%2Foriginal%2Fportada_ciclo-pendragon-n-0206-merlin_stephen-r-lawhead_202505280841.jpg&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/54 "Ciclo Pendragon nº 02/06 Merlín by Stephen R. Lawhead")
-[![Organízate con eficacia](https://images.weserv.nl/?url=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fq%3DOrgan%25C3%25ADzate%2520con%2520eficacia%2520by%2520David%2520Allen%26w%3D256%26c%3D7%26rs%3D1%26p%3D0%26dpr%3D3%26pid%3D1.7%26mkt%3Den-IN%26adlt%3Dmoderate&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/17 "Organízate con eficacia by David Allen")
 [![Isabel de España](https://images.weserv.nl/?url=undefined&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/16 "Isabel de España by William Thomas Walsh")
 
 ### ✅ Completed (37)
@@ -60,10 +59,11 @@ Filtrar por puntuación:
 [![El pozo de la ascension](https://images.weserv.nl/?url=https%3A%2F%2Fcovers.openlibrary.org%2Fb%2Fid%2F10383351-L.jpg&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/88 "El pozo de la ascension by Brandon Sanderson completed in 2 months on January 2019")
 [![El imperio final](https://images.weserv.nl/?url=https%3A%2F%2Fplacehold.co%2F128x196%3Ftext%3DNo%2Bcover&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/99 "El imperio final by Brandon Sanderson completed in 7 months on July 2018")
 
-### ⏭️ Want to Read (3)
+### ⏭️ Want to Read (4)
 
 [![El rithmatista](https://images.weserv.nl/?url=https%3A%2F%2Fcovers.openlibrary.org%2Fb%2Fid%2F7334581-L.jpg&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/96 "El rithmatista by Brandon Sanderson completed in undefined on Invalid Date")
 [![Hábitos atómicos](https://images.weserv.nl/?url=http%3A%2F%2Fbooks.google.com%2Fbooks%2Fcontent%3Fid%3DTXiMDwAAQBAJ%26printsec%3Dfrontcover%26img%3D1%26zoom%3D1%26edge%3Dcurl%26source%3Dgbs_api&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/35 "Hábitos atómicos by James Clear completed in undefined on Invalid Date")
+[![Organízate con eficacia](https://images.weserv.nl/?url=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fq%3DOrgan%25C3%25ADzate%2520con%2520eficacia%2520by%2520David%2520Allen%26w%3D256%26c%3D7%26rs%3D1%26p%3D0%26dpr%3D3%26pid%3D1.7%26mkt%3Den-IN%26adlt%3Dmoderate&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/17 "Organízate con eficacia by David Allen completed in undefined on Invalid Date")
 [![¿Qué hace un bosón como tú en un Big Bang como este?](https://images.weserv.nl/?url=http%3A%2F%2Fbooks.google.com%2Fbooks%2Fcontent%3Fid%3DLKaIEAAAQBAJ%26printsec%3Dfrontcover%26img%3D1%26zoom%3D1%26edge%3Dcurl%26source%3Dgbs_api&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/7 "¿Qué hace un bosón como tú en un Big Bang como este? by Javier Santaolalla completed in undefined on Invalid Date")
 
 <!--end:bookshelf-action-->
