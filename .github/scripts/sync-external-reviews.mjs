@@ -134,8 +134,9 @@ async function main() {
   const apiPath = "api.json";
   const books = JSON.parse(await readFile(apiPath, "utf8"));
   const issueNumber = Number(event.issue?.number);
+  const fullBackfill = !Number.isInteger(issueNumber) || issueNumber < 1 || process.env.GITHUB_EVENT_NAME === "issues";
 
-  if (Number.isInteger(issueNumber) && issueNumber > 0) {
+  if (!fullBackfill && Number.isInteger(issueNumber) && issueNumber > 0) {
     const details = event.issue?.labels ? event.issue : await fetchIssueDetails({ token: GITHUB_TOKEN, repository: GITHUB_REPOSITORY, issueNumber });
     const comments = await fetchIssueComments({ token: GITHUB_TOKEN, repository: GITHUB_REPOSITORY, issueNumber });
     const result = applyExternalReviews(books, issueNumber, comments, details.labels || [], details.body || "");
@@ -161,7 +162,9 @@ async function main() {
     updatedBooks = applyExternalReviews(updatedBooks, book.issueNumber, comments, details.labels || [], details.body || "").books;
   }
   await writeFile(apiPath, `${JSON.stringify(updatedBooks, null, 2)}\n`);
-  console.log(`Backfilled external reviews for ${updatedBooks.filter((book) => Array.isArray(book.externalReviews)).length} books.`);
+  const booksWithReviews = updatedBooks.filter((book) => Array.isArray(book.externalReviews) && book.externalReviews.length > 0).length;
+  const booksWithCollections = updatedBooks.filter((book) => Array.isArray(book.collections) && book.collections.length > 0).length;
+  console.log(`Backfilled metadata for ${updatedBooks.length} books: ${booksWithReviews} with external reviews, ${booksWithCollections} with collection metadata.`);
 }
 
 if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
