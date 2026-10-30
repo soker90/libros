@@ -1,5 +1,37 @@
 [
   {
+    "title": "Historias de Terramar I",
+    "authors": [
+      "Ursula K. Le Guin"
+    ],
+    "publisher": "Minotauro",
+    "publishedDate": "2003-12-06",
+    "description": "",
+    "image": "https://covers.openlibrary.org/b/id/15171264-L.jpg",
+    "language": "",
+    "averageRating": 0,
+    "ratingsCount": 0,
+    "categories": [],
+    "pageCount": 379,
+    "isbn10": "8445074776",
+    "isbn13": "9788445074770",
+    "googleBooks": {
+      "id": "",
+      "preview": "http://openlibrary.org/books/OL9131967M/Historias_de_Terramar_I",
+      "info": "http://openlibrary.org/books/OL9131967M/Historias_de_Terramar_I",
+      "canonical": "http://openlibrary.org/books/OL9131967M/Historias_de_Terramar_I"
+    },
+    "requestedIsbn": "9788445074770",
+    "metadataSource": "ISBN match",
+    "issueNumber": 139,
+    "progressPercent": 0,
+    "state": "completed",
+    "startedAt": "2026-10-29T08:54:31.000Z",
+    "completedAt": "2026-10-30T13:50:02.000Z",
+    "timeToComplete": 104131000,
+    "timeToCompleteFormatted": "1 day"
+  },
+  {
     "title": "En el Otro Viento",
     "authors": [
       "Ursula K. Le Guin"
@@ -793,35 +825,6 @@
     "completedAt": "2026-10-29T11:03:11.000Z",
     "timeToComplete": 11083000,
     "timeToCompleteFormatted": "3 hours"
-  },
-  {
-    "title": "Historias de Terramar I",
-    "authors": [
-      "Ursula K. Le Guin"
-    ],
-    "publisher": "Minotauro",
-    "publishedDate": "2003-12-06",
-    "description": "",
-    "image": "https://covers.openlibrary.org/b/id/15171264-L.jpg",
-    "language": "",
-    "averageRating": 0,
-    "ratingsCount": 0,
-    "categories": [],
-    "pageCount": 379,
-    "isbn10": "8445074776",
-    "isbn13": "9788445074770",
-    "googleBooks": {
-      "id": "",
-      "preview": "http://openlibrary.org/books/OL9131967M/Historias_de_Terramar_I",
-      "info": "http://openlibrary.org/books/OL9131967M/Historias_de_Terramar_I",
-      "canonical": "http://openlibrary.org/books/OL9131967M/Historias_de_Terramar_I"
-    },
-    "requestedIsbn": "9788445074770",
-    "metadataSource": "ISBN match",
-    "issueNumber": 139,
-    "progressPercent": 0,
-    "state": "reading",
-    "startedAt": "2026-10-29T08:54:31.000Z"
   },
   {
     "title": "El extranjero",
