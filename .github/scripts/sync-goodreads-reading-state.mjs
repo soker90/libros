@@ -5,6 +5,7 @@ import { resolve } from "node:path";
 const DATE_FIELDS = {
   shelf: /^Goodreads shelf:\s*(.+?)\s*$/im,
   added: /^Date added:\s*(.+?)\s*$/im,
+  started: /^Date started:\s*(.+?)\s*$/im,
   read: /^Date read:\s*(.+?)\s*$/im,
   id: /^Goodreads ID:\s*(\d+)\s*$/im,
   goodreadsRating: /^Goodreads rating:\s*(\d+(?:[.,]\d+)?)\s*\/\s*5\s*$/im,
@@ -138,10 +139,9 @@ export function parseGoodreadsReadingData(body, labels = []) {
 
   const dateRead = parseGoodreadsDate(get(DATE_FIELDS.read));
   const completedAt = shelf === "read" || (!shelf && dateRead) ? dateRead : null;
-  const addedAt = parseGoodreadsDate(get(DATE_FIELDS.added));
-  // Goodreads Date Added is only a proxy for reading start. If it comes after
-  // Date Read, use Date Read as the start rather than creating a negative span.
-  const startedAt = completedAt && addedAt && addedAt > completedAt ? completedAt : addedAt;
+  // Date Added records when a book entered the Goodreads library, not when
+  // reading began. Only an explicit Date Started may populate startedAt.
+  const startedAt = parseGoodreadsDate(get(DATE_FIELDS.started));
   const verifiedTitle = get(DATE_FIELDS.verifiedTitle);
   const categories = get(DATE_FIELDS.verifiedCategories) || get(DATE_FIELDS.categories);
   const verifiedSource = get(DATE_FIELDS.verifiedSource);
@@ -226,7 +226,7 @@ export function applyGoodreadsReadingData(books, issues) {
       && book.completedAt?.slice(0, 10) === closedAtDay;
 
     if (data.startedAt) next.startedAt = data.startedAt;
-    else if (data.shelf || generatedStartDate) delete next.startedAt;
+    else if (data.shelf || data.dateRead || confirmedState || generatedStartDate) delete next.startedAt;
 
     const completedAt = data.dateRead
       && (confirmedState === "completed" || data.shelf === "read" || (!data.shelf && book.state === "completed"))

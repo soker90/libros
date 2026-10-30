@@ -15,11 +15,11 @@ Format: Tapa blanda
 Cover URL: https://example.org/cover.jpg
 `;
 
-test("parses Goodreads status, dates, ISBN, and explicit edition metadata from issue body", () => {
+test("parses Goodreads status and completion date without treating Date Added as reading start", () => {
   assert.deepEqual(parseGoodreadsReadingData(issueBody), {
     shelf: "read",
     goodreadsRating: 4,
-    startedAt: "2026-02-16T00:00:00.000Z",
+    startedAt: null,
     completedAt: "2026-03-10T00:00:00.000Z",
     dateRead: "2026-03-10T00:00:00.000Z",
     isbn13: "9788410466203",
@@ -132,7 +132,7 @@ test("ignores pull requests and issues without valid Goodreads identifiers", () 
   assert.equal(result.books[0].state, "reading");
 });
 
-test("uses Date Read as the start when Goodreads Date Added is later", () => {
+test("does not infer reading start from Date Added even when it is later than Date Read", () => {
   const body = issueBody
     .replace("Date added: 2026/02/16", "Date added: 2023/08/28")
     .replace("Date read: 2026/03/10", "Date read: 2023/08/07");
@@ -140,7 +140,7 @@ test("uses Date Read as the start when Goodreads Date Added is later", () => {
   assert.deepEqual(parseGoodreadsReadingData(body), {
     shelf: "read",
     goodreadsRating: 4,
-    startedAt: "2023-08-07T00:00:00.000Z",
+    startedAt: null,
     completedAt: "2023-08-07T00:00:00.000Z",
     dateRead: "2023-08-07T00:00:00.000Z",
     isbn13: "9788410466203",
@@ -163,7 +163,7 @@ test("recalculates reading duration from synchronized Goodreads dates", () => {
     timeToComplete: 22_000,
     timeToCompleteFormatted: "22 seconds",
   }];
-  const result = applyGoodreadsReadingData(books, [{ number: 70, body: issueBody }]);
+  const result = applyGoodreadsReadingData(books, [{ number: 70, body: issueBody.replace("Date added: 2026/02/16", "Date started: 2026/02/16\nDate added: 2026/02/16") }]);
 
   assert.equal(result.books[0].timeToComplete, 22 * 24 * 60 * 60 * 1000);
   assert.equal(result.books[0].timeToCompleteFormatted, "3 weeks");
