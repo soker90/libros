@@ -163,7 +163,7 @@ test("recalculates reading duration from synchronized Goodreads dates", () => {
     timeToComplete: 22_000,
     timeToCompleteFormatted: "22 seconds",
   }];
-  const result = applyGoodreadsReadingData(books, [{ number: 70, body: issueBody.replace("Date added: 2026/02/16", "Date started: 2026/02/16\\nDate added: 2026/02/16") }]);
+  const result = applyGoodreadsReadingData(books, [{ number: 70, body: issueBody.replace("Date added: 2026/02/16", "Date started: 2026/02/16\nDate added: 2026/02/16") }]);
 
   assert.equal(result.books[0].timeToComplete, 22 * 24 * 60 * 60 * 1000);
   assert.equal(result.books[0].timeToCompleteFormatted, "3 weeks");
