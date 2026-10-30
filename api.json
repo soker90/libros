@@ -8,7 +8,7 @@
     "publishedDate": "2003-12-06",
     "description": "",
     "image": "https://covers.openlibrary.org/b/id/15171264-L.jpg",
-    "language": "",
+    "language": "es",
     "averageRating": 0,
     "ratingsCount": 0,
     "categories": [],
@@ -25,9 +25,7 @@
     "metadataSource": "ISBN match",
     "issueNumber": 139,
     "progressPercent": 0,
-    "state": "completed",
-    "startedAt": "2026-10-29T08:54:31.000Z",
-    "completedAt": "2026-10-30T13:50:02.000Z",
+    "state": "want-to-read",
     "timeToComplete": 104131000,
     "timeToCompleteFormatted": "1 day"
   },
@@ -40,7 +38,7 @@
     "publishedDate": "June 2004",
     "description": "",
     "image": "https://covers.openlibrary.org/b/id/4912480-L.jpg",
-    "language": "",
+    "language": "es",
     "averageRating": 0,
     "ratingsCount": 0,
     "categories": [
@@ -73,21 +71,18 @@
     "issueNumber": 135,
     "progressPercent": 0,
     "state": "completed",
-    "startedAt": "2026-10-29T07:56:39.000Z",
-    "completedAt": "2026-10-29T11:03:38.000Z",
-    "timeToComplete": 11219000,
-    "timeToCompleteFormatted": "3 hours"
+    "completedAt": "2018-09-27T00:00:00.000Z"
   },
   {
     "title": "El niño con el pijama de rayas",
     "authors": [
       "John Boyne"
     ],
-    "publisher": "Publicaciones y Ediciones Salamandra S.A.",
-    "publishedDate": "2008",
+    "publisher": "Salamandra",
+    "publishedDate": "2023",
     "description": "",
-    "image": "https://covers.openlibrary.org/b/id/7398451-L.jpg",
-    "language": "",
+    "image": "https://placehold.co/128x196?text=No+cover",
+    "language": "es",
     "averageRating": 0,
     "ratingsCount": 0,
     "categories": [
@@ -183,21 +178,20 @@
     "issueNumber": 126,
     "progressPercent": 0,
     "state": "completed",
-    "startedAt": "2026-10-29T07:08:44.000Z",
-    "completedAt": "2026-10-29T11:03:35.000Z",
-    "timeToComplete": 14091000,
-    "timeToCompleteFormatted": "3 hours"
+    "completedAt": "2025-04-27T00:00:00.000Z",
+    "goodreadsRating": 4,
+    "format": "Paperback"
   },
   {
     "title": "Carta de una desconocida",
     "authors": [
       "Iglesia Católica."
     ],
-    "publisher": "El Acantilado",
-    "publishedDate": "2010",
+    "publisher": "Acantilado",
+    "publishedDate": "2002",
     "description": "",
-    "image": "https://covers.openlibrary.org/b/id/7425040-L.jpg",
-    "language": "",
+    "image": "https://placehold.co/128x196?text=No+cover",
+    "language": "es",
     "averageRating": 0,
     "ratingsCount": 0,
     "categories": [],
@@ -214,21 +208,20 @@
     "issueNumber": 127,
     "progressPercent": 0,
     "state": "completed",
-    "startedAt": "2026-10-29T07:08:52.000Z",
-    "completedAt": "2026-10-29T11:03:33.000Z",
-    "timeToComplete": 14081000,
-    "timeToCompleteFormatted": "3 hours"
+    "completedAt": "2025-04-23T00:00:00.000Z",
+    "goodreadsRating": 5,
+    "format": "Paperback"
   },
   {
     "title": "Rebelión en la granja",
     "authors": [
       "George Orwell"
     ],
-    "publisher": "Debolsillo",
-    "publishedDate": "2017",
+    "publisher": "DeBolsillo",
+    "publishedDate": "2014",
     "description": "",
-    "image": "https://covers.openlibrary.org/b/id/10382248-L.jpg",
-    "language": "",
+    "image": "https://placehold.co/128x196?text=No+cover",
+    "language": "es",
     "averageRating": 0,
     "ratingsCount": 0,
     "categories": [
@@ -294,10 +287,9 @@
     "issueNumber": 129,
     "progressPercent": 0,
     "state": "completed",
-    "startedAt": "2026-10-29T07:11:58.000Z",
-    "completedAt": "2026-10-29T11:03:30.000Z",
-    "timeToComplete": 13892000,
-    "timeToCompleteFormatted": "3 hours"
+    "completedAt": "2022-12-26T00:00:00.000Z",
+    "goodreadsRating": 5,
+    "format": "Mass Market Paperback"
   },
   {
     "title": "En el Otro Viento",
@@ -308,7 +300,7 @@
     "publishedDate": "June 2004",
     "description": "",
     "image": "https://covers.openlibrary.org/b/id/4912480-L.jpg",
-    "language": "",
+    "language": "es",
     "averageRating": 0,
     "ratingsCount": 0,
     "categories": [
@@ -341,10 +333,7 @@
     "issueNumber": 131,
     "progressPercent": 0,
     "state": "completed",
-    "startedAt": "2026-10-29T07:55:59.000Z",
-    "completedAt": "2026-10-29T11:03:28.000Z",
-    "timeToComplete": 11249000,
-    "timeToCompleteFormatted": "3 hours"
+    "completedAt": "2018-09-27T00:00:00.000Z"
   },
   {
     "title": "Historias de Terramar II: La costa más lejana. Tehanu",
@@ -355,7 +344,7 @@
     "publishedDate": "2005-09-13",
     "description": "",
     "image": "https://covers.openlibrary.org/b/id/11573302-L.jpg",
-    "language": "",
+    "language": "es",
     "averageRating": 0,
     "ratingsCount": 0,
     "categories": [],
@@ -373,10 +362,7 @@
     "issueNumber": 132,
     "progressPercent": 0,
     "state": "completed",
-    "startedAt": "2026-10-29T07:56:06.000Z",
-    "completedAt": "2026-10-29T11:03:25.000Z",
-    "timeToComplete": 11239000,
-    "timeToCompleteFormatted": "3 hours"
+    "completedAt": "2017-12-07T00:00:00.000Z"
   },
   {
     "title": "Leal",
@@ -387,7 +373,7 @@
     "publishedDate": "2014",
     "description": "",
     "image": "https://covers.openlibrary.org/b/id/7272890-L.jpg",
-    "language": "",
+    "language": "es",
     "averageRating": 0,
     "ratingsCount": 0,
     "categories": [
@@ -456,10 +442,7 @@
     "issueNumber": 133,
     "progressPercent": 0,
     "state": "completed",
-    "startedAt": "2026-10-29T07:56:15.000Z",
-    "completedAt": "2026-10-29T11:03:23.000Z",
-    "timeToComplete": 11228000,
-    "timeToCompleteFormatted": "3 hours"
+    "completedAt": "2016-08-04T00:00:00.000Z"
   },
   {
     "title": "Insurgente",
@@ -470,7 +453,7 @@
     "publishedDate": "2014",
     "description": "",
     "image": "https://covers.openlibrary.org/b/id/13829187-L.jpg",
-    "language": "",
+    "language": "es",
     "averageRating": 0,
     "ratingsCount": 0,
     "categories": [
@@ -550,10 +533,7 @@
     "issueNumber": 134,
     "progressPercent": 0,
     "state": "completed",
-    "startedAt": "2026-10-29T07:56:22.000Z",
-    "completedAt": "2026-10-29T11:03:20.000Z",
-    "timeToComplete": 11218000,
-    "timeToCompleteFormatted": "3 hours"
+    "completedAt": "2016-08-02T00:00:00.000Z"
   },
   {
     "title": "Divergente",
@@ -564,7 +544,7 @@
     "publishedDate": "2014",
     "description": "",
     "image": "https://covers.openlibrary.org/b/id/9341951-L.jpg",
-    "language": "",
+    "language": "es",
     "averageRating": 0,
     "ratingsCount": 0,
     "categories": [
@@ -643,10 +623,7 @@
     "issueNumber": 136,
     "progressPercent": 0,
     "state": "completed",
-    "startedAt": "2026-10-29T07:57:10.000Z",
-    "completedAt": "2026-10-29T11:03:18.000Z",
-    "timeToComplete": 11168000,
-    "timeToCompleteFormatted": "3 hours"
+    "completedAt": "2016-07-30T00:00:00.000Z"
   },
   {
     "title": "The Silmarillion",
@@ -658,7 +635,7 @@
     "publishedDate": "2004",
     "description": "Includes index.",
     "image": "https://covers.openlibrary.org/b/id/14625966-L.jpg",
-    "language": "",
+    "language": "en",
     "averageRating": 0,
     "ratingsCount": 0,
     "categories": [
@@ -695,10 +672,7 @@
     "issueNumber": 137,
     "progressPercent": 0,
     "state": "completed",
-    "startedAt": "2026-10-29T07:58:16.000Z",
-    "completedAt": "2026-10-29T11:03:15.000Z",
-    "timeToComplete": 11099000,
-    "timeToCompleteFormatted": "3 hours"
+    "completedAt": "2015-07-01T00:00:00.000Z"
   },
   {
     "title": "El Hobbit",
@@ -709,7 +683,7 @@
     "publishedDate": "2022",
     "description": "Source title: El Hobbit (NE)",
     "image": "https://covers.openlibrary.org/b/id/14626854-L.jpg",
-    "language": "",
+    "language": "es",
     "averageRating": 0,
     "ratingsCount": 0,
     "categories": [
@@ -820,11 +794,7 @@
     "metadataSource": "Exact ISBN match; existing metadata refreshed",
     "issueNumber": 138,
     "progressPercent": 0,
-    "state": "completed",
-    "startedAt": "2026-10-29T07:58:28.000Z",
-    "completedAt": "2026-10-29T11:03:11.000Z",
-    "timeToComplete": 11083000,
-    "timeToCompleteFormatted": "3 hours"
+    "state": "completed"
   },
   {
     "title": "El extranjero",
@@ -845,7 +815,7 @@
     ],
     "pageCount": 124,
     "format": "Unknown Binding",
-    "metadataSource": "Goodreads public pages accessed manually without API; edition-specific bibliographic data cross-checked against publisher catalogue where noted",
+    "metadataSource": "Exact ISBN match; edition metadata verified against ISBN-specific catalogue sources",
     "sources": [
       "https://www.goodreads.com/book/show/1836303.El_extranjero",
       "https://www.goodreads.com/work/editions/3324344-l-tranger?expanded=true"
@@ -853,10 +823,8 @@
     "issueNumber": 124,
     "progressPercent": 0,
     "state": "completed",
-    "startedAt": "2026-10-29T06:42:25.000Z",
-    "completedAt": "2026-10-29T06:47:00.000Z",
-    "timeToComplete": 275000,
-    "timeToCompleteFormatted": "4 minutes"
+    "completedAt": "2026-03-13T00:00:00.000Z",
+    "goodreadsRating": 3
   },
   {
     "title": "Yo, Robot",
@@ -864,7 +832,7 @@
       "Isaac Asimov"
     ],
     "publisher": "Edhasa",
-    "publishedDate": "2019-07",
+    "publishedDate": "2019",
     "description": "Una investigación llevada a cabo por un periodista acerca de la trayectoria de la robopsicóloga Susan Calvin da pie a los nueve relatos que componen esta obra. Las Tres Leyes de la Robótica vertebran los conflictos entre humanos y robots y las reflexiones sobre la inteligencia artificial.",
     "image": "https://placehold.co/128x196?text=No+cover",
     "language": "es",
@@ -879,17 +847,16 @@
     "isbn10": "8435021343",
     "isbn13": "9788435021340",
     "format": "Tapa blanda",
-    "metadataSource": "Goodreads public pages accessed manually without API; edition-specific bibliographic data cross-checked against publisher catalogue where noted",
+    "metadataSource": "Exact ISBN match; edition metadata verified against ISBN-specific catalogue sources",
     "sources": [
       "https://www.goodreads.com/work/editions/1796026-i-robot"
     ],
     "issueNumber": 123,
     "progressPercent": 0,
     "state": "completed",
-    "startedAt": "2026-10-29T06:42:19.000Z",
-    "completedAt": "2026-10-29T06:46:45.000Z",
-    "timeToComplete": 266000,
-    "timeToCompleteFormatted": "4 minutes"
+    "completedAt": "2026-04-26T00:00:00.000Z",
+    "requestedIsbn": "9788435021340",
+    "goodreadsRating": 3
   },
   {
     "title": "Cinco panes de cebada",
@@ -912,7 +879,7 @@
     "isbn10": "8413921902",
     "isbn13": "9788413921907",
     "format": "Tapa blanda",
-    "metadataSource": "Goodreads public pages accessed manually without API; edition-specific bibliographic data cross-checked against publisher catalogue where noted",
+    "metadataSource": "Exact ISBN match; edition metadata verified against ISBN-specific catalogue sources",
     "sources": [
       "https://www.goodreads.com/book/show/119683882-cinco-panes-de-cebada",
       "https://es.literaturasm.com/libro/cinco-panes-de-cebada"
@@ -920,10 +887,9 @@
     "issueNumber": 122,
     "progressPercent": 0,
     "state": "completed",
-    "startedAt": "2026-10-29T06:42:14.000Z",
-    "completedAt": "2026-10-29T06:46:26.000Z",
-    "timeToComplete": 252000,
-    "timeToCompleteFormatted": "4 minutes"
+    "completedAt": "2026-05-03T00:00:00.000Z",
+    "requestedIsbn": "9788413921907",
+    "goodreadsRating": 4
   },
   {
     "title": "Diario de un padre primerizo",
@@ -946,7 +912,7 @@
     "isbn10": "8467075759",
     "isbn13": "9788467075755",
     "format": "Tapa blanda",
-    "metadataSource": "Goodreads public pages accessed manually without API; edition-specific bibliographic data cross-checked against publisher catalogue where noted",
+    "metadataSource": "Exact ISBN match; edition metadata verified against ISBN-specific catalogue sources",
     "sources": [
       "https://www.goodreads.com/es/book/show/221481541-diario-de-un-padre-primerizo-espasa-crecimiento-personal",
       "https://www.planetadelibros.com/libro-diario-de-un-padre-primerizo/410213"
@@ -954,18 +920,16 @@
     "issueNumber": 121,
     "progressPercent": 0,
     "state": "completed",
-    "startedAt": "2026-10-29T06:42:07.000Z",
-    "completedAt": "2026-10-29T06:46:20.000Z",
-    "timeToComplete": 253000,
-    "timeToCompleteFormatted": "4 minutes"
+    "completedAt": "2026-10-17T00:00:00.000Z",
+    "requestedIsbn": "9788467075755"
   },
   {
     "title": "El rithmatista",
     "authors": [
       "Brandon Sanderson"
     ],
-    "publisher": "Nova",
-    "publishedDate": "2015-01-12",
+    "publisher": "Nova (Ediciones B)",
+    "publishedDate": "2015",
     "description": "Joel sueña con convertirse en rithmatista, uno de los elegidos capaces de dar vida a figuras geométricas dibujadas con tiza. Estos especialistas protegen a la humanidad de unas criaturas peligrosas que acechan las islas americanas. Cuando varios estudiantes desaparecen en circunstancias violentas, Joel ayuda a un profesor a investigar los casos y descubre un misterio que podría cambiar su mundo.",
     "image": "https://covers.openlibrary.org/b/id/7334581-L.jpg",
     "language": "es",
@@ -1008,8 +972,7 @@
     "requestedIsbn": "9788466655866",
     "issueNumber": 96,
     "progressPercent": 0,
-    "state": "want-to-read",
-    "startedAt": "2026-10-28T12:17:51.000Z"
+    "state": "want-to-read"
   },
   {
     "isbn10": "8445018914",
@@ -1019,7 +982,7 @@
       "Stephen R. Lawhead"
     ],
     "publisher": "Minotauro",
-    "publishedDate": "2025-07-02",
+    "publishedDate": "2025",
     "description": "Merlín deberá hacer realidad el Reino del Verano y superar duras pruebas que pondrán a prueba su espíritu, su cuerpo y su mente.",
     "image": "https://www.planetadelibros.com/usuaris/libros/fotos/405/original/portada_ciclo-pendragon-n-0206-merlin_stephen-r-lawhead_202505280841.jpg",
     "language": "es",
@@ -1040,7 +1003,7 @@
     "issueNumber": 54,
     "progressPercent": 0,
     "state": "reading",
-    "startedAt": "2026-10-27T15:33:06.000Z"
+    "format": "Tapa blanda"
   },
   {
     "title": "Legión: Las múltiples vidas de Stephen Leeds (Legión)",
@@ -1048,7 +1011,7 @@
       "Brandon Sanderson"
     ],
     "publisher": "Penguin Random House Audio",
-    "publishedDate": "2021-05-27",
+    "publishedDate": "2021",
     "description": "Recopilación de tres novelas cortas de ciencia ficción y suspense protagonizadas por Stephen Leeds, un genio cuya mente crea expertos imaginarios —sus «aspectos»— que le ayudan a resolver casos extraordinarios. Cuando esos aspectos empiezan a cobrar vida propia, sus investigaciones lo llevan a descubrir una trama que podría afectar a varias religiones y a la comprensión de sus propias alucinaciones.",
     "image": "https://www.penguinlibros.com/es/1479081-large_default/legion-las-multiples-vidas-de-stephen-leeds-legion.webp",
     "language": "es",
@@ -1066,10 +1029,9 @@
     "issueNumber": 69,
     "progressPercent": 0,
     "state": "completed",
-    "startedAt": "2026-05-20T00:00:00.000Z",
     "completedAt": "2026-05-21T00:00:00.000Z",
-    "timeToComplete": 86400000,
-    "timeToCompleteFormatted": "1 day"
+    "requestedIsbn": "9788418037337",
+    "goodreadsRating": 3
   },
   {
     "title": "Realidades a Medida",
@@ -1077,7 +1039,7 @@
       "Brandon Sanderson"
     ],
     "publisher": "Nova",
-    "publishedDate": "2025-12-11",
+    "publishedDate": "2025",
     "description": "El recopilatorio de relatos no pertenecientes al Cosmere reúne diez historias de fantasía y ciencia ficción de Brandon Sanderson, incluida la novela corta inédita «Momento Cero». Entre los relatos figuran «Instantánea», «Estado perfecto», «La defensa del Elíseo», «Primogénito» y «Mitosis», además de notas del autor e ilustraciones.",
     "image": "https://covers.openlibrary.org/b/id/15233731-L.jpg",
     "language": "es",
@@ -1105,40 +1067,34 @@
     "issueNumber": 70,
     "progressPercent": 0,
     "state": "completed",
-    "startedAt": "2026-02-16T00:00:00.000Z",
     "completedAt": "2026-03-10T00:00:00.000Z",
-    "timeToComplete": 1900800000,
-    "timeToCompleteFormatted": "3 weeks"
+    "goodreadsRating": 4,
+    "format": "Tapa blanda"
   },
   {
     "title": "Los jardines de la luna",
     "authors": [
       "Steven Erikson"
     ],
-    "publisher": "La Factoría de Ideas",
-    "publishedDate": "2011-11-21",
-    "description": "Tras interminables guerras, amargas luchas internas y sangrientas confrontaciones, incluso las tropas imperiales necesitan un descanso. Pero la obsesión expansionista de la emperatriz Lassen no tiene límites, y cuenta con el apoyo de sus sanguinarios agentes de la Garra. Tras el último asedio, el sargento Whiskeyjack y su pelotón de Arrasapuentes necesitan tiempo para descansar y enterrar a sus muertos, pero Darujhistan, la última de las Ciudades Libres de Genabackis, les espera. Es el objetivo último de la insaciable emperatriz. ... Y parece que el Imperio no es el único que codicia esa plaza: fuerzas siniestras conspiran dentro y fuera de las sendas mágicas, y todo indica que los propios dioses se preparan para la batalla...",
-    "image": "http://books.google.com/books/content?id=BPbgACsuB2sC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-    "language": "es",
-    "categories": [
-      "Fiction"
-    ],
-    "pageCount": 603,
-    "isbn10": "8498008417",
-    "isbn13": "9788498008418",
-    "googleBooks": {
-      "id": "BPbgACsuB2sC",
-      "preview": "http://books.google.com/books?id=BPbgACsuB2sC&printsec=frontcover&dq=intitle:Los+jardines+de+la+luna&hl=&cd=1&source=gbs_api",
-      "info": "https://play.google.com/store/books/details?id=BPbgACsuB2sC&source=gbs_api",
-      "canonical": "https://play.google.com/store/books/details?id=BPbgACsuB2sC"
-    },
+    "isbn13": "9788466660877",
     "issueNumber": 39,
     "progressPercent": 0,
     "state": "completed",
-    "startedAt": "2025-07-17T12:18:30.000Z",
-    "completedAt": "2026-02-15T23:05:26.000Z",
-    "timeToComplete": 18442016000,
-    "timeToCompleteFormatted": "7 months"
+    "completedAt": "2026-02-15T00:00:00.000Z",
+    "metadataSource": "Exact ISBN match; edition metadata verified against ISBN-specific catalogue sources",
+    "requestedIsbn": "9788466660877",
+    "goodreadsRating": 2,
+    "publisher": "Nova",
+    "publishedDate": "2017-03-22",
+    "language": "es",
+    "format": "Tapa dura",
+    "image": "https://images3.penguinrandomhouse.com/cover/9788466660877",
+    "description": "Tras guerras interminables y conflictos internos, el Imperio de Malaz busca recuperarse mientras la emperatriz Laseen dirige su expansión hacia Darujhistan. El escuadrón de Whiskeyjack queda envuelto en una trama de poder, fuerzas mágicas y dioses.",
+    "pageCount": 776,
+    "categories": [
+      "Fantasía épica",
+      "Fantasía oscura"
+    ]
   },
   {
     "title": "Islas de la Ascuaoscura",
@@ -1146,7 +1102,7 @@
       "Brandon Sanderson"
     ],
     "publisher": "Nova",
-    "publishedDate": "2025-11-05",
+    "publishedDate": "2025",
     "description": "Sexto del Ocaso vive como trampero en la peligrosa isla de Patji. Cuando la amenaza de invasores llegados de las estrellas obliga a su pueblo a modernizarse, emprende un viaje para proteger su forma de vida. Al mismo tiempo, Starling, una dragona atrapada en forma humana, y su tripulación de exiliados buscan recuperar su libertad. Sus destinos podrían cruzarse en una lucha marcada por la política, la independencia y el legado de un dios muerto.",
     "image": "https://covers.openlibrary.org/b/id/15228811-L.jpg",
     "language": "es",
@@ -1170,10 +1126,9 @@
     "issueNumber": 71,
     "progressPercent": 0,
     "state": "completed",
-    "startedAt": "2026-01-07T00:00:00.000Z",
     "completedAt": "2026-01-14T00:00:00.000Z",
-    "timeToComplete": 604800000,
-    "timeToCompleteFormatted": "1 week"
+    "goodreadsRating": 5,
+    "format": "Cartoné"
   },
   {
     "title": "La búsqueda del asesino",
@@ -1184,9 +1139,9 @@
     "isbn13": "9788419680976",
     "requestedIsbn": "9788419680976",
     "publisher": "Nocturna Ediciones",
-    "publishedDate": "2025-05-12",
+    "publishedDate": "2025",
     "description": "El rey ha muerto a causa de una traición. Traspié emprende una búsqueda de venganza que podría salvar el reino o condenarlo para siempre.",
-    "image": "https://placehold.co/128x196?text=No+cover",
+    "image": "https://www.nocturnaediciones.com/imagenes/biblioteca/423_alta.jpg",
     "language": "es",
     "categories": [
       "Fantasía"
@@ -1196,10 +1151,8 @@
     "issueNumber": 72,
     "progressPercent": 0,
     "state": "completed",
-    "startedAt": "2025-12-08T00:00:00.000Z",
     "completedAt": "2025-12-31T00:00:00.000Z",
-    "timeToComplete": 1987200000,
-    "timeToCompleteFormatted": "3 weeks"
+    "format": "Tapa blanda"
   },
   {
     "title": "Asesino real",
@@ -1210,9 +1163,9 @@
     "isbn13": "9788419680969",
     "requestedIsbn": "9788419680969",
     "publisher": "Nocturna Ediciones",
-    "publishedDate": "2025-05-12",
+    "publishedDate": "2025",
     "description": "Traspié debe desentrañar las intrigas de la familia real cuando la traición amenaza el trono.",
-    "image": "https://placehold.co/128x196?text=No+cover",
+    "image": "https://www.nocturnaediciones.com/imagenes/biblioteca/421_alta.jpg",
     "language": "es",
     "categories": [
       "Fantasía"
@@ -1222,10 +1175,8 @@
     "issueNumber": 73,
     "progressPercent": 0,
     "state": "completed",
-    "startedAt": "2025-11-22T00:00:00.000Z",
     "completedAt": "2025-12-07T00:00:00.000Z",
-    "timeToComplete": 1296000000,
-    "timeToCompleteFormatted": "2 weeks"
+    "format": "Tapa blanda"
   },
   {
     "title": "Aprendiz de asesino",
@@ -1236,9 +1187,9 @@
     "isbn13": "9788419680877",
     "requestedIsbn": "9788419680877",
     "publisher": "Nocturna Ediciones",
-    "publishedDate": "2025-05-12",
+    "publishedDate": "2025",
     "description": "Traspié, hijo bastardo del príncipe heredero, comienza su formación en las artes del asesinato y en la magia de la Habilidad.",
-    "image": "https://placehold.co/128x196?text=No+cover",
+    "image": "https://www.nocturnaediciones.com/imagenes/biblioteca/419_alta.jpg",
     "language": "es",
     "categories": [
       "Fantasía"
@@ -1248,18 +1199,17 @@
     "issueNumber": 74,
     "progressPercent": 0,
     "state": "completed",
-    "startedAt": "2024-04-23T00:00:00.000Z",
     "completedAt": "2025-06-20T00:00:00.000Z",
-    "timeToComplete": 36547200000,
-    "timeToCompleteFormatted": "1 year"
+    "goodreadsRating": 5,
+    "format": "Tapa blanda"
   },
   {
     "title": "Viento y verdad",
     "authors": [
       "Brandon Sanderson"
     ],
-    "publisher": "Nova",
-    "publishedDate": "2024-12-09",
+    "publisher": "Nova CF",
+    "publishedDate": "2024",
     "description": "La esperada conclusión del primer gran arco de El Archivo de las Tormentas. Mientras Roshar afronta una guerra decisiva, Dalinar y sus aliados se preparan para el enfrentamiento que determinará el futuro de los reinos y de los Caballeros Radiantes.",
     "image": "https://covers.openlibrary.org/b/id/14838986-L.jpg",
     "language": "es",
@@ -1282,10 +1232,9 @@
     "issueNumber": 75,
     "progressPercent": 0,
     "state": "completed",
-    "startedAt": "2025-01-20T00:00:00.000Z",
     "completedAt": "2025-04-21T00:00:00.000Z",
-    "timeToComplete": 7862400000,
-    "timeToCompleteFormatted": "2 months"
+    "goodreadsRating": 3,
+    "format": "Tapa dura"
   },
   {
     "title": "La espada del destino",
@@ -1295,7 +1244,7 @@
     "publisher": "Alamut",
     "publishedDate": "2010-05-04",
     "description": "Geralt de Rivia, el brujo cazador de monstruos, recorre un mundo de magia, guerras y criaturas extraordinarias. Sus encuentros le obligan a distinguir entre apariencia y realidad y a tomar decisiones morales en las que no siempre existe una opción limpia.",
-    "language": "es",
+    "language": "en",
     "averageRating": 0,
     "ratingsCount": 0,
     "categories": [
@@ -1306,9 +1255,9 @@
     "pageCount": 288,
     "isbn10": "8498890438",
     "isbn13": "9788498890433",
-    "format": "Tapa dura",
+    "format": "Cartoné",
     "metadataSource": "Exact ISBN match; existing metadata refreshed",
-    "image": "https://covers.openlibrary.org/b/id/8599203-L.jpg",
+    "image": "https://static.imosver.com/imagenes_small/9788498/978849889043.jpg",
     "googleBooks": {
       "id": "",
       "preview": "http://openlibrary.org/books/OL27008963M/La_espada_del_destino",
@@ -1319,45 +1268,32 @@
     "issueNumber": 36,
     "progressPercent": 0,
     "state": "completed",
-    "startedAt": "2024-10-29T12:10:16.000Z",
-    "completedAt": "2025-01-31T09:12:56.000Z",
-    "timeToComplete": 8110960000,
-    "timeToCompleteFormatted": "3 months"
+    "completedAt": "2025-01-04T00:00:00.000Z"
   },
   {
-    "title": "EL LTIMO DESEO/ THE LAST WISH.",
+    "title": "El último deseo",
     "authors": [
       "ANDRZEJ. SAPKOWSKI"
     ],
-    "publishedDate": "2022",
-    "image": "https://tse2.mm.bing.net/th?q=EL%20LTIMO%20DESEO%2F%20THE%20LAST%20WISH.%20by%20ANDRZEJ.%20SAPKOWSKI&w=256&c=7&rs=1&p=0&dpr=3&pid=1.7&mkt=en-IN&adlt=moderate",
-    "language": "es",
-    "isbn10": "8498891272",
-    "isbn13": "9788498891270",
-    "googleBooks": {
-      "id": "r6E1zwEACAAJ",
-      "preview": "http://books.google.com/books?id=r6E1zwEACAAJ&dq=intitle:El+%C3%9Altimo+Deseo+by+Andrzej+Sapkowski&hl=&cd=1&source=gbs_api",
-      "info": "http://books.google.com/books?id=r6E1zwEACAAJ&dq=intitle:El+%C3%9Altimo+Deseo+by+Andrzej+Sapkowski&hl=&source=gbs_api",
-      "canonical": "https://books.google.com/books/about/EL_LTIMO_DESEO_THE_LAST_WISH.html?hl=&id=r6E1zwEACAAJ"
-    },
-    "publisher": "Alamut",
-    "pageCount": 264,
-    "description": "Geralt de Rivia, brujo y mutante, recorre un mundo de magia como cazador de monstruos. Sus encargos lo enfrentan a criaturas temibles, pero también a dilemas morales, intrigas y personas que no siempre son lo que parecen. Esta colección de relatos presenta los primeros pasos del brujo y su particular manera de elegir el mal menor.",
-    "categories": [
-      "Fantasía",
-      "Ficción fantástica",
-      "Aventuras"
-    ],
-    "format": "Tapa blanda",
-    "metadataSource": "Exact ISBN match; existing metadata refreshed",
+    "isbn13": "9788498890372",
     "requestedIsbn": "9788498890372",
     "issueNumber": 37,
     "progressPercent": 0,
     "state": "completed",
-    "startedAt": "2024-10-31T15:13:36.000Z",
-    "completedAt": "2024-10-31T15:14:02.000Z",
-    "timeToComplete": 26000,
-    "timeToCompleteFormatted": "26 seconds"
+    "completedAt": "2024-06-01T00:00:00.000Z",
+    "metadataSource": "Exact ISBN match; edition metadata verified against ISBN-specific catalogue sources",
+    "goodreadsRating": 4,
+    "publisher": "Alamut",
+    "publishedDate": "2009-11-17",
+    "language": "es",
+    "format": "Tapa dura",
+    "image": "https://imagessl2.casadellibro.com/a/l/s5/72/9788498890372.webp",
+    "description": "Geralt de Rivia, un brujo que caza monstruos por encargo, recorre un mundo de magia y conflictos morales; en sus encuentros descubre que las mayores amenazas a menudo tienen rostro humano.",
+    "pageCount": 256,
+    "categories": [
+      "Fantasía",
+      "Fantasía épica"
+    ]
   },
   {
     "title": "Hábitos atómicos",
@@ -1386,69 +1322,58 @@
     "issueNumber": 35,
     "progressPercent": 0,
     "state": "want-to-read",
-    "startedAt": "2024-10-29T12:09:20.000Z"
+    "requestedIsbn": "9786077476726",
+    "format": "Kindle Edition"
   },
   {
     "title": "¿Hay filosofía en tu nevera?",
     "authors": [
       "Enric F. Gel"
     ],
-    "publisher": "MONTENA",
-    "publishedDate": "2023-09-14",
-    "description": "La filosofía como nunca te la han contado. Descúbrela y sacia tu hambre de conocimiento. ¿Quién soy? ¿Qué hago aquí? ¿Qué es la realidad? ¿Soy libre? ¿Cuál es el sentido de la vida? Y, si no tiene sentido, ¿vale la pena vivirla? ¿Cómo puedo comprender este mundo loco? Y, por cierto... ¿qué venía a buscar a la nevera? Si las grandes preguntas te asaltan en el momento menos pensado, está claro que tienes hambre de conocimiento. En este original recorrido por la historia del pensamiento descubrirás que la filosofía está en todas partes... ¡Incluso dentro y fuera de tu nevera! Con un tono desenfadado, mucho humor y referencias delirantes a la cultura digital, ¿Hay filosofía en tu nevera? propone un acercamiento refrescante a los grandes temas que han traído de cabeza al ser humano desde sus inicios. Ya seas un novato en el mundo de la filosofía o un sabio experimentado, en estas páginas encontrarás un tesoro con el que no podrás parar de pensar. ¡Lo vas a devorar!",
-    "image": "http://books.google.com/books/content?id=JUnJEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-    "language": "es",
-    "categories": [
-      "Young Adult Nonfiction"
-    ],
-    "pageCount": 224,
-    "isbn10": "8419357189",
-    "isbn13": "9788419357182",
-    "googleBooks": {
-      "id": "JUnJEAAAQBAJ",
-      "preview": "http://books.google.com/books?id=JUnJEAAAQBAJ&printsec=frontcover&dq=intitle:%C2%BFHay+filosof%C3%ADa+en+tu+nevera%3F:+Descubre+las+grandes+preguntas+donde+menos+te+lo+esperas+by+Enric+F.+Gel&hl=&cd=1&source=gbs_api",
-      "info": "https://play.google.com/store/books/details?id=JUnJEAAAQBAJ&source=gbs_api",
-      "canonical": "https://play.google.com/store/books/details?id=JUnJEAAAQBAJ"
-    },
+    "isbn13": "9788419357175",
     "issueNumber": 30,
     "progressPercent": 0,
     "state": "completed",
-    "startedAt": "2024-09-23T10:06:04.000Z",
-    "completedAt": "2024-10-29T12:07:55.000Z",
-    "timeToComplete": 3117711000,
-    "timeToCompleteFormatted": "1 month"
+    "completedAt": "2024-10-24T00:00:00.000Z",
+    "metadataSource": "Exact ISBN match; edition metadata verified against ISBN-specific catalogue sources",
+    "requestedIsbn": "9788419357175",
+    "publisher": "Montena",
+    "publishedDate": "2023-09-14",
+    "language": "es",
+    "format": "Tapa blanda",
+    "image": "https://www.penguinlibros.com/es/6297501-large_default/hay-filosofia-en-tu-nevera.webp",
+    "description": "A partir de preguntas cotidianas sobre la realidad, la libertad y el sentido de la vida, Enric F. Gel presenta la historia de la filosofía con humor y referencias a la cultura digital.",
+    "pageCount": 224,
+    "categories": [
+      "Filosofía",
+      "Divulgación",
+      "Literatura juvenil"
+    ]
   },
   {
     "title": "1984",
     "authors": [
       "George Orwell"
     ],
-    "publisher": "Arcturus Publishing",
-    "publishedDate": "2014-01-04",
-    "description": "George Orwell's dystopian masterpiece, Nineteen Eighty-Four is perhaps the most pervasively influential book of the twentieth century, making famous Big Brother, newspeak and Room 101. 'Who controls the past controls the future: who controls the present controls the past'",
-    "image": "http://books.google.com/books/content?id=uyr8BAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-    "language": "en",
-    "averageRating": 4,
-    "ratingsCount": 7,
-    "categories": [
-      "Fiction"
-    ],
-    "pageCount": 361,
-    "isbn10": "1784043737",
-    "isbn13": "9781784043735",
-    "googleBooks": {
-      "id": "uyr8BAAAQBAJ",
-      "preview": "http://books.google.com/books?id=uyr8BAAAQBAJ&printsec=frontcover&dq=intitle:1984&hl=&cd=1&source=gbs_api",
-      "info": "http://books.google.com/books?id=uyr8BAAAQBAJ&dq=intitle:1984&hl=&source=gbs_api",
-      "canonical": "https://books.google.com/books/about/1984.html?hl=&id=uyr8BAAAQBAJ"
-    },
+    "isbn13": "9786078578245",
     "issueNumber": 25,
     "progressPercent": 0,
     "state": "completed",
-    "startedAt": "2024-08-21T17:00:12.000Z",
-    "completedAt": "2024-09-23T10:03:48.000Z",
-    "timeToComplete": 2826216000,
-    "timeToCompleteFormatted": "1 month"
+    "completedAt": "2024-09-21T00:00:00.000Z",
+    "metadataSource": "Exact ISBN match; edition metadata verified against ISBN-specific catalogue sources",
+    "requestedIsbn": "9786078578245",
+    "publisher": "Total Book",
+    "publishedDate": "2019-11-01",
+    "language": "es",
+    "format": "Paperback",
+    "image": "https://static.imosver.com/imagenes_small/9786078/978607857824.jpg",
+    "description": "Winston Smith lives under a regime that rewrites history and monitors its citizens. As he questions the Party, he tries to preserve truth and personal freedom against political control.",
+    "pageCount": 160,
+    "categories": [
+      "Narrativa",
+      "Clásicos universales",
+      "Distopía"
+    ]
   },
   {
     "title": "El hombre que era Jueves",
@@ -1481,79 +1406,33 @@
     "issueNumber": 26,
     "progressPercent": 0,
     "state": "completed",
-    "startedAt": "2024-08-21T17:15:08.000Z",
-    "completedAt": "2024-08-21T17:15:30.000Z",
-    "timeToComplete": 22000,
-    "timeToCompleteFormatted": "22 seconds"
+    "completedAt": "2024-07-21T00:00:00.000Z",
+    "format": "Tapa blanda"
   },
   {
-    "title": "Cronica de una muerte anunciada - Tapa dura",
+    "title": "Crónica de una muerte anunciada",
     "authors": [
       "Gabriel Garca̕ Mr̀quez"
     ],
-    "publisher": "Editorial Norma",
-    "publishedDate": "2005",
-    "image": "http://books.google.com/books/content?id=bQ8_ckZEYDkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-    "language": "es",
-    "averageRating": 4,
-    "ratingsCount": 9,
-    "pageCount": 112,
-    "isbn10": "9580487456",
-    "isbn13": "9789580487456",
-    "googleBooks": {
-      "id": "bQ8_ckZEYDkC",
-      "preview": "http://books.google.com/books?id=bQ8_ckZEYDkC&printsec=frontcover&dq=intitle:Cr%C3%B3nica+de+una+muerte+anunciada&hl=&cd=3&source=gbs_api",
-      "info": "http://books.google.com/books?id=bQ8_ckZEYDkC&dq=intitle:Cr%C3%B3nica+de+una+muerte+anunciada&hl=&source=gbs_api",
-      "canonical": "https://books.google.com/books/about/Cronica_de_una_muerte_anunciada_Tapa_dur.html?hl=&id=bQ8_ckZEYDkC"
-    },
-    "description": "En un pequeño pueblo caribeño, todos parecen saber que Santiago Nasar va a morir, pero nadie consigue impedir el crimen. A partir de testimonios y recuerdos fragmentarios, el narrador reconstruye las horas previas al asesinato y examina el honor, la responsabilidad colectiva y la fatalidad.",
-    "categories": [
-      "Novela",
-      "Ficción literaria",
-      "Literatura latinoamericana",
-      "ritual",
-      "Death",
-      "Spanish language books",
-      "Spanish fiction",
-      "Colombian fiction",
-      "Fiction",
-      "Death in fiction",
-      "Translations into Russian",
-      "Honor",
-      "Murder",
-      "Revenge",
-      "social conditions",
-      "twins",
-      "weddings",
-      "Venganza",
-      "Asesinato",
-      "Ficción",
-      "Muerte",
-      "Spanish literature",
-      "Translations into English",
-      "French fiction",
-      "Roman français",
-      "Magic realism (Literature)",
-      "Oberschicht",
-      "Familienehre",
-      "Romance literature",
-      "Fiction (fictional works by one author)",
-      "Colombia, fiction",
-      "Belletristische Darstellung",
-      "Spanish language",
-      "Study and teaching",
-      "Examinations and questions",
-      "Long Now Manual for Civilization"
-    ],
-    "metadataSource": "Exact ISBN match; existing metadata refreshed",
+    "isbn13": "9781400034956",
     "requestedIsbn": "9781400034956",
     "issueNumber": 18,
     "progressPercent": 0,
     "state": "completed",
-    "startedAt": "2024-03-14T23:28:20.000Z",
-    "completedAt": "2024-03-16T00:23:58.000Z",
-    "timeToComplete": 89738000,
-    "timeToCompleteFormatted": "1 day"
+    "completedAt": "2024-03-15T00:00:00.000Z",
+    "metadataSource": "Exact ISBN match; edition metadata verified against ISBN-specific catalogue sources",
+    "goodreadsRating": 3,
+    "publisher": "Vintage Español",
+    "publishedDate": "2003-10-14",
+    "language": "es",
+    "format": "Tapa blanda",
+    "image": "https://images1.penguinrandomhouse.com/cover/9781400034956",
+    "description": "En un pueblo caribeño, Santiago Nasar es asesinado pese a que muchos conocen de antemano las intenciones de sus asesinos. La novela reconstruye los hechos y las responsabilidades colectivas que rodean su muerte.",
+    "pageCount": 128,
+    "categories": [
+      "Ficción",
+      "Literatura latinoamericana"
+    ]
   },
   {
     "title": "Organízate con eficacia",
@@ -1622,10 +1501,9 @@
     "issueNumber": 76,
     "progressPercent": 0,
     "state": "completed",
-    "startedAt": "2024-02-12T00:00:00.000Z",
     "completedAt": "2024-02-19T00:00:00.000Z",
-    "timeToComplete": 604800000,
-    "timeToCompleteFormatted": "1 week"
+    "goodreadsRating": 4,
+    "format": "Tapa dura"
   },
   {
     "title": "Murtagh. El mundo de Eragon V",
@@ -1645,7 +1523,7 @@
     "isbn10": "8419743283",
     "isbn13": "9788419743282",
     "format": "Hardcover",
-    "metadataSource": "Verified Spanish print edition; exact ISBN confirmed by Spanish catalogue sources",
+    "metadataSource": "Exact ISBN match; edition metadata verified against ISBN-specific catalogue sources",
     "requestedIsbn": "9788419743282",
     "sources": [
       "https://www.casadellibro.com/libro-murtagh-el-mundo-de-eragon-v/9788419743282/13987686",
@@ -1654,10 +1532,8 @@
     "issueNumber": 14,
     "progressPercent": 0,
     "state": "completed",
-    "startedAt": "2024-02-01T18:51:37.000Z",
-    "completedAt": "2024-02-12T00:06:58.000Z",
-    "timeToComplete": 882921000,
-    "timeToCompleteFormatted": "1 week"
+    "completedAt": "2024-02-11T00:00:00.000Z",
+    "goodreadsRating": 3
   },
   {
     "title": "Isabel de España",
@@ -1673,7 +1549,12 @@
     "issueNumber": 16,
     "progressPercent": 0,
     "state": "reading",
-    "startedAt": "2024-02-01T19:01:01.000Z"
+    "format": "Kindle Edition",
+    "description": "Biografía histórica de Isabel la Católica que recorre su vida, su ascenso al trono y su papel en los acontecimientos políticos y religiosos de la España de finales del siglo XV.",
+    "categories": [
+      "Historia",
+      "Biografía"
+    ]
   },
   {
     "title": "¿Qué hace un bosón como tú en un Big Bang como este?",
@@ -1681,7 +1562,7 @@
       "Javier Santaolalla"
     ],
     "publisher": "La Esfera de los Libros",
-    "publishedDate": "2022-09-28",
+    "publishedDate": "2022",
     "description": "<p><i>Un libro para todos los públicos, ameno y desenfadado, que explica -¡y se entiende!- conceptos tan abstractos como los campos cuánticos o el bosón de Higgs. Narrado por un científico que participó en el descubrimiento de esta partícula</i>, el autor de El bosón de Higgs no te va a hacer la cama.</p><p>«Si cuando sales de noche a un sitio despejado levantas la cabeza y solo ves puntos de luz, te estás perdiendo la mejor parte de estar vivo. Yo, Javier Santaolalla, veo partículas que surgen de una gran \"explosión\" hace miles de millones de años, que chocan y se transforman mientras se van agrupando por gravedad. Veo cómo se van creando cúmulos de materia en forma de nubes de gas, que dan lugar a sistemas mayores llamados “galaxias”. Pero también veo ese maravilloso viaje del ser humano para entender quiénes somos, qué hacemos aquí, acompañados de genios como Galileo o Einstein, de grandes ideas como la relatividad o la mecánica cuántica, de historias como el gato de Schrödinger, el sombrero mexicano o la manzana de Newton...</p><p>Este libro es un viaje hacia las estrellas, hacia el Big Bang, pero por encima de todo hacia el interior de nosotros mismos. Nos permitirá situar mejor el lugar que ocupamos en este mundo».</p>",
     "image": "http://books.google.com/books/content?id=LKaIEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
     "language": "es",
@@ -1702,14 +1583,15 @@
     "issueNumber": 7,
     "progressPercent": 0,
     "state": "want-to-read",
-    "startedAt": "2024-01-17T17:39:24.000Z"
+    "requestedIsbn": "9788413843933",
+    "format": "eBook (EPUB)"
   },
   {
     "title": "Yumi y el pintor de pesadillas",
     "authors": [
       "Brandon Sanderson"
     ],
-    "publisher": "Ediciones B",
+    "publisher": "Nova",
     "publishedDate": "2023",
     "description": "Yumi ha dedicado su vida a invocar espíritus para ayudar a su comunidad; Pintor recorre un mundo oscuro y tecnológico mientras sueña con convertirse en héroe. Cuando sus vidas quedan entrelazadas de forma inexplicable, ambos deberán colaborar para descubrir qué los une y evitar una catástrofe que amenaza sus mundos.",
     "image": "https://covers.openlibrary.org/b/id/14611343-L.jpg",
@@ -1735,10 +1617,9 @@
     "issueNumber": 77,
     "progressPercent": 0,
     "state": "completed",
-    "startedAt": "2023-07-26T00:00:00.000Z",
     "completedAt": "2023-11-30T00:00:00.000Z",
-    "timeToComplete": 10972800000,
-    "timeToCompleteFormatted": "4 months"
+    "goodreadsRating": 4,
+    "format": "Tapa dura"
   },
   {
     "title": "El ritmo de la guerra",
@@ -1746,7 +1627,7 @@
       "Brandon Sanderson"
     ],
     "publisher": "Nova",
-    "publishedDate": "2021-02-23",
+    "publishedDate": "2020",
     "description": "Source title: El ritmo de la guerra / Rhythm of War (El Archivo de las Tormentas) (Spanish Edition)",
     "image": "https://covers.openlibrary.org/b/id/10522934-L.jpg",
     "language": "es",
@@ -1774,10 +1655,9 @@
     "issueNumber": 78,
     "progressPercent": 0,
     "state": "completed",
-    "startedAt": "2023-09-09T00:00:00.000Z",
     "completedAt": "2023-11-19T00:00:00.000Z",
-    "timeToComplete": 6134400000,
-    "timeToCompleteFormatted": "2 months"
+    "goodreadsRating": 4,
+    "format": "Tapa dura"
   },
   {
     "title": "Esquirla del Amanecer",
@@ -1785,7 +1665,7 @@
       "Brandon Sanderson"
     ],
     "publisher": "Nova",
-    "publishedDate": "2021-06-10",
+    "publishedDate": "2021",
     "description": "Source title: Esquirla del Amanecer (El Archivo de las Tormentas 3.5) (Spanish Edition)",
     "image": "https://covers.openlibrary.org/b/id/11385385-L.jpg",
     "language": "es",
@@ -1812,17 +1692,15 @@
     "issueNumber": 79,
     "progressPercent": 0,
     "state": "completed",
-    "startedAt": "2023-08-28T00:00:00.000Z",
     "completedAt": "2023-08-31T00:00:00.000Z",
-    "timeToComplete": 259200000,
-    "timeToCompleteFormatted": "3 days"
+    "format": "Tapa dura"
   },
   {
     "title": "Juramentada / Oathbringer",
     "authors": [
       "Brandon Sanderson"
     ],
-    "publisher": "Ediciones B",
+    "publisher": "Nova CF",
     "publishedDate": "2018",
     "description": "Tercera entrega de El Archivo de las Tormentas. Mientras los reinos de Roshar afrontan las consecuencias de una guerra devastadora, Dalinar, Kaladin, Shallan y sus aliados deben asumir sus juramentos, enfrentarse a sus propios conflictos y prepararse para una amenaza que puede cambiar el destino del mundo.",
     "image": "https://covers.openlibrary.org/b/id/11234168-L.jpg",
@@ -1861,20 +1739,19 @@
     "issueNumber": 81,
     "progressPercent": 0,
     "state": "completed",
-    "startedAt": "2022-11-26T00:00:00.000Z",
     "completedAt": "2023-08-27T00:00:00.000Z",
-    "timeToComplete": 23673600000,
-    "timeToCompleteFormatted": "9 months"
+    "goodreadsRating": 5,
+    "format": "Tapa dura"
   },
   {
     "title": "Arcanun Ilimitado",
     "authors": [
       "Brandon Sanderson"
     ],
-    "publisher": "Ediciones B",
-    "publishedDate": "2018",
+    "publisher": "Nova",
+    "publishedDate": "2017",
     "description": "Antología de relatos y novelas cortas ambientados en el Cosmere, el universo compartido de Brandon Sanderson. Incluye historias que amplían distintos mundos y personajes, junto con material que permite conocer nuevas facetas de su magia y su historia.",
-    "image": "https://placehold.co/128x196?text=No+cover",
+    "image": "https://www.penguinlibros.com/es/3739810-large_default/arcanum-ilimitado.webp",
     "language": "es",
     "averageRating": 0,
     "ratingsCount": 0,
@@ -1897,10 +1774,9 @@
     "issueNumber": 82,
     "progressPercent": 0,
     "state": "completed",
-    "startedAt": "2022-09-05T00:00:00.000Z",
     "completedAt": "2023-08-08T00:00:00.000Z",
-    "timeToComplete": 29116800000,
-    "timeToCompleteFormatted": "11 months"
+    "goodreadsRating": 4,
+    "format": "Tapa dura"
   },
   {
     "title": "Palabras Radiantes",
@@ -1944,10 +1820,9 @@
     "issueNumber": 83,
     "progressPercent": 0,
     "state": "completed",
-    "startedAt": "2022-11-26T00:00:00.000Z",
     "completedAt": "2023-08-07T00:00:00.000Z",
-    "timeToComplete": 21945600000,
-    "timeToCompleteFormatted": "8 months"
+    "goodreadsRating": 5,
+    "format": "Tapa dura"
   },
   {
     "title": "El Archivo de las Tormentas: Una guía de bolsillo para El camino de los reyes y Palabras radiantes",
@@ -1956,32 +1831,31 @@
     ],
     "publisher": "FLASH",
     "publishedDate": "2018",
-    "description": "Guía de bolsillo que reúne información y material complementario para acompañar la lectura de El camino de los reyes y Palabras radiantes, las dos primeras novelas de El Archivo de las Tormentas. Edición digital breve publicada por Flash.",
+    "description": "Guía de lectura para complementar El camino de los reyes y Palabras radiantes, con detalles que pueden haberse pasado por alto y especulaciones sobre los siguientes acontecimientos del Archivo de las Tormentas.",
     "image": "https://placehold.co/128x196?text=No+cover",
     "language": "es",
     "categories": [
-      "Fantasía"
+      "Fantasía",
+      "Novela de aventuras"
     ],
     "pageCount": 55,
     "isbn10": "8416628475",
     "isbn13": "9788416628476",
     "requestedIsbn": "9788416628476",
-    "metadataSource": "ISBN exacto 9788416628476; datos de edición contrastados con la ficha bibliográfica",
+    "metadataSource": "Exact ISBN match; edition metadata verified against ISBN-specific catalogue sources",
     "issueNumber": 80,
     "progressPercent": 0,
     "state": "completed",
-    "startedAt": "2023-08-07T00:00:00.000Z",
     "completedAt": "2023-08-07T00:00:00.000Z",
-    "timeToComplete": 0,
-    "timeToCompleteFormatted": "0 seconds"
+    "format": "eBook (EPUB)"
   },
   {
     "title": "Trenza del Mar Esmeralda",
     "authors": [
       "Brandon Sanderson"
     ],
-    "publisher": "Nova",
-    "publishedDate": "2023-01-19",
+    "publisher": "Nova CF",
+    "publishedDate": "2023",
     "description": "Una aventura del Cosmere narrada por Hoid. Trenza vive en una isla donde recoge vasos de lluvia y sueña con conocer el mundo más allá del mar. Cuando el barco que se lleva al joven del que está enamorada regresa sin él, Trenza abandona su hogar y se embarca en un viaje peligroso hacia mares mortales y una magia desconocida.",
     "image": "https://covers.openlibrary.org/b/id/14651590-L.jpg",
     "language": "es",
@@ -2010,18 +1884,17 @@
     "issueNumber": 84,
     "progressPercent": 0,
     "state": "completed",
-    "startedAt": "2023-01-11T00:00:00.000Z",
     "completedAt": "2023-07-23T00:00:00.000Z",
-    "timeToComplete": 16675200000,
-    "timeToCompleteFormatted": "6 months"
+    "goodreadsRating": 4,
+    "format": "Tapa dura"
   },
   {
     "title": "El héroe de las eras",
     "authors": [
       "Brandon Sanderson"
     ],
-    "publisher": "Nova",
-    "publishedDate": "2019",
+    "publisher": "Nova Ciencia Ficción",
+    "publishedDate": "2016",
     "description": "Source title: El héroe de las eras / The Hero of Ages (Nacidos de la bruma [Mistborn]) (Spanish Edition)",
     "image": "https://covers.openlibrary.org/b/id/14658391-L.jpg",
     "language": "es",
@@ -2051,18 +1924,17 @@
     "issueNumber": 85,
     "progressPercent": 0,
     "state": "completed",
-    "startedAt": "2023-04-05T00:00:00.000Z",
     "completedAt": "2023-05-09T00:00:00.000Z",
-    "timeToComplete": 2937600000,
-    "timeToCompleteFormatted": "1 month"
+    "goodreadsRating": 5,
+    "format": "Tapa dura"
   },
   {
     "title": "El camino de los reyes",
     "authors": [
       "Brandon Sanderson"
     ],
-    "publisher": "Nova, NOVA",
-    "publishedDate": "2015",
+    "publisher": "Nova Ciencia Ficción (Ediciones B)",
+    "publishedDate": "2019",
     "description": "Primera novela de El Archivo de las Tormentas. En el mundo de Roshar, azotado por tormentas sobrenaturales, el soldado Kaladin lucha por sobrevivir tras caer en la esclavitud, mientras el príncipe Dalinar y la joven Shallan se ven arrastrados hacia secretos que podrían transformar el destino de la humanidad.",
     "image": "https://covers.openlibrary.org/b/id/7366499-L.jpg",
     "language": "es",
@@ -2100,10 +1972,9 @@
     "issueNumber": 86,
     "progressPercent": 0,
     "state": "completed",
-    "startedAt": "2022-11-17T00:00:00.000Z",
     "completedAt": "2023-04-04T00:00:00.000Z",
-    "timeToComplete": 11923200000,
-    "timeToCompleteFormatted": "4 months"
+    "goodreadsRating": 5,
+    "format": "Tapa dura"
   },
   {
     "title": "Elantris",
@@ -2148,10 +2019,9 @@
     "issueNumber": 87,
     "progressPercent": 0,
     "state": "completed",
-    "startedAt": "2023-02-28T00:00:00.000Z",
     "completedAt": "2023-03-10T00:00:00.000Z",
-    "timeToComplete": 864000000,
-    "timeToCompleteFormatted": "1 week"
+    "goodreadsRating": 5,
+    "format": "Tapa dura"
   },
   {
     "title": "El imperio final",
@@ -2201,17 +2071,16 @@
     "issueNumber": 90,
     "progressPercent": 0,
     "state": "completed",
-    "startedAt": "2023-01-07T00:00:00.000Z",
     "completedAt": "2023-01-18T00:00:00.000Z",
-    "timeToComplete": 950400000,
-    "timeToCompleteFormatted": "1 week"
+    "goodreadsRating": 5,
+    "format": "Tapa dura"
   },
   {
     "title": "El aliento de los dioses",
     "authors": [
       "Brandon Sanderson"
     ],
-    "publisher": "Nova",
+    "publisher": "Ediciones B/Nova",
     "publishedDate": "2016",
     "description": "En un mundo donde los dioses pueden nacer de los colores y los alientos de las personas, dos princesas quedan atrapadas en una intriga política que amenaza con provocar una guerra. Siri debe adaptarse a un matrimonio inesperado, mientras Vivenna viaja para rescatarla y descubre una realidad muy distinta de la que imaginaba.",
     "image": "https://covers.openlibrary.org/b/id/7442753-L.jpg",
@@ -2249,18 +2118,17 @@
     "issueNumber": 91,
     "progressPercent": 0,
     "state": "completed",
-    "startedAt": "2022-11-26T00:00:00.000Z",
     "completedAt": "2023-01-02T00:00:00.000Z",
-    "timeToComplete": 3196800000,
-    "timeToCompleteFormatted": "1 month"
+    "goodreadsRating": 5,
+    "format": "Tapa dura"
   },
   {
     "title": "El metal perdido / The Lost Metal",
     "authors": [
       "Brandon Sanderson"
     ],
-    "publisher": "Nova",
-    "publishedDate": "2023-03-21",
+    "publisher": "Nova CF",
+    "publishedDate": "2022",
     "description": "Source title: El metal perdido / The Lost Metal: A Mistborn Novel (Nacidos de la bruma / Mistborn) (Spanish Edition)",
     "image": "https://covers.openlibrary.org/b/id/13012199-L.jpg",
     "language": "es",
@@ -2289,18 +2157,17 @@
     "issueNumber": 92,
     "progressPercent": 0,
     "state": "completed",
-    "startedAt": "2022-09-05T00:00:00.000Z",
     "completedAt": "2022-12-23T00:00:00.000Z",
-    "timeToComplete": 9417600000,
-    "timeToCompleteFormatted": "3 months"
+    "goodreadsRating": 5,
+    "format": "Tapa dura"
   },
   {
     "title": "Aleación de ley",
     "authors": [
       "Brandon Sanderson"
     ],
-    "publisher": "Ediciones B",
-    "publishedDate": "2017",
+    "publisher": "Nova Ciencia Ficción",
+    "publishedDate": "2016",
     "description": "Trescientos años después de la trilogía original de Nacidos de la Bruma, Scadrial se acerca a la modernidad: los trenes, la electricidad y las nuevas ciudades conviven con la alomancia y la feruquimia. Waxillium Ladrian, antiguo agente de la frontera convertido en investigador urbano, debe aplicar sus poderes y su experiencia para combatir el crimen.",
     "image": "https://covers.openlibrary.org/b/id/13105777-L.jpg",
     "language": "es",
@@ -2328,18 +2195,17 @@
     "issueNumber": 94,
     "progressPercent": 0,
     "state": "completed",
-    "startedAt": "2022-11-14T00:00:00.000Z",
     "completedAt": "2022-11-14T00:00:00.000Z",
-    "timeToComplete": 0,
-    "timeToCompleteFormatted": "0 seconds"
+    "goodreadsRating": 5,
+    "format": "Tapa dura"
   },
   {
     "title": "Brazales de duelo",
     "authors": [
       "Brandon Sanderson"
     ],
-    "publisher": "Nova",
-    "publishedDate": "2019",
+    "publisher": "Nova CF",
+    "publishedDate": "2017",
     "description": "Sexta entrega de la segunda era de Nacidos de la Bruma. Wax y Wayne se enfrentan a una amenaza que pone en peligro Elendel y sus habitantes, mientras una expedición en busca de los Brazales de Duelo revela secretos capaces de alterar el equilibrio de poder en Scadrial.",
     "image": "https://covers.openlibrary.org/b/id/10696089-L.jpg",
     "language": "es",
@@ -2375,17 +2241,16 @@
     "issueNumber": 93,
     "progressPercent": 0,
     "state": "completed",
-    "startedAt": "2019-05-16T00:00:00.000Z",
     "completedAt": "2019-06-23T00:00:00.000Z",
-    "timeToComplete": 3283200000,
-    "timeToCompleteFormatted": "1 month"
+    "goodreadsRating": 4,
+    "format": "Tapa dura"
   },
   {
     "title": "Sombras de identidad",
     "authors": [
       "Brandon Sanderson"
     ],
-    "publisher": "Nova",
+    "publisher": "Nova Ciencia Ficción",
     "publishedDate": "2016",
     "description": "Wax y Wayne investigan una serie de atentados y asesinatos que amenazan con desestabilizar la sociedad de Scadrial. Mientras la democracia, la religión y la industria transforman el mundo, ambos deberán descubrir quién alimenta la violencia antes de que el conflicto se extienda.",
     "image": "https://covers.openlibrary.org/b/id/14662059-L.jpg",
@@ -2418,17 +2283,16 @@
     "issueNumber": 95,
     "progressPercent": 0,
     "state": "completed",
-    "startedAt": "2019-03-19T00:00:00.000Z",
     "completedAt": "2019-04-20T00:00:00.000Z",
-    "timeToComplete": 2764800000,
-    "timeToCompleteFormatted": "1 month"
+    "goodreadsRating": 4,
+    "format": "Tapa dura"
   },
   {
     "title": "Aleación de ley",
     "authors": [
       "Brandon Sanderson"
     ],
-    "publisher": "B de Bolsillo (Ediciones B)",
+    "publisher": "B de Bolsillo",
     "publishedDate": "2013",
     "description": "Source title: Aleación de ley (Nacidos de la bruma [Mistborn] 4) (Bolsillo Ciencia Ficcion) (Spanish Edition)",
     "image": "https://covers.openlibrary.org/b/id/14658419-L.jpg",
@@ -2458,10 +2322,9 @@
     "issueNumber": 97,
     "progressPercent": 0,
     "state": "completed",
-    "startedAt": "2019-02-27T00:00:00.000Z",
     "completedAt": "2019-03-19T00:00:00.000Z",
-    "timeToComplete": 1728000000,
-    "timeToCompleteFormatted": "2 weeks"
+    "goodreadsRating": 5,
+    "format": "Tapa blanda"
   },
   {
     "title": "El héroe de las eras",
@@ -2498,10 +2361,9 @@
     "issueNumber": 98,
     "progressPercent": 0,
     "state": "completed",
-    "startedAt": "2019-01-23T00:00:00.000Z",
     "completedAt": "2019-02-27T00:00:00.000Z",
-    "timeToComplete": 3024000000,
-    "timeToCompleteFormatted": "1 month"
+    "goodreadsRating": 5,
+    "format": "Tapa blanda"
   },
   {
     "title": "El pozo de la ascension",
@@ -2509,7 +2371,7 @@
       "Brandon Sanderson"
     ],
     "publisher": "Nova",
-    "publishedDate": "2016-11-30",
+    "publishedDate": "2016",
     "description": "Source title: El pozo de la ascension / The Well of Ascension (Nacidos de la bruma [Mistborn]) (Spanish Edition)",
     "image": "https://covers.openlibrary.org/b/id/10383351-L.jpg",
     "language": "es",
@@ -2549,10 +2411,9 @@
     "issueNumber": 88,
     "progressPercent": 0,
     "state": "completed",
-    "startedAt": "2018-11-08T00:00:00.000Z",
     "completedAt": "2019-01-22T00:00:00.000Z",
-    "timeToComplete": 6480000000,
-    "timeToCompleteFormatted": "2 months"
+    "goodreadsRating": 5,
+    "format": "Tapa dura"
   },
   {
     "title": "El imperio final",
@@ -2563,21 +2424,20 @@
     "isbn13": "9788466631990",
     "requestedIsbn": "9788466631990",
     "publisher": "Ediciones B",
-    "publishedDate": "2008-03-19",
+    "publishedDate": "2007",
     "description": "Durante mil años han caído cenizas del cielo y los skaa han sido esclavizados. Kelsier, el superviviente, encuentra a Vin y a la rebelión que busca derrocar al Lord Legislador.",
-    "image": "https://placehold.co/128x196?text=No+cover",
+    "image": "https://pictures.abebooks.com/isbn/9788466631990-es.jpg",
     "language": "es",
     "categories": [
       "Fantasía"
     ],
     "pageCount": 688,
-    "metadataSource": "ISBN match",
+    "metadataSource": "Exact ISBN match; edition metadata verified against ISBN-specific catalogue sources",
     "issueNumber": 99,
     "progressPercent": 0,
     "state": "completed",
-    "startedAt": "2017-11-26T00:00:00.000Z",
     "completedAt": "2018-07-18T00:00:00.000Z",
-    "timeToComplete": 20217600000,
-    "timeToCompleteFormatted": "7 months"
+    "goodreadsRating": 4,
+    "format": "Tapa blanda"
   }
 ]
