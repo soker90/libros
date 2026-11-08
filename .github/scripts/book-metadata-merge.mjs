@@ -11,8 +11,14 @@ const MERGEABLE_FIELDS = [
   "isbn13",
 ];
 
+function isPlaceholderImage(value) {
+  return typeof value === "string"
+    && /(?:placehold\\.co|via\\.placeholder\\.com|dummyimage\\.com|no[+_-]?cover)/i.test(value);
+}
+
 function isMissing(value, field) {
   if (value === undefined || value === null || value === "") return true;
+  if (field === "image" && isPlaceholderImage(value)) return true;
   if (Array.isArray(value) && value.length === 0) return true;
   if (["averageRating", "ratingsCount", "pageCount"].includes(field) && value === 0) return true;
   return false;
