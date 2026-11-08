@@ -27,7 +27,7 @@ export function getManualBookMetadata(issue, fallbackImage) {
   const year = getField(body, FIELD_LABELS.year);
   const language = getField(body, FIELD_LABELS.language);
 
-  if (!title || !author || !isbn || !publisher || !/^\\d{4}$/.test(year) || !language) {
+  if (!title || !author || !isbn || !publisher || !/^\d{4}$/.test(year) || !language) {
     return null;
   }
 
