@@ -13,7 +13,7 @@ const MERGEABLE_FIELDS = [
 
 function isPlaceholderImage(value) {
   return typeof value === "string"
-    && /(?:placehold\\.co|via\\.placeholder\\.com|dummyimage\\.com|no[+_-]?cover)/i.test(value);
+    && /(?:placehold\.co|via\.placeholder\.com|dummyimage\.com|no[+_-]?cover)/i.test(value);
 }
 
 function isMissing(value, field) {
