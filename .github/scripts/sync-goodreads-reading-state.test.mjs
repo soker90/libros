@@ -314,3 +314,26 @@ test("removes completion timestamps fabricated by issue closure when Goodreads h
   assert.equal("timeToComplete" in book, false);
   assert.equal("timeToCompleteFormatted" in book, false);
 });
+
+
+test("ignores placeholder cover URLs in issue metadata", () => {
+  const body = issueBody.replace(
+    "Cover URL: https://example.org/cover.jpg",
+    "Cover URL: https://placehold.co/128x196?text=No+cover",
+  );
+  assert.equal(parseGoodreadsReadingData(body).cover, null);
+});
+
+test("does not overwrite a real catalogue cover with a placeholder from the Goodreads issue", () => {
+  const books = [{
+    issueNumber: 70,
+    image: "https://covers.openlibrary.org/b/id/12345-L.jpg",
+  }];
+  const body = issueBody.replace(
+    "Cover URL: https://example.org/cover.jpg",
+    "Cover URL: https://placehold.co/128x196?text=No+cover",
+  );
+  const result = applyGoodreadsReadingData(books, [{ number: 70, body }]);
+
+  assert.equal(result.books[0].image, books[0].image);
+});
