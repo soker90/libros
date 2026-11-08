@@ -2,6 +2,7 @@ import { readFile } from "node:fs/promises";
 import { extractAuthor, extractIssueIsbn, removeIsbnFromTitle, normalizeIsbn } from "./book-matching.mjs";
 import { findBookByIsbn, findBookByTitle } from "./book-providers.mjs";
 import { createGitHubClient, limitLabelLength } from "./github-issues.mjs";
+import { getManualBookMetadata } from "./manual-book-metadata.mjs";
 
 const NO_COVER_IMAGE = "https://placehold.co/128x196?text=No+cover";
 
@@ -50,18 +51,18 @@ function getMetadataSource(book, requestedIsbn) {
     return "ISBN match";
   }
 
-  return book.googleBooks?.id
+  return book.metadataSource || (book.googleBooks?.id
     ? "Google Books title/author match"
-    : "Open Library title/author match";
+    : "Open Library title/author match");
 }
 
 function createBookComment(book, { isbn, author }) {
-  const sourceName = book.googleBooks?.id
+  const sourceName = book.sourceName || (book.googleBooks?.id
     ? "Google Books"
     : book.googleBooks?.info?.includes("planetadelibros.com")
       ? "PlanetadeLibros"
-      : "Open Library";
-  const sourceUrl = book.googleBooks?.info || book.googleBooks?.canonical;
+      : "Open Library");
+  const sourceUrl = book.sourceUrl || book.googleBooks?.info || book.googleBooks?.canonical;
   const coverMissing = book.image === NO_COVER_IMAGE;
   const matchDescription = isbn
     ? `Matched using ISBN ${isbn}.`
@@ -129,7 +130,8 @@ async function enrichIssue(issue, github) {
     throw new Error("The issue title is empty after removing the ISBN.");
   }
 
-  const book = await resolveBook(search, github, issueNumber);
+  const manualBook = getManualBookMetadata(issue, NO_COVER_IMAGE);
+  const book = manualBook || await resolveBook(search, github, issueNumber);
   book.image ||= NO_COVER_IMAGE;
 
   await github.addComment(issueNumber, createBookComment(book, search));
