@@ -104,3 +104,27 @@ test("keeps the primary synopsis when the supplemental synopsis is shorter", () 
 
   assert.equal(mergeExactIsbnMetadata(primary, supplemental).description, primary.description);
 });
+
+
+test("replaces a placeholder cover with a real cover from an exact-ISBN provider", () => {
+  const primary = {
+    title: "Book",
+    authors: ["Author"],
+    image: "https://placehold.co/128x196?text=No+cover",
+  };
+  const supplemental = {
+    image: "https://covers.openlibrary.org/b/id/12345-L.jpg",
+  };
+
+  assert.equal(
+    mergeExactIsbnMetadata(primary, supplemental).image,
+    supplemental.image,
+  );
+});
+
+test("does not replace a real cover with a provider placeholder", () => {
+  const primary = { image: "https://covers.openlibrary.org/b/id/12345-L.jpg" };
+  const supplemental = { image: "https://placehold.co/128x196?text=No+cover" };
+
+  assert.equal(mergeExactIsbnMetadata(primary, supplemental).image, primary.image);
+});
