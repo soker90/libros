@@ -95,7 +95,7 @@ function parseCoverUrl(value) {
   try {
     const url = new URL(value);
     if (!["http:", "https:"].includes(url.protocol)) return null;
-    if (/(?:placehold\\.co|via\\.placeholder\\.com|dummyimage\\.com|no[+_-]?cover)/i.test(url.href)) return null;
+    if (/(?:placehold\.co|via\.placeholder\.com|dummyimage\.com|no[+_-]?cover)/i.test(url.href)) return null;
     return url.href;
   } catch {
     return null;
