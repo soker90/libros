@@ -45,6 +45,8 @@ function createBookLabels(book, now = new Date()) {
 }
 
 function getMetadataSource(book, requestedIsbn) {
+  if (book.metadataSource) return book.metadataSource;
+
   if (requestedIsbn && [book.isbn10, book.isbn13].some(
     (isbn) => isbn && normalizeIsbn(isbn) === normalizeIsbn(requestedIsbn),
   )) {
