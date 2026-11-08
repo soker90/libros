@@ -62,7 +62,10 @@
     "issueNumber": 155,
     "progressPercent": 0,
     "state": "reading",
-    "startedAt": "2026-11-06T23:01:56.000Z"
+    "startedAt": "2026-11-06T23:01:56.000Z",
+    "collections": [
+      "Noches Negras, n.º 48"
+    ]
   },
   {
     "title": "Historias de Terramar I",
