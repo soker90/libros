@@ -14,8 +14,9 @@ Filtrar por puntuación:
 ## 📖 Mis lecturas
 
 <!--start:bookshelf-action-->
-### ⌛ Currently reading (1)
+### ⌛ Currently reading (2)
 
+[![Las naves de la magia](https://images.weserv.nl/?url=https%3A%2F%2Fplacehold.co%2F128x196%3Ftext%3DNo%2Bcover&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/155 "Las naves de la magia by Robin Hobb")
 [![Isabel de España](https://images.weserv.nl/?url=undefined&w=128&h=196&fit=contain)](https://github.com/soker90/libros/issues/16 "Isabel de España by William Thomas Walsh")
 
 ### ✅ Completed (54)

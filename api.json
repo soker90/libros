@@ -35,6 +35,36 @@
     ]
   },
   {
+    "title": "Las naves de la magia",
+    "authors": [
+      "Robin Hobb"
+    ],
+    "publisher": "Nocturna Ediciones",
+    "publishedDate": "2026",
+    "description": "",
+    "image": "https://placehold.co/128x196?text=No+cover",
+    "language": "Español",
+    "averageRating": 0,
+    "ratingsCount": 0,
+    "categories": [],
+    "pageCount": 0,
+    "isbn13": "9791387690366",
+    "googleBooks": {
+      "id": "",
+      "preview": "https://www.nocturnaediciones.com/libro/465/naves_magia",
+      "info": "https://www.nocturnaediciones.com/libro/465/naves_magia",
+      "canonical": "https://www.nocturnaediciones.com/libro/465/naves_magia"
+    },
+    "metadataSource": "Manual issue metadata",
+    "sourceUrl": "https://www.nocturnaediciones.com/libro/465/naves_magia",
+    "sourceName": "User-supplied edition details",
+    "requestedIsbn": "9791387690366",
+    "issueNumber": 155,
+    "progressPercent": 0,
+    "state": "reading",
+    "startedAt": "2026-11-06T23:01:56.000Z"
+  },
+  {
     "title": "Historias de Terramar I",
     "authors": [
       "Ursula K. Le Guin"
