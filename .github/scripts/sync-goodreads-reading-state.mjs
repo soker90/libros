@@ -90,6 +90,18 @@ function parseLanguage(body, labels) {
   return null;
 }
 
+function parseCoverUrl(value) {
+  if (!value) return null;
+  try {
+    const url = new URL(value);
+    if (!["http:", "https:"].includes(url.protocol)) return null;
+    if (/(?:placehold\\.co|via\\.placeholder\\.com|dummyimage\\.com|no[+_-]?cover)/i.test(url.href)) return null;
+    return url.href;
+  } catch {
+    return null;
+  }
+}
+
 function parseGoodreadsDate(value) {
   if (!value || /^(not read yet|n\/a|none)$/i.test(value.trim())) return null;
   const match = value.trim().match(/^(\d{4})[/-](\d{1,2})[/-](\d{1,2})$/);
@@ -158,7 +170,7 @@ export function parseGoodreadsReadingData(body, labels = []) {
     publishedDate: get(DATE_FIELDS.verifiedPublicationDate) || get(DATE_FIELDS.year),
     language: parseLanguage(body, labels),
     format: get(DATE_FIELDS.verifiedFormat) || get(DATE_FIELDS.format),
-    cover: get(DATE_FIELDS.verifiedCover) || get(DATE_FIELDS.cover),
+    cover: parseCoverUrl(get(DATE_FIELDS.verifiedCover) || get(DATE_FIELDS.cover)),
     description: get(DATE_FIELDS.verifiedDescription) || get(DATE_FIELDS.description),
     pageCount: Number(get(DATE_FIELDS.verifiedPageCount)) || null,
     categories: categories ? categories.split(/[;,]/).map((category) => category.trim()).filter(Boolean) : null,
