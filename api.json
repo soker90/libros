@@ -29,7 +29,10 @@
     "progressPercent": 0,
     "state": "completed",
     "completedAt": "2026-11-06T00:00:00.000Z",
-    "format": "Tapa blanda"
+    "format": "Tapa blanda",
+    "collections": [
+      "Ciclo Pendragon"
+    ]
   },
   {
     "title": "Las naves de la magia",
@@ -59,7 +62,10 @@
     "issueNumber": 155,
     "progressPercent": 0,
     "state": "reading",
-    "startedAt": "2026-11-06T23:01:56.000Z"
+    "startedAt": "2026-11-06T23:01:56.000Z",
+    "collections": [
+      "Noches Negras, n.º 48"
+    ]
   },
   {
     "title": "Historias de Terramar I",
@@ -89,51 +95,23 @@
     "progressPercent": 0,
     "state": "want-to-read",
     "timeToComplete": 104131000,
-    "timeToCompleteFormatted": "1 day"
-  },
-  {
-    "title": "En el Otro Viento",
-    "authors": [
-      "Ursula K. Le Guin"
+    "timeToCompleteFormatted": "1 day",
+    "longDescription": "Esta edición reúne Un mago de Terramar y Las tumbas de Atuan. En la primera, el joven Ged aprende magia y, llevado por el orgullo, libera una sombra que deberá afrontar. En la segunda, Tenar, criada como sacerdotisa en un recinto sagrado, conoce a Ged y empieza a cuestionar el destino que otros han impuesto para ella.",
+    "externalReviews": [
+      {
+        "source": "Biblioteca de Nehemías",
+        "title": "Biblioteca de Nehemías",
+        "url": "https://labibliotecadenehemias.wordpress.com/2023/08/07/un-mago-de-terramar-historias-de-terramar-1/"
+      },
+      {
+        "source": "Biblioteca de Nehemías",
+        "title": "Biblioteca de Nehemías",
+        "url": "https://labibliotecadenehemias.wordpress.com/2023/08/30/las-tumbas-de-atuan-historias-de-terramar-2/"
+      }
     ],
-    "publisher": "Minotauro",
-    "publishedDate": "June 2004",
-    "description": "",
-    "image": "https://covers.openlibrary.org/b/id/4912480-L.jpg",
-    "language": "es",
-    "averageRating": 0,
-    "ratingsCount": 0,
-    "categories": [
-      "Fiction, fantasy, general",
-      "Earthsea (imaginary place), fiction",
-      "Magic",
-      "Wizards",
-      "Magic in fiction",
-      "Fiction",
-      "Ged (Fictitious character)",
-      "Earthsea (Imaginary place)",
-      "Wizards in fiction",
-      "American Fantasy fiction",
-      "Juvenile fiction",
-      "Fantasy fiction",
-      "Dragons",
-      "Kings and rulers"
-    ],
-    "pageCount": 269,
-    "isbn10": "9505470142",
-    "isbn13": "9789505470143",
-    "googleBooks": {
-      "id": "",
-      "preview": "http://openlibrary.org/books/OL9137991M/En_el_Otro_Viento",
-      "info": "http://openlibrary.org/books/OL9137991M/En_el_Otro_Viento",
-      "canonical": "http://openlibrary.org/books/OL9137991M/En_el_Otro_Viento"
-    },
-    "requestedIsbn": "9789505470143",
-    "metadataSource": "Exact ISBN match; existing metadata refreshed",
-    "issueNumber": 135,
-    "progressPercent": 0,
-    "state": "completed",
-    "completedAt": "2018-09-27T00:00:00.000Z"
+    "collections": [
+      "Terramar"
+    ]
   },
   {
     "title": "El niño con el pijama de rayas",
@@ -242,12 +220,25 @@
     "state": "completed",
     "completedAt": "2025-04-27T00:00:00.000Z",
     "goodreadsRating": 4,
-    "format": "Paperback"
+    "format": "Paperback",
+    "longDescription": "Bruno, de nueve años, se muda con su familia desde Berlín a una casa aislada junto a una alambrada. Su curiosidad lo lleva a conocer a Shmuel, un niño que vive al otro lado, y la amistad entre ambos contrasta con la realidad brutal del lugar y con la inocencia con la que Bruno intenta comprenderlo.",
+    "externalReviews": [
+      {
+        "source": "Aceprensa",
+        "title": "Aceprensa",
+        "url": "https://www.aceprensa.com/resenas-libros/el-nino-con-el-pijama-de-rayas/"
+      },
+      {
+        "source": "El Club del Lector",
+        "title": "El Club del Lector",
+        "url": "https://www.clubdellector.com/libro/el-nino-con-el-pijama-de-rayas"
+      }
+    ]
   },
   {
     "title": "Carta de una desconocida",
     "authors": [
-      "Iglesia Católica."
+      "Stefan Zweig"
     ],
     "publisher": "Acantilado",
     "publishedDate": "2002",
@@ -272,7 +263,15 @@
     "state": "completed",
     "completedAt": "2025-04-23T00:00:00.000Z",
     "goodreadsRating": 5,
-    "format": "Paperback"
+    "format": "Paperback",
+    "longDescription": "Un escritor recibe una extensa carta de una mujer que lo ha amado en secreto durante años. En ella, la desconocida repasa los encuentros fugaces y las esperanzas que marcaron su vida, mientras él descubre, demasiado tarde, la intensidad de una historia que nunca llegó a conocer.",
+    "externalReviews": [
+      {
+        "source": "Aceprensa",
+        "title": "Aceprensa",
+        "url": "https://www.aceprensa.com/resenas-libros/carta-de-una-desconocida/"
+      }
+    ]
   },
   {
     "title": "Rebelión en la granja",
@@ -351,7 +350,25 @@
     "state": "completed",
     "completedAt": "2022-12-26T00:00:00.000Z",
     "goodreadsRating": 5,
-    "format": "Mass Market Paperback"
+    "format": "Mass Market Paperback",
+    "longDescription": "En una granja, los animales se rebelan contra su dueño con la esperanza de construir una comunidad igualitaria. Poco a poco, los cerdos concentran el poder y convierten los ideales de la revolución en un sistema opresivo. La fábula muestra cómo el poder puede corromper y alterar la verdad.",
+    "externalReviews": [
+      {
+        "source": "Aceprensa",
+        "title": "Aceprensa",
+        "url": "https://www.aceprensa.com/infantil_y_juvenil/rebelion-en-la-granja/"
+      },
+      {
+        "source": "El Club del Lector",
+        "title": "El Club del Lector",
+        "url": "https://www.clubdellector.com/comment/8592"
+      },
+      {
+        "source": "Delibris",
+        "title": "Delibris",
+        "url": "https://www.delibris.org/es/node/210961"
+      }
+    ]
   },
   {
     "title": "En el Otro Viento",
@@ -395,7 +412,11 @@
     "issueNumber": 131,
     "progressPercent": 0,
     "state": "completed",
-    "completedAt": "2018-09-27T00:00:00.000Z"
+    "completedAt": "2018-09-27T00:00:00.000Z",
+    "longDescription": "Terramar afronta una amenaza nacida en la frontera con la Tierra Seca, donde los muertos intentan regresar al mundo de los vivos. Aliso pide ayuda a Gavilán, antiguo archimago, y junto a Tenar, Tehanu, Lebannen e Irian intentan restaurar el equilibrio mientras resurgen los dragones.",
+    "collections": [
+      "Terramar"
+    ]
   },
   {
     "title": "Historias de Terramar II: La costa más lejana. Tehanu",
@@ -424,7 +445,18 @@
     "issueNumber": 132,
     "progressPercent": 0,
     "state": "completed",
-    "completedAt": "2017-12-07T00:00:00.000Z"
+    "completedAt": "2017-12-07T00:00:00.000Z",
+    "longDescription": "Esta edición reúne La costa más lejana y Tehanu. En la primera, Ged y el príncipe Arren recorren Terramar para averiguar por qué la magia se debilita y devolver el equilibrio al archipiélago. En la segunda, años después, Tenar y Tehanu afrontan nuevas amenazas y exploran qué significa el poder en un mundo que cambia.",
+    "externalReviews": [
+      {
+        "source": "Biblioteca de Nehemías",
+        "title": "Biblioteca de Nehemías",
+        "url": "https://labibliotecadenehemias.wordpress.com/2023/09/25/la-costa-mas-lejana-historias-de-terramar-3/"
+      }
+    ],
+    "collections": [
+      "Terramar"
+    ]
   },
   {
     "title": "Leal",
@@ -504,7 +536,11 @@
     "issueNumber": 133,
     "progressPercent": 0,
     "state": "completed",
-    "completedAt": "2016-08-04T00:00:00.000Z"
+    "completedAt": "2016-08-04T00:00:00.000Z",
+    "longDescription": "Tras el derrumbe del sistema de facciones, Tris y sus compañeros deben decidir cómo reconstruir su sociedad. Al explorar el mundo más allá de los límites conocidos, descubren una realidad mucho más compleja de lo que les habían contado y afrontan decisiones difíciles sobre identidad, lealtad, sacrificio y amor.",
+    "collections": [
+      "Divergente"
+    ]
   },
   {
     "title": "Insurgente",
@@ -595,7 +631,18 @@
     "issueNumber": 134,
     "progressPercent": 0,
     "state": "completed",
-    "completedAt": "2016-08-02T00:00:00.000Z"
+    "completedAt": "2016-08-02T00:00:00.000Z",
+    "longDescription": "Tras los disturbios que sacuden las facciones de Chicago, Tris intenta proteger a quienes quiere mientras el conflicto se intensifica. Las facciones se enfrentan, afloran secretos y cada decisión la obliga a reconsiderar la culpa, el perdón, la identidad, la lealtad, la política y el amor.",
+    "externalReviews": [
+      {
+        "source": "Biblioteca de Nehemías",
+        "title": "Biblioteca de Nehemías",
+        "url": "https://labibliotecadenehemias.wordpress.com/2023/06/14/insurgente-saga-divergente-2/"
+      }
+    ],
+    "collections": [
+      "Divergente"
+    ]
   },
   {
     "title": "Divergente",
@@ -685,13 +732,28 @@
     "issueNumber": 136,
     "progressPercent": 0,
     "state": "completed",
-    "completedAt": "2016-07-30T00:00:00.000Z"
+    "completedAt": "2016-07-30T00:00:00.000Z",
+    "longDescription": "En un Chicago del futuro, la sociedad se organiza en cinco facciones que representan virtudes distintas. Al llegar el momento de elegir, Beatrice Prior deja atrás la facción de su familia y adopta el nombre de Tris. Pronto descubre que no encaja en el sistema y que esa diferencia puede convertirla en una amenaza para quienes lo controlan.",
+    "externalReviews": [
+      {
+        "source": "Aceprensa",
+        "title": "Aceprensa",
+        "url": "https://www.aceprensa.com/resenas-libros/divergente/"
+      },
+      {
+        "source": "Biblioteca de Nehemías",
+        "title": "Biblioteca de Nehemías",
+        "url": "https://labibliotecadenehemias.wordpress.com/2023/03/13/divergente-saga-divergente-1/"
+      }
+    ],
+    "collections": [
+      "Divergente"
+    ]
   },
   {
     "title": "The Silmarillion",
     "authors": [
-      "J.R.R. Tolkien",
-      "Christopher Tolkien"
+      "J.R.R. Tolkien"
     ],
     "publisher": "Houghton Mifflin",
     "publishedDate": "2004",
@@ -734,7 +796,10 @@
     "issueNumber": 137,
     "progressPercent": 0,
     "state": "completed",
-    "completedAt": "2015-07-01T00:00:00.000Z"
+    "completedAt": "2015-07-01T00:00:00.000Z",
+    "collections": [
+      "Legendarium de la Tierra Media"
+    ]
   },
   {
     "title": "El Hobbit",
@@ -856,7 +921,17 @@
     "metadataSource": "Exact ISBN match; existing metadata refreshed",
     "issueNumber": 138,
     "progressPercent": 0,
-    "state": "completed"
+    "state": "completed",
+    "externalReviews": [
+      {
+        "source": "El Club del Lector",
+        "title": "El Club del Lector",
+        "url": "https://www.clubdellector.com/node/35178"
+      }
+    ],
+    "collections": [
+      "Legendarium de la Tierra Media"
+    ]
   },
   {
     "title": "El extranjero",
@@ -951,12 +1026,24 @@
     "state": "completed",
     "completedAt": "2026-05-03T00:00:00.000Z",
     "requestedIsbn": "9788413921907",
-    "goodreadsRating": 4
+    "goodreadsRating": 4,
+    "externalReviews": [
+      {
+        "source": "Delibris",
+        "title": "Delibris",
+        "url": "https://www.delibris.org/es/cinco-panes-de-cebada"
+      },
+      {
+        "source": "El Club del Lector",
+        "title": "El Club del Lector",
+        "url": "https://www.clubdellector.com/libro/cinco-panes-de-cebada"
+      }
+    ]
   },
   {
     "title": "Diario de un padre primerizo",
     "authors": [
-      "Pedro del Castillo"
+      "Pedro Del Castillo"
     ],
     "publisher": "Espasa",
     "publishedDate": "2025-01-15",
@@ -1183,7 +1270,10 @@
     "progressPercent": 0,
     "state": "completed",
     "completedAt": "2025-12-31T00:00:00.000Z",
-    "format": "Tapa blanda"
+    "format": "Tapa blanda",
+    "collections": [
+      "Trilogía del Vatídico"
+    ]
   },
   {
     "title": "Asesino real",
@@ -1207,7 +1297,10 @@
     "progressPercent": 0,
     "state": "completed",
     "completedAt": "2025-12-07T00:00:00.000Z",
-    "format": "Tapa blanda"
+    "format": "Tapa blanda",
+    "collections": [
+      "Trilogía del Vatídico"
+    ]
   },
   {
     "title": "Aprendiz de asesino",
@@ -1232,7 +1325,17 @@
     "state": "completed",
     "completedAt": "2025-06-20T00:00:00.000Z",
     "goodreadsRating": 5,
-    "format": "Tapa blanda"
+    "format": "Tapa blanda",
+    "externalReviews": [
+      {
+        "source": "Delibris",
+        "title": "Delibris",
+        "url": "https://www.delibris.org/es/node/233297"
+      }
+    ],
+    "collections": [
+      "Trilogía del Vatídico"
+    ]
   },
   {
     "title": "Viento y verdad",
@@ -1265,7 +1368,18 @@
     "state": "completed",
     "completedAt": "2025-04-21T00:00:00.000Z",
     "goodreadsRating": 3,
-    "format": "Tapa dura"
+    "format": "Tapa dura",
+    "externalReviews": [
+      {
+        "source": "Delibris",
+        "title": "Delibris",
+        "url": "https://www.delibris.org/es/viento-y-verdad-0"
+      }
+    ],
+    "collections": [
+      "El Archivo de las Tormentas",
+      "Cosmere"
+    ]
   },
   {
     "title": "La espada del destino",
@@ -1299,12 +1413,15 @@
     "issueNumber": 36,
     "progressPercent": 0,
     "state": "completed",
-    "completedAt": "2025-01-04T00:00:00.000Z"
+    "completedAt": "2025-01-04T00:00:00.000Z",
+    "collections": [
+      "The Witcher"
+    ]
   },
   {
     "title": "El último deseo",
     "authors": [
-      "ANDRZEJ. SAPKOWSKI"
+      "Andrzej Sapkowski"
     ],
     "isbn13": "9788498890372",
     "requestedIsbn": "9788498890372",
@@ -1324,6 +1441,9 @@
     "categories": [
       "Fantasía",
       "Fantasía épica"
+    ],
+    "collections": [
+      "The Witcher"
     ]
   },
   {
@@ -1374,12 +1494,19 @@
       "Narrativa",
       "Clásicos universales",
       "Distopía"
+    ],
+    "externalReviews": [
+      {
+        "source": "Delibris",
+        "title": "Delibris",
+        "url": "https://www.delibris.org/es/1984"
+      }
     ]
   },
   {
     "title": "El hombre que era Jueves",
     "authors": [
-      "G. K. Chesterton"
+      "G.K. Chesterton"
     ],
     "publishedDate": "1998",
     "image": "https://tse2.mm.bing.net/th?q=El%20hombre%20que%20era%20Jueves%20by%20G.%20K.%20Chesterton&w=256&c=7&rs=1&p=0&dpr=3&pid=1.7&mkt=en-IN&adlt=moderate",
@@ -1413,7 +1540,7 @@
   {
     "title": "Crónica de una muerte anunciada",
     "authors": [
-      "Gabriel Garca̕ Mr̀quez"
+      "Gabriel García Márquez"
     ],
     "isbn13": "9781400034956",
     "requestedIsbn": "9781400034956",
@@ -1503,7 +1630,17 @@
     "progressPercent": 0,
     "state": "completed",
     "completedAt": "2024-02-11T00:00:00.000Z",
-    "goodreadsRating": 3
+    "goodreadsRating": 3,
+    "externalReviews": [
+      {
+        "source": "Biblioteca de Nehemías",
+        "title": "Biblioteca de Nehemías",
+        "url": "https://labibliotecadenehemias.wordpress.com/2026/05/08/murtagh-el-legado-5/"
+      }
+    ],
+    "collections": [
+      "Ciclo de la Herencia"
+    ]
   },
   {
     "title": "Isabel de España",
@@ -1627,7 +1764,11 @@
     "state": "completed",
     "completedAt": "2023-11-19T00:00:00.000Z",
     "goodreadsRating": 4,
-    "format": "Tapa dura"
+    "format": "Tapa dura",
+    "collections": [
+      "El Archivo de las Tormentas",
+      "Cosmere"
+    ]
   },
   {
     "title": "Esquirla del Amanecer",
@@ -1663,7 +1804,11 @@
     "progressPercent": 0,
     "state": "completed",
     "completedAt": "2023-08-31T00:00:00.000Z",
-    "format": "Tapa dura"
+    "format": "Tapa dura",
+    "collections": [
+      "El Archivo de las Tormentas",
+      "Cosmere"
+    ]
   },
   {
     "title": "Juramentada / Oathbringer",
@@ -1711,7 +1856,11 @@
     "state": "completed",
     "completedAt": "2023-08-27T00:00:00.000Z",
     "goodreadsRating": 5,
-    "format": "Tapa dura"
+    "format": "Tapa dura",
+    "collections": [
+      "El Archivo de las Tormentas",
+      "Cosmere"
+    ]
   },
   {
     "title": "Arcanun Ilimitado",
@@ -1792,7 +1941,18 @@
     "state": "completed",
     "completedAt": "2023-08-07T00:00:00.000Z",
     "goodreadsRating": 5,
-    "format": "Tapa dura"
+    "format": "Tapa dura",
+    "externalReviews": [
+      {
+        "source": "Biblioteca de Nehemías",
+        "title": "Biblioteca de Nehemías",
+        "url": "https://labibliotecadenehemias.wordpress.com/2025/04/09/palabras-radiantes-el-archivo-de-las-tormentas-2/"
+      }
+    ],
+    "collections": [
+      "El Archivo de las Tormentas",
+      "Cosmere"
+    ]
   },
   {
     "title": "El Archivo de las Tormentas: Una guía de bolsillo para El camino de los reyes y Palabras radiantes",
@@ -1817,7 +1977,10 @@
     "progressPercent": 0,
     "state": "completed",
     "completedAt": "2023-08-07T00:00:00.000Z",
-    "format": "eBook (EPUB)"
+    "format": "eBook (EPUB)",
+    "collections": [
+      "El Archivo de las Tormentas"
+    ]
   },
   {
     "title": "Trenza del Mar Esmeralda",
@@ -1856,7 +2019,14 @@
     "state": "completed",
     "completedAt": "2023-07-23T00:00:00.000Z",
     "goodreadsRating": 4,
-    "format": "Tapa dura"
+    "format": "Tapa dura",
+    "externalReviews": [
+      {
+        "source": "Biblioteca de Nehemías",
+        "title": "Biblioteca de Nehemías",
+        "url": "https://labibliotecadenehemias.wordpress.com/2026/10/02/trenza-del-mar-esmeralda/"
+      }
+    ]
   },
   {
     "title": "El héroe de las eras",
@@ -1896,7 +2066,18 @@
     "state": "completed",
     "completedAt": "2023-05-09T00:00:00.000Z",
     "goodreadsRating": 5,
-    "format": "Tapa dura"
+    "format": "Tapa dura",
+    "externalReviews": [
+      {
+        "source": "Biblioteca de Nehemías",
+        "title": "Biblioteca de Nehemías",
+        "url": "https://labibliotecadenehemias.wordpress.com/2025/01/31/el-heroe-de-las-eras-nacidos-de-la-bruma-3/"
+      }
+    ],
+    "collections": [
+      "Nacidos de la Bruma",
+      "Cosmere"
+    ]
   },
   {
     "title": "El camino de los reyes",
@@ -1944,7 +2125,18 @@
     "state": "completed",
     "completedAt": "2023-04-04T00:00:00.000Z",
     "goodreadsRating": 5,
-    "format": "Tapa dura"
+    "format": "Tapa dura",
+    "externalReviews": [
+      {
+        "source": "Biblioteca de Nehemías",
+        "title": "Biblioteca de Nehemías",
+        "url": "https://labibliotecadenehemias.wordpress.com/2024/11/11/el-camino-de-los-reyes-el-archivo-de-las-tormentas-1/"
+      }
+    ],
+    "collections": [
+      "El Archivo de las Tormentas",
+      "Cosmere"
+    ]
   },
   {
     "title": "Elantris",
@@ -2043,7 +2235,11 @@
     "state": "completed",
     "completedAt": "2023-01-18T00:00:00.000Z",
     "goodreadsRating": 5,
-    "format": "Tapa dura"
+    "format": "Tapa dura",
+    "collections": [
+      "Nacidos de la Bruma",
+      "Cosmere"
+    ]
   },
   {
     "title": "El aliento de los dioses",
@@ -2129,7 +2325,11 @@
     "state": "completed",
     "completedAt": "2022-12-23T00:00:00.000Z",
     "goodreadsRating": 5,
-    "format": "Tapa dura"
+    "format": "Tapa dura",
+    "collections": [
+      "Nacidos de la Bruma",
+      "Cosmere"
+    ]
   },
   {
     "title": "Aleación de ley",
@@ -2167,7 +2367,11 @@
     "state": "completed",
     "completedAt": "2022-11-14T00:00:00.000Z",
     "goodreadsRating": 5,
-    "format": "Tapa dura"
+    "format": "Tapa dura",
+    "collections": [
+      "Nacidos de la Bruma",
+      "Cosmere"
+    ]
   },
   {
     "title": "Brazales de duelo",
@@ -2213,7 +2417,11 @@
     "state": "completed",
     "completedAt": "2019-06-23T00:00:00.000Z",
     "goodreadsRating": 4,
-    "format": "Tapa dura"
+    "format": "Tapa dura",
+    "collections": [
+      "Nacidos de la Bruma",
+      "Cosmere"
+    ]
   },
   {
     "title": "Sombras de identidad",
@@ -2255,7 +2463,11 @@
     "state": "completed",
     "completedAt": "2019-04-20T00:00:00.000Z",
     "goodreadsRating": 4,
-    "format": "Tapa dura"
+    "format": "Tapa dura",
+    "collections": [
+      "Nacidos de la Bruma",
+      "Cosmere"
+    ]
   },
   {
     "title": "Aleación de ley",
@@ -2294,7 +2506,11 @@
     "state": "completed",
     "completedAt": "2019-03-19T00:00:00.000Z",
     "goodreadsRating": 5,
-    "format": "Tapa blanda"
+    "format": "Tapa blanda",
+    "collections": [
+      "Nacidos de la Bruma",
+      "Cosmere"
+    ]
   },
   {
     "title": "El héroe de las eras",
@@ -2333,7 +2549,11 @@
     "state": "completed",
     "completedAt": "2019-02-27T00:00:00.000Z",
     "goodreadsRating": 5,
-    "format": "Tapa blanda"
+    "format": "Tapa blanda",
+    "collections": [
+      "Nacidos de la Bruma",
+      "Cosmere"
+    ]
   },
   {
     "title": "El pozo de la ascension",
@@ -2383,7 +2603,11 @@
     "state": "completed",
     "completedAt": "2019-01-22T00:00:00.000Z",
     "goodreadsRating": 5,
-    "format": "Tapa dura"
+    "format": "Tapa dura",
+    "collections": [
+      "Nacidos de la Bruma",
+      "Cosmere"
+    ]
   },
   {
     "title": "El imperio final",
@@ -2408,6 +2632,10 @@
     "state": "completed",
     "completedAt": "2018-07-18T00:00:00.000Z",
     "goodreadsRating": 4,
-    "format": "Tapa blanda"
+    "format": "Tapa blanda",
+    "collections": [
+      "Nacidos de la Bruma",
+      "Cosmere"
+    ]
   }
 ]
